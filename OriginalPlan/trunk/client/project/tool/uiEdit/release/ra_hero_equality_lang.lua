@@ -1,0 +1,1 @@
+return {["ra_hero_equality"]={}}

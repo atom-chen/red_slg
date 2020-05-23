@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" pailie="1" luoji="4|5|6|1|2|3" yingx1="" yingx2="" yingx3="" xiaob1="" xiaob2="" xiaob3=""/>
+    <i id="2" pailie="" luoji="" yingx1="1|1" yingx2="3|1" yingx3="5|1" xiaob1="0|1" xiaob2="0|2" xiaob3="0|3"/>
+    <i id="3" pailie="1" luoji="2|4|5|1|6|3" yingx1="" yingx2="" yingx3="" xiaob1="" xiaob2="" xiaob3=""/>
+    <i id="4" pailie="1" luoji="2|1|3|5|4|6" yingx1="" yingx2="" yingx3="" xiaob1="" xiaob2="" xiaob3=""/>
+    <i id="5" pailie="1" luoji="5|4|6|2|1|3" yingx1="" yingx2="" yingx3="" xiaob1="" xiaob2="" xiaob3=""/>
+    <i id="6" pailie="" luoji="" yingx1="3|1" yingx2="3|3" yingx3="" xiaob1="5|5;5|4;5|3;5|2;5|1;5|0" xiaob2="4|5;4|4;4|3;4|2;4|1;4|0" xiaob3=""/>
+    <i id="7" pailie="" luoji="" yingx1="5|2" yingx2="" yingx3="" xiaob1="5|4" xiaob2="" xiaob3=""/>
+    <i id="8" pailie="" luoji="" yingx1="5|5" yingx2="" yingx3="" xiaob1="5|2;5|3;4|3;3|4;3|5;2|5" xiaob2="" xiaob3=""/>
+    <i id="9" pailie="" luoji="" yingx1="5|2" yingx2="" yingx3="" xiaob1="5|4;5|3" xiaob2="" xiaob3=""/>
+    <i id="10" pailie="" luoji="" yingx1="5|5" yingx2="" yingx3="" xiaob1="5|3;5|2;4|3;3|4;2|5;3|5" xiaob2="" xiaob3=""/>
+    <i id="11" pailie="" luoji="" yingx1="5|3" yingx2="" yingx3="" xiaob1="2|5;2|0" xiaob2="3|4;3|1" xiaob3="3|5;4|4;4|1;3|0"/>
+    <i id="12" pailie="" luoji="" yingx1="5|3" yingx2="" yingx3="3|3" xiaob1="4|4;4|1;3|5;3|0" xiaob2="5|5;5|0;2|5;2|0" xiaob3="4|0;4|5;3|4;3|1"/>
+    <i id="13" pailie="" luoji="" yingx1="3|4" yingx2="3|2" yingx3="1|3" xiaob1="4|4;4|1" xiaob2="5|5;5|3;5|2;5|0" xiaob3="3|5;2|5;3|0;2|0"/>
+    <i id="14" pailie="" luoji="" yingx1="1|3" yingx2="1|5" yingx3="1|1" xiaob1="4|4;4|1;2|5;2|3;2|2;2|0" xiaob2="5|5;5|3;5|2;5|0" xiaob3="3|5;3|3;3|2;3|0"/>
+    <i id="15" pailie="1" luoji="1|2|3|4|5|6" yingx1="" yingx2="" yingx3="" xiaob1="" xiaob2="" xiaob3=""/>
+    <i id="16" pailie="" luoji="" yingx1="4|5" yingx2="5|3" yingx3="4|1" xiaob1="5|5;5|0;3|2;3|3;2|5;2|4;2|3;2|2;2|1;2|0;1|5;1|3;1|2;1|0;0|5;0|3;0|2;0|0" xiaob2="" xiaob3=""/>
+    <i id="17" pailie="" luoji="" yingx1="4|4" yingx2="4|2" yingx3="2|3" xiaob1="5|5;5|4;3|5;2|5;2|4;1|5;1|4;0|5;0|4;0|3" xiaob2="5|1;5|0;3|0;2|1;2|0;1|1;1|0;0|2;0|1;0|0" xiaob3=""/>
+    <i id="18" pailie="" luoji="" yingx1="5|4" yingx2="5|2" yingx3="3|3" xiaob1="3|4;2|4;1|4;3|1;2|1;1|1;0|4" xiaob2="0|1;1|3;1|2;1|0;1|5;5|5;5|0" xiaob3="4|5;3|5;2|5;4|0;3|0;2|0"/>
+</root>

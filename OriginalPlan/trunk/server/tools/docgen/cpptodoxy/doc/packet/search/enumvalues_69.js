@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['invalid_5fattack_5fimpact_5ftype',['INVALID_ATTACK_IMPACT_TYPE',['../a00152.html#ggac6326291a38cbace3573bcfcdc322456ae9f472ce0890c00b5d4f352b0472ca39',1,'packet.h']]],
+  ['invalid_5fbuff_5ftype',['INVALID_BUFF_TYPE',['../a00152.html#gga28a4b98d6db79ef8882cbb3743f069c9ae51ea6975679c91d5c540573594a554d',1,'packet.h']]],
+  ['invalid_5fjob_5ftype',['INVALID_JOB_TYPE',['../a00152.html#gga76a65e7d53e0dbd72d3189f74d9a21f4ad2058bc4eea833bacb0d5ce546d8fba8',1,'packet.h']]],
+  ['invalid_5fobj_5ftype',['INVALID_OBJ_TYPE',['../a00152.html#ggafb24f7134d3e9151ca59f7974fea9c0ea747449aee7ce6604b3ba625088d852cc',1,'packet.h']]],
+  ['invalid_5fsex_5ftype',['INVALID_SEX_TYPE',['../a00152.html#gga66b1ed8fe5853a10acb77f6b80eb2df3a7e43b821b39ed0287495e43f8c1935e5',1,'packet.h']]],
+  ['item_5fattr_5fext_5ftype_5fbind',['ITEM_ATTR_EXT_TYPE_BIND',['../a00152.html#ggaf24e97f2f758b1f63b1313411cf34fc4ac59725062bf7e28d35bb9f8930832d0d',1,'packet.h']]],
+  ['item_5fattr_5fext_5ftype_5fstre',['ITEM_ATTR_EXT_TYPE_STRE',['../a00152.html#ggaf24e97f2f758b1f63b1313411cf34fc4a148a0d7c167a9e441090548bd8703119',1,'packet.h']]],
+  ['item_5fattr_5ftype_5fbind',['ITEM_ATTR_TYPE_BIND',['../a00152.html#gga5545a54a6edd94b3e6e68d544d75e4cbae6f4789d43b872246c9c686b6dfa445e',1,'packet.h']]],
+  ['item_5fattr_5ftype_5fbind_5fall',['ITEM_ATTR_TYPE_BIND_ALL',['../a00152.html#gga5545a54a6edd94b3e6e68d544d75e4cba782a26769e4ff3ea0f3b78dc00b489de',1,'packet.h']]],
+  ['item_5fattr_5ftype_5finvalid',['ITEM_ATTR_TYPE_INVALID',['../a00152.html#gga5545a54a6edd94b3e6e68d544d75e4cbad05e48d0c2dfb8f31e7bc3f156cdd366',1,'packet.h']]],
+  ['item_5fattr_5ftype_5funbind',['ITEM_ATTR_TYPE_UNBIND',['../a00152.html#gga5545a54a6edd94b3e6e68d544d75e4cbaa8d4d0b5749fe7f0635a1ce164e62dda',1,'packet.h']]],
+  ['item_5ftype_5fbuffer',['ITEM_TYPE_BUFFER',['../a00152.html#gga8e767a593b51b2324703625995d9e762ae4aedea0e5485b7e0280e66c749c5bec',1,'packet.h']]],
+  ['item_5ftype_5fconsume',['ITEM_TYPE_CONSUME',['../a00152.html#gga8e767a593b51b2324703625995d9e762abc7fb9bc8527364e91c981dadf809c99',1,'packet.h']]],
+  ['item_5ftype_5fdrug',['ITEM_TYPE_DRUG',['../a00152.html#gga8e767a593b51b2324703625995d9e762a0d0ace6140a5e6d43a80a92bf4f56951',1,'packet.h']]],
+  ['item_5ftype_5fequip',['ITEM_TYPE_EQUIP',['../a00152.html#gga8e767a593b51b2324703625995d9e762a04a7f3ec8172c9489aa00c5b6d096e47',1,'packet.h']]],
+  ['item_5ftype_5fgem',['ITEM_TYPE_GEM',['../a00152.html#gga8e767a593b51b2324703625995d9e762ace50d4f88649ed9d6877a1db37f001b1',1,'packet.h']]],
+  ['item_5ftype_5finvalid',['ITEM_TYPE_INVALID',['../a00152.html#gga8e767a593b51b2324703625995d9e762a89df944c47c6c89602ea44d7d17b09d8',1,'packet.h']]],
+  ['item_5ftype_5fnumber',['ITEM_TYPE_NUMBER',['../a00152.html#gga8e767a593b51b2324703625995d9e762a23f2f05113391d31641717e79be4dcf4',1,'packet.h']]],
+  ['item_5ftype_5fscroll',['ITEM_TYPE_SCROLL',['../a00152.html#gga8e767a593b51b2324703625995d9e762a72ea6fc05487680cf0bc74487956da77',1,'packet.h']]],
+  ['item_5ftype_5fskill_5fbook',['ITEM_TYPE_SKILL_BOOK',['../a00152.html#gga8e767a593b51b2324703625995d9e762aa926f69316aec10d535ed7ffaf0a86d6',1,'packet.h']]]
+];

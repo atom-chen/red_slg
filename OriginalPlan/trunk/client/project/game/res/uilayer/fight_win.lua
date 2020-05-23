@@ -1,0 +1,1 @@
+return {{an=4,p="fight_btn_sj.png",c=0,b={},e=0,t=0,st=1,tt=0,y=-68,x=379,tp=2,s=30,n="btn3"},{an=4,p="fight_btn_zc.png",c=0,b={},e=0,t=0,st=1,tt=0,y=-181,x=379,tp=2,s=30,n="btn2"},{an=4,p="fight_btn_xyg.png",c=0,b={},e=0,t=0,st=1,tt=0,y=-292,x=379,tp=2,s=30,n="btn1"},{an=4,p="yw_xq.png",c=0,b={},e=0,t=0,st=1,tt=0,y=-181,x=385,tp=2,s=30,n="btn4"},alignment=0,count=4}

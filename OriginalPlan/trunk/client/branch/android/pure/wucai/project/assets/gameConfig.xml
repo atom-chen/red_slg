@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameConfig>
+    <platform>100</platform>
+    <gameName>redgame</gameName>
+	<serverIP>192.168.1.73</serverIP>
+	<port>7110</port>
+	<bughttp>http://bs.5colour.com.cn/www/tools/commit_bug.php</bughttp>
+	<tiphttp>http://www.5colour.com.cn/www/api/pop_notice.php</tiphttp>
+	<purchasehttp>http://203.12.203.26/www/api/pay.php</purchasehttp>
+	<version>1.4.1606211042</version>
+	<update_url>http://192.168.6.70/vgame/100/packlist.txt</update_url>
+	<subpackurl>http://192.168.1.128/vgame/102/subpack/1504131059.zip</subpackurl>
+	<uniquindex>1606211042</uniquindex>
+	<quickLogin>0</quickLogin>
+	<supportLogin>0</supportLogin>
+	<supportChangeServer>0</supportChangeServer>
+	<supportCS>0</supportCS>
+	<supportChangeAccount>0</supportChangeAccount>
+	<supportChargeInGame>0</supportChargeInGame>
+	<supportCharge>0</supportCharge>
+	<supportExitGame>0</supportExitGame>
+	<supportInviteFirend>0</supportInviteFirend>
+	<hasExitDialog>0</hasExitDialog>
+	<channel>uc</channel>
+</gameConfig>

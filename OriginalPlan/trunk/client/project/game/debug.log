@@ -1,0 +1,1499 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: Intel
+	gl.renderer: Intel(R) UHD Graphics 630
+	gl.version: 4.5.0 - Build 22.20.16.4815
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 192
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+------------------------------------------------
+------------------------------------------------
+[0.1818] [INFO] 
+[0.1824] [INFO] # DEBUG                        = 1
+[0.1828] [INFO] #
+[0.1844] [INFO] # device.platform              = windows
+[0.1846] [INFO] # device.model                 = unknown
+[0.1848] [INFO] # device.language              = cn
+[0.1850] [INFO] # device.writablePath          = H:\F\slg\OriginalPlan\trunk\client\project\game\
+[0.1852] [INFO] # device.cachePath             = H:\F\slg\OriginalPlan\trunk\client\project\game\
+[0.1854] [INFO] # device.directorySeparator    = \
+[0.1856] [INFO] # device.pathSeparator         = ;
+[0.1858] [INFO] #
+[0.2169] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[0.2176] [INFO] # CONFIG_SCREEN_WIDTH          = 1136.00
+[0.2184] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[0.2190] [INFO] # display.widthInPixels        = 1136.00
+[0.2195] [INFO] # display.heightInPixels       = 640.00
+[0.2200] [INFO] # display.contentScaleFactor   = 1.00
+[0.2206] [INFO] # display.width                = 1136.00
+[0.2217] [INFO] # display.height               = 640.00
+[0.2224] [INFO] # display.cx                   = 568.00
+[0.2228] [INFO] # display.cy                   = 320.00
+[0.2232] [INFO] # display.left                 = 0.00
+[0.2235] [INFO] # display.right                = 1136.00
+[0.2238] [INFO] # display.top                  = 640.00
+[0.2242] [INFO] # display.bottom               = 0.00
+[0.2246] [INFO] # display.c_left               = -568.00
+[0.2250] [INFO] # display.c_right              = 568.00
+[0.2253] [INFO] # display.c_top                = 320.00
+[0.2257] [INFO] # display.c_bottom             = -320.00
+[0.2271] [INFO] #
+server ip ....192.168.1.73  100 7110
+----------   try to load res:ui/common.pvr.ccz  ---------
+
+----------   try to load res:ui/login/login.pvr.ccz  ---------
+
+----------   try to load res:pic/init_bg.w  ---------
+
+[1.4238] [INFO] Scene "MainScene:onEnter()"
+----------   try to load res:ui/biaoqing.pvr.ccz  ---------
+
+----------   unload res:pic/init_bg.w  ---------
+
+----------   unload res:ui/login/login.pvr.ccz  ---------
+
+----------   try to load res:ui/town/town.pvr.ccz  ---------
+
+----------   try to reload res:ui/town/town.pvr.ccz  ---------
+
+----------   try to load res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to load res:fightMap/Newmap021.w  ---------
+
+----------   try to load res:fightMap/Newmap022.w  ---------
+
+----------   try to load res:fightMap/Newmap011.w  ---------
+
+----------   try to load res:fightMap/Newmap012.w  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   unload res:fightMap/Newmap012.w  ---------
+
+----------   unload res:fightMap/Newmap011.w  ---------
+
+----------   unload res:fightMap/Newmap022.w  ---------
+
+----------   unload res:fightMap/Newmap021.w  ---------
+
+----------   unload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to load res:ui/fight/fight.pvr.ccz  ---------
+
+----------   try to reload res:pic/init_bg.w  ---------
+
+retainRes  : eft/texture/flower_63.png
+
+retainRes  : eft/texture/Effects_Textures_Fire_003.png
+
+retainRes  : eft/texture/Effects_Textures_Fire_x003.png
+
+retainRes  : eft/texture/flower_13.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_x047.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_x003.png
+
+retainRes  : eft/texture/Effects_Textures_Star_x011.png
+
+retainRes  : eft/texture/tx_guang_007.png
+
+retainRes  : eft/texture/Effects_Textures_Trail_l004.png
+
+retainRes  : eft/texture/Effects_Textures_Ring_l009.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_l003.png
+
+retainRes  : eft/texture/Effects_Textures_Fire_x007.png
+
+retainRes  : eft/texture/tx_dian_013.png
+
+retainRes  : eft/texture/Effects_Textures_Self_x212.png
+
+retainRes  : eft/texture/Effects_TX_Lightning_511.png
+
+Read Len Error:BufferSize=10139 ReadLen=4,pos=10139
+retainRes  : eft/texture/Effects_TX_Other_509.png
+
+retainRes  : eft/texture/tx_xuliezhen_125.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z466.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_x020.png
+
+retainRes  : eft/texture/flower_251.png
+
+retainRes  : eft/texture/Effects_TX_Sequence_007.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z425.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z430.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z431.png
+
+retainRes  : eft/texture/Effects_Textures_Fire_004.png
+
+retainRes  : eft/texture/tx_dian_009.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z102.png
+
+retainRes  : eft/texture/tx_dian_021.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z423.png
+
+retainRes  : eft/texture/Effects_Textures_Glow_x015.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_x023.png
+
+retainRes  : eft/texture/tx_dian_007.png
+
+retainRes  : eft/texture/tx_dilie_500.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z113.png
+
+retainRes  : eft/texture/flower_83.png
+
+retainRes  : eft/texture/Effects_Textures_Glow_x005.png
+
+retainRes  : eft/texture/Effects_Textures_Trail_x020.png
+
+retainRes  : eft/texture/tx_dian_000.png
+
+retainRes  : eft/texture/tx_dian_049.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z424.png
+
+retainRes  : eft/texture/tx_dian_020.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z427.png
+
+retainRes  : eft/texture/Effects_TX_Lightning_502.png
+
+retainRes  : eft/texture/Effects_TX_Lightning_503.png
+
+Get data from file(eft/texture/Effects_TX_Lightning_503.png) failed!:eft/texture/Effects_TX_Lightning_503.png
+retainRes  : eft/texture/Effects_TX_Spot_509.png
+
+retainRes  : eft/texture/Effects_Textures_Fluxay_x009.png
+
+retainRes  : eft/texture/flower_9.png
+
+retainRes  : eft/texture/tx_dilie_010.png
+
+retainRes  : eft/texture/Effects_TX_Fluxay_504.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_l005.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_x001.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z496.png
+
+retainRes  : eft/texture/Effects_TX_Lightning_53.png
+
+retainRes  : eft/texture/Effects_TX_Fluxay_502.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z480.png
+
+retainRes  : eft/texture/Effects_Textures_Fire_z010.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z454.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z438.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z440.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z483.png
+
+retainRes  : eft/texture/flower_3.png
+
+retainRes  : eft/texture/Effects_TX_Trail_531.png
+
+retainRes  : eft/texture/tx_tail_112.png
+
+retainRes  : eft/texture/Effects_Textures_Lightning_l009.png
+
+retainRes  : eft/texture/tx_dian_017.png
+
+retainRes  : eft/texture/tx_quan_110.png
+
+retainRes  : eft/texture/Effects_Textures_Rotation_x009.png
+
+retainRes  : eft/texture/tx_shandian_021.png
+
+Read Len Error:BufferSize=20027 ReadLen=4,pos=20027
+retainRes  : eft/texture/Effects_Textures_Lightning_l006.png
+
+retainRes  : eft/texture/Effects_Textures_Ring_x007.png
+
+retainRes  : eft/texture/Effects_Textures_Glow_xr001.png
+
+retainRes  : eft/texture/Effects_Textures_Lightning_x007.png
+
+retainRes  : eft/texture/Effects_Textures_Glow_l002.png
+
+retainRes  : eft/texture/tx_xuanzhuan_041.png
+
+Read Len Error:BufferSize=19331 ReadLen=4,pos=19331
+retainRes  : eft/texture/Effects_Textures_Water_z005.png
+
+retainRes  : eft/texture/Effects_Texture_Self_x082.png
+
+retainRes  : eft/texture/Effects_Textures_Ring_l025.png
+
+retainRes  : eft/texture/Effects_Textures_Star_xr002.png
+
+retainRes  : eft/texture/Effects_Textures_Star_xr005.png
+
+retainRes  : eft/texture/flower_6.png
+
+retainRes  : eft/texture/tx_dian_019.png
+
+load Anim:hero/Marv00 begin
+
+----------   try to load res:anim/hero/Marv00.pvr.ccz  ---------
+
+load Anim:hero/Marv00  end
+
+load Anim:effect/bluecircle begin
+
+----------   try to load res:anim/effect/bluecircle.pvr.ccz  ---------
+
+load Anim:effect/bluecircle  end
+
+load Anim:hero/TerrorDrone00 begin
+
+----------   try to load res:anim/hero/TerrorDrone00.pvr.ccz  ---------
+
+load Anim:hero/TerrorDrone00  end
+
+load Anim:hero/CureMan00 begin
+
+----------   try to load res:anim/hero/CureMan00.pvr.ccz  ---------
+
+load Anim:hero/CureMan00  end
+
+load Anim:hero/Aoding00 begin
+
+----------   try to load res:anim/hero/Aoding00.pvr.ccz  ---------
+
+load Anim:hero/Aoding00  end
+
+load Anim:effect/hitred1 begin
+
+----------   try to load res:anim/effect/hitred1.pvr.ccz  ---------
+
+load Anim:effect/hitred1  end
+
+load Anim:effect/soliderDieRun begin
+
+----------   try to load res:anim/effect/soliderDieRun.pvr.ccz  ---------
+
+load Anim:effect/soliderDieRun  end
+
+load Anim:hero/fashi00 begin
+
+----------   try to load res:anim/hero/fashi00.pvr.ccz  ---------
+
+load Anim:hero/fashi00  end
+
+load Anim:effect/energybullet begin
+
+----------   try to load res:anim/effect/energybullet.pvr.ccz  ---------
+
+load Anim:effect/energybullet  end
+
+load Anim:hero/Akusi00 begin
+
+----------   try to load res:anim/hero/Akusi00.pvr.ccz  ---------
+
+load Anim:hero/Akusi00  end
+
+load Anim:hero/FutureTank00 begin
+
+----------   try to load res:anim/hero/FutureTank00.pvr.ccz  ---------
+
+load Anim:hero/FutureTank00  end
+
+load Anim:hero/King00 begin
+
+----------   try to load res:anim/hero/King00.pvr.ccz  ---------
+
+load Anim:hero/King00  end
+
+load Anim:effect/hitred2 begin
+
+----------   try to load res:anim/effect/hitred2.pvr.ccz  ---------
+
+load Anim:effect/hitred2  end
+
+load Anim:effect/blueball begin
+
+----------   try to load res:anim/effect/blueball.pvr.ccz  ---------
+
+load Anim:effect/blueball  end
+
+load Anim:hero/V3rocket00 begin
+
+----------   try to load res:anim/hero/V3rocket00.pvr.ccz  ---------
+
+load Anim:hero/V3rocket00  end
+
+load Anim:hero/helicopter00 begin
+
+----------   try to load res:anim/hero/helicopter00.pvr.ccz  ---------
+
+load Anim:hero/helicopter00  end
+
+load Anim:effect/fashihit begin
+
+----------   try to load res:anim/effect/fashihit.pvr.ccz  ---------
+
+load Anim:effect/fashihit  end
+
+----------   unload res:pic/init_bg.w  ---------
+
+----------   try to load res:fightMap/Newmap21.w  ---------
+
+----------   try to load res:fightMap/Newmap22.w  ---------
+
+----------   try to load res:fightMap/Newmap11.w  ---------
+
+----------   try to load res:fightMap/Newmap12.w  ---------
+
+load Anim:hero/buildingBase01 begin
+
+----------   try to load res:anim/hero/buildingBase01.pvr.ccz  ---------
+
+load Anim:hero/buildingBase01  end
+
+load Anim:hero/chengqiang1 begin
+
+----------   try to load res:anim/hero/chengqiang1.pvr.ccz  ---------
+
+load Anim:hero/chengqiang1  end
+
+load Anim:hero/chengqiang begin
+
+----------   try to load res:anim/hero/chengqiang.pvr.ccz  ---------
+
+load Anim:hero/chengqiang  end
+
+load Anim:hero/chengqiang2 begin
+
+----------   try to load res:anim/hero/chengqiang2.pvr.ccz  ---------
+
+load Anim:hero/chengqiang2  end
+
+load Anim:hero/PrismTower00 begin
+
+----------   try to load res:anim/hero/PrismTower00.pvr.ccz  ---------
+
+load Anim:hero/PrismTower00  end
+
+load Anim:hero/MindControlTower00 begin
+
+----------   try to load res:anim/hero/MindControlTower00.pvr.ccz  ---------
+
+load Anim:hero/MindControlTower00  end
+
+retainRes  : eft/texture/Effects_Textures_Smoke_x027.png
+
+load Anim:hero/TeslaCoil00 begin
+
+----------   try to load res:anim/hero/TeslaCoil00.pvr.ccz  ---------
+
+load Anim:hero/TeslaCoil00  end
+
+retainRes  : eft/texture/Effects_Textures_Lightning_l008.png
+
+load Anim:hero/Missileplatform00 begin
+
+----------   try to load res:anim/hero/Missileplatform00.pvr.ccz  ---------
+
+load Anim:hero/Missileplatform00  end
+
+load Anim:hero/GatlingCannon00 begin
+
+----------   try to load res:anim/hero/GatlingCannon00.pvr.ccz  ---------
+
+load Anim:hero/GatlingCannon00  end
+
+load Anim:hero/GrandCannon00 begin
+
+----------   try to load res:anim/hero/GrandCannon00.pvr.ccz  ---------
+
+load Anim:hero/GrandCannon00  end
+
+load Anim:effect/redcircle begin
+
+----------   try to load res:anim/effect/redcircle.pvr.ccz  ---------
+
+load Anim:effect/redcircle  end
+
+LUA VM MEMORY USED: 11266.27 KB
+----------   try to load res:hero/King02.pvr.ccz  ---------
+
+----------   try to reload res:hero/King02.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/King02.pvr.ccz  ---------
+
+----------   try to load res:hero/Aoding02.pvr.ccz  ---------
+
+----------   try to reload res:hero/Aoding02.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/Aoding02.pvr.ccz  ---------
+
+----------   try to load res:hero/Marv02.pvr.ccz  ---------
+
+----------   try to reload res:hero/Marv02.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/Marv02.pvr.ccz  ---------
+
+----------   try to load res:hero/Akusi02.pvr.ccz  ---------
+
+----------   try to reload res:hero/Akusi02.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/Akusi02.pvr.ccz  ---------
+
+----------   try to load res:hero/Aoding01.pvr.ccz  ---------
+
+----------   try to reload res:hero/Aoding01.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/Aoding01.pvr.ccz  ---------
+
+----------   try to reload res:hero/Aoding01.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+----------   try to load res:hero/Marv01.pvr.ccz  ---------
+
+----------   try to reload res:hero/Marv01.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/Marv01.pvr.ccz  ---------
+
+----------   try to load res:hero/King01.pvr.ccz  ---------
+
+----------   try to reload res:hero/King01.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/King01.pvr.ccz  ---------
+
+retainRes  : eft/texture/Effects_Textures_Smoke_z003.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_x004.png
+
+retainRes  : eft/texture/Effects_TX_Lightning_501.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z416.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z421.png
+
+Read Len Error:BufferSize=3971 ReadLen=4,pos=3971
+retainRes  : eft/texture/Effects_Textures_Sequence_x038.png
+
+retainRes  : eft/texture/Effects_TX_Lightning_505.png
+
+LUA VM MEMORY USED: 14373.26 KB
+retainRes  : eft/texture/Effects_Textures_Glow_xr003.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_z004.png
+
+retainRes  : eft/texture/Effects_Textures_Lightning_z004.png
+
+retainRes  : eft/texture/Effects_Textures_Glow_x014.png
+
+retainRes  : eft/texture/Effects_Textures_fire_x023.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z443.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z447.png
+
+retainRes  : eft/texture/flower_40.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z426.png
+
+LUA VM MEMORY USED: 16186.96 KB
+retainRes  : eft/texture/tx_xuliezhen_004.png
+
+retainRes  : eft/texture/tx_xuliezhen_029.png
+
+retainRes  : eft/texture/Effects_Textures_Ring_l001.png
+
+LUA VM MEMORY USED: 14645.14 KB
+LUA VM MEMORY USED: 22303.00 KB
+LUA VM MEMORY USED: 17531.67 KB
+retainRes  : eft/texture/tx_dian_010.png
+
+retainRes  : eft/texture/flower_18.png
+
+LUA VM MEMORY USED: 12446.39 KB
+LUA VM MEMORY USED: 16979.14 KB
+LUA VM MEMORY USED: 20874.30 KB
+retainRes  : eft/texture/Effects_Textures_Quest_z465.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z437.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z439.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z451.png
+
+ImageResource::UnLoad fuck:2
+
+----------   unload res:anim/effect/redcircle.pvr.ccz  ---------
+
+release1111 Anim:effect/redcircle end
+
+LUA VM MEMORY USED: 14006.45 KB
+LUA VM MEMORY USED: 15593.95 KB
+retainRes  : eft/texture/huoche_22.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z485.png
+
+----------   try to load res:ui/fightResult/fightResult.pvr.ccz  ---------
+
+----------   unload res:anim/hero/chengqiang2.pvr.ccz  ---------
+
+release1111 Anim:hero/chengqiang2 end
+
+----------   unload res:anim/hero/TeslaCoil00.pvr.ccz  ---------
+
+release1111 Anim:hero/TeslaCoil00 end
+
+----------   unload res:anim/hero/MindControlTower00.pvr.ccz  ---------
+
+release1111 Anim:hero/MindControlTower00 end
+
+----------   unload res:anim/hero/GrandCannon00.pvr.ccz  ---------
+
+release1111 Anim:hero/GrandCannon00 end
+
+----------   unload res:anim/hero/PrismTower00.pvr.ccz  ---------
+
+release1111 Anim:hero/PrismTower00 end
+
+----------   unload res:anim/hero/Missileplatform00.pvr.ccz  ---------
+
+release1111 Anim:hero/Missileplatform00 end
+
+----------   unload res:fightMap/Newmap21.w  ---------
+
+----------   unload res:fightMap/Newmap22.w  ---------
+
+----------   unload res:fightMap/Newmap11.w  ---------
+
+----------   unload res:fightMap/Newmap12.w  ---------
+
+----------   unload res:anim/hero/Marv00.pvr.ccz  ---------
+
+release1111 Anim:hero/Marv00 end
+
+----------   unload res:anim/effect/bluecircle.pvr.ccz  ---------
+
+release1111 Anim:effect/bluecircle end
+
+----------   unload res:anim/hero/TerrorDrone00.pvr.ccz  ---------
+
+release1111 Anim:hero/TerrorDrone00 end
+
+----------   unload res:anim/hero/CureMan00.pvr.ccz  ---------
+
+release1111 Anim:hero/CureMan00 end
+
+----------   unload res:anim/hero/Aoding00.pvr.ccz  ---------
+
+release1111 Anim:hero/Aoding00 end
+
+----------   unload res:anim/effect/hitred1.pvr.ccz  ---------
+
+release1111 Anim:effect/hitred1 end
+
+----------   unload res:anim/effect/soliderDieRun.pvr.ccz  ---------
+
+release1111 Anim:effect/soliderDieRun end
+
+----------   unload res:anim/effect/hitred2.pvr.ccz  ---------
+
+release1111 Anim:effect/hitred2 end
+
+----------   unload res:anim/hero/fashi00.pvr.ccz  ---------
+
+release1111 Anim:hero/fashi00 end
+
+----------   unload res:anim/effect/energybullet.pvr.ccz  ---------
+
+release1111 Anim:effect/energybullet end
+
+----------   unload res:anim/hero/Akusi00.pvr.ccz  ---------
+
+release1111 Anim:hero/Akusi00 end
+
+----------   unload res:anim/hero/chengqiang1.pvr.ccz  ---------
+
+release1111 Anim:hero/chengqiang1 end
+
+----------   unload res:anim/effect/fashihit.pvr.ccz  ---------
+
+release1111 Anim:effect/fashihit end
+
+----------   unload res:anim/hero/King00.pvr.ccz  ---------
+
+release1111 Anim:hero/King00 end
+
+----------   unload res:anim/hero/FutureTank00.pvr.ccz  ---------
+
+release1111 Anim:hero/FutureTank00 end
+
+----------   unload res:anim/effect/blueball.pvr.ccz  ---------
+
+release1111 Anim:effect/blueball end
+
+----------   unload res:anim/hero/V3rocket00.pvr.ccz  ---------
+
+release1111 Anim:hero/V3rocket00 end
+
+----------   unload res:anim/hero/helicopter00.pvr.ccz  ---------
+
+release1111 Anim:hero/helicopter00 end
+
+----------   unload res:anim/hero/chengqiang.pvr.ccz  ---------
+
+release1111 Anim:hero/chengqiang end
+
+releaseRes  : eft/texture/flower_40.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z426.png
+
+releaseRes  : eft/texture/Effects_Textures_Fluxay_x009.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z416.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z421.png
+
+releaseRes  : eft/texture/Effects_Texture_Self_x082.png
+
+releaseRes  : eft/texture/Effects_Textures_Ring_l025.png
+
+releaseRes  : eft/texture/Effects_Textures_Star_xr002.png
+
+releaseRes  : eft/texture/Effects_Textures_Star_xr005.png
+
+releaseRes  : eft/texture/Effects_TX_Lightning_502.png
+
+releaseRes  : eft/texture/Effects_TX_Lightning_503.png
+
+releaseRes  : eft/texture/Effects_TX_Spot_509.png
+
+releaseRes  : eft/texture/flower_9.png
+
+releaseRes  : eft/texture/tx_dilie_010.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_z003.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_x004.png
+
+releaseRes  : eft/texture/flower_3.png
+
+releaseRes  : eft/texture/Effects_Textures_fire_x023.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z443.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z447.png
+
+releaseRes  : eft/texture/tx_dilie_500.png
+
+releaseRes  : eft/texture/flower_18.png
+
+releaseRes  : eft/texture/tx_dian_049.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z424.png
+
+releaseRes  : eft/texture/tx_dian_010.png
+
+releaseRes  : eft/texture/tx_xuliezhen_004.png
+
+releaseRes  : eft/texture/tx_xuliezhen_029.png
+
+releaseRes  : eft/texture/flower_63.png
+
+releaseRes  : eft/texture/Effects_Textures_Fire_x003.png
+
+releaseRes  : eft/texture/flower_13.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_x003.png
+
+releaseRes  : eft/texture/Effects_Textures_Glow_xr003.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_z004.png
+
+releaseRes  : eft/texture/Effects_Textures_Lightning_z004.png
+
+releaseRes  : eft/texture/Effects_Textures_Glow_x014.png
+
+releaseRes  : eft/texture/Effects_TX_Lightning_53.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z465.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z439.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z437.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z451.png
+
+releaseRes  : eft/texture/Effects_Textures_Sequence_x038.png
+
+releaseRes  : eft/texture/Effects_TX_Lightning_505.png
+
+releaseRes  : eft/texture/Effects_Textures_Lightning_l008.png
+
+releaseRes  : eft/texture/Effects_TX_Trail_531.png
+
+releaseRes  : eft/texture/tx_tail_112.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_x001.png
+
+releaseRes  : eft/texture/Effects_Textures_Water_z005.png
+
+releaseRes  : eft/texture/Effects_Textures_Glow_xr001.png
+
+releaseRes  : eft/texture/Effects_Textures_Lightning_x007.png
+
+releaseRes  : eft/texture/Effects_Textures_Glow_l002.png
+
+releaseRes  : eft/texture/tx_xuanzhuan_041.png
+
+releaseRes  : eft/texture/tx_dian_020.png
+
+releaseRes  : eft/texture/Effects_Textures_Lightning_l009.png
+
+releaseRes  : eft/texture/tx_dian_017.png
+
+releaseRes  : eft/texture/tx_quan_110.png
+
+releaseRes  : eft/texture/Effects_TX_Fluxay_502.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z480.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z454.png
+
+releaseRes  : eft/texture/Effects_Textures_Fire_003.png
+
+releaseRes  : eft/texture/Effects_Textures_Fire_z010.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z440.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z438.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z483.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_l005.png
+
+releaseRes  : eft/texture/Effects_TX_Lightning_501.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_x027.png
+
+releaseRes  : eft/texture/Effects_Textures_Trail_x020.png
+
+releaseRes  : eft/texture/tx_dian_000.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z102.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z423.png
+
+releaseRes  : eft/texture/Effects_Textures_Glow_x015.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_x023.png
+
+releaseRes  : eft/texture/tx_dian_009.png
+
+releaseRes  : eft/texture/Effects_TX_Lightning_511.png
+
+releaseRes  : eft/texture/tx_xuliezhen_125.png
+
+releaseRes  : eft/texture/Effects_Textures_Ring_l009.png
+
+releaseRes  : eft/texture/Effects_Textures_Self_x212.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_x047.png
+
+releaseRes  : eft/texture/flower_6.png
+
+releaseRes  : eft/texture/tx_dian_019.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z466.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_x020.png
+
+releaseRes  : eft/texture/flower_251.png
+
+releaseRes  : eft/texture/Effects_Textures_Star_x011.png
+
+releaseRes  : eft/texture/tx_guang_007.png
+
+releaseRes  : eft/texture/Effects_Textures_Trail_l004.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z425.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z430.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z431.png
+
+releaseRes  : eft/texture/Effects_Textures_Smoke_l003.png
+
+releaseRes  : eft/texture/Effects_Textures_Fire_004.png
+
+releaseRes  : eft/texture/tx_dian_007.png
+
+releaseRes  : eft/texture/tx_dian_021.png
+
+releaseRes  : eft/texture/tx_shandian_021.png
+
+releaseRes  : eft/texture/Effects_TX_Other_509.png
+
+releaseRes  : eft/texture/Effects_Textures_Lightning_l006.png
+
+releaseRes  : eft/texture/Effects_Textures_Ring_x007.png
+
+releaseRes  : eft/texture/Effects_Textures_Rotation_x009.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z496.png
+
+releaseRes  : eft/texture/Effects_TX_Fluxay_504.png
+
+releaseRes  : eft/texture/huoche_22.png
+
+releaseRes  : eft/texture/Effects_Textures_Ring_l001.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z485.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z427.png
+
+releaseRes  : eft/texture/Effects_Textures_Fire_x007.png
+
+releaseRes  : eft/texture/tx_dian_013.png
+
+releaseRes  : eft/texture/Effects_TX_Sequence_007.png
+
+releaseRes  : eft/texture/Effects_Textures_Quest_z113.png
+
+releaseRes  : eft/texture/flower_83.png
+
+releaseRes  : eft/texture/Effects_Textures_Glow_x005.png
+
+LUA VM MEMORY USED: 16580.39 KB
+----------   unload res:ui/fightResult/fightResult.pvr.ccz  ---------
+
+----------   unload res:ui/fight/fight.pvr.ccz  ---------
+
+----------   unload res:hero/King02.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+----------   unload res:hero/Aoding02.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+----------   unload res:hero/Marv02.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+----------   unload res:hero/Akusi02.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+----------   unload res:hero/Aoding01.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+----------   unload res:hero/Marv01.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+----------   unload res:hero/King01.pvr.ccz[]#fight_txk_b_01.png  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:fightMap/Newmap021.w  ---------
+
+----------   try to reload res:fightMap/Newmap022.w  ---------
+
+----------   try to reload res:fightMap/Newmap011.w  ---------
+
+----------   try to reload res:fightMap/Newmap012.w  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+
+----------   try to reload res:ui/building/building_select.pvr.ccz  ---------
+

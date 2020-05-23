@@ -1,0 +1,1 @@
+return {[106001]={id=106001,res="hero/Akusi01"},[106002]={id=106002,res="hero/Akusi02"},[106003]={id=106003,res="hero/Aoding01"},[106004]={id=106004,res="hero/Aoding02"},[106005]={id=106005,res="hero/King01"},[106006]={id=106006,res="hero/King02"},[106007]={id=106007,res="hero/Marv01"},[106008]={id=106008,res="hero/Marv02"}}

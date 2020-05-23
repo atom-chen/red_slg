@@ -1,0 +1,1 @@
+return {["town_building_node_building_create"]={}}

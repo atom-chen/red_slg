@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" cost="60" cost_item="3013" relation1="2" buff_tg="6" buff_area="0" buff_id="14" relation2="0" buff_tg2="0" buff_area2="0" buff_id2="0"/>
+    <i id="2" cost="60" cost_item="3014" relation1="2" buff_tg="9" buff_area="0" buff_id="15" relation2="0" buff_tg2="0" buff_area2="0" buff_id2="0"/>
+    <i id="3" cost="60" cost_item="3015" relation1="2" buff_tg="4" buff_area="0" buff_id="16" relation2="0" buff_tg2="0" buff_area2="0" buff_id2="0"/>
+    <i id="4" cost="60" cost_item="3016" relation1="2" buff_tg="5" buff_area="0" buff_id="17" relation2="0" buff_tg2="0" buff_area2="0" buff_id2="0"/>
+    <i id="5" cost="60" cost_item="3017" relation1="2" buff_tg="7" buff_area="0" buff_id="18" relation2="0" buff_tg2="0" buff_area2="0" buff_id2="0"/>
+    <i id="6" cost="40" cost_item="3018" relation1="1" buff_tg="6" buff_area="0" buff_id="19" relation2="0" buff_tg2="0" buff_area2="0" buff_id2="0"/>
+    <i id="7" cost="40" cost_item="3019" relation1="1" buff_tg="9" buff_area="0" buff_id="20" relation2="2" buff_tg2="9" buff_area2="0" buff_id2="21"/>
+    <i id="8" cost="40" cost_item="3020" relation1="1" buff_tg="4" buff_area="0" buff_id="22" relation2="0" buff_tg2="0" buff_area2="0" buff_id2="0"/>
+    <i id="9" cost="40" cost_item="3021" relation1="1" buff_tg="4" buff_area="0" buff_id="23" relation2="0" buff_tg2="0" buff_area2="0" buff_id2="0"/>
+    <i id="10" cost="40" cost_item="3022" relation1="2" buff_tg="5" buff_area="0" buff_id="24" relation2="0" buff_tg2="0" buff_area2="0" buff_id2="0"/>
+</root>

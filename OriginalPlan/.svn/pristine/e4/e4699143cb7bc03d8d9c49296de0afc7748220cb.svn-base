@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" type="3" property="3" up_num1="160" cost1="4" cost1_add="1" up_num2="336" cost2="14" cost2_add="2" up_num3="648" cost3="35" cost3_add="5" up_num4="1188" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="2" type="3" property="1" up_num1="22" cost1="4" cost1_add="1" up_num2="46" cost2="14" cost2_add="2" up_num3="89" cost3="35" cost3_add="5" up_num4="163" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="3" type="3" property="2" up_num1="7" cost1="4" cost1_add="1" up_num2="15" cost2="14" cost2_add="2" up_num3="29" cost3="35" cost3_add="5" up_num4="53" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="4" type="3" property="4" up_num1="100" cost1="4" cost1_add="1" up_num2="100" cost2="14" cost2_add="2" up_num3="100" cost3="35" cost3_add="5" up_num4="100" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="5" type="2" property="3" up_num1="240" cost1="4" cost1_add="1" up_num2="504" cost2="14" cost2_add="2" up_num3="972" cost3="35" cost3_add="5" up_num4="1782" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="6" type="2" property="1" up_num1="20" cost1="4" cost1_add="1" up_num2="42" cost2="14" cost2_add="2" up_num3="81" cost3="35" cost3_add="5" up_num4="148" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="7" type="2" property="2" up_num1="12" cost1="4" cost1_add="1" up_num2="25" cost2="14" cost2_add="2" up_num3="48" cost3="35" cost3_add="5" up_num4="89" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="8" type="2" property="4" up_num1="100" cost1="4" cost1_add="1" up_num2="100" cost2="14" cost2_add="2" up_num3="100" cost3="35" cost3_add="5" up_num4="100" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="9" type="1" property="3" up_num1="208" cost1="4" cost1_add="1" up_num2="436" cost2="14" cost2_add="2" up_num3="842" cost3="35" cost3_add="5" up_num4="1544" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="10" type="1" property="1" up_num1="24" cost1="4" cost1_add="1" up_num2="50" cost2="14" cost2_add="2" up_num3="97" cost3="35" cost3_add="5" up_num4="178" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="11" type="1" property="2" up_num1="9" cost1="4" cost1_add="1" up_num2="20" cost2="14" cost2_add="2" up_num3="38" cost3="35" cost3_add="5" up_num4="71" cost4="100" cost4_add="10" up_numtype="1"/>
+    <i id="12" type="1" property="4" up_num1="100" cost1="4" cost1_add="1" up_num2="100" cost2="14" cost2_add="2" up_num3="100" cost3="35" cost3_add="5" up_num4="100" cost4="100" cost4_add="10" up_numtype="1"/>
+</root>

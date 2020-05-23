@@ -1,0 +1,5 @@
+[DEFAULT] 
+androidndkdir=E:/work/project/code/third/include/android/ 
+clangllvmdir=E:/work/project/code/third/include/android//toolchains/llvm-3.3/prebuilt/windows-x86_64 
+cxxgeneratordir="E:/work/project/code/trunk/server/core/core//../lib//"/.. 
+extra_flags=-D__WCHAR_MAX__=0x7fffffff 

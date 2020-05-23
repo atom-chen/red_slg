@@ -1,0 +1,1 @@
+return {[1]={level=10,times=10,consume=5,count=90,rate=3,},[2]={freeEnterTimes=15,resetCDGold=50,worshipTiLi=10000,},[3]={createGold=200,guildMaxRole=20,guildMinLv=1,guildMaxLv=90,guildNoticeCount=100,},[4]={maxFriend=10,maxBlessing=10,},}

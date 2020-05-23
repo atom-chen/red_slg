@@ -1,0 +1,16 @@
+﻿生成启动时间为 2015-2-10 16:30:44。
+     1>项目“E:\work\firstProject\PlistChange\PlistChange\PlistChange.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\IDE\vs2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PlistChange.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt PlistChangeDlg.cpp
+         PlistChangeDlg.cpp
+       Link:
+         E:\IDE\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\work\firstProject\PlistChange\Debug\PlistChange.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:E:\IDE\vs2012\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\work\firstProject\PlistChange\Debug\PlistChange.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\work\firstProject\PlistChange\Debug\PlistChange.lib" /MACHINE:X86 Debug\PlistChange.res
+         Debug\PlistChange.obj
+         Debug\PlistChangeDlg.obj
+         Debug\stdafx.obj
+         PlistChange.vcxproj -> E:\work\firstProject\PlistChange\Debug\PlistChange.exe
+     1>已完成生成项目“E:\work\firstProject\PlistChange\PlistChange\PlistChange.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.28

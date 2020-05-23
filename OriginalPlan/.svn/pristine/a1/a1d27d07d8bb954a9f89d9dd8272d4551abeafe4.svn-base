@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i petid="1" skill1="200" skill2="0" name="zl_name1"/>
+    <i petid="2" skill1="210" skill2="0" name="zl_name2"/>
+    <i petid="3" skill1="240" skill2="241" name="zl_name5"/>
+    <i petid="4" skill1="230" skill2="231" name="zl_name4"/>
+    <i petid="5" skill1="220" skill2="221" name="zl_name3"/>
+    <i petid="6" skill1="250" skill2="0" name="zl_name6"/>
+    <i petid="7" skill1="260" skill2="261" name="zl_name7"/>
+</root>

@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>TuLong: OwnerBuffer结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">TuLong
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>组</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="a00303.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">OwnerBuffer结构体 参考<div class="ingroups"><a class="el" href="a00150.html">结构定义</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a5a35c7d04170068d6c41d56d08f3e924"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a35c7d04170068d6c41d56d08f3e924"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (<a class="el" href="a00149.html#gaf53b0d1c3d61a95afa418a01dd8faae5">TBufferTypeID_t</a> buffTypeID) const </td></tr>
+<tr class="separator:a5a35c7d04170068d6c41d56d08f3e924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:ae701b17b850a768c7d5ac8af459398a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae701b17b850a768c7d5ac8af459398a5"></a>
+uint16&#160;</td><td class="memItemRight" valign="bottom"><b>buffTypeID</b></td></tr>
+<tr class="separator:ae701b17b850a768c7d5ac8af459398a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249440b7ec2bf412bb98d8dd6eabc9b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a249440b7ec2bf412bb98d8dd6eabc9b8"></a>
+<a class="el" href="a00152.html#ga28a4b98d6db79ef8882cbb3743f069c9">EBuffType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>buffType</b></td></tr>
+<tr class="separator:a249440b7ec2bf412bb98d8dd6eabc9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24133a12a4bc0ad90fb04071bcad91bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24133a12a4bc0ad90fb04071bcad91bd"></a>
+uint32&#160;</td><td class="memItemRight" valign="bottom"><b>casterObjUID</b></td></tr>
+<tr class="separator:a24133a12a4bc0ad90fb04071bcad91bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2b0abb0678488f5cec2a06b75c190bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2b0abb0678488f5cec2a06b75c190bb"></a>
+uint64&#160;</td><td class="memItemRight" valign="bottom"><b>casterObjGUID</b></td></tr>
+<tr class="separator:ae2b0abb0678488f5cec2a06b75c190bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba64c4a8fce8c3af9573cb8179c688c0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba64c4a8fce8c3af9573cb8179c688c0"></a>
+<a class="el" href="a00152.html#gafb24f7134d3e9151ca59f7974fea9c0e">EObjType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>casterType</b></td></tr>
+<tr class="separator:aba64c4a8fce8c3af9573cb8179c688c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e7da41edc1de732906aef811bf9ea1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab5e7da41edc1de732906aef811bf9ea1"></a>
+uint16&#160;</td><td class="memItemRight" valign="bottom"><b>otherID</b></td></tr>
+<tr class="separator:ab5e7da41edc1de732906aef811bf9ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f59a101a633402ba9316444de6ef68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7f59a101a633402ba9316444de6ef68"></a>
+GXMISC::TGameTime_t&#160;</td><td class="memItemRight" valign="bottom"><b>startTime</b></td></tr>
+<tr class="separator:ad7f59a101a633402ba9316444de6ef68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e353173c95a1d4efe5a6a84c89c7bed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e353173c95a1d4efe5a6a84c89c7bed"></a>
+GXMISC::TTime&#160;</td><td class="memItemRight" valign="bottom"><b>totoalTime</b></td></tr>
+<tr class="separator:a2e353173c95a1d4efe5a6a84c89c7bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a753a1994b29550441c5629de9565cd62"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a753a1994b29550441c5629de9565cd62"></a>
+GXMISC::TTime&#160;</td><td class="memItemRight" valign="bottom"><b>lastTime</b></td></tr>
+<tr class="separator:a753a1994b29550441c5629de9565cd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a809244f72e270cf91cf198174de5ee00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a809244f72e270cf91cf198174de5ee00"></a>
+GXMISC::TTime&#160;</td><td class="memItemRight" valign="bottom"><b>timeElapsed</b></td></tr>
+<tr class="separator:a809244f72e270cf91cf198174de5ee00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3236d0aebbaa94c1937e0c2d0c56c3a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3236d0aebbaa94c1937e0c2d0c56c3a0"></a>
+uint8&#160;</td><td class="memItemRight" valign="bottom"><b>times</b></td></tr>
+<tr class="separator:a3236d0aebbaa94c1937e0c2d0c56c3a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f4d2a4519aca01467854e28c1ae0afe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f4d2a4519aca01467854e28c1ae0afe"></a>
+uint8&#160;</td><td class="memItemRight" valign="bottom"><b>level</b></td></tr>
+<tr class="separator:a3f4d2a4519aca01467854e28c1ae0afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd17f54376710ec628fae27e0f613ae0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd17f54376710ec628fae27e0f613ae0"></a>
+<a class="el" href="a00150.html#ga83f5f3fd72076cb562e9b84a4861119c">TBuffParamAry</a>&#160;</td><td class="memItemRight" valign="bottom"><b>params</b></td></tr>
+<tr class="separator:acd17f54376710ec628fae27e0f613ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>该结构体的文档由以下文件生成:<ul>
+<li>E:/work/project/code/trunk/shenglqs/server/tools/docgen/cpptodoxy/doc/<a class="el" href="a00147_source.html">packet.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2014年 十二月 31日 星期三 18:29:07 , 为 TuLong使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

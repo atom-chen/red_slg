@@ -1,0 +1,4 @@
+[NetModule]
+MaxUserNumPerLoop=50
+
+[MiniServer]

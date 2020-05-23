@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{97b916dc-a254-4610-85c7-20fc5b32f48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{8c249c11-070a-466a-922a-7e057038e24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{6c30dff0-3099-426c-9066-2520c3f632d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{d240b2e9-2099-4a06-83a3-caac8b572e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config_tbl">
+      <UniqueIdentifier>{dba8421a-4586-4236-a829-115b119d0ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="msg">
+      <UniqueIdentifier>{07cd452a-7fb2-4140-b69d-dda33234a59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module">
+      <UniqueIdentifier>{4aeed66f-c3f4-40f0-9a99-df7f5bfe55a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{4df1cccb-5967-4198-b49f-43658c204184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\mgr">
+      <UniqueIdentifier>{98a5c2a8-3bf7-4868-af58-d35b1d5368a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{a7879573-f830-4101-bd16-d0d03fdff613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_process">
+      <UniqueIdentifier>{d318e912-a8e5-46f6-bcb8-62f05acedff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_process\mission">
+      <UniqueIdentifier>{c4e0ef26-ae9f-4a6e-b620-4a82f2ab323a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_process\skill">
+      <UniqueIdentifier>{7f69d29b-520d-4f27-b700-3131262b75fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_process\common">
+      <UniqueIdentifier>{dcde4192-35b5-449f-831b-1c391e34ebb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_process\bag">
+      <UniqueIdentifier>{b6d9a94c-463c-4c7b-bd92-3ef7b50bf805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_process\role">
+      <UniqueIdentifier>{cfb3fabf-cebb-45e7-a1b8-8791e5b2a899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\logic">
+      <UniqueIdentifier>{5041c7cf-8abe-4c54-a6a0-389e4cf09cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\core">
+      <UniqueIdentifier>{f918e53c-67c5-44ca-8d4b-cbb4cb7ae7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\logic\randdropitem">
+      <UniqueIdentifier>{9ad27ed8-9d2c-4e74-9780-5f783c0d5f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\logic\mission">
+      <UniqueIdentifier>{7e079f6a-da66-438f-92c5-6c71d555c07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\logic\buffer">
+      <UniqueIdentifier>{023c0082-8b7b-4301-a155-5909c2b8db0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\logic\buffer\buff">
+      <UniqueIdentifier>{159e0d15-98ef-4f49-9829-2e03f6a78adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\logic\bagitem">
+      <UniqueIdentifier>{b544cdb9-55dd-42d4-8e19-ec99235b394d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\core\limit">
+      <UniqueIdentifier>{95dded74-1bd4-4008-ae3f-21ac79f8402a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\core\gm">
+      <UniqueIdentifier>{85c62532-a376-425a-8d11-38f9ef4aed3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\core\chat">
+      <UniqueIdentifier>{f225a966-69b2-45ef-80cb-9b34aebea815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\core\announcement">
+      <UniqueIdentifier>{f607a662-7104-4fc9-9cb4-d95f784cc33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script\script">
+      <UniqueIdentifier>{263e14f1-50cd-471f-b3b2-17a8421dc98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\ai">
+      <UniqueIdentifier>{2399e5e5-6096-4a6f-8f79-97693743f7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\logic\fight">
+      <UniqueIdentifier>{140960b6-4096-471e-8cd9-5b53b9faaed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\logic\item">
+      <UniqueIdentifier>{fc28d716-489c-4d9f-b4f2-1efccada1a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{bc375e9d-12e9-4d17-af96-48fd9aa46afa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\map_server.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_server_config.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\role.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\role_manager.cpp">
+      <Filter>object\mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_world_handler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_server_instance.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_config_loader_instance.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene_manager.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_data.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_data_manager.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_module.cpp">
+      <Filter>module</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msg_base.cpp">
+      <Filter>msg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_player_handler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mod_bag.cpp">
+      <Filter>module\logic\bagitem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msg_bag.cpp">
+      <Filter>msg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\role_login.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_db_player_handler.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_db_task.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gm_manager.cpp">
+      <Filter>module\core\gm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mod_buffer.cpp">
+      <Filter>module\logic\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_db_data_upgrade.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_db_item.cpp">
+      <Filter>db_process\bag</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_db_role_data.cpp">
+      <Filter>db_process\role</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_db_role_process.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_engine.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_bind_class.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_bind_func.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msg_mission.cpp">
+      <Filter>msg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mod_mission.cpp">
+      <Filter>module\logic\mission</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chat_pipe.cpp">
+      <Filter>module\core\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_db_server_handler.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_server_data.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_server_event.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_http_handler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_server_task.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mapserver_script_auto_gen_class.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config_check.cpp">
+      <Filter>config_tbl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\announcement.cpp">
+      <Filter>module\core\announcement</Filter>
+    </ClCompile>
+    <ClCompile Include="src\limit_handle.cpp">
+      <Filter>module\core\limit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mission_tbl.cpp">
+      <Filter>config_tbl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapServer.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai_pet.cpp">
+      <Filter>object\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_export_mapserver.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mod_fight.cpp">
+      <Filter>module\logic\fight</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item_mod\item.cpp">
+      <Filter>module\logic\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item_mod\item_container.cpp">
+      <Filter>module\logic\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item_mod\item_manager.cpp">
+      <Filter>module\logic\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item_mod\item_operator.cpp">
+      <Filter>module\logic\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item_mod\item_property.cpp">
+      <Filter>module\logic\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\role_item.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\item_helper.cpp">
+      <Filter>module\logic\item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\role_scene.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\map_server.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_config.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\role.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\role_manager.h">
+      <Filter>object\mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_world_handler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_player_handler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_instance.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_tbl_header.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene_manager.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_data_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_data.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_data_manager.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_module.h">
+      <Filter>module</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msg_base.h">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mod_bag.h">
+      <Filter>module\logic\bagitem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msg_bag.h">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bagitem_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_player_handler.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\randdropItemMgr.h">
+      <Filter>module\logic\randdropitem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_task.h">
+      <Filter>db_process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transport_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gm_manager.h">
+      <Filter>module\core\gm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mod_buffer.h">
+      <Filter>module\logic\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_data_upgrade.h">
+      <Filter>db_process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_item.h">
+      <Filter>db_process\bag</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_role_data.h">
+      <Filter>db_process\role</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_role_process.h">
+      <Filter>db_process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_engine.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msg_mission.h">
+      <Filter>msg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mod_mission.h">
+      <Filter>module\logic\mission</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_mission.h">
+      <Filter>db_process\mission</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chat_pipe.h">
+      <Filter>module\core\chat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_http_handler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_server_handler.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_data.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_event.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_task.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mapserver_script_auto_gen_class_header.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\announcement.h">
+      <Filter>module\core\announcement</Filter>
+    </ClInclude>
+    <ClInclude Include="src\limit_handle.h">
+      <Filter>module\core\limit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mission_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\levelup_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dhm_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\announcement_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\npc_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\randdrop_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai_pet.h">
+      <Filter>object\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_export_mapserver.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mod_fight.h">
+      <Filter>module\logic\fight</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_common.h">
+      <Filter>db_process\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item_mod\item.h">
+      <Filter>module\logic\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item_mod\item_container.h">
+      <Filter>module\logic\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item_mod\item_manager.h">
+      <Filter>module\logic\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item_mod\item_operator.h">
+      <Filter>module\logic\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item_mod\item_property.h">
+      <Filter>module\logic\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_db_struct.h">
+      <Filter>db_process\bag</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item_helper.h">
+      <Filter>module\logic\item</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_bind_func.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="res\resources.h">
+      <Filter>res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\exe\mapserver\script\ProtocolSerial.lua">
+      <Filter>script\script</Filter>
+    </None>
+    <None Include="mapserver.def">
+      <Filter>script</Filter>
+    </None>
+    <None Include="res\resource.aps">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon.ico">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="res\toolbar.bmp">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\resource.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

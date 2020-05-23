@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['channel_5finvalid',['CHANNEL_INVALID',['../a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a54ded7472605db4a27002712a15bdb78',1,'packet.h']]],
+  ['character_5flogic_5fdead',['CHARACTER_LOGIC_DEAD',['../a00152.html#gga09f89f6586283afd0562cc46303e391aa58dc177a1e30beb9a4d7f731e5a40677',1,'packet.h']]],
+  ['character_5flogic_5fidle',['CHARACTER_LOGIC_IDLE',['../a00152.html#gga09f89f6586283afd0562cc46303e391aa07902cddd3978dc0e19b7f5ce7965b8d',1,'packet.h']]],
+  ['character_5flogic_5finvalid',['CHARACTER_LOGIC_INVALID',['../a00152.html#gga09f89f6586283afd0562cc46303e391aa039eb584ed282930464bb41677da90c2',1,'packet.h']]],
+  ['character_5flogic_5fmove',['CHARACTER_LOGIC_MOVE',['../a00152.html#gga09f89f6586283afd0562cc46303e391aa1a4693fab56ad204fe6b8ecca47a1cc4',1,'packet.h']]],
+  ['character_5flogic_5fnumbers',['CHARACTER_LOGIC_NUMBERS',['../a00152.html#gga09f89f6586283afd0562cc46303e391aa6079f8dbc95bc0b7b9539f7e943069e3',1,'packet.h']]],
+  ['chat_5fchannel_5ffaction',['CHAT_CHANNEL_FACTION',['../a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6ab4646cf20d3744c7138cea0a3e312d15',1,'packet.h']]],
+  ['chat_5fchannel_5fgm',['CHAT_CHANNEL_GM',['../a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a788b42f9cc7c38a16b7c670e78e2ed04',1,'packet.h']]],
+  ['chat_5fchannel_5fprivate',['CHAT_CHANNEL_PRIVATE',['../a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a3c4ce21809c2c259d7ae9fa8075c343f',1,'packet.h']]],
+  ['chat_5fchannel_5fsystem',['CHAT_CHANNEL_SYSTEM',['../a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a39f91c3dd50b1f62adeb187472551107',1,'packet.h']]],
+  ['chat_5fchannel_5fworld',['CHAT_CHANNEL_WORLD',['../a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a1292807ef0ede00d26b24dca73e2afb4',1,'packet.h']]],
+  ['combat_5fstate_5ftype_5fend',['COMBAT_STATE_TYPE_END',['../a00152.html#gga8b06d620f7cabdbe7e3118c7389d3837ae4251c2b461fc10ad27042281e5c99f5',1,'packet.h']]],
+  ['combat_5fstate_5ftype_5fstart',['COMBAT_STATE_TYPE_START',['../a00152.html#gga8b06d620f7cabdbe7e3118c7389d3837af684c73e852bfc01537cc2755efb8e39',1,'packet.h']]],
+  ['consume_5fsub_5fclass_5fcrop',['CONSUME_SUB_CLASS_CROP',['../a00152.html#gga8df9db346457ea1cd4450a1bc8890afdaf2923db75657a13373a12f41f7669963',1,'packet.h']]],
+  ['consume_5fsub_5fclass_5ffly_5fshoes',['CONSUME_SUB_CLASS_FLY_SHOES',['../a00152.html#gga8df9db346457ea1cd4450a1bc8890afdae7039240114ad8caaeed4c468212e4f7',1,'packet.h']]],
+  ['consume_5fsub_5fclass_5fhorn',['CONSUME_SUB_CLASS_HORN',['../a00152.html#gga8df9db346457ea1cd4450a1bc8890afdad174b271deeb90e6318856f038550be4',1,'packet.h']]],
+  ['consume_5fsub_5fclass_5frelive',['CONSUME_SUB_CLASS_RELIVE',['../a00152.html#gga8df9db346457ea1cd4450a1bc8890afdafb4d80b636d5f3ff0e49743fa3f16833',1,'packet.h']]],
+  ['consume_5fsub_5fclass_5fshovel',['CONSUME_SUB_CLASS_SHOVEL',['../a00152.html#gga8df9db346457ea1cd4450a1bc8890afda5b5cbb45826382c2f81711d3dc0eb086',1,'packet.h']]],
+  ['consume_5fsub_5fclass_5ftan_5fhe_5fling',['CONSUME_SUB_CLASS_TAN_HE_LING',['../a00152.html#gga8df9db346457ea1cd4450a1bc8890afdac984f0fa5c99e2633b26bdcb31fd528c',1,'packet.h']]],
+  ['consume_5fsub_5fclass_5ftask',['CONSUME_SUB_CLASS_TASK',['../a00152.html#gga8df9db346457ea1cd4450a1bc8890afda92fa1f6adc9bf516ffd0cd5d3e02940d',1,'packet.h']]],
+  ['consume_5fsub_5fclass_5ftong_5fya_5fling',['CONSUME_SUB_CLASS_TONG_YA_LING',['../a00152.html#gga8df9db346457ea1cd4450a1bc8890afda3602bbe87d65f04a72bf0a5a7241b80b',1,'packet.h']]],
+  ['consume_5fsub_5fclass_5ftravel_5fcard',['CONSUME_SUB_CLASS_TRAVEL_CARD',['../a00152.html#gga8df9db346457ea1cd4450a1bc8890afdab2815973166ad71477494185bf71906e',1,'packet.h']]]
+];

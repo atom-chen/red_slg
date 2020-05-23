@@ -1,0 +1,1 @@
+return {["1"]={[1]="我是一个人0",[2]="我是一个人1",[3]="我是一个人2"},["hero_main"]={},["hero_main.lua.out"]={},["test_panel1.lua.out"]={},["test_panel2.lua.out"]={},["test_panel3.lua.out"]={}}

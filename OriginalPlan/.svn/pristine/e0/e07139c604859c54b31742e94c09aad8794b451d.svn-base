@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['scroll_5fsub_5finvalid',['SCROLL_SUB_INVALID',['../a00152.html#ggad499d913ef3b82d72db03ae9766604dba41dd3f2a01b68b5d7213f605c6682da7',1,'packet.h']]],
+  ['sex_5ftype_5ffemale',['SEX_TYPE_FEMALE',['../a00152.html#gga66b1ed8fe5853a10acb77f6b80eb2df3a30f9ea30a6b557c2695e5ea237ed0951',1,'packet.h']]],
+  ['sex_5ftype_5fmale',['SEX_TYPE_MALE',['../a00152.html#gga66b1ed8fe5853a10acb77f6b80eb2df3a157d2b7399628da3a2fb39cba7663ee4',1,'packet.h']]],
+  ['skill_5fattack_5ftype_5fgroup',['SKILL_ATTACK_TYPE_GROUP',['../a00152.html#ggaa3713e9f94b8a068aa1840fb46a7fbfaabe4e0bfe47dece161ae8b843fce39f9c',1,'packet.h']]],
+  ['skill_5fattack_5ftype_5finvalid',['SKILL_ATTACK_TYPE_INVALID',['../a00152.html#ggaa3713e9f94b8a068aa1840fb46a7fbfaa96c5be34f75c5bf670ea66926180c72d',1,'packet.h']]],
+  ['skill_5fattack_5ftype_5fsingle',['SKILL_ATTACK_TYPE_SINGLE',['../a00152.html#ggaa3713e9f94b8a068aa1840fb46a7fbfaaf4f450877812cf97c2ecd2339674a871',1,'packet.h']]],
+  ['skill_5fbook_5fsub_5fclass_5fpet',['SKILL_BOOK_SUB_CLASS_PET',['../a00152.html#gga94152e1619438b26c12237e32b9e3506a8852a180d6c107aac703284e349e2084',1,'packet.h']]],
+  ['skill_5fbook_5fsub_5fclass_5frole',['SKILL_BOOK_SUB_CLASS_ROLE',['../a00152.html#gga94152e1619438b26c12237e32b9e3506a6b47bc235cb642055bb11087056d557d',1,'packet.h']]],
+  ['skill_5ftarget_5ftype_5fenemy',['SKILL_TARGET_TYPE_ENEMY',['../a00152.html#gga3614f8498bc41c656288e511352de1dda6f2f25615a7762f3e88fd88ca131f4b4',1,'packet.h']]],
+  ['skill_5ftarget_5ftype_5finvalid',['SKILL_TARGET_TYPE_INVALID',['../a00152.html#gga3614f8498bc41c656288e511352de1dda28ef0b84ea63883fe75fe95930288487',1,'packet.h']]],
+  ['skill_5ftarget_5ftype_5fown',['SKILL_TARGET_TYPE_OWN',['../a00152.html#gga3614f8498bc41c656288e511352de1dda0a95df3bfade23650ccc8d2253f2786c',1,'packet.h']]],
+  ['skill_5ftarget_5ftype_5fteam',['SKILL_TARGET_TYPE_TEAM',['../a00152.html#gga3614f8498bc41c656288e511352de1ddaeec72111164ecab6c7b25cb248e03c8f',1,'packet.h']]],
+  ['skill_5ftype_5factive',['SKILL_TYPE_ACTIVE',['../a00152.html#ggab9c1239b5d3e6eaddd94f0fe37141f40ad92e34c11447810bcdc8ea12255507d0',1,'packet.h']]],
+  ['skill_5ftype_5fassist',['SKILL_TYPE_ASSIST',['../a00152.html#ggab9c1239b5d3e6eaddd94f0fe37141f40a901fcd05db58ab77849ae9ecf49de324',1,'packet.h']]],
+  ['skill_5ftype_5finvalid',['SKILL_TYPE_INVALID',['../a00152.html#ggab9c1239b5d3e6eaddd94f0fe37141f40ae14d66edee09b2c2e2a34959a209b03d',1,'packet.h']]],
+  ['skill_5ftype_5fpassive',['SKILL_TYPE_PASSIVE',['../a00152.html#ggab9c1239b5d3e6eaddd94f0fe37141f40ae0aacf026f2702c00131875de5102bd3',1,'packet.h']]]
+];

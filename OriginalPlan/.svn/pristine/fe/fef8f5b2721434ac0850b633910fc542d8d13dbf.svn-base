@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\game_socket_packet_handler.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\constant_define.cpp">
+      <Filter>constant</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_config.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tbl_define.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\attributes.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_engine_common.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_mission_bind.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_game_bind.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_object_bind.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http.cpp">
+      <Filter>third\depend_wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_library_bind_func.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\curl_util.cpp">
+      <Filter>third\depend_wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_cjson_util.cpp">
+      <Filter>third\depend_wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_library_bind_class.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sharelib_script_auto_gen_class.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\limit_manager.cpp">
+      <Filter>logic\limit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\login_status.cpp">
+      <Filter>logic\login</Filter>
+    </ClCompile>
+    <ClCompile Include="src\announcement_define.cpp">
+      <Filter>define</Filter>
+    </ClCompile>
+    <ClCompile Include="src\announcement_timer.cpp">
+      <Filter>logic\announcement</Filter>
+    </ClCompile>
+    <ClCompile Include="src\announcement_sys.cpp">
+      <Filter>logic\announcement</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http_default_handler.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md5.cpp">
+      <Filter>third\depend_wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypt_util.cpp">
+      <Filter>third\depend_wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stop_event.cpp">
+      <Filter>logic\stop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stop_timer.cpp">
+      <Filter>logic\stop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tbl_loader.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="src\test_cpp11.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win_base.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win_service.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\error_log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\curl_util.h">
+      <Filter>third\depend_wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gm_log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stat_log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="src\module_def.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_socket_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_extend_socket_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base_packet_def.h">
+      <Filter>packet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\md5.h">
+      <Filter>third\depend_wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\md5_ext.h">
+      <Filter>third\depend_wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_socket_packet_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_server_socket_packet_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_util.h" />
+    <ClInclude Include="src\packet_id_def.h">
+      <Filter>packet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_change_log.h">
+      <Filter>doc_generate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_def.h">
+      <Filter>packet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\db_table_def.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\db_sql_define.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\db_name_define.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enum_to_string.h">
+      <Filter>constant</Filter>
+    </ClInclude>
+    <ClInclude Include="src\constant_define.h">
+      <Filter>constant</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dirty_word_filter.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cool_down.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_database_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gm_string_parse.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\path_finder.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socket_attr.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tbl_loader.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tbl_define.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tbl_config.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_define.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_errno.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server_define.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_player_mgr.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\attributes.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_misc.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_rand.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\streamable_util.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\attr_backup_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\new_role_tbl.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mission_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_pos.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_engine_common.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http.h">
+      <Filter>third\depend_wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\buffer_socket_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http_socket_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\recorde_util.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\constant_tbl.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_cjson_util.h">
+      <Filter>third\depend_wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_library_header.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sharelib_script_auto_gen_class_header.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\limit_manager.h">
+      <Filter>logic\limit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\login_status.h">
+      <Filter>logic\login</Filter>
+    </ClInclude>
+    <ClInclude Include="src\announcement_define.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="src\announcement_sys.h">
+      <Filter>logic\announcement</Filter>
+    </ClInclude>
+    <ClInclude Include="src\announcement_timer.h">
+      <Filter>logic\announcement</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http_default_handler.h">
+      <Filter>handler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypt_util.h">
+      <Filter>third\depend_wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ini_util.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\recharge_def.h">
+      <Filter>charge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stop_event.h">
+      <Filter>logic\stop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stop_timer.h">
+      <Filter>logic\stop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item_define.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_cl_login.h">
+      <Filter>packet\protocol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_cm_base.h">
+      <Filter>packet\protocol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_cm_bag.h">
+      <Filter>packet\protocol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_cm_login.h">
+      <Filter>packet\protocol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_cm_mission.h">
+      <Filter>packet\protocol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_cw_login.h">
+      <Filter>packet\protocol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_mw_base.h">
+      <Filter>packet\protocol\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_lw_base.h">
+      <Filter>packet\protocol\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_mx_base.h">
+      <Filter>packet\protocol\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_rx_record.h">
+      <Filter>packet\protocol\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_wb_base.h">
+      <Filter>packet\protocol\servers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\record_define.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tbl_test.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_base_def.h">
+      <Filter>packet\protocol\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_base_util.h" />
+    <ClInclude Include="src\packet_cm_fight.h">
+      <Filter>packet\protocol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fight_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_headers.h">
+      <Filter>packet\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rand_drop_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bag_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet_include_header.h">
+      <Filter>packet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\item_struct.h">
+      <Filter>struct</Filter>
+    </ClInclude>
+    <ClInclude Include="src\protocolStruct.h">
+      <Filter>packet\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win_base.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win_service.h">
+      <Filter>window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="log">
+      <UniqueIdentifier>{9fc48b8e-81a4-46de-8ac0-292979b7c231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="define">
+      <UniqueIdentifier>{681cb336-c425-42e9-b132-0c4837e20d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handler">
+      <UniqueIdentifier>{efe9b4ba-679e-428e-8a7a-8f6d08271bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="packet">
+      <UniqueIdentifier>{44b43ccd-e343-4287-8334-2022ed88b1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="packet\protocol">
+      <UniqueIdentifier>{a2de9fcf-ef65-40ce-b96c-b96ea0375cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doc_generate">
+      <UniqueIdentifier>{9fa43fdf-93b1-4484-ae37-f386b61a3dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{58e8a7b5-7481-430e-b717-0522c9f07169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="constant">
+      <UniqueIdentifier>{dfda065e-90e6-4dac-b999-bb4d76a8b775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="struct">
+      <UniqueIdentifier>{7fca8772-32a5-4c7d-8c0e-bac0a1cf6107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{1bca9c72-2af1-4dc8-93db-7c98f42766c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{d95cf4d4-5b89-4ef9-b6b7-e093558a13d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{1e446733-739e-4236-a73f-f3ef5d2e1c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third">
+      <UniqueIdentifier>{bc2445b3-f2e8-42a4-bc78-61b9151edc6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{6ddd26a8-9a35-4261-81a9-93f10df2b820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic">
+      <UniqueIdentifier>{4f0bea31-7a85-4ae2-815c-0c02d3606c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\limit">
+      <UniqueIdentifier>{18a66477-5084-4380-8d16-ddb26baf241f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\login">
+      <UniqueIdentifier>{8120ea17-56b7-4945-977a-af273259d668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\announcement">
+      <UniqueIdentifier>{4e1f1fd4-c137-49a6-b6c8-1da98aa2c71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{f587aa15-9d58-46b8-b53f-b16d07501156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="charge">
+      <UniqueIdentifier>{78f88222-46cb-4e99-8c36-c3198b4a6e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\stop">
+      <UniqueIdentifier>{e9b37c80-cb5f-4344-a32d-9639bccc4768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third\depend_wrap">
+      <UniqueIdentifier>{fb493db8-85e5-429b-bc63-8aacfbcd89e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="packet\protocol\core">
+      <UniqueIdentifier>{415e20d8-da64-420d-a58f-be1fb965c572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="packet\protocol\servers">
+      <UniqueIdentifier>{ba9e4a87-e1a3-4f16-a0f0-2b474d994e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="packet\protocol\client">
+      <UniqueIdentifier>{c2456d80-16eb-47d0-a785-4b1e627e80cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{89479c68-4579-4339-adaa-41b97a259287}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="doc_generate_rules.txt">
+      <Filter>doc_generate</Filter>
+    </None>
+    <None Include="src\extra_types.txt">
+      <Filter>doc_generate</Filter>
+    </None>
+    <None Include="src\extra_const_value.txt">
+      <Filter>doc_generate</Filter>
+    </None>
+    <None Include="src\doc_config.txt">
+      <Filter>doc_generate</Filter>
+    </None>
+    <None Include="src\doc_config.ini">
+      <Filter>doc_generate</Filter>
+    </None>
+    <None Include="src\script_library_convert.inl">
+      <Filter>script</Filter>
+    </None>
+    <None Include="src\server_singleton_var.inl">
+      <Filter>server</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" ranking="1|1" reward1="4410" num1="10" reward2="" num2="" reward3="" num3=""/>
+    <i id="2" ranking="2|2" reward1="4410" num1="8" reward2="" num2="" reward3="" num3=""/>
+    <i id="3" ranking="3|3" reward1="4410" num1="6" reward2="" num2="" reward3="" num3=""/>
+    <i id="4" ranking="4|20" reward1="4410" num1="5" reward2="" num2="" reward3="" num3=""/>
+    <i id="5" ranking="21|100" reward1="4410" num1="3" reward2="" num2="" reward3="" num3=""/>
+    <i id="6" ranking="100|100000" reward1="4410" num1="2" reward2="" num2="" reward3="" num3=""/>
+</root>

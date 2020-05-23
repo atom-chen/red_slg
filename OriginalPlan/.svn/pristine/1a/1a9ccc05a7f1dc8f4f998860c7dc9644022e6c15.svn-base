@@ -1,0 +1,233 @@
+import platform
+import shutil 
+
+if (platform.system() == "Windows") :
+
+	Program('x64/mapserver',
+		Glob('src/*.cpp')+Glob('src/item/*.cpp')+Glob('src/mall/*.cpp')+Glob('src/skill/*.cpp'),
+		CPPPATH=[
+				'src/.',
+				'../../lib/internal/include/',
+				'../../lib/internal/include/core/',
+				'../../../third/include/',
+				'../../../third/include/zlib/',
+				'../../../third/include/cryptocpp/',
+				'../../../third/include/tinyxpath/',
+				'../../../third/include/libevent/',
+				'../../../third/include/libevent/event2',
+				'../../../third/include/WIN32-Code/',
+				'../../../third/include/coredumper/',
+				'../../../third/include/mysql/win/',
+				'../../../third/include/mysqlpp/',
+				'../../../third/include/fastformat/',
+				'../../../third/include/stlsoft-1.10-alpha-15-delta/include/',
+				'../../../third/include/lua/',
+				'../sharelib/src/',
+				'../gamebaselib/src/',
+			],
+		CCFLAGS=[
+				'-D_DEBUG',
+				'-D_WIN64',
+				'-DOS_WIN',
+				'-DNOMINMAX',
+				'-DOS_BIT=64',
+				'-DUSE_FAST_FORMAT',
+				# '-DWIN32',
+				'-DOS_WIN',
+				'-DUSE_RTTI',
+				'-DCURL_STATICLIB',
+				'-D_SCL_SECURE_NO_WARNINGS',
+				'/wd"4819"',
+				'/EHsc',
+				'/Fa"x64\Debug\"',
+				'/MDd'
+			],
+		LIBPATH=[
+				'../../../third/lib',
+				'../../../third/lib/mysql/lib64',
+				'../../lib/internal/lib'
+			],
+		LINKFLAGS=[
+				'/NODEFAULTLIB:"libcmtd.lib"',
+				'/NODEFAULTLIB:"LIBCMT.lib"',
+				'/NODEFAULTLIB:"libcpmtd.lib"',
+				'/TLBID:1',
+				'/DYNAMICBASE',
+				'/NXCOMPAT',
+				'/MACHINE:X64',
+				'/ERRORREPORT:QUEUE'
+			],
+		LIBS=[
+				'kernel32.lib',
+				'user32.lib',
+				'gdi32.lib',
+				'winspool.lib',
+				'comdlg32.lib',
+				'advapi32.lib',
+				'shell32.lib',
+				'ole32.lib',
+				'oleaut32.lib',
+				'uuid.lib',
+				'odbc32.lib',
+				'odbccp32.lib',
+				'libcurl_debug_64.lib',
+				'libevent_debug_64.lib',
+				'mysqlpp_debug_64.lib',
+				'cryptlib_debug_64.lib',
+				'zlibstatic_debug_64.lib',
+				'tinyxpath_lib_debug_64.lib',
+				'lualib_debug_64.lib',
+				'luabind_debug_64.lib',
+				'core_Debug_64.lib',
+				'fastformat.0.core.vc9.dll.debug.64.lib',
+				'sharelib_Debug_64.lib',
+				'gamebaselib_Debug_64.lib',
+			]
+	)
+
+elif (platform.system() == "Linux") :
+	
+	CPPPATH1=[
+				'src/.',
+				'../../lib/internal/include/',
+				'../../lib/internal/include/core/',
+				'../../../third/include/',
+				'../../../third/include/zlib/',
+				'../../../third/include/cryptocpp/',
+				'../../../third/include/tinyxpath/',
+				'../../../third/include/libevent/',
+				'../../../third/include/libevent/event2',
+				'../../../third/include/WIN32-Code/',
+				'../../../third/include/coredumper/',
+				'../../../third/include/mysql/linux/',
+				'../../../third/include/mysqlpp/',
+				'../../../third/include/fastformat/',
+				'../../../third/include/stlsoft-1.10-alpha-15-delta/include/',
+				'../../../third/include/lua/',
+				'../../../third/include/ghttp/',
+				'../sharelib/src/',
+				'src/item/',
+				'src/mall/',
+				'src/skill/',
+				'src/equipment/',
+				'../gamebaselib/src/',
+				'src/record'
+				
+			]
+	CCFLAGS1=[
+				'-DNOMINMAX',
+				'-DOS_BIT=64',
+				'-DUSE_FAST_FORMAT',
+				'-DUSE_RTTI',
+				'-DCURL_STATICLIB',
+				'-g3',
+				'-Wall',
+				'-fstack-protector-all',
+				'-std=c++0x',
+				'-Wno-invalid-offsetof',
+				'-Wno-unused',
+				'-fpermissive',
+				#'-fsanitize=address',
+				#'-fsanitize=thread',
+				#'-fmudflap',
+		]
+	LIBPATH1=[
+				'../../../third/lib/',
+				'../../../third/lib/mysql/linux/lib64',
+				'../../lib/internal/lib/',
+		]
+	
+
+	LINKFLAGS1=[	
+				'-Xlinker',
+				#'-lmudflapth',
+		]
+
+	env = Environment()
+
+	serverName = ''
+        release = ARGUMENTS.get('release', 0)
+        if int(release) == 1 :
+		CCFLAGS1.append('-O2')
+		CCFLAGS1.append('-DNDEBUG');
+		LIBS1=[	
+				'gamebaselib_release_64',
+				'sharelib_release_64',
+				'core_release_64',
+				'cryptopp_debug_64',
+				'mysqlpp_debug_64',
+				'mysqlclient',
+				'lualib_debug_64',
+				'cjson',
+				'luabind_debug_64',
+				'tinyxpath_lib_debug_64',
+				'zlibstatic_debug_64',
+				'fastformat.0.core.gcc47.debug_64',
+				'event_debug_64',
+				'curl_debug_64',
+				'rt.a',
+				'ssl.a',
+				'libcoredumper.a',
+				'profiler_debug_64',
+				'ghttp_debug_64',
+		]
+
+                serverName = 'x64/mapserver_r'
+                print 'building '+serverName+' release project!'
+
+        else:
+		CCFLAGS1.append('-D_DEBUG')
+
+		LIBS1=[	
+				'gamebaselib_debug_64',
+				'sharelib_debug_64',
+				'core_debug_64',
+				'cryptopp_debug_64',
+				'mysqlpp_debug_64',
+				'mysqlclient',
+				'lualib_debug_64',
+				'cjson',
+				'luabind_debug_64',
+				'tinyxpath_lib_debug_64',
+				'zlibstatic_debug_64',
+				'fastformat.0.core.gcc47.debug_64',
+				'event_debug_64',
+				'curl_debug_64',
+				'rt.a',
+				'ssl.a',
+				'coredumper',
+				'profiler_debug_64',
+				'ghttp_debug_64',
+		]
+
+                serverName = 'x64/mapserver'
+                print 'building '+serverName+' debug project!'
+	
+	#print CCFLAGS1
+
+	mapserver = env.Program(serverName,
+		Glob('src/*.cpp')+Glob('src/item/*.cpp')+Glob('src/mall/*.cpp')+Glob('src/skill/*.cpp')+Glob('src/equipment/*.cpp')+Glob('src/record/*.cpp'),
+		CPPPATH=CPPPATH1,
+		CCFLAGS=CCFLAGS1,
+		LIBPATH=LIBPATH1,
+		LIBS=LIBS1,
+		LINKFLAGS=LINKFLAGS1
+	)
+	
+	srcMysqlSO = "../../../third/lib/mysql/linux/lib64/libmysqlclient.so";
+	srcMysqlSO1 = "../../../third/lib/mysql/linux/lib64/libmysqlclient.so.18";
+	srcMysqlppSO = "../../../third/lib/libmysqlpp_debug_64.so";
+	srcMysqlppSO1 = "../../../third/lib/libmysqlpp.so.3";
+	srcEventSO = "../../../third/lib/libevent-2.0.so.5";
+	
+	exeTarget = "../../exe/mapserver/";
+	env.Install(exeTarget, mapserver);
+	env.Install(exeTarget, srcMysqlSO);
+	env.Install(exeTarget, srcMysqlSO1);
+	env.Install(exeTarget, srcMysqlppSO);
+	env.Install(exeTarget, srcMysqlppSO1);
+	env.Install(exeTarget, srcEventSO);
+	env.Alias('install', exeTarget)
+	
+else :
+	print "Can't get platform system!", platform.system()

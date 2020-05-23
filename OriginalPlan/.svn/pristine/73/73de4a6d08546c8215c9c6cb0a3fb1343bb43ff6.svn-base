@@ -1,0 +1,1546 @@
+local packCfg = 
+{
+OwnerBuffer={
+	{"buffTypeID","UInt16"},
+	{"buffType","Int32"},
+	{"casterObjUID","UInt32"},
+	{"casterObjGUID","UInt64"},
+	{"casterType","Int32"},
+	{"otherID","UInt16"},
+	{"startTime","UInt32"},
+	{"totoalTime","Int64"},
+	{"lastTime","Int64"},
+	{"timeElapsed","Int64"},
+	{"times","UInt8"},
+	{"level","UInt8"},
+	{"params","array","Int32"},
+},
+AxisPos={
+	{"x","Int16"},
+	{"y","Int16"},
+},
+MissionParam={
+	{"nMaxParam","Int32"},
+	{"nParam","Int32"},
+},
+_ChangeMapSaveData={
+	{"petObjUID","UInt32"},
+	{"petBuffAry","array","OwnerBuffer"},
+},
+SceneData={
+	{"mapServerID","UInt16"},
+	{"sceneID","UInt64"},
+	{"sceneType","Int32"},
+	{"maxRoleNum","Int32"},
+	{"curRoleNum","UInt32"},
+	{"openTime","UInt32"},
+	{"lastTime","Int32"},
+	{"objUID","UInt32"},
+},
+HoleGemInfo={
+	{"pos","UInt8"},
+	{"id","UInt16"},
+},
+ExtendAttr={
+	{"attrType","Int8"},
+	{"valueType","UInt8"},
+	{"attrValue","Int32"},
+},
+GiftBeanReader={
+	{"count","Int32"},
+	{"giftId","Int32"},
+	{"iconFlag","UInt8"},
+	{"icon","String"},
+},
+PackMissionParams={
+	{"missionID","UInt16"},
+	{"missionParam","array","MissionParam"},
+},
+ZoneServer={
+	{"serverId","UInt16"},
+	{"serverName","String"},
+	{"status","UInt8"},
+	{"flag","UInt8"},
+},
+ChangeLineTempData={
+	{"saveData","_ChangeMapSaveData"},
+	{"buffAry","array","OwnerBuffer"},
+	{"pos","AxisPos"},
+	{"mapID","UInt16"},
+	{"pkType","UInt8"},
+	{"camp","Int32"},
+},
+PackMission={
+	{"missionID","UInt16"},
+	{"missionStatus","UInt8"},
+	{"params","array","MissionParam"},
+},
+LoginServerData={
+	{"serverID","UInt16"},
+	{"serverIP","SString"},
+	{"serverPort","UInt16"},
+},
+M2WRoleDataUpdate={
+	{"level","UInt8"},
+	{"mapServerID","UInt16"},
+	{"sceneID","UInt64"},
+	{"pos","AxisPos"},
+},
+LoginServerLog={
+	{"serverId","UInt16"},
+	{"last_visit_time","UInt32"},
+},
+AttackorImpact={
+	{"objUID","UInt32"},
+	{"attrType","Int8"},
+	{"hp","Int32"},
+	{"impactType","UInt8"},
+},
+PackSimpleBuff={
+	{"objUID","UInt32"},
+	{"bufferTypeID","UInt16"},
+},
+PackBuffer={
+	{"objUID","UInt32"},
+	{"bufferTypeID","UInt16"},
+	{"level","UInt8"},
+	{"timeElapsed","UInt32"},
+	{"param","UInt32"},
+},
+MoveItem={
+	{"srcType","UInt8"},
+	{"objUID","UInt32"},
+	{"destType","UInt8"},
+	{"destIndex","UInt8"},
+},
+UpdateItem={
+	{"objUID","UInt32"},
+	{"index","UInt8"},
+	{"itemNum","Int16"},
+},
+MailBeanReader={
+	{"contentFlag","UInt8"},
+	{"content","String"},
+	{"endTime","Int32"},
+	{"golds","Int32"},
+	{"id","Int32"},
+	{"jewels","Int32"},
+	{"senderFlag","UInt8"},
+	{"sender","String"},
+	{"titleFlag","UInt8"},
+	{"title","String"},
+	{"attach","UInt8"},
+	{"read","UInt8"},
+	{"createTime","Int32"},
+},
+CannonBeanReader={
+	{"id","UInt8"},
+	{"bc","UInt8"},
+},
+PackItem={
+	{"objUID","UInt32"},
+	{"itemTypeID","UInt16"},
+	{"index","UInt8"},
+	{"count","Int16"},
+	{"quality","UInt8"},
+	{"bind","UInt8"},
+	{"remainTime","UInt32"},
+	{"stre","UInt8"},
+	{"appendAttrAry","array","ExtendAttr"},
+	{"holeGemAry","array","HoleGemInfo"},
+},
+W2MUserDataUpdate={
+	{"gmPower","UInt8"},
+},
+PlayerInfoBeanReader={
+	{"charms","Int32"},
+	{"constellationFlag","UInt8"},
+	{"constellation","String"},
+	{"dataId","UInt32"},
+	{"golds","Int32"},
+	{"jewels","Int32"},
+	{"level","Int32"},
+	{"locationFlag","UInt8"},
+	{"location","String"},
+	{"city","String"},
+	{"mobileNumFlag","UInt8"},
+	{"mobileNum","String"},
+	{"nickNameFlag","UInt8"},
+	{"nickName","String"},
+	{"selfIconUrlFlag","UInt8"},
+	{"selfIconUrl","String"},
+	{"signatureFlag","UInt8"},
+	{"signature","String"},
+	{"systemIcon","Int32"},
+	{"titleFlag","UInt8"},
+	{"title","String"},
+	{"male","UInt8"},
+	{"online","UInt8"},
+	{"vipLevel","Int32"},
+	{"giftsFlag","UInt8"},
+	{"gifts","array","GiftBeanReader"},
+},
+RoleHeart={
+	{"roleUID","UInt64"},
+	{"accountID","UInt64"},
+	{"onlineFlag","Int8"},
+},
+MapServerUpdate={
+	{"serverID","UInt16"},
+	{"maxRoleNum","Int32"},
+	{"roleNums","Int32"},
+	{"scenes","array","SceneData"},
+},
+CWorldUserData={
+	{"offOverDay","Int8"},
+	{"level","UInt8"},
+	{"sex","UInt8"},
+	{"job","UInt8"},
+	{"accountID","UInt64"},
+	{"roleUID","UInt64"},
+	{"roleName","String"},
+	{"logoutTime","UInt32"},
+	{"newUser","Int8"},
+	{"sceneID","UInt64"},
+},
+RoleDetail={
+	{"objUID","UInt32"},
+	{"roleUID","UInt64"},
+	{"protypeID","UInt8"},
+	{"name","String"},
+	{"level","UInt8"},
+	{"sex","UInt8"},
+	{"maxExp","Int32"},
+	{"exp","Int32"},
+	{"gold","Int32"},
+	{"rmb","Int32"},
+	{"mapID","UInt16"},
+	{"xPos","Int16"},
+	{"yPos","Int16"},
+	{"dir","UInt8"},
+	{"moveSpeed","Int16"},
+	{"maxHp","Int32"},
+	{"curHp","Int32"},
+	{"maxEnergy","Int32"},
+	{"curEnergy","Int32"},
+	{"power","Int32"},
+	{"agility","Int32"},
+	{"wisdom","Int32"},
+	{"physical","Int32"},
+	{"attack","Int32"},
+	{"skillAttack","Int32"},
+	{"damage","Int32"},
+	{"crit","Int32"},
+	{"defense","Int32"},
+	{"damageReduce","Int32"},
+	{"dodge","Int32"},
+},
+LoadRoleData={
+	{"roleUID","UInt64"},
+	{"accountID","UInt64"},
+	{"objUID","UInt32"},
+	{"loadType","Int32"},
+	{"sceneID","UInt64"},
+	{"pos","AxisPos"},
+	{"needOpenMap","Int8"},
+	{"mapID","UInt16"},
+},
+[1010]={
+	s={},
+	c={
+	}
+},
+[1011]={
+	c={},
+	s={
+		{"result","int16"},
+		{"platformList","array","ZoneServer"},
+	}
+},
+[1016]={
+	s={},
+	c={
+		{"account","String"},
+	}
+},
+[1017]={
+	c={},
+	s={
+		{"result","int16"},
+		{"zones","array","ZoneServer"},
+	}
+},
+[1001]={
+	s={},
+	c={
+		{"serverID","UInt16"},
+		{"accountName","String"},
+		{"platUID","String"},
+		{"password","String"},
+		{"extData","String"},
+	}
+},
+[1002]={
+	c={},
+	s={
+		{"result","int16"},
+		{"loginKey","UInt64"},
+		{"serverIP","String"},
+		{"port","UInt32"},
+		{"prvMsg","String"},
+	}
+},
+[1401]={
+	c={},
+	s={
+		{"bagType","UInt8"},
+		{"items","array","PackItem"},
+	}
+},
+[1402]={
+	c={},
+	s={
+		{"bagType","UInt8"},
+		{"items","array","UInt32"},
+	}
+},
+[1403]={
+	c={},
+	s={
+		{"bagType","UInt8"},
+		{"items","array","UpdateItem"},
+	}
+},
+[1404]={
+	c={},
+	s={
+		{"items","array","MoveItem"},
+	}
+},
+[1405]={
+	c={},
+	s={
+		{"srcBagType","UInt8"},
+		{"srcItemUID","UInt32"},
+		{"destBagType","UInt8"},
+		{"destItemUID","UInt32"},
+	}
+},
+[1409]={
+	s={},
+	c={
+		{"opType","UInt8"},
+		{"index","UInt8"},
+	}
+},
+[1410]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[1406]={
+	s={},
+	c={
+		{"size","UInt8"},
+	}
+},
+[1407]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[1408]={
+	c={},
+	s={
+		{"size","UInt8"},
+	}
+},
+[4600]={
+	s={},
+	c={
+		{"id","String"},
+	}
+},
+[4601]={
+	c={},
+	s={
+		{"result","int16"},
+		{"itemId","UInt32"},
+	}
+},
+[1200]={
+	c={},
+	s={
+		{"roleList","array","RoleDetail"},
+	}
+},
+[1201]={
+	c={},
+	s={
+		{"objAry","array","UInt32"},
+	}
+},
+[1202]={
+	c={},
+	s={
+		{"npcs","array","UInt16"},
+		{"trans","array","UInt16"},
+	}
+},
+[1203]={
+	s={},
+	c={
+		{"moveType","UInt8"},
+		{"posList","array","AxisPos"},
+	}
+},
+[1204]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[1205]={
+	c={},
+	s={
+		{"objUID","UInt32"},
+		{"moveType","UInt8"},
+		{"posList","array","AxisPos"},
+	}
+},
+[1220]={
+	s={},
+	c={
+		{"x","Int16"},
+		{"y","Int16"},
+	}
+},
+[1221]={
+	c={},
+	s={
+		{"result","int16"},
+		{"objUID","UInt32"},
+		{"x","Int16"},
+		{"y","Int16"},
+	}
+},
+[1222]={
+	s={},
+	c={
+		{"x","Int16"},
+		{"y","Int16"},
+	}
+},
+[1223]={
+	c={},
+	s={
+		{"result","int16"},
+		{"objUID","UInt32"},
+		{"x","Int16"},
+		{"y","Int16"},
+	}
+},
+[1224]={
+	s={},
+	c={
+		{"objUID","UInt32"},
+		{"x","Int16"},
+		{"y","Int16"},
+	}
+},
+[1225]={
+	c={},
+	s={
+		{"result","int16"},
+		{"srcObjUID","UInt32"},
+		{"objUID","UInt32"},
+		{"x","Int16"},
+		{"y","Int16"},
+	}
+},
+[1226]={
+	c={},
+	s={
+		{"objUID","UInt32"},
+		{"x","Int16"},
+		{"y","Int16"},
+		{"type","UInt8"},
+	}
+},
+[1229]={
+	c={},
+	s={
+		{"mapType","UInt8"},
+	}
+},
+[1206]={
+	s={},
+	c={
+	}
+},
+[1212]={
+	c={},
+	s={
+		{"result","int16"},
+		{"mapID","UInt16"},
+		{"pos","AxisPos"},
+		{"npcs","array","UInt16"},
+		{"trans","array","UInt16"},
+	}
+},
+[1232]={
+	s={},
+	c={
+		{"mapID","UInt16"},
+	}
+},
+[1233]={
+	c={},
+	s={
+		{"result","int16"},
+		{"mapID","UInt16"},
+	}
+},
+[1234]={
+	s={},
+	c={
+		{"mapType","UInt8"},
+	}
+},
+[1235]={
+	c={},
+	s={
+		{"result","int16"},
+		{"scenes","array","UInt64"},
+	}
+},
+[1207]={
+	s={},
+	c={
+		{"channelType","UInt8"},
+		{"objUid","UInt32"},
+		{"roleName","String"},
+		{"msg","String"},
+		{"perMsg","String"},
+	}
+},
+[1208]={
+	c={},
+	s={
+		{"result","int16"},
+		{"channelType","UInt8"},
+		{"objUid","UInt32"},
+		{"roleName","String"},
+		{"msg","String"},
+		{"perMsg","String"},
+	}
+},
+[1219]={
+	c={},
+	s={
+		{"id","Int16"},
+		{"key","String"},
+		{"msg","String"},
+	}
+},
+[1209]={
+	s={},
+	c={
+		{"transportTypeID","UInt16"},
+	}
+},
+[1210]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[1211]={
+	c={},
+	s={
+		{"objUID","UInt32"},
+		{"num","UInt8"},
+		{"datas","array","Int8"},
+	}
+},
+[3999]={
+	c={},
+	s={
+		{"callRetCode","UInt16"},
+	}
+},
+[1213]={
+	s={},
+	c={
+		{"roleName","String"},
+	}
+},
+[1214]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleName","String"},
+	}
+},
+[1215]={
+	s={},
+	c={
+	}
+},
+[1216]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleName","String"},
+	}
+},
+[1217]={
+	c={},
+	s={
+		{"type","Int8"},
+	}
+},
+[1230]={
+	s={},
+	c={
+		{"mapID","UInt16"},
+	}
+},
+[1231]={
+	c={},
+	s={
+		{"result","int16"},
+		{"mapID","UInt16"},
+	}
+},
+[87]={
+	s={},
+	c={
+		{"msg","String"},
+	}
+},
+[853]={
+	c={},
+	s={
+		{"fromPlayer","String"},
+		{"fromPlayerTitle","String"},
+		{"msg","String"},
+		{"fromPlayerVipLv","Int16"},
+	}
+},
+[88]={
+	s={},
+	c={
+		{"msg","String"},
+	}
+},
+[854]={
+	c={},
+	s={
+		{"fromPlayer","String"},
+		{"fromPlayerTitle","String"},
+		{"msg","String"},
+		{"fromPlayerVipLv","Int16"},
+	}
+},
+[491]={
+	c={},
+	s={
+		{"name","String"},
+		{"type","UInt8"},
+		{"count","Int32"},
+	}
+},
+[1300]={
+	c={},
+	s={
+		{"srcObjUID","UInt32"},
+		{"destObjUID","UInt32"},
+		{"skillID","UInt16"},
+		{"x","Int16"},
+		{"y","Int16"},
+		{"objs","array","UInt32"},
+	}
+},
+[1301]={
+	c={},
+	s={
+		{"skillID","UInt16"},
+		{"attackors","array","AttackorImpact"},
+	}
+},
+[1308]={
+	c={},
+	s={
+		{"objUID","UInt32"},
+		{"state","UInt16"},
+	}
+},
+[1306]={
+	c={},
+	s={
+		{"ary","array","PackSimpleBuff"},
+	}
+},
+[1307]={
+	c={},
+	s={
+		{"objUID","UInt32"},
+		{"ary","array","UInt16"},
+	}
+},
+[1302]={
+	s={},
+	c={
+		{"objUID","UInt32"},
+	}
+},
+[1303]={
+	c={},
+	s={
+		{"result","int16"},
+		{"objUID","UInt32"},
+	}
+},
+[1304]={
+	s={},
+	c={
+		{"objUID","UInt32"},
+		{"buffTypeID","UInt16"},
+	}
+},
+[1305]={
+	c={},
+	s={
+		{"result","int16"},
+		{"buff","PackBuffer"},
+	}
+},
+[1311]={
+	s={},
+	c={
+		{"chapterTypeID","Int32"},
+	}
+},
+[1312]={
+	c={},
+	s={
+		{"result","int16"},
+		{"chapterTypeID","Int32"},
+	}
+},
+[1309]={
+	s={},
+	c={
+		{"victoryFlag","Int8"},
+	}
+},
+[1310]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[2001]={
+	s={},
+	c={
+		{"platformId","UInt16"},
+		{"keyId","String"},
+		{"accountPass","String"},
+		{"isGuest","Int8"},
+		{"OS","Int8"},
+	}
+},
+[20011]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[20021]={
+	c={},
+	s={
+		{"platformList","array","ZoneServer"},
+	}
+},
+[2010]={
+	s={},
+	c={
+	}
+},
+[20101]={
+	c={},
+	s={
+		{"result","int16"},
+		{"loginLogList","array","LoginServerLog"},
+	}
+},
+[2003]={
+	s={},
+	c={
+		{"serverId","UInt16"},
+	}
+},
+[20031]={
+	c={},
+	s={
+		{"result","int16"},
+		{"accountId","String"},
+		{"md5","String"},
+		{"ip","String"},
+		{"port","UInt16"},
+		{"platformId","UInt16"},
+	}
+},
+[2011]={
+	s={},
+	c={
+		{"platformId","Int32"},
+		{"accountId","String"},
+		{"serverId","UInt16"},
+		{"md5","String"},
+		{"os","Int8"},
+		{"osVersion","String"},
+		{"relogin","Int8"},
+		{"channel","String"},
+	}
+},
+[20111]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[1105]={
+	c={},
+	s={
+	}
+},
+[1101]={
+	s={},
+	c={
+		{"roleUID","UInt64"},
+	}
+},
+[1102]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleUID","UInt64"},
+	}
+},
+[32]={
+	s={},
+	c={
+		{"accountFlag","UInt8"},
+		{"accountName","String"},
+		{"passwordFlag","UInt8"},
+		{"password","String"},
+		{"sPhoneModelFlag","UInt8"},
+		{"sPhoneModel","String"},
+		{"sChannelFlag","UInt8"},
+		{"sChannel","String"},
+		{"sChildChannelFlag","UInt8"},
+		{"sChildChannel","String"},
+		{"iUserType","UInt32"},
+	}
+},
+[321]={
+	c={},
+	s={
+		{"result","int16"},
+		{"playerDataFlag","UInt8"},
+		{"playerData","PlayerInfoBeanReader"},
+		{"realName","String"},
+		{"address","String"},
+		{"passtokenFlag","UInt8"},
+		{"passtoken","String"},
+		{"serverTime","UInt32"},
+		{"loginAwardGot","UInt8"},
+		{"loginAwardTime","UInt32"},
+		{"selfIconAwardTime","UInt32"},
+		{"dayFirstLogin","UInt8"},
+		{"selfIconAwardGot","UInt8"},
+		{"catAwardGot","UInt8"},
+		{"catAwardValue","UInt32"},
+		{"reachTargetGolds","UInt32"},
+		{"reachTargetAwards","UInt32"},
+		{"hasCharged","UInt8"},
+		{"restGetFreeGoldsTime","UInt32"},
+		{"dayLuckyItem","UInt8"},
+		{"dayLuckyAnim","String"},
+		{"cannons","array","CannonBeanReader"},
+		{"catVipAddition","UInt32"},
+		{"recommendShopId","UInt32"},
+		{"enterRoom","UInt8"},
+		{"friendActionMsgNum","Int32"},
+		{"chatHistoryNum","Int32"},
+		{"mailsFlag","UInt8"},
+		{"mails","array","MailBeanReader"},
+		{"startedActivitysFlag","UInt8"},
+		{"startedActivitys","array","Int32"},
+		{"sortActivityIdsFlag","UInt8"},
+		{"sortActivityIds","array","Int32"},
+		{"loginAdds","array","UInt8"},
+		{"catAdds","array","UInt8"},
+		{"onlineAdds","array","UInt8"},
+		{"shopAdds","array","UInt8"},
+		{"tradeAdds","array","UInt8"},
+		{"charmAdds","array","UInt8"},
+	}
+},
+[1103]={
+	s={},
+	c={
+		{"roleUID","UInt64"},
+	}
+},
+[1104]={
+	c={},
+	s={
+		{"result","int16"},
+		{"detailData","RoleDetail"},
+	}
+},
+[1227]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[1228]={
+	s={},
+	c={
+	}
+},
+[2900]={
+	c={},
+	s={
+		{"missions","array","PackMission"},
+	}
+},
+[2901]={
+	c={},
+	s={
+		{"params","array","PackMissionParams"},
+	}
+},
+[2902]={
+	c={},
+	s={
+		{"missionID","UInt16"},
+	}
+},
+[2903]={
+	s={},
+	c={
+		{"operateType","UInt8"},
+		{"missionID","UInt16"},
+	}
+},
+[2904]={
+	c={},
+	s={
+		{"result","int16"},
+		{"operateType","UInt8"},
+		{"missionID","UInt16"},
+	}
+},
+[1012]={
+	s={},
+	c={
+		{"loginKey","UInt64"},
+		{"prevMsg","String"},
+	}
+},
+[1013]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleUID","UInt64"},
+	}
+},
+[1014]={
+	s={},
+	c={
+		{"sex","UInt8"},
+	}
+},
+[1015]={
+	c={},
+	s={
+		{"result","int16"},
+		{"name","String"},
+	}
+},
+[1008]={
+	s={},
+	c={
+		{"rolePrototypeID","UInt8"},
+		{"roleName","String"},
+	}
+},
+[1009]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleUID","UInt64"},
+	}
+},
+[1003]={
+	s={},
+	c={
+	}
+},
+[1004]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleUID","UInt64"},
+		{"serverIP","String"},
+		{"serverPort","UInt32"},
+	}
+},
+[1005]={
+	s={},
+	c={
+	}
+},
+[1006]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[31500]={
+	s={},
+	c={
+		{"serverID","UInt16"},
+		{"ip","String"},
+		{"port","UInt16"},
+		{"num","Int32"},
+		{"dbIP","String"},
+		{"dbPort","UInt16"},
+		{"dbUser","SString"},
+		{"dbPasswd","SString"},
+	}
+},
+[31501]={
+	c={},
+	s={
+		{"result","int16"},
+		{"serverData","LoginServerData"},
+	}
+},
+[31502]={
+	s={},
+	c={
+		{"loginKey","UInt64"},
+		{"accountID","UInt64"},
+		{"roleUID","UInt64"},
+		{"roleName","String"},
+		{"worldServerID","UInt16"},
+		{"clientIP","String"},
+	}
+},
+[31503]={
+	c={},
+	s={
+		{"result","int16"},
+		{"loginKey","UInt64"},
+		{"accountID","UInt64"},
+		{"roleUID","UInt64"},
+	}
+},
+[31504]={
+	s={},
+	c={
+		{"loginKey","UInt64"},
+		{"accountID","UInt64"},
+		{"roleUID","UInt64"},
+	}
+},
+[31503]={
+	c={},
+	s={
+		{"result","int16"},
+		{"loginKey","UInt64"},
+		{"accountID","UInt64"},
+		{"roleUID","UInt64"},
+	}
+},
+[31506]={
+	s={},
+	c={
+		{"roleNum","Int32"},
+	}
+},
+[31507]={
+	c={},
+	s={
+		{"accountID","array","UInt64"},
+		{"limitKey","String"},
+		{"limitType","Int32"},
+		{"limitVal","UInt8"},
+		{"limitTime","UInt32"},
+	}
+},
+[31508]={
+	c={},
+	s={
+		{"limitAccountID","UInt64"},
+		{"limitRoleID","UInt64"},
+		{"begintime","UInt32"},
+		{"endtime","UInt32"},
+	}
+},
+[31509]={
+	c={},
+	s={
+		{"limitAccountID","UInt64"},
+		{"limitRoleID","UInt64"},
+		{"begintime","UInt32"},
+		{"endtime","UInt32"},
+		{"uniqueId","Int32"},
+	}
+},
+[31510]={
+	c={},
+	s={
+		{"limitAccountID","UInt64"},
+		{"limitRoleID","UInt64"},
+		{"serverID","UInt16"},
+	}
+},
+[31001]={
+	s={},
+	c={
+		{"serverData","MapServerUpdate"},
+		{"serverType","Int32"},
+		{"clientListenIP","String"},
+		{"clientListenPort","UInt16"},
+	}
+},
+[31002]={
+	c={},
+	s={
+		{"result","int16"},
+		{"worldServerID","UInt16"},
+	}
+},
+[31101]={
+	s={},
+	c={
+		{"sendToMe","Int8"},
+		{"srcObjUID","UInt32"},
+		{"msg","String"},
+	}
+},
+[31102]={
+	s={},
+	c={
+		{"srcObjUID","UInt32"},
+		{"destObjUID","UInt32"},
+		{"failedNeedRes","Int8"},
+		{"msg","String"},
+	}
+},
+[31104]={
+	s={},
+	c={
+		{"destObjUID","UInt32"},
+		{"msg","String"},
+	}
+},
+[31103]={
+	c={},
+	s={
+		{"result","int16"},
+		{"srcObjUID","UInt32"},
+		{"destObjUID","UInt32"},
+		{"msg","String"},
+	}
+},
+[31004]={
+	c={},
+	s={
+		{"servers","array","MapServerUpdate"},
+	}
+},
+[31005]={
+	c={},
+	s={
+		{"server","MapServerUpdate"},
+	}
+},
+[31006]={
+	c={},
+	s={
+		{"sceneData","SceneData"},
+	}
+},
+[31007]={
+	c={},
+	s={
+		{"sceneID","UInt64"},
+		{"mapServerID","UInt16"},
+	}
+},
+[31252]={
+	c={},
+	s={
+		{"roleUID","UInt64"},
+		{"sceneID","UInt64"},
+		{"pos","AxisPos"},
+		{"serverID","UInt16"},
+	}
+},
+[31212]={
+	s={},
+	c={
+		{"objUID","UInt32"},
+		{"sceneID","UInt64"},
+		{"pos","AxisPos"},
+		{"mapServerID","UInt16"},
+		{"lastSceneID","UInt64"},
+		{"lastPos","AxisPos"},
+		{"lastMapServerID","UInt16"},
+		{"changeLineTempData","ChangeLineTempData"},
+	}
+},
+[31214]={
+	c={},
+	s={
+		{"objUID","UInt32"},
+		{"mapID","UInt16"},
+		{"sceneID","UInt64"},
+		{"mapServerID","UInt16"},
+		{"pos","AxisPos"},
+	}
+},
+[31213]={
+	c={},
+	s={
+		{"result","int16"},
+		{"objUID","UInt32"},
+		{"mapID","UInt16"},
+		{"clientListenIP","String"},
+		{"clientListenPort","UInt16"},
+	}
+},
+[31201]={
+	s={},
+	c={
+		{"loadData","LoadRoleData"},
+		{"socketIndex","UInt64"},
+		{"changeLineTempData","ChangeLineTempData"},
+	}
+},
+[31202]={
+	c={},
+	s={
+		{"result","int16"},
+		{"loadData","LoadRoleData"},
+		{"userData","CWorldUserData"},
+		{"socketIndex","UInt64"},
+	}
+},
+[31203]={
+	s={},
+	c={
+		{"needRet","Int8"},
+		{"unloadType","Int32"},
+		{"socketIndex","UInt64"},
+		{"roleUID","UInt64"},
+		{"accountID","UInt64"},
+		{"objUID","UInt32"},
+	}
+},
+[31204]={
+	c={},
+	s={
+		{"result","int16"},
+		{"unloadType","Int32"},
+		{"socketIndex","UInt64"},
+		{"roleUID","UInt64"},
+		{"accountID","UInt64"},
+	}
+},
+[31205]={
+	s={},
+	c={
+		{"roleUID","UInt64"},
+		{"objUID","UInt32"},
+		{"accountID","UInt64"},
+		{"socketIndex","UInt64"},
+	}
+},
+[31211]={
+	c={},
+	s={
+		{"firstLogin","Int8"},
+		{"objUID","UInt32"},
+	}
+},
+[31207]={
+	s={},
+	c={
+		{"roles","array","RoleHeart"},
+	}
+},
+[31208]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roles","array","RoleHeart"},
+	}
+},
+[31206]={
+	c={},
+	s={
+		{"roleUID","UInt64"},
+		{"accountID","UInt64"},
+		{"socketIndex","UInt64"},
+	}
+},
+[31209]={
+	c={},
+	s={
+		{"objUID","UInt32"},
+		{"userData","W2MUserDataUpdate"},
+	}
+},
+[31210]={
+	c={},
+	s={
+		{"objUID","UInt32"},
+		{"roleData","M2WRoleDataUpdate"},
+	}
+},
+[31215]={
+	s={},
+	c={
+		{"roleUID","UInt64"},
+		{"sex","UInt8"},
+	}
+},
+[31216]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleUID","UInt64"},
+		{"roleName","String"},
+	}
+},
+[31217]={
+	s={},
+	c={
+		{"roleUID","UInt64"},
+		{"roleName","String"},
+	}
+},
+[31218]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleUID","UInt64"},
+		{"roleName","String"},
+	}
+},
+[31219]={
+	s={},
+	c={
+	}
+},
+[31220]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleNameList","array","String"},
+	}
+},
+[32104]={
+	s={},
+	c={
+		{"serialNo","String"},
+		{"roleUID","UInt64"},
+		{"accountID","UInt64"},
+		{"rmb","Int32"},
+		{"bindRmb","Int32"},
+	}
+},
+[32105]={
+	c={},
+	s={
+		{"result","int16"},
+		{"serialNo","String"},
+		{"roleUID","UInt64"},
+		{"accountID","UInt64"},
+		{"isFirstCharge","Int8"},
+		{"rmb","Int32"},
+		{"bindRmb","Int32"},
+	}
+},
+[31244]={
+	c={},
+	s={
+		{"openTime","UInt32"},
+		{"firstStartTime","UInt32"},
+	}
+},
+[31245]={
+	c={},
+	s={
+		{"bindRmb","Int32"},
+		{"gameMoney","Int32"},
+		{"roleUID","UInt64"},
+	}
+},
+[31246]={
+	c={},
+	s={
+		{"lastTime","Int32"},
+		{"interval","Int32"},
+		{"msg","String"},
+	}
+},
+[31241]={
+	c={},
+	s={
+		{"limitAccountID","UInt64"},
+		{"limitRoleID","UInt64"},
+		{"begintime","UInt32"},
+		{"endtime","UInt32"},
+	}
+},
+[31242]={
+	c={},
+	s={
+		{"limitAccountID","UInt64"},
+		{"limitRoleID","UInt64"},
+		{"begintime","UInt32"},
+		{"endtime","UInt32"},
+		{"uniqueId","Int32"},
+	}
+},
+[31243]={
+	c={},
+	s={
+		{"limitAccountID","UInt64"},
+		{"limitRoleID","UInt64"},
+	}
+},
+[31238]={
+	s={},
+	c={
+		{"roleUID","UInt64"},
+		{"objUid","UInt32"},
+		{"id","String"},
+	}
+},
+[31239]={
+	c={},
+	s={
+		{"result","int16"},
+		{"roleUID","UInt64"},
+		{"objUid","UInt32"},
+		{"itemId","UInt32"},
+	}
+},
+[32000]={
+	s={},
+	c={
+		{"msg","String"},
+	}
+},
+[32001]={
+	c={},
+	s={
+		{"result","int16"},
+		{"msg","String"},
+	}
+},
+[31400]={
+	c={},
+	s={
+		{"recordeData","String"},
+	}
+},
+[31401]={
+	c={},
+	s={
+		{"recordeData","String"},
+	}
+},
+[31401]={
+	c={},
+	s={
+		{"recordeData","String"},
+	}
+},
+[31404]={
+	c={},
+	s={
+		{"recordeData","String"},
+	}
+},
+[31409]={
+	c={},
+	s={
+		{"recordeData","String"},
+	}
+},
+[31405]={
+	s={},
+	c={
+	}
+},
+[31406]={
+	c={},
+	s={
+		{"result","int16"},
+		{"serverIP","String"},
+		{"serverPort","UInt16"},
+		{"startTime","UInt32"},
+		{"platFormID","UInt16"},
+		{"serverID","UInt16"},
+		{"platFormName","String"},
+		{"md5KeyStr","String"},
+	}
+},
+[32100]={
+	s={},
+	c={
+		{"serverID","UInt16"},
+	}
+},
+[32101]={
+	c={},
+	s={
+		{"result","int16"},
+	}
+},
+[32102]={
+	s={},
+	c={
+		{"serialNo","String"},
+		{"accountID","UInt64"},
+		{"rmb","Int32"},
+	}
+},
+[32103]={
+	c={},
+	s={
+		{"result","int16"},
+		{"serialNo","String"},
+		{"accountID","UInt64"},
+		{"rmb","Int32"},
+		{"bindRmb","Int32"},
+		{"retCode","UInt16"},
+		{"onlineFlag","Int8"},
+	}
+},
+}
+return packCfg

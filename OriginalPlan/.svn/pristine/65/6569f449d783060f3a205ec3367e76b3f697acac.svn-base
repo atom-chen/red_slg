@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id ="10001" map="10001" type="1" kuan="10000" gao="10000" x="300" y="500"/>
+    <i id ="1001" map="1001" type="2" kuan="60" gao="20" x="39" y="5"/>
+    <i id ="2001" map="2001" type="2" kuan="" gao="" x="" y=""/>
+    <i id ="2002" map="2002" type="2" kuan="" gao="" x="" y=""/>
+    <i id ="2003" map="2003" type="2" kuan="" gao="" x="" y=""/>
+    <i id ="2004" map="2004" type="2" kuan="" gao="" x="" y=""/>
+    <i id ="2005" map="2005" type="2" kuan="" gao="" x="" y=""/>
+</root>

@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>TuLong: CServerPacket结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">TuLong
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>组</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="a00232.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">CServerPacket结构体 参考<div class="ingroups"><a class="el" href="a00156.html">基本协议结构定义</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 CServerPacket 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="a00043.png" usemap="#CServerPacket_map" alt=""/>
+  <map id="CServerPacket_map" name="CServerPacket_map">
+<area href="a00042.html" alt="CResponsePacket" shape="rect" coords="0,56,150,80"/>
+<area href="a00016.html" alt="CBasePacket" shape="rect" coords="0,0,150,24"/>
+<area href="a00077.html" title="主动添加物品操作 - 1401 " alt="MCAddItems" shape="rect" coords="160,168,310,192"/>
+<area href="a00078.html" title="公告及提示 - 1219 " alt="MCAnnouncement" shape="rect" coords="160,224,310,248"/>
+<area href="a00080.html" title="返回错误码 - 3999 " alt="MCCallBackRetCode" shape="rect" coords="160,280,310,304"/>
+<area href="a00082.html" title="删除一个任务 - 2902 " alt="MCDeleteMission" shape="rect" coords="160,336,310,360"/>
+<area href="a00083.html" title="主动删除物品操作 - 1402 " alt="MCDelItem" shape="rect" coords="160,392,310,416"/>
+<area href="a00087.html" title="进入视野 - 1200 " alt="MCEnterView" shape="rect" coords="160,448,310,472"/>
+<area href="a00089.html" title="交换道具 - 1405 " alt="MCExchangeItem" shape="rect" coords="160,504,310,528"/>
+<area href="a00090.html" title="背包增加格子 - 1408 " alt="MCExtendPack" shape="rect" coords="160,560,310,584"/>
+<area href="a00093.html" title="踢掉玩家 - 1217 " alt="MCKickRole" shape="rect" coords="160,616,310,640"/>
+<area href="a00095.html" title="离开视野 - 1201 " alt="MCLeaveView" shape="rect" coords="160,672,310,696"/>
+<area href="a00098.html" title="移动广播 - 1205 " alt="MCMoveBroad" shape="rect" coords="160,728,310,752"/>
+<area href="a00099.html" title="移动道具 - 1404 " alt="MCMoveItem" shape="rect" coords="160,784,310,808"/>
+<area href="a00104.html" title="瞬移 - 1226 " alt="MCResetPos" shape="rect" coords="160,840,310,864"/>
+<area href="a00105.html" title="场景数据 - 1202 " alt="MCSceneData" shape="rect" coords="160,896,310,920"/>
+<area href="a00106.html" title="同步角色数据 - 1211 " alt="MCSyncRoleData" shape="rect" coords="160,952,310,976"/>
+<area href="a00108.html" title="主动更新物品操作 - 1403 " alt="MCUpdateItem" shape="rect" coords="160,1008,310,1032"/>
+<area href="a00109.html" title="更新任务列表 - 2900 " alt="MCUpdateMissionList" shape="rect" coords="160,1064,310,1088"/>
+<area href="a00110.html" title="更新条件参数 - 2901 " alt="MCUpdateMissionParam" shape="rect" coords="160,1120,310,1144"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a8b3aadd775cb8b03700a880eb30328a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b3aadd775cb8b03700a880eb30328a9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CServerPacket</b> (TPacketID_t id)</td></tr>
+<tr class="separator:a8b3aadd775cb8b03700a880eb30328a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00042"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00042')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="a00042.html">CResponsePacket</a></td></tr>
+<tr class="memitem:a8314300ceb16a8cbfad24c541076b67a inherit pub_methods_a00042"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8314300ceb16a8cbfad24c541076b67a"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isSuccess</b> ()</td></tr>
+<tr class="separator:a8314300ceb16a8cbfad24c541076b67a inherit pub_methods_a00042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86abb23d0a89ca05dca138e6e25fc73f inherit pub_methods_a00042"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86abb23d0a89ca05dca138e6e25fc73f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CResponsePacket</b> (TPacketID_t id)</td></tr>
+<tr class="separator:a86abb23d0a89ca05dca138e6e25fc73f inherit pub_methods_a00042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a455a086fc266bdfac61fad39c9d024 inherit pub_methods_a00042"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a455a086fc266bdfac61fad39c9d024"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>serialPackHeader</b> (GXMISC::IStream &amp;f) const </td></tr>
+<tr class="separator:a8a455a086fc266bdfac61fad39c9d024 inherit pub_methods_a00042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1302372d54298c007446c339ba7ec12 inherit pub_methods_a00042"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1302372d54298c007446c339ba7ec12"></a>
+uint32&#160;</td><td class="memItemRight" valign="bottom"><b>serialPackHeaderLen</b> () const </td></tr>
+<tr class="separator:ab1302372d54298c007446c339ba7ec12 inherit pub_methods_a00042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf8081c9ff06335e0df60f61c51d4e1 inherit pub_methods_a00042"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abaf8081c9ff06335e0df60f61c51d4e1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>unserialPackHeader</b> (GXMISC::IUnStream &amp;f) const </td></tr>
+<tr class="separator:abaf8081c9ff06335e0df60f61c51d4e1 inherit pub_methods_a00042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8775d408fa552ccc1ec9f9f0dfe74801 inherit pub_methods_a00042"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8775d408fa552ccc1ec9f9f0dfe74801"></a>
+TRetCode_t&#160;</td><td class="memItemRight" valign="bottom"><b>getRetCode</b> () const </td></tr>
+<tr class="separator:a8775d408fa552ccc1ec9f9f0dfe74801 inherit pub_methods_a00042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad129e4320729069b74025d6ae736f9de inherit pub_methods_a00042"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad129e4320729069b74025d6ae736f9de"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setRetCode</b> (TRetCode_t val)</td></tr>
+<tr class="separator:ad129e4320729069b74025d6ae736f9de inherit pub_methods_a00042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00016"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00016')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="a00016.html">CBasePacket</a></td></tr>
+<tr class="memitem:ac2bc4f62e4d55e3f10ddfbdc0ad15ba1 inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2bc4f62e4d55e3f10ddfbdc0ad15ba1"></a>
+TPackLen_t&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalLen</b> () const </td></tr>
+<tr class="separator:ac2bc4f62e4d55e3f10ddfbdc0ad15ba1 inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f1c6d3148d83370c82ac6a476d3c1e inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56f1c6d3148d83370c82ac6a476d3c1e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalLen</b> (TPackLen_t val)</td></tr>
+<tr class="separator:a56f1c6d3148d83370c82ac6a476d3c1e inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66031b08512a05cc7eb21ac51c38187b inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66031b08512a05cc7eb21ac51c38187b"></a>
+TPackFlag_t&#160;</td><td class="memItemRight" valign="bottom"><b>getFlag</b> () const </td></tr>
+<tr class="separator:a66031b08512a05cc7eb21ac51c38187b inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56585c40d656bd3e1d967497330938e7 inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56585c40d656bd3e1d967497330938e7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setFlag</b> (TPackFlag_t val)</td></tr>
+<tr class="separator:a56585c40d656bd3e1d967497330938e7 inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9620b3f2bd5b6ef8b524b406aa02e85e inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9620b3f2bd5b6ef8b524b406aa02e85e"></a>
+TPacketID_t&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketID</b> () const </td></tr>
+<tr class="separator:a9620b3f2bd5b6ef8b524b406aa02e85e inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5615e5cac5c85ddeba8646b2b225fc7 inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5615e5cac5c85ddeba8646b2b225fc7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setPacketID</b> (TPacketID_t val)</td></tr>
+<tr class="separator:ad5615e5cac5c85ddeba8646b2b225fc7 inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f9f9c5c6d46b69a1cce8746fb02f59 inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3f9f9c5c6d46b69a1cce8746fb02f59"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CBasePacket</b> (TPacketID_t id)</td></tr>
+<tr class="separator:ad3f9f9c5c6d46b69a1cce8746fb02f59 inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad707f02d5bf695f1c5cd816b0338729e inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad707f02d5bf695f1c5cd816b0338729e"></a>
+TPacketID_t&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketID</b> ()</td></tr>
+<tr class="separator:ad707f02d5bf695f1c5cd816b0338729e inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac76d1dff40a567bda9e3ce21e89bf2b3 inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac76d1dff40a567bda9e3ce21e89bf2b3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>check</b> ()</td></tr>
+<tr class="separator:ac76d1dff40a567bda9e3ce21e89bf2b3 inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9044ccc5ea352be3e7f8c1e2edafb434 inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9044ccc5ea352be3e7f8c1e2edafb434"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isCrypt</b> ()</td></tr>
+<tr class="separator:a9044ccc5ea352be3e7f8c1e2edafb434 inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80ba5c66923bea581660fe229a43de86 inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80ba5c66923bea581660fe229a43de86"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isCompress</b> ()</td></tr>
+<tr class="separator:a80ba5c66923bea581660fe229a43de86 inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fcca182dabbaea76a6bfc50b723d6e7 inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fcca182dabbaea76a6bfc50b723d6e7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setUnCompressed</b> ()</td></tr>
+<tr class="separator:a0fcca182dabbaea76a6bfc50b723d6e7 inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa39d33cf927c1be9883ec4e7649e8022 inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa39d33cf927c1be9883ec4e7649e8022"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCompressed</b> ()</td></tr>
+<tr class="separator:aa39d33cf927c1be9883ec4e7649e8022 inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4379b3209b95d1f6905fddd07303803a inherit pub_methods_a00016"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4379b3209b95d1f6905fddd07303803a"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> ()</td></tr>
+<tr class="separator:a4379b3209b95d1f6905fddd07303803a inherit pub_methods_a00016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pub_attribs_a00042"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_a00042')"><img src="closed.png" alt="-"/>&#160;Public 属性 继承自 <a class="el" href="a00042.html">CResponsePacket</a></td></tr>
+<tr class="memitem:a8767fa648bbf70bb54da1e2bce056411 inherit pub_attribs_a00042"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8767fa648bbf70bb54da1e2bce056411"></a>
+TRetCode_t&#160;</td><td class="memItemRight" valign="bottom"><b>retCode</b></td></tr>
+<tr class="separator:a8767fa648bbf70bb54da1e2bce056411 inherit pub_attribs_a00042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>该结构体的文档由以下文件生成:<ul>
+<li>E:/work/project/code/trunk/shenglqs/server/tools/docgen/cpptodoxy/doc/<a class="el" href="a00147_source.html">packet.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2014年 十二月 31日 星期三 18:29:07 , 为 TuLong使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

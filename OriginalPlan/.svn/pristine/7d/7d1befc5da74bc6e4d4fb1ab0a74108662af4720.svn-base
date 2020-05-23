@@ -1,0 +1,9 @@
+1. luabind 有class机制
+2. C++提供的接口全部用std::string, 否则char*需要判断是否为空并且是否为""
+   谨记：不要在Lua中传递nil或0给字符串参数，在给Lua注册使用的函数接口中字符串参数尽可能的用std::string代替，
+   如果非要用const char*，记得把空串和NULL判断平级
+3.谨记：在luabind中会判定Lua中传进来的参数类型和C++注册函数的参数类型匹配，如果参数是C++注册类对象指针，则会将nil转换为NULL使用
+4. http://www.cppblog.com/clane/archive/2009/01/08/71511.html luabind的converter和policy 
+5. http://blog.csdn.net/gongxinheng/article/details/5421914 多索引容器multi_index_container实战 
+6. http://blog.csdn.net/gongxinheng/article/details/4380526 利用luabind将Lua嵌入到C++项目中
+7. http://blog.csdn.net/linkerlin/article/details/2254725 LuaBind --最强大的Lua C++ Bind 

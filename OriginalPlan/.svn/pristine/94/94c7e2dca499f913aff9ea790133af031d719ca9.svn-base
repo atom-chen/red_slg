@@ -1,0 +1,1 @@
+return {[1]={index=1,score=1000,crystal=2},[2]={index=2,score=1500,crystal=2},[3]={index=3,score=5500,crystal=2},[4]={index=4,score=8550,crystal=2},[5]={index=5,score=18000,crystal=2},[6]={index=6,score=20000,crystal=2},[7]={index=7,score=40000,crystal=2},[8]={index=8,score=45500,crystal=2},[9]={index=9,score=90000,crystal=2},[10]={index=10,score=100000,crystal=2}}

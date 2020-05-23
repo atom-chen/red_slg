@@ -1,0 +1,63 @@
+; ============================================================================================
+; 以下都需要资源服务器进行管理
+
+; 世界服务器
+[WorldServer]
+FrameSleepTime=50								; 每帧休息毫秒数
+GmCheck=1									; 是否进行GM检测
+ClientNum=3000									; 客户端数目
+LoginPlayerNum=50								; 登陆队列的大小
+MapServerNum=10									; 地图服务器个数
+ConfigTblPath=config_tbl							; 配置文件位置
+FilterName=CheckInfor.txt							; 脏字过滤文件
+
+ClientListenSocket=I:127.0.0.1|P:9010|C:0|CN:10|CL:100|CML:10000|CMIN:2		; 客户端监听端口
+SvrMgrListenSocket=I:127.0.0.1|P:9210|C:0|CN:10|CL:100|CML:10000|CMIN:2		; 管理服务器端口
+RecordeListenSocket=I:127.0.0.1|P:9060|C:0|CN:10|CL:100|CML:10000|CMIN:2	; 日志服务器端口
+BillListenSocket=I:127.0.0.1|P:9042|C:0|CN:10|CL:100|CML:10000|CMIN:2		; 充值服务器端口
+GmListenSocket=I:127.0.0.1|P:9050|C:0|CN:10|CL:100|CML:10000|CMIN:2		; GM监听端口
+MapServerListenSocket=I:127.0.0.1|P:9020|C:0|CN:10|CL:100|CML:10000|CMIN:2	; 地图服务器监听端口
+LoginServerSocket=I:127.0.0.1|P:9071|C:0|CN:10|CL:100|CML:10000|CMIN:2		; 登陆服务器端口
+
+HttpListenIP=127.0.0.1								; HTTP监听IP
+HttpListenPort=9080								; HTTP监听端口
+
+ToClientIP=127.0.0.1								; 开放给客户端的IP
+ToClientPort=7010								; 开放给客户端的端口
+WorldDbHost=192.168.10.201							; 数据库IP
+WorldDbPort=3307								; 数据库端口
+WorldDbName=gamedb								; 数据库名字
+WorldDbUser=root								; 数据库用户名
+WorldDbPass=root123								; 数据库密码
+
+; 登陆数据库
+[DatabaseHost0]
+DbHostID=1									; ID
+DbHost=192.168.10.201:3307							; IP:Port
+DbName=serverdb									; 数据库名
+DbUser=root									; 数据库用户名
+DbPass=root123									; 密码
+ConnNum=6									; 连接数
+MaxUserNumPerConn=1								; 每个连接的用户数
+
+; 游戏数据库
+[DatabaseHost1]
+DbHostID=2									; ID
+DbHost=192.168.10.201:3307							; IP:Port
+DbName=gamedb									; 数据库名
+DbUser=root									; 数据库用户名
+DbPass=root123									; 密码
+ConnNum=6									; 连接数
+MaxUserNumPerConn=1								; 每个连接的用户数
+
+; 服务器列表数据库
+[DatabaseHost2]
+DbHostID=4									; ID
+DbHost=192.168.10.201:3307							; IP:Port
+DbName=serverdb									; 数据库名
+DbUser=root									; 数据库用户名
+DbPass=root123									; 密码
+ConnNum=1									; 连接数
+MaxUserNumPerConn=1								; 每个连接的用户数
+
+; ============================================================================================

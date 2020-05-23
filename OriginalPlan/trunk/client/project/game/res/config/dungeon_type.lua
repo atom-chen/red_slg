@@ -1,0 +1,1 @@
+return {normal={beginId=10000,toId=19999,},daily={beginId=30101,toId=30107,},cooperation={beginId=40000,toId=49999,},union={beginId=50000,toId=59999,},city={beginId=60000,toId=69999,},elite={beginId=20000,toId=29999,},king_boss={beginId=80000,toId=89999,},}

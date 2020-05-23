@@ -1,0 +1,16 @@
+﻿;日志
+changeLogFiles=packet_change_log.h
+;错误码
+errnoFiles=game_errno.h
+;枚举
+definesFiles=game_define.h,item_define.h
+;常量
+constValueFiles=extra_const_value.txt,server_define.h
+;协议ID
+packetIDFiles=packet_id_def.h
+;类型
+typesFiles=extra_types.txt,game_util.h,game_base_util.h
+;结构
+structFiles=game_struct.h,packet_struct.h,bag_struct.h,rand_drop_struct.h,game_pos.h,attr_backup_struct.h,object_struct.h,mission_struct.h,attributes.h,item_struct.h
+;协议
+packetFiles=base_packet_def.h,packet_cl_login.h,packet_cw_login.h,packet_cm_base.h,packet_cm_login.h,packet_cm_mission.h,packet_cm_bag.h

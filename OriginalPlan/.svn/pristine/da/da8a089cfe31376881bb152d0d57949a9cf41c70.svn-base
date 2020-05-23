@@ -1,0 +1,1 @@
+return {["building_create_army_item"]={"法师","未解锁"}}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" type="1" showlv="1" openlv="1" data="8" begin="00|00" end="23|59" last="1"/>
+    <i id="2" type="2" showlv="1" openlv="20" data="8" begin="00|00" end="23|59" last="1"/>
+    <i id="3" type="3" showlv="1" openlv="1" data="8" begin="11|00" end="13|00" last="0"/>
+    <i id="4" type="3" showlv="1" openlv="1" data="8" begin="18|00" end="20|00" last="1"/>
+</root>

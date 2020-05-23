@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" nextid="2" level="1" exp="400" feed="100" require="1" addition_1="10000" addition_2="10000" addition_3="10000" hp="1160" attack="110" defense="40" crit="40"/>
+    <i id="2" nextid="3" level="1" exp="500" feed="100" require="1" addition_1="10000" addition_2="10000" addition_3="10000" hp="1738" attack="165" defense="61" crit="62"/>
+    <i id="3" nextid="4" level="1" exp="700" feed="100" require="1" addition_1="10000" addition_2="10000" addition_3="10000" hp="2316" attack="220" defense="82" crit="84"/>
+    <i id="4" nextid="5" level="1" exp="900" feed="100" require="1" addition_1="10000" addition_2="10000" addition_3="10000" hp="2894" attack="275" defense="103" crit="106"/>
+    <i id="5" nextid="6" level="1" exp="1100" feed="100" require="1" addition_1="10000" addition_2="10000" addition_3="10000" hp="3472" attack="330" defense="124" crit="128"/>
+    <i id="6" nextid="7" level="2" exp="1300" feed="100" require="1" addition_1="10000" addition_2="10000" addition_3="10000" hp="4050" attack="385" defense="145" crit="150"/>
+    <i id="7" nextid="8" level="2" exp="1600" feed="100" require="2" addition_1="10000" addition_2="10000" addition_3="10000" hp="4628" attack="440" defense="166" crit="172"/>
+    <i id="8" nextid="9" level="2" exp="1800" feed="100" require="2" addition_1="10000" addition_2="10000" addition_3="10000" hp="5206" attack="495" defense="187" crit="194"/>
+    <i id="9" nextid="10" level="2" exp="2000" feed="100" require="2" addition_1="10000" addition_2="10000" addition_3="10000" hp="5784" attack="550" defense="208" crit="216"/>
+    <i id="10" nextid="11" level="2" exp="2300" feed="100" require="2" addition_1="10000" addition_2="10000" addition_3="10000" hp="6362" attack="605" defense="229" crit="238"/>
+    <i id="11" nextid="12" level="3" exp="2600" feed="100" require="2" addition_1="10000" addition_2="10000" addition_3="10000" hp="6940" attack="660" defense="250" crit="260"/>
+    <i id="12" nextid="13" level="3" exp="2800" feed="100" require="2" addition_1="10000" addition_2="10000" addition_3="10000" hp="7518" attack="715" defense="271" crit="282"/>
+    <i id="13" nextid="14" level="3" exp="3100" feed="100" require="4" addition_1="10000" addition_2="10000" addition_3="10000" hp="8096" attack="770" defense="292" crit="304"/>
+    <i id="14" nextid="15" level="3" exp="3400" feed="100" require="4" addition_1="10000" addition_2="10000" addition_3="10000" hp="8674" attack="825" defense="313" crit="326"/>
+    <i id="15" nextid="16" level="3" exp="3700" feed="100" require="4" addition_1="10000" addition_2="10000" addition_3="10000" hp="9252" attack="880" defense="334" crit="348"/>
+    <i id="16" nextid="17" level="4" exp="4000" feed="100" require="4" addition_1="10000" addition_2="10000" addition_3="10000" hp="9830" attack="935" defense="355" crit="370"/>
+    <i id="17" nextid="18" level="4" exp="4300" feed="100" require="4" addition_1="10000" addition_2="10000" addition_3="10000" hp="10408" attack="990" defense="376" crit="392"/>
+    <i id="18" nextid="19" level="4" exp="4600" feed="100" require="4" addition_1="10000" addition_2="10000" addition_3="10000" hp="10986" attack="1045" defense="397" crit="414"/>
+    <i id="19" nextid="20" level="4" exp="4900" feed="100" require="8" addition_1="10000" addition_2="10000" addition_3="10000" hp="11564" attack="1100" defense="418" crit="436"/>
+    <i id="20" nextid="21" level="4" exp="5200" feed="100" require="8" addition_1="10000" addition_2="10000" addition_3="10000" hp="12142" attack="1155" defense="439" crit="458"/>
+    <i id="21" nextid="22" level="5" exp="5500" feed="100" require="8" addition_1="10000" addition_2="10000" addition_3="10000" hp="12720" attack="1210" defense="460" crit="480"/>
+    <i id="22" nextid="23" level="5" exp="5900" feed="100" require="8" addition_1="10000" addition_2="10000" addition_3="10000" hp="13298" attack="1265" defense="481" crit="502"/>
+    <i id="23" nextid="24" level="5" exp="6200" feed="100" require="8" addition_1="10000" addition_2="10000" addition_3="10000" hp="13876" attack="1320" defense="502" crit="524"/>
+    <i id="24" nextid="25" level="5" exp="6500" feed="100" require="8" addition_1="10000" addition_2="10000" addition_3="10000" hp="14454" attack="1375" defense="523" crit="546"/>
+    <i id="25" nextid="26" level="5" exp="6900" feed="100" require="16" addition_1="10000" addition_2="10000" addition_3="10000" hp="15032" attack="1430" defense="544" crit="568"/>
+    <i id="26" nextid="27" level="6" exp="7200" feed="100" require="16" addition_1="10000" addition_2="10000" addition_3="10000" hp="15610" attack="1485" defense="565" crit="590"/>
+    <i id="27" nextid="28" level="6" exp="7600" feed="100" require="16" addition_1="10000" addition_2="10000" addition_3="10000" hp="16188" attack="1540" defense="586" crit="612"/>
+    <i id="28" nextid="29" level="6" exp="7900" feed="100" require="16" addition_1="10000" addition_2="10000" addition_3="10000" hp="16766" attack="1595" defense="607" crit="634"/>
+    <i id="29" nextid="30" level="6" exp="8300" feed="100" require="16" addition_1="10000" addition_2="10000" addition_3="10000" hp="17344" attack="1650" defense="628" crit="656"/>
+    <i id="30" nextid="0" level="6" exp="8600" feed="100" require="16" addition_1="10000" addition_2="10000" addition_3="10000" hp="17922" attack="1705" defense="649" crit="678"/>
+</root>

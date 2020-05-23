@@ -1,0 +1,1 @@
+return {["world_buttom_menu"]={"9999m","X:114 Y:110"}}

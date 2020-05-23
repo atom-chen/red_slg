@@ -1,0 +1,1 @@
+return {["town_building_map"]={}}

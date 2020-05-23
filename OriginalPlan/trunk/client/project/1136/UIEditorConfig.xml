@@ -1,0 +1,17 @@
+<Root>
+	<ResourcePath path="res\">
+		<path>..\..\..\assets\common</path>
+		<path>F:\slg\OriginalPlan\trunk\client\project\assets\common\</path><path>F:\slg\OriginalPlan\trunk\client\project\assets\ui\fight\</path><path>F:\slg\OriginalPlan\trunk\client\project\assets\ui\town\</path><path>F:\slg\OriginalPlan\trunk\client\project\assets\ui\fightResult\</path><path>F:\slg\OriginalPlan\trunk\client\project\assets\ui\fightWin\</path></ResourcePath>
+	<StaticResourcePath>
+	</StaticResourcePath>
+	<LanguagePath>
+		<path>..\..\..\game\res\uilayer\zh_cn</path>
+		<path>zh_cn.lua</path>
+	</LanguagePath>
+	<SpritePath>
+		<path>.\Sprite</path>
+	</SpritePath>
+	<SpriteTargetPath>
+		<path>.\SpriteTarget</path>
+	</SpriteTargetPath>
+</Root>

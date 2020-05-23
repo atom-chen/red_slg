@@ -1,0 +1,1 @@
+return {alignment=18,count=2,[1]={align=4,cName="btn_add1u1",fontColor=0,fontSize=12,height=54,isEnlarge=0,isSTensile=1,picName="btn_add1u.png",tag=0,textType=0,type=0,width=54,x=-77,y=-67},[2]={align=4,cName="btn_blue_0d1",fontColor=0,fontSize=12,height=34,isEnlarge=0,isSTensile=1,picName="btn_blue_0d.png",tag=0,textType=0,type=0,width=80,x=-14,y=-10}}

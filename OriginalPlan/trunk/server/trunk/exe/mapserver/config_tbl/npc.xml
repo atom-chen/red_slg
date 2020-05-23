@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" bodyid="3011" map="" x="" y="" function1="" function2=""/>
+    <i id="2" bodyid="4000" map="1000" x="33" y="9" function1="0" function2="0"/>
+    <i id="3" bodyid="4001" map="1001" x="45" y="9" function1="0" function2="0"/>
+    <i id="4" bodyid="4002" map="1000" x="45" y="9" function1="0" function2="0"/>
+    <i id="5" bodyid="4005" map="" x="" y="" function1="" function2=""/>
+    <i id="6" bodyid="3004" map="" x="" y="" function1="" function2=""/>
+    <i id="7" bodyid="4003" map="1001" x="15" y="9" function1="0" function2="0"/>
+    <i id="8" bodyid="4004" map="1001" x="33" y="9" function1="0" function2="0"/>
+    <i id="9" bodyid="3030" map="" x="" y="" function1="" function2=""/>
+    <i id="10" bodyid="3005" map="" x="" y="" function1="" function2=""/>
+    <i id="11" bodyid="3007" map="" x="" y="" function1="" function2=""/>
+    <i id="12" bodyid="3006" map="" x="" y="" function1="" function2=""/>
+    <i id="13" bodyid="3009" map="" x="" y="" function1="" function2=""/>
+    <i id="14" bodyid="3012" map="" x="" y="" function1="" function2=""/>
+    <i id="15" bodyid="3013" map="" x="" y="" function1="" function2=""/>
+    <i id="16" bodyid="3011" map="" x="" y="" function1="" function2=""/>
+    <i id="17" bodyid="3010" map="" x="" y="" function1="" function2=""/>
+    <i id="18" bodyid="3016" map="" x="" y="" function1="" function2=""/>
+    <i id="19" bodyid="3015" map="" x="" y="" function1="" function2=""/>
+    <i id="20" bodyid="3008" map="" x="" y="" function1="" function2=""/>
+    <i id="21" bodyid="3019" map="" x="" y="" function1="" function2=""/>
+    <i id="22" bodyid="3025" map="" x="" y="" function1="" function2=""/>
+    <i id="23" bodyid="3020" map="" x="" y="" function1="" function2=""/>
+    <i id="24" bodyid="3018" map="" x="" y="" function1="" function2=""/>
+    <i id="25" bodyid="3017" map="" x="" y="" function1="" function2=""/>
+    <i id="26" bodyid="3024" map="" x="" y="" function1="" function2=""/>
+    <i id="27" bodyid="3022" map="" x="" y="" function1="" function2=""/>
+    <i id="28" bodyid="3100" map="" x="" y="" function1="" function2=""/>
+    <i id="29" bodyid="3021" map="" x="" y="" function1="" function2=""/>
+    <i id="30" bodyid="3001" map="" x="" y="" function1="" function2=""/>
+    <i id="31" bodyid="3027" map="" x="" y="" function1="" function2=""/>
+    <i id="32" bodyid="3028" map="" x="" y="" function1="" function2=""/>
+    <i id="33" bodyid="3048" map="" x="" y="" function1="" function2=""/>
+</root>

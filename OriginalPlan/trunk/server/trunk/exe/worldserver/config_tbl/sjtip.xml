@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" minlevel="2" maxlevel="2" youxian="9" key="shengjitip01"/>
+    <i id="2" minlevel="10" maxlevel="10" youxian="9" key="shengjitip02"/>
+    <i id="3" minlevel="5" maxlevel="5" youxian="9" key="shengjitip03"/>
+    <i id="4" minlevel="19" maxlevel="19" youxian="9" key="shengjitip04"/>
+    <i id="5" minlevel="17" maxlevel="17" youxian="9" key="shengjitip05"/>
+    <i id="6" minlevel="15" maxlevel="15" youxian="9" key="shengjitip06"/>
+    <i id="7" minlevel="22" maxlevel="22" youxian="9" key="shengjitip07"/>
+    <i id="8" minlevel="25" maxlevel="25" youxian="9" key="shengjitip08"/>
+    <i id="9" minlevel="20" maxlevel="20" youxian="8" key="shengjitip09"/>
+    <i id="10" minlevel="11" maxlevel="80" youxian="5" key="shengjitip10"/>
+    <i id="11" minlevel="10" maxlevel="19" youxian="3" key="shengjitip11"/>
+    <i id="12" minlevel="20" maxlevel="29" youxian="3" key="shengjitip12"/>
+    <i id="13" minlevel="30" maxlevel="39" youxian="3" key="shengjitip13"/>
+    <i id="14" minlevel="40" maxlevel="49" youxian="3" key="shengjitip14"/>
+    <i id="15" minlevel="50" maxlevel="59" youxian="3" key="shengjitip15"/>
+    <i id="16" minlevel="60" maxlevel="69" youxian="3" key="shengjitip16"/>
+    <i id="17" minlevel="70" maxlevel="80" youxian="3" key="shengjitip17"/>
+    <i id="18" minlevel="30" maxlevel="49" youxian="4" key="shengjitip18"/>
+    <i id="19" minlevel="50" maxlevel="69" youxian="4" key="shengjitip19"/>
+    <i id="20" minlevel="70" maxlevel="80" youxian="4" key="shengjitip20"/>
+    <i id="21" minlevel="2" maxlevel="80" youxian="1" key="shengjitip21"/>
+    <i id="22" minlevel="10" maxlevel="10" youxian="6" key="shengjitip22"/>
+    <i id="23" minlevel="20" maxlevel="20" youxian="6" key="shengjitip23"/>
+    <i id="24" minlevel="30" maxlevel="30" youxian="6" key="shengjitip24"/>
+    <i id="25" minlevel="40" maxlevel="40" youxian="6" key="shengjitip25"/>
+    <i id="26" minlevel="50" maxlevel="50" youxian="6" key="shengjitip26"/>
+    <i id="27" minlevel="60" maxlevel="60" youxian="6" key="shengjitip27"/>
+    <i id="28" minlevel="70" maxlevel="70" youxian="6" key="shengjitip28"/>
+    <i id="29" minlevel="80" maxlevel="80" youxian="6" key="shengjitip29"/>
+    <i id="30" minlevel="5" maxlevel="5" youxian="7" key="shengjitip30"/>
+    <i id="31" minlevel="10" maxlevel="10" youxian="7" key="shengjitip31"/>
+    <i id="32" minlevel="20" maxlevel="20" youxian="7" key="shengjitip32"/>
+    <i id="33" minlevel="30" maxlevel="30" youxian="7" key="shengjitip33"/>
+    <i id="34" minlevel="40" maxlevel="40" youxian="7" key="shengjitip34"/>
+    <i id="35" minlevel="50" maxlevel="50" youxian="7" key="shengjitip35"/>
+    <i id="36" minlevel="60" maxlevel="60" youxian="7" key="shengjitip36"/>
+    <i id="37" minlevel="70" maxlevel="70" youxian="7" key="shengjitip37"/>
+    <i id="38" minlevel="15" maxlevel="15" youxian="7" key="shengjitip40"/>
+    <i id="39" minlevel="25" maxlevel="25" youxian="7" key="shengjitip41"/>
+</root>

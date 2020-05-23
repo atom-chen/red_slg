@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['acceptlevel',['acceptLevel',['../a00111.html#a00208f890853d54cbd5e7a90513f6479',1,'MissionBase']]],
+  ['accepttime',['acceptTime',['../a00111.html#a0226e49d3c07bf9eea07676951475e60',1,'MissionBase']]],
+  ['account',['account',['../a00022.html#a05bb274d767d5a0deb9946b640fbc6b1',1,'CLGetHasRoleZoneList']]],
+  ['accountid',['accountID',['../a00070.html#a316d7665705e86ecdab965d85dcd2e49',1,'LoadRoleData::accountID()'],['../a00116.html#a8e5289b8863a29310ff876296d6fb034',1,'PacketCreateBrforeInfo::accountid()']]],
+  ['accountname',['accountName',['../a00024.html#a66f86e6c25ad26084e7f990875c6e3cb',1,'CLVerifyAccount']]],
+  ['addtype',['addType',['../a00005.html#a468ea8f529000b7b24c7fbc8d124695b',1,'AddAttr']]],
+  ['agility',['agility',['../a00133.html#adeb288a14f5a7cdcf12719ecccb9265a',1,'RoleDetail']]],
+  ['allacount_5fnum',['allacount_num',['../a00117.html#a878b9349fad3594b76dd2f7c431266d4',1,'PacketGameCollectInfo']]],
+  ['allrole_5fnum',['allrole_num',['../a00117.html#a4f2600df554b7651b1e1ace61bd68a73',1,'PacketGameCollectInfo']]],
+  ['allstockyb',['allstockyb',['../a00117.html#a0cca0eba9babfee4f32754153963b772',1,'PacketGameCollectInfo']]],
+  ['allweigth',['allWeigth',['../a00131.html#a63cc8496d1142a0383842c1d55c2128c',1,'RandDropConfigInfoEx']]],
+  ['appendattrary',['appendAttrAry',['../a00122.html#a4fd93a7be0b842fa2cacd52ccc90437c',1,'PackItem']]],
+  ['attack',['attack',['../a00133.html#a174ecc351a57a9ffa1429380d0bd6801',1,'RoleDetail']]],
+  ['attr',['attr',['../a00011.html#a2dded79949efb22f104b2d954f41e936',1,'BuffImpact']]],
+  ['attrtype',['attrType',['../a00008.html#aa3ff790ae5554ad7bf8d3be9d75ea60c',1,'Attr::attrType()'],['../a00052.html#a9f4c68183debfd3c2aeaec3d0b559efd',1,'ExtendAttr::attrType()']]],
+  ['attrvalue',['attrValue',['../a00005.html#a6c9257aff61329a159a7a3ef85813a34',1,'AddAttr::attrValue()'],['../a00008.html#a6bcce2e952dedd4d3573e7c5fda7f327',1,'Attr::attrValue()'],['../a00052.html#ab3a3191fcce33c589b0de58291f708b0',1,'ExtendAttr::attrValue()']]]
+];

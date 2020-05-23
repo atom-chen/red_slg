@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugDLL|Win32">
+      <Configuration>DebugDLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44B21233-EFCC-4825-B5E5-3A3BD6CC5516}</ProjectGuid>
+    <RootNamespace>core</RootNamespace>
+    <ProjectName>core</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)\..\lib\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'">$(ProjectDir)\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)\core.object\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'">$(ProjectDir)\core.object\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)\core.object\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_$(Configuration)_$(PlatformArchitecture)</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'">$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>$(ProjectName)_$(Configuration)_$(PlatformArchitecture)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>./src/time;./src/script/;./src;../../../../third/include/libevent/;../../../../third/include/libevent/WIN32-Code/;../../../../third/include/lua/;../../../../third/include/mysql/win/;../../../../third/include/mysqlpp/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;OS_WIN;NOMINMAX;OS_BIT=32;USE_FAST_FORMAT;USE_RTTI;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>std$(ProjectName).h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4127;4100;4505;4121;4706;4512;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)\$(TargetFileName) $(ProjectDir)\..\..\..\lib\internal\lib\
+copy /Y .\src\*.h $(ProjectDir)\..\..\..\lib\internal\include\core\
+copy /Y .\src\*.inl $(ProjectDir)\..\..\..\lib\internal\include\core\
+copy /Y .\src\*.hpp $(ProjectDir)\..\..\..\lib\internal\include\core\
+copy /Y .\src\time\*.h $(ProjectDir)\..\..\..\lib\internal\include\core\time
+copy /Y .\src\script\*.h $(ProjectDir)\..\..\..\lib\internal\include\core\script\
+copy /Y .\src\script\*.inl $(ProjectDir)\..\..\..\lib\internal\include\core\script\</Command>
+    </PostBuildEvent>
+    <Link>
+      <ModuleDefinitionFile>core.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>./src/time/;./src/script/;./src/;../../../../third/include/libevent/;../../../../third/include/libevent/WIN32-Code/;../../../../third/include/lua/;../../../../third/include/mysql/win/;../../../../third/include/mysqlpp/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;OS_WIN;NOMINMAX;OS_BIT=32;USE_FAST_FORMAT;USE_RTTI;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>std$(ProjectName).h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4127;4100;4127;4505;4121;4706;4512;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)\$(TargetFileName) $(ProjectDir)\..\..\..\exe\coredll
+copy /Y .\src\*.h $(ProjectDir)\..\..\..\lib\internal\include\core\
+copy /Y .\src\*.inl $(ProjectDir)\..\..\..\lib\internal\include\core\
+copy /Y .\src\*.hpp $(ProjectDir)\..\..\..\lib\internal\include\core\
+copy /Y .\src\time\*.h $(ProjectDir)\..\..\..\lib\internal\include\core\time
+copy /Y .\src\script\*.h $(ProjectDir)\..\..\..\lib\internal\include\core\script\
+copy /Y .\src\script\*.inl $(ProjectDir)\..\..\..\lib\internal\include\core\script\</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>libevent_debug_32.lib;libcurl_debug_32.lib;mysqlpp_debug_32.lib;cryptlib_debug_32.lib;zlibstaticd_debug_32.lib;tinyxpath_lib_debug_32.lib;lua_debug_32.lib;luajit51_debug_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../../third/lib/</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>core.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalIncludeDirectories>./src/time;./src;../../../../third/include/libevent/;../../../../third/include/libevent/WIN32-Code/;../../../../third/include/lua/;../../../../third/include/mysqlpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;OS_WIN;NOMINMAX;OS_BIT=32;USE_FAST_FORMAT;USE_RTTI;EV_STANDALONE;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>std$(ProjectName).h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4275;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)\$(TargetFileName) $(ProjectDir)\..\..\..\lib\internal\lib\
+copy /Y .\src\*.h $(ProjectDir)\..\..\..\lib\internal\include\core\</Command>
+    </PostBuildEvent>
+    <Link>
+      <ModuleDefinitionFile>core.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cpu_time_stat.cpp" />
+    <ClCompile Include="src\database_conn.cpp" />
+    <ClCompile Include="src\database_conn_mgr.cpp" />
+    <ClCompile Include="src\database_conn_wrap.cpp" />
+    <ClCompile Include="src\database_handler.cpp" />
+    <ClCompile Include="src\db_single_conn_manager.cpp" />
+    <ClCompile Include="src\db_task.cpp" />
+    <ClCompile Include="src\debug.cpp" />
+    <ClCompile Include="src\debug_control.cpp" />
+    <ClCompile Include="src\displayer.cpp" />
+    <ClCompile Include="src\file_system_util.cpp" />
+    <ClCompile Include="src\game_time.cpp" />
+    <ClCompile Include="src\inifile.cpp" />
+    <ClCompile Include="src\lib_config.cpp" />
+    <ClCompile Include="src\logger.cpp" />
+    <ClCompile Include="src\lookaside_allocator.cpp" />
+    <ClCompile Include="src\mini_server.cpp" />
+    <ClCompile Include="src\module_base.cpp" />
+    <ClCompile Include="src\script\autobind\CoreLib.cpp" />
+    <ClCompile Include="src\script\lua_base_conversions.cpp" />
+    <ClCompile Include="src\script\lua_tinker.cpp" />
+    <ClCompile Include="src\script\script_export.cpp" />
+    <ClCompile Include="src\script\script_lua_inc.cpp" />
+    <ClCompile Include="src\script\tolua_event.cpp" />
+    <ClCompile Include="src\script\tolua_fix.cpp" />
+    <ClCompile Include="src\script\tolua_is.cpp" />
+    <ClCompile Include="src\script\tolua_map.cpp" />
+    <ClCompile Include="src\script\tolua_push.cpp" />
+    <ClCompile Include="src\script\tolua_to.cpp" />
+    <ClCompile Include="src\server_task.cpp" />
+    <ClCompile Include="src\server_task_pool.cpp" />
+    <ClCompile Include="src\server_task_pool_wrap_mgr.cpp" />
+    <ClCompile Include="src\server_task_pool_wrap.cpp" />
+    <ClCompile Include="src\service_task.cpp" />
+    <ClCompile Include="src\socket_broad_cast.cpp" />
+    <ClCompile Include="src\sstring.cpp" />
+    <ClCompile Include="src\stream.cpp" />
+    <ClCompile Include="src\string_common.cpp" />
+    <ClCompile Include="src\timer.hpp" />
+    <ClCompile Include="src\ucstring.cpp" />
+    <ClCompile Include="src\mutex.cpp" />
+    <ClCompile Include="src\p_thread.cpp" />
+    <ClCompile Include="src\shared_memory.cpp" />
+    <ClCompile Include="src\win_thread.cpp" />
+    <ClCompile Include="src\time\date_time.cpp" />
+    <ClCompile Include="src\time\interval_timer.cpp" />
+    <ClCompile Include="src\time_gx.cpp" />
+    <ClCompile Include="src\time_manager.cpp" />
+    <ClCompile Include="src\time\timespan.cpp" />
+    <ClCompile Include="src\file_api.cpp" />
+    <ClCompile Include="src\ini.cpp" />
+    <ClCompile Include="src\path.cpp" />
+    <ClCompile Include="src\bit_set.cpp" />
+    <ClCompile Include="src\common.cpp" />
+    <ClCompile Include="src\lib_init.cpp" />
+    <ClCompile Include="src\socket.cpp" />
+    <ClCompile Include="src\socket_api.cpp" />
+    <ClCompile Include="src\socket_connector.cpp" />
+    <ClCompile Include="src\socket_event_loop.cpp" />
+    <ClCompile Include="src\socket_event_loop_wrap.cpp" />
+    <ClCompile Include="src\socket_handler.cpp" />
+    <ClCompile Include="src\socket_input_stream.cpp" />
+    <ClCompile Include="src\socket_listener.cpp" />
+    <ClCompile Include="src\socket_event_loop_wrap_mgr.cpp" />
+    <ClCompile Include="src\socket_output_stream.cpp" />
+    <ClCompile Include="src\socket_packet_handler.cpp" />
+    <ClCompile Include="src\socket_server_connector.cpp" />
+    <ClCompile Include="src\socket_server_listener.cpp" />
+    <ClCompile Include="src\handler.cpp" />
+    <ClCompile Include="src\net_task.cpp" />
+    <ClCompile Include="src\task.cpp" />
+    <ClCompile Include="src\module_manager.cpp" />
+    <ClCompile Include="src\service.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\database_conn.h" />
+    <ClInclude Include="src\database_conn_mgr.h" />
+    <ClInclude Include="src\database_conn_wrap.h" />
+    <ClInclude Include="src\database_handler.h" />
+    <ClInclude Include="src\database_util.h" />
+    <ClInclude Include="src\db_filed_parse.h" />
+    <ClInclude Include="src\db_single_conn_manager.h" />
+    <ClInclude Include="src\db_struct_base.h" />
+    <ClInclude Include="src\db_task.h" />
+    <ClInclude Include="src\db_types_def.h" />
+    <ClInclude Include="src\db_util.h" />
+    <ClInclude Include="src\debug.h" />
+    <ClInclude Include="src\debug_control.h" />
+    <ClInclude Include="src\displayer.h" />
+    <ClInclude Include="src\file_system_util.h" />
+    <ClInclude Include="src\game_exception.h" />
+    <ClInclude Include="src\game_time.h" />
+    <ClInclude Include="src\gxlib_config.h" />
+    <ClInclude Include="src\inifile.h" />
+    <ClInclude Include="src\lib_config.h" />
+    <ClInclude Include="src\lib_misc.h" />
+    <ClInclude Include="src\lock_free_queue.h" />
+    <ClInclude Include="src\logger.h" />
+    <ClInclude Include="src\fast_index.h" />
+    <ClInclude Include="src\log_format.h" />
+    <ClInclude Include="src\lookaside_allocator.h" />
+    <ClInclude Include="src\math_util.h" />
+    <ClInclude Include="src\memory_util.h" />
+    <ClInclude Include="src\mini_server.h" />
+    <ClInclude Include="src\module_base.h" />
+    <ClInclude Include="src\msg_queue.h" />
+    <ClInclude Include="src\number_class.h" />
+    <ClInclude Include="src\obj_mem_fix_empty_pool.h" />
+    <ClInclude Include="src\obj_mem_fix_pool.h" />
+    <ClInclude Include="src\obj_mem_pool.h" />
+    <ClInclude Include="src\parse_misc.h" />
+    <ClInclude Include="src\perfor_stat.h" />
+    <ClInclude Include="src\ScriptDefineFunction.h" />
+    <ClInclude Include="src\script\autobind\CoreLib.hpp" />
+    <ClInclude Include="src\script\lua_base_conversions.h" />
+    <ClInclude Include="src\script\lua_base_conversions_impl.h" />
+    <ClInclude Include="src\script\lua_tinker.h" />
+    <ClInclude Include="src\script\script_base.h" />
+    <ClInclude Include="src\script\script_export.h" />
+    <ClInclude Include="src\script\script_lua_inc.h" />
+    <ClInclude Include="src\script\tolua++.h" />
+    <ClInclude Include="src\script\tolua_event.h" />
+    <ClInclude Include="src\script\tolua_fix.h" />
+    <ClInclude Include="src\script_helper.h" />
+    <ClInclude Include="src\script_object_base.h" />
+    <ClInclude Include="src\server_task.h" />
+    <ClInclude Include="src\server_task_pool.h" />
+    <ClInclude Include="src\server_task_pool_wrap_mgr.h" />
+    <ClInclude Include="src\server_task_pool_wrap.h" />
+    <ClInclude Include="src\service_task.h" />
+    <ClInclude Include="src\socket_broad_cast.h" />
+    <ClInclude Include="src\stream_impl.h" />
+    <ClInclude Include="src\stream_traits.h" />
+    <ClInclude Include="src\syn_data_wraper.h" />
+    <ClInclude Include="src\fix_string.h" />
+    <ClInclude Include="src\sstring.h" />
+    <ClInclude Include="src\stream.h" />
+    <ClInclude Include="src\string_common.h" />
+    <ClInclude Include="src\string_conversion.h" />
+    <ClInclude Include="src\string_enum_conv.h" />
+    <ClInclude Include="src\string_parse.h" />
+    <ClInclude Include="src\string_util.h" />
+    <ClInclude Include="src\system_util.h" />
+    <ClInclude Include="src\timer.h" />
+    <ClInclude Include="src\ucstring.h" />
+    <ClInclude Include="src\mutex.h" />
+    <ClInclude Include="src\p_thread.h" />
+    <ClInclude Include="src\shared_memory.h" />
+    <ClInclude Include="src\tds.h" />
+    <ClInclude Include="src\thread.h" />
+    <ClInclude Include="src\win_thread.h" />
+    <ClInclude Include="src\time\date_time.h" />
+    <ClInclude Include="src\time\interval_timer.h" />
+    <ClInclude Include="src\time_gx.h" />
+    <ClInclude Include="src\time_manager.h" />
+    <ClInclude Include="src\time_util.h" />
+    <ClInclude Include="src\time_val.h" />
+    <ClInclude Include="src\time\timespan.h" />
+    <ClInclude Include="src\file_api.h" />
+    <ClInclude Include="src\ini.h" />
+    <ClInclude Include="src\path.h" />
+    <ClInclude Include="src\carray.h" />
+    <ClInclude Include="src\bit_set.h" />
+    <ClInclude Include="src\common.h" />
+    <ClInclude Include="src\singleton.h" />
+    <ClInclude Include="src\base_util.h" />
+    <ClInclude Include="src\hash_util.h" />
+    <ClInclude Include="src\interface.h" />
+    <ClInclude Include="src\lib_init.h" />
+    <ClInclude Include="src\multi_index.h" />
+    <ClInclude Include="src\static_construct_enable.h" />
+    <ClInclude Include="src\socket.h" />
+    <ClInclude Include="src\socket_api.h" />
+    <ClInclude Include="src\socket_connector.h" />
+    <ClInclude Include="src\socket_errno.h" />
+    <ClInclude Include="src\socket_event_loop.h" />
+    <ClInclude Include="src\socket_event_loop_wrap.h" />
+    <ClInclude Include="src\socket_handler.h" />
+    <ClInclude Include="src\socket_input_stream.h" />
+    <ClInclude Include="src\socket_listener.h" />
+    <ClInclude Include="src\socket_event_loop_wrap_mgr.h" />
+    <ClInclude Include="src\socket_output_stream.h" />
+    <ClInclude Include="src\socket_packet_handler.h" />
+    <ClInclude Include="src\socket_server_connector.h" />
+    <ClInclude Include="src\socket_server_listener.h" />
+    <ClInclude Include="src\socket_util.h" />
+    <ClInclude Include="src\handler.h" />
+    <ClInclude Include="src\net_task.h" />
+    <ClInclude Include="src\task.h" />
+    <ClInclude Include="src\module_manager.h" />
+    <ClInclude Include="src\service.h" />
+    <ClInclude Include="src\service_profile.h" />
+    <ClInclude Include="src\stdcore.h" />
+    <ClInclude Include="src\types_def.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\exe\coredll\client.lua" />
+    <None Include="..\..\..\exe\coredll\client\MainClient.lua" />
+    <None Include="..\..\..\exe\coredll\client\PlayerSocketHandler.lua" />
+    <None Include="..\..\..\exe\coredll\ProtocolSerial.lua" />
+    <None Include="..\..\..\exe\coredll\server.lua" />
+    <None Include="..\..\..\exe\coredll\server\MainServer.lua" />
+    <None Include="..\..\..\exe\coredll\server\ServerSocketHandler.lua" />
+    <None Include="..\test\coreserver\coretest.vcxproj" />
+    <None Include="core.def" />
+    <None Include="script\inifile.lua" />
+    <None Include="src\core_doc.txt" />
+    <None Include="src\db_single_conn_manager.inl" />
+    <None Include="src\script\script_base.inl" />
+    <None Include="src\script\script_lua_inc.inl" />
+    <None Include="src\service.inl" />
+    <None Include="src\tds.inl" />
+    <None Include="..\build\linux\debug\makefile" />
+    <None Include="src\makefile_d.mk" />
+    <None Include="doc\readme.txt" />
+    <None Include="doc\src_doc.txt" />
+    <None Include="doc\work.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" day="1" gold="10000" diamond="50" reward="6001" sum="10"/>
+    <i id="2" day="2" gold="20000" diamond="50" reward="4401" sum="1"/>
+    <i id="3" day="3" gold="30000" diamond="50" reward="5001" sum="5"/>
+    <i id="4" day="4" gold="40000" diamond="50" reward="6001" sum="10"/>
+    <i id="5" day="5" gold="50000" diamond="50" reward="6001" sum="15"/>
+    <i id="6" day="6" gold="60000" diamond="50" reward="6001" sum="20"/>
+    <i id="7" day="7" gold="70000" diamond="50" reward="4402" sum="1"/>
+</root>

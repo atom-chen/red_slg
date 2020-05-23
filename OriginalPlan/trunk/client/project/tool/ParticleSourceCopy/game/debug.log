@@ -1,0 +1,1789 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: Intel
+	gl.renderer: Intel(R) HD Graphics 4600
+	gl.version: 4.3.0 - Build 10.18.10.3960
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 192
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+------------------------------------------------
+LOAD LUA FILE: E:/client/project/tool/ParticleSourceCopy/game/./scripts/main.lua
+------------------------------------------------
+[0.1552] [INFO] 
+[0.1724] [INFO] # DEBUG                        = 2
+[0.1735] [INFO] #
+[0.1862] [INFO] # device.platform              = windows
+[0.1889] [INFO] # device.model                 = unknown
+[0.1891] [INFO] # device.language              = cn
+[0.1905] [INFO] # device.writablePath          = .\
+[0.1911] [INFO] # device.cachePath             = .\
+[0.1917] [INFO] # device.directorySeparator    = \
+[0.1929] [INFO] # device.pathSeparator         = ;
+[0.1933] [INFO] #
+[0.2134] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+[0.2138] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+[0.2142] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[0.2145] [INFO] # display.widthInPixels        = 960.00
+[0.2149] [INFO] # display.heightInPixels       = 640.00
+[0.2153] [INFO] # display.contentScaleFactor   = 1.00
+[0.2157] [INFO] # display.width                = 960.00
+[0.2162] [INFO] # display.height               = 640.00
+[0.2165] [INFO] # display.cx                   = 480.00
+[0.2169] [INFO] # display.cy                   = 320.00
+[0.2172] [INFO] # display.left                 = 0.00
+[0.2175] [INFO] # display.right                = 960.00
+[0.2178] [INFO] # display.top                  = 640.00
+[0.2182] [INFO] # display.bottom               = 0.00
+[0.2185] [INFO] # display.c_left               = -480.00
+[0.2188] [INFO] # display.c_right              = 480.00
+[0.2191] [INFO] # display.c_top                = 320.00
+[0.2194] [INFO] # display.c_bottom             = -320.00
+[0.2197] [INFO] #
+[0.6421] 改变登陆状态:logo
+----------   try to load res:ui/login/logo.w  ---------
+
+[0.7191] [INFO] Scene "MainScene:onEnter()"
+[1.7515] 改变登陆状态:game
+----------   try to load res:ui/login/login  ---------
+
+----------   try to load res:ui/login/loginBg.w  ---------
+
+----------   unload res:ui/login/logo.w  ---------
+
+[2.6338] 1  1/7
+[2.6872] 1  2/7
+[2.7107] 1  3/7
+[2.7358] 1  4/7
+[2.7695] 1  5/7
+----------   try to load res:ui/common  ---------
+
+[2.8740] 1  6/7
+----------   try to load res:ui/home/home  ---------
+
+[3.2125] 1  7/7
+----------   unload res:ui/login/loginBg.w  ---------
+
+----------   unload res:ui/login/login  ---------
+
+[3.2480] kaishi......11111111111
+[3.2997] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+----------   try to load res:eft/texture/Effects_Textures_Quest_z198.png  ---------
+
+----------   try to load res:eft/texture/huoche_29.png  ---------
+
+----------   try to load res:eft/texture/Effects_TX_Sequence_538.png  ---------
+
+[3.3951] 正在创建粒子特效ID =  10194
+[3.3960] 当前的粒子特效的xml文件为：  10194.xml
+----------   try to load res:eft/texture/flower_1.png  ---------
+
+[3.4295] 正在创建粒子特效ID =  31
+[3.4325] 当前的粒子特效的xml文件为：  31.xml
+----------   try to load res:eft/texture/Effects_Textures_Self_x212.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_x015.png  ---------
+
+----------   try to load res:eft/texture/Effects_TX_Trail_531.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x023.png  ---------
+
+----------   try to load res:eft/texture/tx_tail_112.png  ---------
+
+[3.5267] 正在创建粒子特效ID =  114
+[3.5271] 当前的粒子特效的xml文件为：  114.xml
+----------   try to load res:eft/texture/tx_dian_006.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z422.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_l005.png  ---------
+
+[3.6052] 正在创建粒子特效ID =  482
+[3.6078] 当前的粒子特效的xml文件为：  482.xml
+----------   try to load res:eft/texture/Effects_TX_Sequence_519.png  ---------
+
+----------   try to load res:eft/texture/tx_dian_009.png  ---------
+
+----------   try to load res:eft/texture/tx_dian_008.png  ---------
+
+[3.6744] 正在创建粒子特效ID =  10066
+[3.6777] 当前的粒子特效的xml文件为：  10066.xml
+[3.7082] 正在创建粒子特效ID =  484
+[3.7086] 当前的粒子特效的xml文件为：  484.xml
+[3.7351] 正在创建粒子特效ID =  115
+[3.7360] 当前的粒子特效的xml文件为：  115.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z416.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z421.png  ---------
+
+Read Len Error:BufferSize=3971 ReadLen=4,pos=3971
+----------   try to load res:eft/texture/Effects_Textures_Water_z005.png  ---------
+
+[3.8494] 正在创建粒子特效ID =  486
+[3.8572] 当前的粒子特效的xml文件为：  486.xml
+----------   try to load res:eft/texture/tx_huo_502.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_fire_x013.png  ---------
+
+----------   try to load res:eft/texture/tx_dian_007.png  ---------
+
+[3.9684] 正在创建粒子特效ID =  124
+[3.9702] 当前的粒子特效的xml文件为：  124.xml
+----------   try to load res:eft/texture/Effects_TX_Fluxay_504.png  ---------
+
+----------   try to load res:eft/texture/Effects_TX_Sequence_007.png  ---------
+
+----------   try to load res:eft/texture/flower_38.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Ring_l001.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Fire_x007.png  ---------
+
+----------   try to load res:eft/texture/flower_37.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Trail_l004.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Star_x011.png  ---------
+
+----------   try to load res:eft/texture/tx_dian_013.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z427.png  ---------
+
+[4.2719] 正在创建粒子特效ID =  10099
+[4.2744] 当前的粒子特效的xml文件为：  10099.xml
+[4.3158] 正在创建粒子特效ID =  125
+[4.3306] 当前的粒子特效的xml文件为：  125.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z423.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Trail_x020.png  ---------
+
+[4.4187] 正在创建粒子特效ID =  494
+[4.4191] 当前的粒子特效的xml文件为：  494.xml
+----------   try to load res:eft/texture/tx_guang_003.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Star_xr004.png  ---------
+
+[4.4858] 正在创建粒子特效ID =  10196
+[4.4865] 当前的粒子特效的xml文件为：  10196.xml
+[4.5049] 正在创建粒子特效ID =  126
+[4.5057] 当前的粒子特效的xml文件为：  126.xml
+----------   try to load res:eft/texture/123333.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z434.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z177.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_l002.png  ---------
+
+[4.6900] 正在创建粒子特效ID =  10132
+[4.6910] 当前的粒子特效的xml文件为：  10132.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x020.png  ---------
+
+----------   try to load res:eft/texture/flower_251.png  ---------
+
+----------   try to load res:eft/texture/tx_guang_007.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_l003.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Fire_004.png  ---------
+
+----------   try to load res:eft/texture/flower_22.png  ---------
+
+----------   try to load res:eft/texture/flower_23.png  ---------
+
+[4.9189] 正在创建粒子特效ID =  10068
+[4.9234] 当前的粒子特效的xml文件为：  10068.xml
+[4.9635] 正在创建粒子特效ID =  127
+[4.9643] 当前的粒子特效的xml文件为：  127.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x047.png  ---------
+
+[5.0271] 正在创建粒子特效ID =  10004
+[5.0279] 当前的粒子特效的xml文件为：  10004.xml
+[5.0847] 正在创建粒子特效ID =  502
+[5.0852] 当前的粒子特效的xml文件为：  502.xml
+[5.1389] 正在创建粒子特效ID =  504
+[5.1396] 当前的粒子特效的xml文件为：  504.xml
+----------   try to load res:eft/texture/flower_44.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x027.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Fire_z010.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_fire_x023.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z443.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_l005.png  ---------
+
+[5.3395] 正在创建粒子特效ID =  10101
+[5.3490] 当前的粒子特效的xml文件为：  10101.xml
+[5.3815] 正在创建粒子特效ID =  121
+[5.3820] 当前的粒子特效的xml文件为：  121.xml
+----------   try to load res:eft/texture/flower_73.png  ---------
+
+----------   try to load res:eft/texture/flower_74.png  ---------
+
+[5.4284] 正在创建粒子特效ID =  10198
+[5.4333] 当前的粒子特效的xml文件为：  10198.xml
+[5.4596] 正在创建粒子特效ID =  122
+[5.4624] 当前的粒子特效的xml文件为：  122.xml
+----------   try to load res:eft/texture/arena_no2.png  ---------
+
+[5.4935] 正在创建粒子特效ID =  10134
+[5.4956] 当前的粒子特效的xml文件为：  10134.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z473.png  ---------
+
+----------   try to load res:eft/texture/flower_27.png  ---------
+
+----------   try to load res:eft/texture/flower_26.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Fire_003.png  ---------
+
+[5.6618] 正在创建粒子特效ID =  10070
+[5.6624] 当前的粒子特效的xml文件为：  10070.xml
+[5.7166] 正在创建粒子特效ID =  123
+[5.7223] 当前的粒子特效的xml文件为：  123.xml
+----------   try to load res:eft/texture/Effects_Textures_Glow_xr001.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Lightning_x007.png  ---------
+
+----------   try to load res:eft/texture/tx_xuanzhuan_041.png  ---------
+
+Read Len Error:BufferSize=19331 ReadLen=4,pos=19331
+[5.8816] 正在创建粒子特效ID =  384
+[5.8835] 当前的粒子特效的xml文件为：  384.xml
+[5.9055] 正在创建粒子特效ID =  10231
+[5.9111] 当前的粒子特效的xml文件为：  10231.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x032.png  ---------
+
+[5.9437] 正在创建粒子特效ID =  101
+[5.9441] 当前的粒子特效的xml文件为：  101.xml
+----------   try to load res:eft/texture/tx_xing_008.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z424.png  ---------
+
+----------   try to load res:eft/texture/tx_dian_020.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z1000.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z498.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z499.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z3255.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z3256.png  ---------
+
+[6.1759] 正在创建粒子特效ID =  10103
+[6.1766] 当前的粒子特效的xml文件为：  10103.xml
+[6.2134] 正在创建粒子特效ID =  392
+[6.2156] 当前的粒子特效的xml文件为：  392.xml
+[6.2558] 正在创建粒子特效ID =  394
+[6.2563] 当前的粒子特效的xml文件为：  394.xml
+----------   try to load res:eft/texture/flower_75.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_l002.png  ---------
+
+----------   try to load res:eft/texture/flower_76.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_z003.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_z002.png  ---------
+
+[6.4542] 正在创建粒子特效ID =  10200
+[6.4546] 当前的粒子特效的xml文件为：  10200.xml
+----------   try to load res:eft/texture/flower_63.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x014.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x003.png  ---------
+
+[6.5591] 正在创建粒子特效ID =  404
+[6.5618] 当前的粒子特效的xml文件为：  404.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x042.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Star_xr002.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Star_l009.png  ---------
+
+[6.6575] 正在创建粒子特效ID =  10136
+[6.6599] 当前的粒子特效的xml文件为：  10136.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z496.png  ---------
+
+[6.7162] 正在创建粒子特效ID =  10072
+[6.7178] 当前的粒子特效的xml文件为：  10072.xml
+[6.7388] 正在创建粒子特效ID =  402
+[6.7414] 当前的粒子特效的xml文件为：  402.xml
+[6.7725] 正在创建粒子特效ID =  412
+[6.7743] 当前的粒子特效的xml文件为：  412.xml
+----------   try to load res:eft/texture/Effects_Textures_Sequence_l016.png  ---------
+
+[6.8081] 正在创建粒子特效ID =  10236
+[6.8089] 当前的粒子特效的xml文件为：  10236.xml
+[6.8326] 正在创建粒子特效ID =  414
+[6.8357] 当前的粒子特效的xml文件为：  414.xml
+----------   try to load res:eft/texture/tx_dilie_502.png  ---------
+
+[6.8803] 正在创建粒子特效ID =  10228
+[6.8807] 当前的粒子特效的xml文件为：  10228.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z465.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z454.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z437.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z439.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z451.png  ---------
+
+[7.0526] 正在创建粒子特效ID =  10041
+[7.0530] 当前的粒子特效的xml文件为：  10041.xml
+[7.1050] 正在创建粒子特效ID =  10234
+[7.1054] 当前的粒子特效的xml文件为：  10234.xml
+----------   try to load res:eft/texture/flower_78.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z283.png  ---------
+
+[7.1841] 正在创建粒子特效ID =  10233
+[7.1849] 当前的粒子特效的xml文件为：  10233.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x026.png  ---------
+
+----------   try to load res:eft/texture/huoche_31.png  ---------
+
+----------   try to load res:eft/texture/tx_guang_010.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z425.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z495.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Ring_l009.png  ---------
+
+[7.4139] 正在创建粒子特效ID =  10202
+[7.4143] 当前的粒子特效的xml文件为：  10202.xml
+----------   try to load res:eft/texture/Effects_Textures_Star_x010.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_x005.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x037.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Star_z005.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_x006.png  ---------
+
+[7.5710] 正在创建粒子特效ID =  10232
+[7.5784] 当前的粒子特效的xml文件为：  10232.xml
+[7.6081] 正在创建粒子特效ID =  418
+[7.6218] 当前的粒子特效的xml文件为：  418.xml
+[7.6742] 正在创建粒子特效ID =  10230
+[7.6749] 当前的粒子特效的xml文件为：  10230.xml
+[7.7156] 正在创建粒子特效ID =  416
+[7.7160] 当前的粒子特效的xml文件为：  416.xml
+[7.7343] 正在创建粒子特效ID =  10229
+[7.7350] 当前的粒子特效的xml文件为：  10229.xml
+----------   try to load res:eft/texture/Effects_Textures_Fire_xr002.png  ---------
+
+[7.8364] 正在创建粒子特效ID =  422
+[7.8368] 当前的粒子特效的xml文件为：  422.xml
+[7.8895] 正在创建粒子特效ID =  10235
+[7.8929] 当前的粒子特效的xml文件为：  10235.xml
+----------   try to load res:eft/texture/flower_82.png  ---------
+
+[7.9371] 正在创建粒子特效ID =  10227
+[7.9375] 当前的粒子特效的xml文件为：  10227.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z453.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z447.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z444.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z446.png  ---------
+
+[8.1250] 正在创建粒子特效ID =  10171
+[8.1273] 当前的粒子特效的xml文件为：  10171.xml
+[8.1512] 正在创建粒子特效ID =  426
+[8.1518] 当前的粒子特效的xml文件为：  426.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z3261.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z3262.png  ---------
+
+[8.2743] 正在创建粒子特效ID =  10107
+[8.2762] 当前的粒子特效的xml文件为：  10107.xml
+[8.3229] 正在创建粒子特效ID =  424
+[8.3241] 当前的粒子特效的xml文件为：  424.xml
+----------   try to load res:eft/texture/flower_16.png  ---------
+
+----------   try to load res:eft/texture/flower_17.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Ring_x001.png  ---------
+
+[8.4351] 正在创建粒子特效ID =  10043
+[8.4356] 当前的粒子特效的xml文件为：  10043.xml
+Read Len Error:BufferSize=3971 ReadLen=4,pos=3971
+----------   try to load res:eft/texture/tx_liuguang_503.png  ---------
+
+[8.5579] 正在创建粒子特效ID =  10127
+[8.5608] 当前的粒子特效的xml文件为：  10127.xml
+----------   try to load res:eft/texture/flower_19.png  ---------
+
+[8.6171] 正在创建粒子特效ID =  264
+[8.6244] 当前的粒子特效的xml文件为：  264.xml
+[8.6415] 正在创建粒子特效ID =  428
+[8.6426] 当前的粒子特效的xml文件为：  428.xml
+----------   try to load res:eft/texture/huoche_33.png  ---------
+
+----------   try to load res:eft/texture/huoche_32.png  ---------
+
+----------   try to load res:eft/texture/tx_dian_017.png  ---------
+
+[8.7141] 正在创建粒子特效ID =  10224
+[8.7155] 当前的粒子特效的xml文件为：  10224.xml
+----------   try to load res:eft/texture/Effects_Texture_Other_004.png  ---------
+
+[8.7595] 正在创建粒子特效ID =  434
+[8.7599] 当前的粒子特效的xml文件为：  434.xml
+----------   try to load res:eft/texture/Effects_Textures_Lightning_xr004.png  ---------
+
+----------   try to load res:eft/texture/flower_72.png  ---------
+
+[8.8413] 正在创建粒子特效ID =  454
+[8.8417] 当前的粒子特效的xml文件为：  454.xml
+----------   try to load res:eft/texture/Effects_Texture_Self_x082.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Ring_l025.png  ---------
+
+[8.9513] 正在创建粒子特效ID =  110
+[8.9537] 当前的粒子特效的xml文件为：  110.xml
+----------   try to load res:eft/texture/tx_dian_021.png  ---------
+
+----------   try to load res:eft/texture/huoche_17.png  ---------
+
+[9.0249] 正在创建粒子特效ID =  10146
+[9.0283] 当前的粒子特效的xml文件为：  10146.xml
+[9.0641] 正在创建粒子特效ID =  24
+[9.0646] 当前的粒子特效的xml文件为：  24.xml
+[9.0973] 正在创建粒子特效ID =  492
+[9.0990] 当前的粒子特效的xml文件为：  492.xml
+[9.1248] 正在创建粒子特效ID =  111
+[9.1276] 当前的粒子特效的xml文件为：  111.xml
+----------   try to load res:eft/texture/Effects_TX_Lightning_502.png  ---------
+
+[9.1706] 正在创建粒子特效ID =  10173
+[9.1724] 当前的粒子特效的xml文件为：  10173.xml
+[9.2103] 正在创建粒子特效ID =  442
+[9.2124] 当前的粒子特效的xml文件为：  442.xml
+----------   try to load res:eft/texture/huoche_5.png  ---------
+
+----------   try to load res:eft/texture/huoche_10.png  ---------
+
+[9.2932] 正在创建粒子特效ID =  10109
+[9.2952] 当前的粒子特效的xml文件为：  10109.xml
+----------   try to load res:eft/texture/tx_tiao_028.png  ---------
+
+----------   try to load res:eft/texture/huoche_11.png  ---------
+
+[9.4270] 正在创建粒子特效ID =  10137
+[9.4324] 当前的粒子特效的xml文件为：  10137.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z471.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z474.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z475.png  ---------
+
+[9.5813] 正在创建粒子特效ID =  10045
+[9.5818] 当前的粒子特效的xml文件为：  10045.xml
+----------   try to load res:eft/texture/flower_81.png  ---------
+
+[9.6183] 正在创建粒子特效ID =  10219
+[9.6188] 当前的粒子特效的xml文件为：  10219.xml
+----------   try to load res:eft/texture/Effects_TX_Fluxay_502.png  ---------
+
+[9.6715] 正在创建粒子特效ID =  10167
+[9.6730] 当前的粒子特效的xml文件为：  10167.xml
+[9.6892] 正在创建粒子特效ID =  444
+[9.6903] 当前的粒子特效的xml文件为：  444.xml
+----------   try to load res:eft/texture/Effects_TX_Lightning_501.png  ---------
+
+[9.7643] 正在创建粒子特效ID =  10032
+[9.7669] 当前的粒子特效的xml文件为：  10032.xml
+----------   try to load res:eft/texture/Effects_Textures_Lightning_x002.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Lightning_x006.png  ---------
+
+[9.8486] 正在创建粒子特效ID =  10142
+[9.8499] 当前的粒子特效的xml文件为：  10142.xml
+[9.8584] 正在创建粒子特效ID =  10216
+[9.8675] 当前的粒子特效的xml文件为：  10216.xml
+----------   try to load res:eft/texture/Effects_Textures_Lightning_l009.png  ---------
+
+----------   try to load res:eft/texture/tx_quan_110.png  ---------
+
+[9.9614] 正在创建粒子特效ID =  324
+[9.9623] 当前的粒子特效的xml文件为：  324.xml
+[10.0054] 正在创建粒子特效ID =  25
+[10.0127] 当前的粒子特效的xml文件为：  25.xml
+----------   try to load res:eft/texture/Effects_Textures_Ring_z004.png  ---------
+
+[10.0572] 正在创建粒子特效ID =  10014
+[10.0579] 当前的粒子特效的xml文件为：  10014.xml
+[10.1000] 正在创建粒子特效ID =  10039
+[10.1005] 当前的粒子特效的xml文件为：  10039.xml
+----------   try to load res:eft/texture/tx_dilie_500.png  ---------
+
+[10.1571] 正在创建粒子特效ID =  10187
+[10.1576] 当前的粒子特效的xml文件为：  10187.xml
+----------   try to load res:eft/texture/Effects_Textures_Glow_xr003.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_z004.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Lightning_z004.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_x014.png  ---------
+
+----------   try to load res:eft/texture/Effects_TX_Lightning_53.png  ---------
+
+Read Len Error:BufferSize=10139 ReadLen=4,pos=10139
+----------   try to load res:eft/texture/Effects_TX_Other_509.png  ---------
+
+[10.4041] 正在创建粒子特效ID =  320
+[10.4057] 当前的粒子特效的xml文件为：  320.xml
+----------   try to load res:eft/texture/Effects_Textures_Trail_z009.png  ---------
+
+[10.4458] 正在创建粒子特效ID =  334
+[10.4464] 当前的粒子特效的xml文件为：  334.xml
+----------   try to load res:eft/texture/Effects_Textures_Star_xr006.png  ---------
+
+[10.5033] 正在创建粒子特效ID =  10111
+[10.5042] 当前的粒子特效的xml文件为：  10111.xml
+----------   try to load res:eft/texture/Effects_Textures_Sequence_x016.png  ---------
+
+[10.6063] 正在创建粒子特效ID =  85
+[10.6072] 当前的粒子特效的xml文件为：  85.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z480.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z438.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z440.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z483.png  ---------
+
+[10.7656] 正在创建粒子特效ID =  10047
+[10.7766] 当前的粒子特效的xml文件为：  10047.xml
+----------   try to load res:eft/texture/flower_80.png  ---------
+
+[10.8135] 正在创建粒子特效ID =  10213
+[10.8225] 当前的粒子特效的xml文件为：  10213.xml
+----------   try to load res:eft/texture/huoche_24.png  ---------
+
+[10.8659] 正在创建粒子特效ID =  10208
+[10.8736] 当前的粒子特效的xml文件为：  10208.xml
+[10.9053] 正在创建粒子特效ID =  84
+[10.9058] 当前的粒子特效的xml文件为：  84.xml
+----------   try to load res:eft/texture/tx_dian_016.png  ---------
+
+[10.9529] 正在创建粒子特效ID =  10144
+[10.9535] 当前的粒子特效的xml文件为：  10144.xml
+[10.9784] 正在创建粒子特效ID =  342
+[10.9924] 当前的粒子特效的xml文件为：  342.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z494.png  ---------
+
+[11.0400] 正在创建粒子特效ID =  10080
+[11.0421] 当前的粒子特效的xml文件为：  10080.xml
+[11.0747] 正在创建粒子特效ID =  10197
+[11.0752] 当前的粒子特效的xml文件为：  10197.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z428.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z430.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z431.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z429.png  ---------
+
+[11.3102] 正在创建粒子特效ID =  10016
+[11.3163] 当前的粒子特效的xml文件为：  10016.xml
+[11.3296] 正在创建粒子特效ID =  10211
+[11.3302] 当前的粒子特效的xml文件为：  10211.xml
+[11.3538] 正在创建粒子特效ID =  22
+[11.3613] 当前的粒子特效的xml文件为：  22.xml
+----------   try to load res:eft/texture/Effects_Textures_Ring_x039.png  ---------
+
+----------   try to load res:eft/texture/flower_70.png  ---------
+
+[11.4634] 正在创建粒子特效ID =  10177
+[11.4650] 当前的粒子特效的xml文件为：  10177.xml
+[11.4838] 正在创建粒子特效ID =  10205
+[11.4881] 当前的粒子特效的xml文件为：  10205.xml
+----------   try to load res:eft/texture/flower_56.png  ---------
+
+[11.6290] 正在创建粒子特效ID =  10113
+[11.6301] 当前的粒子特效的xml文件为：  10113.xml
+[11.7492] 正在创建粒子特效ID =  10077
+[11.7562] 当前的粒子特效的xml文件为：  10077.xml
+[11.7932] 正在创建粒子特效ID =  81
+[11.7958] 当前的粒子特效的xml文件为：  81.xml
+----------   try to load res:eft/texture/tx_dian_010.png  ---------
+
+[11.8413] 正在创建粒子特效ID =  10081
+[11.8419] 当前的粒子特效的xml文件为：  10081.xml
+[11.8583] 正在创建粒子特效ID =  10206
+[11.8596] 当前的粒子特效的xml文件为：  10206.xml
+[11.8727] 正在创建粒子特效ID =  10210
+[11.8754] 当前的粒子特效的xml文件为：  10210.xml
+[11.9063] 正在创建粒子特效ID =  344
+[11.9092] 当前的粒子特效的xml文件为：  344.xml
+----------   try to load res:eft/texture/tx_xuliezhen_063.png  ---------
+
+----------   try to load res:eft/texture/tx_quan_001.png  ---------
+
+[12.0002] 正在创建粒子特效ID =  80
+[12.0008] 当前的粒子特效的xml文件为：  80.xml
+[12.0292] 正在创建粒子特效ID =  10204
+[12.0377] 当前的粒子特效的xml文件为：  10204.xml
+[12.0835] 正在创建粒子特效ID =  10082
+[12.0840] 当前的粒子特效的xml文件为：  10082.xml
+[12.1352] 正在创建粒子特效ID =  83
+[12.1357] 当前的粒子特效的xml文件为：  83.xml
+[12.2119] 正在创建粒子特效ID =  10018
+[12.2125] 当前的粒子特效的xml文件为：  10018.xml
+[12.2193] 正在创建粒子特效ID =  10203
+[12.2261] 当前的粒子特效的xml文件为：  10203.xml
+[12.2523] 正在创建粒子特效ID =  23
+[12.2541] 当前的粒子特效的xml文件为：  23.xml
+[12.2839] 正在创建粒子特效ID =  82
+[12.2843] 当前的粒子特效的xml文件为：  82.xml
+----------   try to load res:eft/texture/Effect_Textures_object_xr001.png  ---------
+
+[12.3896] 正在创建粒子特效ID =  354
+[12.3915] 当前的粒子特效的xml文件为：  354.xml
+----------   try to load res:eft/texture/Effects_Textures_Star_x005.png  ---------
+
+----------   try to load res:eft/texture/flower_47.png  ---------
+
+[12.4666] 正在创建粒子特效ID =  10115
+[12.4671] 当前的粒子特效的xml文件为：  10115.xml
+[12.4894] 正在创建粒子特效ID =  364
+[12.4914] 当前的粒子特效的xml文件为：  364.xml
+[12.5570] 正在创建粒子特效ID =  10051
+[12.5628] 当前的粒子特效的xml文件为：  10051.xml
+----------   try to load res:eft/texture/flower_77.png  ---------
+
+[12.6002] 正在创建粒子特效ID =  10201
+[12.6010] 当前的粒子特效的xml文件为：  10201.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z3263.png  ---------
+
+[12.7024] 正在创建粒子特效ID =  10105
+[12.7139] 当前的粒子特效的xml文件为：  10105.xml
+----------   try to load res:eft/texture/flower_79.png  ---------
+
+[12.7519] 正在创建粒子特效ID =  10212
+[12.7525] 当前的粒子特效的xml文件为：  10212.xml
+[12.7693] 正在创建粒子特效ID =  10002
+[12.7707] 当前的粒子特效的xml文件为：  10002.xml
+[12.7974] 正在创建粒子特效ID =  362
+[12.8009] 当前的粒子特效的xml文件为：  362.xml
+----------   try to load res:eft/texture/Effects_TX_Water_509.png  ---------
+
+[12.8615] 正在创建粒子特效ID =  10128
+[12.8707] 当前的粒子特效的xml文件为：  10128.xml
+[12.8979] 正在创建粒子特效ID =  372
+[12.9053] 当前的粒子特效的xml文件为：  372.xml
+[12.9203] 正在创建粒子特效ID =  332
+[12.9283] 当前的粒子特效的xml文件为：  332.xml
+[12.9531] 正在创建粒子特效ID =  374
+[12.9537] 当前的粒子特效的xml文件为：  374.xml
+[12.9664] 正在创建粒子特效ID =  10191
+[12.9688] 当前的粒子特效的xml文件为：  10191.xml
+----------   try to load res:eft/texture/tx_quan_062.png  ---------
+
+[13.0393] 正在创建粒子特效ID =  10190
+[13.0509] 当前的粒子特效的xml文件为：  10190.xml
+----------   try to load res:eft/texture/huoche_26.png  ---------
+
+[13.0909] 正在创建粒子特效ID =  10181
+[13.0947] 当前的粒子特效的xml文件为：  10181.xml
+----------   try to load res:eft/texture/tx_xuliezhen_002.png  ---------
+
+----------   try to load res:eft/texture/flower_47_00000.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Sequence_z006.png  ---------
+
+[13.1866] 正在创建粒子特效ID =  20
+[13.1872] 当前的粒子特效的xml文件为：  20.xml
+----------   try to load res:eft/texture/flower_49.png  ---------
+
+----------   try to load res:eft/texture/flower_53.png  ---------
+
+[13.2476] 正在创建粒子特效ID =  10117
+[13.2519] 当前的粒子特效的xml文件为：  10117.xml
+----------   try to load res:eft/texture/tx_dian_103.png  ---------
+
+----------   try to load res:eft/texture/tx_dian_019.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z470.png  ---------
+
+[13.3851] 正在创建粒子特效ID =  10152
+[13.3857] 当前的粒子特效的xml文件为：  10152.xml
+----------   try to load res:eft/texture/Effects_Textures_Fluxay_x004.png  ---------
+
+[13.4242] 正在创建粒子特效ID =  10053
+[13.4316] 当前的粒子特效的xml文件为：  10053.xml
+[13.4564] 正在创建粒子特效ID =  382
+[13.4569] 当前的粒子特效的xml文件为：  382.xml
+[13.5006] 正在创建粒子特效ID =  10006
+[13.5012] 当前的粒子特效的xml文件为：  10006.xml
+----------   try to load res:eft/texture/Effects_Textures_Lightning_l008.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Lightning_l006.png  ---------
+
+[13.5721] 正在创建粒子特效ID =  10214
+[13.5769] 当前的粒子特效的xml文件为：  10214.xml
+[13.6089] 正在创建粒子特效ID =  185
+[13.6105] 当前的粒子特效的xml文件为：  185.xml
+----------   try to load res:eft/texture/Effects_TX_Glow_002.png  ---------
+
+----------   try to load res:eft/texture/tx_quan_031.png  ---------
+
+[13.6934] 正在创建粒子特效ID =  10150
+[13.6940] 当前的粒子特效的xml文件为：  10150.xml
+[13.7017] 正在创建粒子特效ID =  10170
+[13.7070] 当前的粒子特效的xml文件为：  10170.xml
+[13.7376] 正在创建粒子特效ID =  91
+[13.7471] 当前的粒子特效的xml文件为：  91.xml
+----------   try to load res:eft/texture/huoche_23.png  ---------
+
+[13.7884] 正在创建粒子特效ID =  10184
+[13.7915] 当前的粒子特效的xml文件为：  10184.xml
+[13.8083] 正在创建粒子特效ID =  10022
+[13.8102] 当前的粒子特效的xml文件为：  10022.xml
+[13.8227] 正在创建粒子特效ID =  10183
+[13.8316] 当前的粒子特效的xml文件为：  10183.xml
+----------   try to load res:eft/texture/huoche_22.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z485.png  ---------
+
+[13.9421] 正在创建粒子特效ID =  10050
+[13.9502] 当前的粒子特效的xml文件为：  10050.xml
+[13.9780] 正在创建粒子特效ID =  21
+[13.9789] 当前的粒子特效的xml文件为：  21.xml
+----------   try to load res:eft/texture/flower_71.png  ---------
+
+[14.0340] 正在创建粒子特效ID =  10180
+[14.0349] 当前的粒子特效的xml文件为：  10180.xml
+----------   try to load res:eft/texture/Effects_Textures_Star_xr005.png  ---------
+
+[14.0720] 正在创建粒子特效ID =  10119
+[14.0727] 当前的粒子特效的xml文件为：  10119.xml
+----------   try to load res:eft/texture/Effects_Textures_Glow_x002.png  ---------
+
+----------   try to load res:eft/texture/tx_huo_009.png  ---------
+
+----------   try to load res:eft/texture/tx_dian_012.png  ---------
+
+[14.1803] 正在创建粒子特效ID =  70
+[14.1821] 当前的粒子特效的xml文件为：  70.xml
+----------   try to load res:eft/texture/Effects_Textures_Rotation_z008.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z491.png  ---------
+
+[14.2783] 正在创建粒子特效ID =  10055
+[14.2848] 当前的粒子特效的xml文件为：  10055.xml
+----------   try to load res:eft/texture/tx_quan_007.png  ---------
+
+[14.3512] 正在创建粒子特效ID =  10179
+[14.3526] 当前的粒子特效的xml文件为：  10179.xml
+[14.3901] 正在创建粒子特效ID =  10074
+[14.3934] 当前的粒子特效的xml文件为：  10074.xml
+----------   try to load res:eft/texture/tx_xuliezhen_004.png  ---------
+
+----------   try to load res:eft/texture/tx_xuliezhen_029.png  ---------
+
+[14.4959] 正在创建粒子特效ID =  71
+[14.4977] 当前的粒子特效的xml文件为：  71.xml
+Read Len Error:BufferSize=4499 ReadLen=4,pos=4499
+----------   try to load res:eft/texture/flower_69.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Sequence_x038.png  ---------
+
+----------   try to load res:eft/texture/Effects_TX_Lightning_505.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Ring_x019.png  ---------
+
+[14.6551] 正在创建粒子特效ID =  10176
+[14.6558] 当前的粒子特效的xml文件为：  10176.xml
+[14.6733] 正在创建粒子特效ID =  262
+[14.6746] 当前的粒子特效的xml文件为：  262.xml
+Read Len Error:BufferSize=803 ReadLen=4,pos=803
+----------   try to load res:eft/texture/Effects_Textures_Smoke_z026.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_l007.png  ---------
+
+[14.7525] 正在创建粒子特效ID =  10175
+[14.7531] 当前的粒子特效的xml文件为：  10175.xml
+----------   try to load res:eft/texture/Effects_Textures_Lightning_x005.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_l001.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Trail_l014.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_xr004.png  ---------
+
+[14.8778] 正在创建粒子特效ID =  280
+[14.8803] 当前的粒子特效的xml文件为：  280.xml
+----------   try to load res:eft/texture/Effects_Textures_Rotation_x009.png  ---------
+
+----------   try to load res:eft/texture/tx_shandian_021.png  ---------
+
+Read Len Error:BufferSize=19331 ReadLen=4,pos=19331
+[14.9871] 正在创建粒子特效ID =  10086
+[14.9895] 当前的粒子特效的xml文件为：  10086.xml
+----------   try to load res:eft/texture/Effects_Textures_Ring_x026.png  ---------
+
+[15.0293] 正在创建粒子特效ID =  282
+[15.0312] 当前的粒子特效的xml文件为：  282.xml
+----------   try to load res:eft/texture/huoche_19.png  ---------
+
+----------   try to load res:eft/texture/huoche_20.png  ---------
+
+----------   try to load res:eft/texture/huoche_21.png  ---------
+
+[15.1852] 正在创建粒子特效ID =  10172
+[15.1857] 当前的粒子特效的xml文件为：  10172.xml
+[15.2245] 正在创建粒子特效ID =  284
+[15.2325] 当前的粒子特效的xml文件为：  284.xml
+[15.2447] 正在创建粒子特效ID =  10185
+[15.2452] 当前的粒子特效的xml文件为：  10185.xml
+[15.2493] 正在创建粒子特效ID =  10169
+[15.2513] 当前的粒子特效的xml文件为：  10169.xml
+----------   try to load res:eft/texture/tx_tail_024.png  ---------
+
+[15.3122] 正在创建粒子特效ID =  10121
+[15.3187] 当前的粒子特效的xml文件为：  10121.xml
+----------   try to load res:eft/texture/flower_18.png  ---------
+
+[15.3696] 正在创建粒子特效ID =  272
+[15.3702] 当前的粒子特效的xml文件为：  272.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z254.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z488.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z487.png  ---------
+
+[15.4685] 正在创建粒子特效ID =  10057
+[15.4711] 当前的粒子特效的xml文件为：  10057.xml
+[15.5258] 正在创建粒子特效ID =  274
+[15.5314] 当前的粒子特效的xml文件为：  274.xml
+[15.5603] 正在创建粒子特效ID =  10168
+[15.5609] 当前的粒子特效的xml文件为：  10168.xml
+[15.5869] 正在创建粒子特效ID =  10218
+[15.5916] 当前的粒子特效的xml文件为：  10218.xml
+[15.5968] 正在创建粒子特效ID =  10166
+[15.5990] 当前的粒子特效的xml文件为：  10166.xml
+----------   try to load res:eft/texture/flower_13.png  ---------
+
+[15.6372] 正在创建粒子特效ID =  10154
+[15.6390] 当前的粒子特效的xml文件为：  10154.xml
+[15.6677] 正在创建粒子特效ID =  10165
+[15.6689] 当前的粒子特效的xml文件为：  10165.xml
+----------   try to load res:eft/texture/flower_31.png  ---------
+
+[15.6890] 正在创建粒子特效ID =  10090
+[15.6898] 当前的粒子特效的xml文件为：  10090.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z102.png  ---------
+
+[15.7594] 正在创建粒子特效ID =  294
+[15.7682] 当前的粒子特效的xml文件为：  294.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x001.png  ---------
+
+[15.7891] 正在创建粒子特效ID =  10026
+[15.7902] 当前的粒子特效的xml文件为：  10026.xml
+[15.8259] 正在创建粒子特效ID =  292
+[15.8292] 当前的粒子特效的xml文件为：  292.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z466.png  ---------
+
+[15.8523] 正在创建粒子特效ID =  10164
+[15.8535] 当前的粒子特效的xml文件为：  10164.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x006.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_z014.png  ---------
+
+[15.9148] 正在创建粒子特效ID =  290
+[15.9227] 当前的粒子特效的xml文件为：  290.xml
+[15.9438] 正在创建粒子特效ID =  10163
+[15.9481] 当前的粒子特效的xml文件为：  10163.xml
+[15.9773] 正在创建粒子特效ID =  10123
+[15.9779] 当前的粒子特效的xml文件为：  10123.xml
+[16.0081] 正在创建粒子特效ID =  10126
+[16.0111] 当前的粒子特效的xml文件为：  10126.xml
+----------   try to load res:eft/texture/tx_dian_000.png  ---------
+
+[16.0539] 正在创建粒子特效ID =  302
+[16.0546] 当前的粒子特效的xml文件为：  302.xml
+[16.0878] 正在创建粒子特效ID =  204
+[16.0921] 当前的粒子特效的xml文件为：  204.xml
+----------   try to load res:eft/texture/tx_dian_049.png  ---------
+
+[16.1340] 正在创建粒子特效ID =  300
+[16.1372] 当前的粒子特效的xml文件为：  300.xml
+----------   try to load res:eft/texture/huoche_34.png  ---------
+
+[16.1762] 正在创建粒子特效ID =  10220
+[16.1770] 当前的粒子特效的xml文件为：  10220.xml
+[16.1881] 正在创建粒子特效ID =  450
+[16.1904] 当前的粒子特效的xml文件为：  450.xml
+[16.1949] 正在创建粒子特效ID =  10156
+[16.1958] 当前的粒子特效的xml文件为：  10156.xml
+----------   try to load res:eft/texture/Effects_Textures_Fire_x003.png  ---------
+
+[16.2460] 正在创建粒子特效ID =  10158
+[16.2465] 当前的粒子特效的xml文件为：  10158.xml
+[16.3064] 正在创建粒子特效ID =  10092
+[16.3073] 当前的粒子特效的xml文件为：  10092.xml
+----------   try to load res:eft/texture/huoche_16.png  ---------
+
+[16.3661] 正在创建粒子特效ID =  10157
+[16.3718] 当前的粒子特效的xml文件为：  10157.xml
+----------   try to load res:eft/texture/flower_6.png  ---------
+
+[16.4171] 正在创建粒子特效ID =  10028
+[16.4184] 当前的粒子特效的xml文件为：  10028.xml
+----------   try to load res:eft/texture/flower_3.png  ---------
+
+[16.4494] 正在创建粒子特效ID =  10020
+[16.4603] 当前的粒子特效的xml文件为：  10020.xml
+[16.4720] 正在创建粒子特效ID =  10153
+[16.4930] 当前的粒子特效的xml文件为：  10153.xml
+----------   try to load res:eft/texture/huoche_25.png  ---------
+
+[16.5334] 正在创建粒子特效ID =  10189
+[16.5344] 当前的粒子特效的xml文件为：  10189.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z460.png  ---------
+
+[16.5912] 正在创建粒子特效ID =  10037
+[16.5959] 当前的粒子特效的xml文件为：  10037.xml
+[16.6213] 正在创建粒子特效ID =  304
+[16.6232] 当前的粒子特效的xml文件为：  304.xml
+[16.6502] 正在创建粒子特效ID =  10149
+[16.6518] 当前的粒子特效的xml文件为：  10149.xml
+[16.6766] 正在创建粒子特效ID =  10061
+[16.6780] 当前的粒子特效的xml文件为：  10061.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x035.png  ---------
+
+[16.7162] 正在创建粒子特效ID =  10148
+[16.7263] 当前的粒子特效的xml文件为：  10148.xml
+----------   try to load res:eft/texture/Effects_Textures_Rotation_l001.png  ---------
+
+----------   try to load res:eft/texture/huoche_15.png  ---------
+
+[16.8488] 正在创建粒子特效ID =  10147
+[16.8496] 当前的粒子特效的xml文件为：  10147.xml
+[16.8743] 正在创建粒子特效ID =  10222
+[16.8898] 当前的粒子特效的xml文件为：  10222.xml
+[16.9302] 正在创建粒子特效ID =  314
+[16.9374] 当前的粒子特效的xml文件为：  314.xml
+[16.9589] 正在创建粒子特效ID =  451
+[16.9594] 当前的粒子特效的xml文件为：  451.xml
+[16.9868] 正在创建粒子特效ID =  312
+[16.9975] 当前的粒子特效的xml文件为：  312.xml
+Read Len Error:BufferSize=10463 ReadLen=4,pos=10463
+----------   try to load res:eft/texture/Effects_Textures_Quest_z497.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Fluxay_xr001.png  ---------
+
+Read Len Error:BufferSize=50423 ReadLen=4,pos=50423
+----------   try to load res:eft/texture/Effects_Textures_Lightning_xr009.png  ---------
+
+----------   try to load res:eft/texture/huoche_14.png  ---------
+
+[17.1722] 正在创建粒子特效ID =  10094
+[17.1757] 当前的粒子特效的xml文件为：  10094.xml
+[17.2081] 正在创建粒子特效ID =  10076
+[17.2086] 当前的粒子特效的xml文件为：  10076.xml
+[17.2599] 正在创建粒子特效ID =  455
+[17.2666] 当前的粒子特效的xml文件为：  455.xml
+[17.3009] 正在创建粒子特效ID =  10143
+[17.3033] 当前的粒子特效的xml文件为：  10143.xml
+[17.3286] 正在创建粒子特效ID =  453
+[17.3389] 当前的粒子特效的xml文件为：  453.xml
+[17.3797] 正在创建粒子特效ID =  231
+[17.3875] 当前的粒子特效的xml文件为：  231.xml
+----------   try to load res:eft/texture/tx_liuguang_008.png  ---------
+
+----------   try to load res:eft/texture/flower_240.png  ---------
+
+----------   try to load res:eft/texture/flower_193.png  ---------
+
+[17.5247] 正在创建粒子特效ID =  10141
+[17.5300] 当前的粒子特效的xml文件为：  10141.xml
+[17.5814] 正在创建粒子特效ID =  230
+[17.5934] 当前的粒子特效的xml文件为：  230.xml
+----------   try to load res:eft/texture/flower_32.png  ---------
+
+----------   try to load res:eft/texture/tx_quan_047.png  ---------
+
+----------   try to load res:eft/texture/flower_242.png  ---------
+
+----------   try to load res:eft/texture/tx_guang_035.png  ---------
+
+[17.8047] 正在创建粒子特效ID =  10140
+[17.8109] 当前的粒子特效的xml文件为：  10140.xml
+[17.8487] 正在创建粒子特效ID =  225
+[17.8506] 当前的粒子特效的xml文件为：  225.xml
+[17.8619] 正在创建粒子特效ID =  463
+[17.8720] 当前的粒子特效的xml文件为：  463.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_xr006.png  ---------
+
+[17.9177] 正在创建粒子特效ID =  10139
+[17.9235] 当前的粒子特效的xml文件为：  10139.xml
+[17.9847] 正在创建粒子特效ID =  224
+[17.9871] 当前的粒子特效的xml文件为：  224.xml
+----------   try to load res:eft/texture/flower_62.png  ---------
+
+----------   try to load res:eft/texture/flower_58.png  ---------
+
+----------   try to load res:eft/texture/flower_59.png  ---------
+
+----------   try to load res:eft/texture/flower_60.png  ---------
+
+----------   try to load res:eft/texture/flower_61.png  ---------
+
+[18.1703] 正在创建粒子特效ID =  10138
+[18.1709] 当前的粒子特效的xml文件为：  10138.xml
+[18.1894] 正在创建粒子特效ID =  10160
+[18.1901] 当前的粒子特效的xml文件为：  10160.xml
+----------   try to load res:eft/texture/flower_46.png  ---------
+
+----------   try to load res:eft/texture/flower_45.png  ---------
+
+[18.2995] 正在创建粒子特效ID =  10102
+[18.3082] 当前的粒子特效的xml文件为：  10102.xml
+[18.3201] 正在创建粒子特效ID =  465
+[18.3267] 当前的粒子特效的xml文件为：  465.xml
+----------   try to load res:eft/texture/tx_quan_085.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Glow_z001.png  ---------
+
+[18.3885] 正在创建粒子特效ID =  10112
+[18.3904] 当前的粒子特效的xml文件为：  10112.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_l009.png  ---------
+
+[18.4271] 正在创建粒子特效ID =  471
+[18.4314] 当前的粒子特效的xml文件为：  471.xml
+[18.4536] 正在创建粒子特效ID =  10131
+[18.4549] 当前的粒子特效的xml文件为：  10131.xml
+[18.4811] 正在创建粒子特效ID =  10130
+[18.4875] 当前的粒子特效的xml文件为：  10130.xml
+[18.5053] 正在创建粒子特效ID =  10193
+[18.5088] 当前的粒子特效的xml文件为：  10193.xml
+[18.5322] 正在创建粒子特效ID =  475
+[18.5328] 当前的粒子特效的xml文件为：  475.xml
+----------   try to load res:eft/texture/dialog_click.png  ---------
+
+----------   try to load res:eft/texture/dialog_click2.png  ---------
+
+[18.6163] 正在创建粒子特效ID =  10129
+[18.6168] 当前的粒子特效的xml文件为：  10129.xml
+[18.6362] 正在创建粒子特效ID =  473
+[18.6401] 当前的粒子特效的xml文件为：  473.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z492.png  ---------
+
+----------   try to load res:eft/texture/tx_tiao_032.png  ---------
+
+[18.6991] 正在创建粒子特效ID =  233
+[18.6997] 当前的粒子特效的xml文件为：  233.xml
+[18.7352] 正在创建粒子特效ID =  15
+[18.7370] 当前的粒子特效的xml文件为：  15.xml
+[18.7577] 正在创建粒子特效ID =  232
+[18.7595] 当前的粒子特效的xml文件为：  232.xml
+[18.7846] 正在创建粒子特效ID =  10226
+[18.7851] 当前的粒子特效的xml文件为：  10226.xml
+[18.8001] 正在创建粒子特效ID =  235
+[18.8006] 当前的粒子特效的xml文件为：  235.xml
+[18.8111] 正在创建粒子特效ID =  10162
+[18.8124] 当前的粒子特效的xml文件为：  10162.xml
+[18.8221] 正在创建粒子特效ID =  234
+[18.8227] 当前的粒子特效的xml文件为：  234.xml
+----------   try to load res:eft/texture/flower_40.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z426.png  ---------
+
+[18.9296] 正在创建粒子特效ID =  10098
+[18.9336] 当前的粒子特效的xml文件为：  10098.xml
+[18.9649] 正在创建粒子特效ID =  485
+[18.9654] 当前的粒子特效的xml文件为：  485.xml
+[18.9997] 正在创建粒子特效ID =  244
+[19.0004] 当前的粒子特效的xml文件为：  244.xml
+----------   try to load res:eft/texture/Effects_Textures_Star_x009.png  ---------
+
+[19.0400] 正在创建粒子特效ID =  10125
+[19.0445] 当前的粒子特效的xml文件为：  10125.xml
+[19.0765] 正在创建粒子特效ID =  245
+[19.0813] 当前的粒子特效的xml文件为：  245.xml
+----------   try to load res:eft/texture/huoche_27.png  ---------
+
+----------   try to load res:eft/texture/huoche_28.png  ---------
+
+[19.1191] 正在创建粒子特效ID =  10195
+[19.1293] 当前的粒子特效的xml文件为：  10195.xml
+----------   try to load res:eft/texture/flower_10.png  ---------
+
+[19.1684] 正在创建粒子特效ID =  10027
+[19.1717] 当前的粒子特效的xml文件为：  10027.xml
+[19.2352] 正在创建粒子特效ID =  491
+[19.2366] 当前的粒子特效的xml文件为：  491.xml
+----------   try to load res:eft/texture/Effects_Textures_Star_xr007.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Star_z004.png  ---------
+
+[19.3190] 正在创建粒子特效ID =  10120
+[19.3208] 当前的粒子特效的xml文件为：  10120.xml
+[19.3750] 正在创建粒子特效ID =  493
+[19.3792] 当前的粒子特效的xml文件为：  493.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z472.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z477.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z478.png  ---------
+
+[19.5967] 正在创建粒子特效ID =  10046
+[19.5973] 当前的粒子特效的xml文件为：  10046.xml
+[19.6416] 正在创建粒子特效ID =  495
+[19.6440] 当前的粒子特效的xml文件为：  495.xml
+[19.7249] 正在创建粒子特效ID =  241
+[19.7267] 当前的粒子特效的xml文件为：  241.xml
+----------   try to load res:eft/texture/flower_48.png  ---------
+
+----------   try to load res:eft/texture/flower_52.png  ---------
+
+[19.7913] 正在创建粒子特效ID =  10116
+[19.7922] 当前的粒子特效的xml文件为：  10116.xml
+[19.8459] 正在创建粒子特效ID =  242
+[19.8483] 当前的粒子特效的xml文件为：  242.xml
+[19.8637] 正在创建粒子特效ID =  10073
+[19.8791] 当前的粒子特效的xml文件为：  10073.xml
+[19.9249] 正在创建粒子特效ID =  243
+[19.9315] 当前的粒子特效的xml文件为：  243.xml
+[19.9799] 正在创建粒子特效ID =  501
+[19.9816] 当前的粒子特效的xml文件为：  501.xml
+[20.0061] 正在创建粒子特效ID =  252
+[20.0157] 当前的粒子特效的xml文件为：  252.xml
+[20.0384] 正在创建粒子特效ID =  503
+[20.0393] 当前的粒子特效的xml文件为：  503.xml
+[20.0629] 正在创建粒子特效ID =  253
+[20.0634] 当前的粒子特效的xml文件为：  253.xml
+[20.0958] 正在创建粒子特效ID =  505
+[20.0993] 当前的粒子特效的xml文件为：  505.xml
+[20.1423] 正在创建粒子特效ID =  254
+[20.1428] 当前的粒子特效的xml文件为：  254.xml
+----------   try to load res:eft/texture/arena_no1.png  ---------
+
+[20.1679] 正在创建粒子特效ID =  10133
+[20.1773] 当前的粒子特效的xml文件为：  10133.xml
+[20.2040] 正在创建粒子特效ID =  255
+[20.2059] 当前的粒子特效的xml文件为：  255.xml
+----------   try to load res:eft/texture/flower_25.png  ---------
+
+----------   try to load res:eft/texture/flower_24.png  ---------
+
+[20.3724] 正在创建粒子特效ID =  10069
+[20.3762] 当前的粒子特效的xml文件为：  10069.xml
+----------   try to load res:eft/texture/flower_4.png  ---------
+
+[20.4387] 正在创建粒子特效ID =  61
+[20.4458] 当前的粒子特效的xml文件为：  61.xml
+[20.4695] 正在创建粒子特效ID =  10005
+[20.4773] 当前的粒子特效的xml文件为：  10005.xml
+[20.5296] 正在创建粒子特效ID =  14
+[20.5330] 当前的粒子特效的xml文件为：  14.xml
+Read Len Error:BufferSize=18755 ReadLen=4,pos=18755
+[20.6192] 正在创建粒子特效ID =  10056
+[20.6197] 当前的粒子特效的xml文件为：  10056.xml
+[20.6529] 正在创建粒子特效ID =  250
+[20.6551] 当前的粒子特效的xml文件为：  250.xml
+----------   try to load res:eft/texture/huoche_7.png  ---------
+
+----------   try to load res:eft/texture/huoche_3.png  ---------
+
+[20.7480] 正在创建粒子特效ID =  10108
+[20.7486] 当前的粒子特效的xml文件为：  10108.xml
+[20.8163] 正在创建粒子特效ID =  251
+[20.8168] 当前的粒子特效的xml文件为：  251.xml
+[20.8449] 正在创建粒子特效ID =  391
+[20.8634] 当前的粒子特效的xml文件为：  391.xml
+[20.9391] 正在创建粒子特效ID =  60
+[20.9445] 当前的粒子特效的xml文件为：  60.xml
+----------   try to load res:eft/texture/huoche_4.png  ---------
+
+----------   try to load res:eft/texture/huoche_8.png  ---------
+
+[21.0326] 正在创建粒子特效ID =  10106
+[21.0383] 当前的粒子特效的xml文件为：  10106.xml
+[21.0837] 正在创建粒子特效ID =  385
+[21.0872] 当前的粒子特效的xml文件为：  385.xml
+----------   try to load res:eft/texture/huoche_30.png  ---------
+
+[21.1699] 正在创建粒子特效ID =  10199
+[21.1713] 当前的粒子特效的xml文件为：  10199.xml
+[21.2226] 正在创建粒子特效ID =  10104
+[21.2250] 当前的粒子特效的xml文件为：  10104.xml
+[21.2556] 正在创建粒子特效ID =  10135
+[21.2567] 当前的粒子特效的xml文件为：  10135.xml
+----------   try to load res:eft/texture/flower_42.png  ---------
+
+----------   try to load res:eft/texture/flower_39.png  ---------
+
+[21.3758] 正在创建粒子特效ID =  10100
+[21.3764] 当前的粒子特效的xml文件为：  10100.xml
+----------   try to load res:eft/texture/flower_28.png  ---------
+
+----------   try to load res:eft/texture/flower_29.png  ---------
+
+[21.4970] 正在创建粒子特效ID =  10071
+[21.4975] 当前的粒子特效的xml文件为：  10071.xml
+[21.5153] 正在创建粒子特效ID =  194
+[21.5163] 当前的粒子特效的xml文件为：  194.xml
+[21.5353] 正在创建粒子特效ID =  393
+[21.5361] 当前的粒子特效的xml文件为：  393.xml
+[21.5656] 正在创建粒子特效ID =  195
+[21.5726] 当前的粒子特效的xml文件为：  195.xml
+[21.5885] 正在创建粒子特效ID =  395
+[21.5928] 当前的粒子特效的xml文件为：  395.xml
+[21.6582] 正在创建粒子特效ID =  51
+[21.6635] 当前的粒子特效的xml文件为：  51.xml
+[21.6957] 正在创建粒子特效ID =  192
+[21.6999] 当前的粒子特效的xml文件为：  192.xml
+[21.7195] 正在创建粒子特效ID =  193
+[21.7253] 当前的粒子特效的xml文件为：  193.xml
+----------   try to load res:eft/texture/flower_41.png  ---------
+
+[21.8717] 正在创建粒子特效ID =  10097
+[21.8781] 当前的粒子特效的xml文件为：  10097.xml
+[21.9468] 正在创建粒子特效ID =  10040
+[21.9473] 当前的粒子特效的xml文件为：  10040.xml
+[21.9996] 正在创建粒子特效ID =  401
+[22.0001] 当前的粒子特效的xml文件为：  401.xml
+----------   try to load res:eft/texture/flower_36.png  ---------
+
+[22.0632] 正在创建粒子特效ID =  10096
+[22.0645] 当前的粒子特效的xml文件为：  10096.xml
+[22.0873] 正在创建粒子特效ID =  403
+[22.0932] 当前的粒子特效的xml文件为：  403.xml
+----------   try to load res:eft/texture/tx_xuliezhen_066.png  ---------
+
+----------   try to load res:eft/texture/tx_yanwu_010.png  ---------
+
+[22.1933] 正在创建粒子特效ID =  50
+[22.1986] 当前的粒子特效的xml文件为：  50.xml
+[22.2301] 正在创建粒子特效ID =  413
+[22.2316] 当前的粒子特效的xml文件为：  413.xml
+[22.2720] 正在创建粒子特效ID =  205
+[22.2775] 当前的粒子特效的xml文件为：  205.xml
+[22.3013] 正在创建粒子特效ID =  415
+[22.3020] 当前的粒子特效的xml文件为：  415.xml
+[22.3414] 正在创建粒子特效ID =  202
+[22.3461] 当前的粒子特效的xml文件为：  202.xml
+[22.3612] 正在创建粒子特效ID =  10009
+[22.3716] 当前的粒子特效的xml文件为：  10009.xml
+[22.4027] 正在创建粒子特效ID =  203
+[22.4106] 当前的粒子特效的xml文件为：  203.xml
+[22.4419] 正在创建粒子特效ID =  13
+[22.4423] 当前的粒子特效的xml文件为：  13.xml
+[22.4705] 正在创建粒子特效ID =  200
+[22.4715] 当前的粒子特效的xml文件为：  200.xml
+[22.4931] 正在创建粒子特效ID =  419
+[22.4936] 当前的粒子特效的xml文件为：  419.xml
+[22.5172] 正在创建粒子特效ID =  201
+[22.5178] 当前的粒子特效的xml文件为：  201.xml
+----------   try to load res:eft/texture/Effects_Textures_Spot_l004.png  ---------
+
+[22.5741] 正在创建粒子特效ID =  480
+[22.5748] 当前的粒子特效的xml文件为：  480.xml
+[22.5939] 正在创建粒子特效ID =  423
+[22.5971] 当前的粒子特效的xml文件为：  423.xml
+[22.6436] 正在创建粒子特效ID =  213
+[22.6457] 当前的粒子特效的xml文件为：  213.xml
+[22.6717] 正在创建粒子特效ID =  421
+[22.6722] 当前的粒子特效的xml文件为：  421.xml
+[22.7275] 正在创建粒子特效ID =  212
+[22.7291] 当前的粒子特效的xml文件为：  212.xml
+[22.7756] 正在创建粒子特效ID =  427
+[22.7764] 当前的粒子特效的xml文件为：  427.xml
+[22.8140] 正在创建粒子特效ID =  215
+[22.8151] 当前的粒子特效的xml文件为：  215.xml
+[22.8462] 正在创建粒子特效ID =  425
+[22.8468] 当前的粒子特效的xml文件为：  425.xml
+[22.8898] 正在创建粒子特效ID =  214
+[22.9065] 当前的粒子特效的xml文件为：  214.xml
+[22.9439] 正在创建粒子特效ID =  431
+[22.9460] 当前的粒子特效的xml文件为：  431.xml
+[22.9670] 正在创建粒子特效ID =  10011
+[22.9676] 当前的粒子特效的xml文件为：  10011.xml
+[22.9857] 正在创建粒子特效ID =  429
+[22.9865] 当前的粒子特效的xml文件为：  429.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z493.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Smoke_l006.png  ---------
+
+[23.0507] 正在创建粒子特效ID =  10091
+[23.0513] 当前的粒子特效的xml文件为：  10091.xml
+[23.0757] 正在创建粒子特效ID =  435
+[23.0762] 当前的粒子特效的xml文件为：  435.xml
+[23.1392] 正在创建粒子特效ID =  211
+[23.1398] 当前的粒子特效的xml文件为：  211.xml
+[23.1628] 正在创建粒子特效ID =  433
+[23.1633] 当前的粒子特效的xml文件为：  433.xml
+[23.1883] 正在创建粒子特效ID =  210
+[23.1971] 当前的粒子特效的xml文件为：  210.xml
+----------   try to load res:eft/texture/flower_15.png  ---------
+
+[23.2883] 正在创建粒子特效ID =  10044
+[23.2904] 当前的粒子特效的xml文件为：  10044.xml
+[23.3338] 正在创建粒子特效ID =  221
+[23.3434] 当前的粒子特效的xml文件为：  221.xml
+----------   try to load res:eft/texture/flower_11.png  ---------
+
+[23.4326] 正在创建粒子特效ID =  10030
+[23.4339] 当前的粒子特效的xml文件为：  10030.xml
+[23.4723] 正在创建粒子特效ID =  220
+[23.4734] 当前的粒子特效的xml文件为：  220.xml
+[23.4949] 正在创建粒子特效ID =  443
+[23.4955] 当前的粒子特效的xml文件为：  443.xml
+[23.5456] 正在创建粒子特效ID =  223
+[23.5563] 当前的粒子特效的xml文件为：  223.xml
+[23.5874] 正在创建粒子特效ID =  441
+[23.6053] 当前的粒子特效的xml文件为：  441.xml
+[23.6521] 正在创建粒子特效ID =  222
+[23.6540] 当前的粒子特效的xml文件为：  222.xml
+----------   try to load res:eft/texture/flower_30.png  ---------
+
+[23.6696] 正在创建粒子特效ID =  10088
+[23.6806] 当前的粒子特效的xml文件为：  10088.xml
+[23.6947] 正在创建粒子特效ID =  10013
+[23.6953] 当前的粒子特效的xml文件为：  10013.xml
+[23.7242] 正在创建粒子特效ID =  445
+[23.7247] 当前的粒子特效的xml文件为：  445.xml
+[23.7987] 正在创建粒子特效ID =  10036
+[23.8012] 当前的粒子特效的xml文件为：  10036.xml
+[23.8434] 正在创建粒子特效ID =  10174
+[23.8494] 当前的粒子特效的xml文件为：  10174.xml
+[23.9056] 正在创建粒子特效ID =  12
+[23.9095] 当前的粒子特效的xml文件为：  12.xml
+----------   try to load res:eft/texture/huoche_6.png  ---------
+
+----------   try to load res:eft/texture/huoche_9.png  ---------
+
+[23.9889] 正在创建粒子特效ID =  10110
+[23.9925] 当前的粒子特效的xml文件为：  10110.xml
+[24.0456] 正在创建粒子特效ID =  10084
+[24.0466] 当前的粒子特效的xml文件为：  10084.xml
+[24.0710] 正在创建粒子特效ID =  325
+[24.0715] 当前的粒子特效的xml文件为：  325.xml
+[24.0998] 正在创建粒子特效ID =  10065
+[24.1060] 当前的粒子特效的xml文件为：  10065.xml
+[24.1353] 正在创建粒子特效ID =  323
+[24.1371] 当前的粒子特效的xml文件为：  323.xml
+[24.1467] 正在创建粒子特效ID =  10207
+[24.1582] 当前的粒子特效的xml文件为：  10207.xml
+[24.1699] 正在创建粒子特效ID =  10079
+[24.1877] 当前的粒子特效的xml文件为：  10079.xml
+[24.2425] 正在创建粒子特效ID =  165
+[24.2475] 当前的粒子特效的xml文件为：  165.xml
+[24.2533] 正在创建粒子特效ID =  335
+[24.2537] 当前的粒子特效的xml文件为：  335.xml
+[24.2949] 正在创建粒子特效ID =  164
+[24.2960] 当前的粒子特效的xml文件为：  164.xml
+[24.2985] 正在创建粒子特效ID =  333
+[24.2989] 当前的粒子特效的xml文件为：  333.xml
+[24.3390] 正在创建粒子特效ID =  163
+[24.3400] 当前的粒子特效的xml文件为：  163.xml
+[24.3654] 正在创建粒子特效ID =  331
+[24.3659] 当前的粒子特效的xml文件为：  331.xml
+[24.3935] 正在创建粒子特效ID =  162
+[24.3940] 当前的粒子特效的xml文件为：  162.xml
+----------   try to load res:eft/texture/Effects_TX_Lightning_511.png  ---------
+
+----------   try to load res:eft/texture/tx_xuliezhen_125.png  ---------
+
+[24.4664] 正在创建粒子特效ID =  10078
+[24.4753] 当前的粒子特效的xml文件为：  10078.xml
+[24.5238] 正在创建粒子特效ID =  161
+[24.5256] 当前的粒子特效的xml文件为：  161.xml
+[24.5489] 正在创建粒子特效ID =  343
+[24.5584] 当前的粒子特效的xml文件为：  343.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z479.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z459.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z481.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z455.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z482.png  ---------
+
+[24.7612] 正在创建粒子特效ID =  10048
+[24.7647] 当前的粒子特效的xml文件为：  10048.xml
+[24.7907] 正在创建粒子特效ID =  341
+[24.7954] 当前的粒子特效的xml文件为：  341.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z271.png  ---------
+
+[24.8490] 正在创建粒子特效ID =  175
+[24.8495] 当前的粒子特效的xml文件为：  175.xml
+[24.8726] 正在创建粒子特效ID =  10209
+[24.8745] 当前的粒子特效的xml文件为：  10209.xml
+----------   try to load res:eft/texture/Effects_Textures_Trail_l008.png  ---------
+
+[24.9365] 正在创建粒子特效ID =  174
+[24.9421] 当前的粒子特效的xml文件为：  174.xml
+----------   try to load res:eft/texture/flower_51.png  ---------
+
+[24.9705] 正在创建粒子特效ID =  10145
+[24.9714] 当前的粒子特效的xml文件为：  10145.xml
+[25.0123] 正在创建粒子特效ID =  173
+[25.0135] 当前的粒子特效的xml文件为：  173.xml
+[25.0448] 正在创建粒子特效ID =  351
+[25.0464] 当前的粒子特效的xml文件为：  351.xml
+[25.0730] 正在创建粒子特效ID =  172
+[25.0765] 当前的粒子特效的xml文件为：  172.xml
+[25.0893] 正在创建粒子特效ID =  10017
+[25.0902] 当前的粒子特效的xml文件为：  10017.xml
+[25.1129] 正在创建粒子特效ID =  171
+[25.1227] 当前的粒子特效的xml文件为：  171.xml
+[25.1602] 正在创建粒子特效ID =  10075
+[25.1669] 当前的粒子特效的xml文件为：  10075.xml
+[25.2045] 正在创建粒子特效ID =  10178
+[25.2070] 当前的粒子特效的xml文件为：  10178.xml
+[25.2680] 正在创建粒子特效ID =  345
+[25.2704] 当前的粒子特效的xml文件为：  345.xml
+[25.3426] 正在创建粒子特效ID =  10114
+[25.3434] 当前的粒子特效的xml文件为：  10114.xml
+[25.4082] 正在创建粒子特效ID =  11
+[25.4243] 当前的粒子特效的xml文件为：  11.xml
+Get data from file(eft/work_script/41.xml) failed!
+load error:15
+
+Create CCMyParticleSystem Error eft/work_script/41.xml
+[25.4275] 正在创建粒子特效ID =  41
+[25.4278] 当前的粒子特效的xml文件为：  cocos2dx_empty_ps.xml
+----------   try to load res:eft/texture/flower_21.png  ---------
+
+----------   try to load res:eft/texture/flower_20.png  ---------
+
+[25.5546] 正在创建粒子特效ID =  10067
+[25.5561] 当前的粒子特效的xml文件为：  10067.xml
+[25.6331] 正在创建粒子特效ID =  353
+[25.6336] 当前的粒子特效的xml文件为：  353.xml
+[25.6951] 正在创建粒子特效ID =  182
+[25.6968] 当前的粒子特效的xml文件为：  182.xml
+[25.7630] 正在创建粒子特效ID =  355
+[25.7651] 当前的粒子特效的xml文件为：  355.xml
+[25.7884] 正在创建粒子特效ID =  183
+[25.7912] 当前的粒子特效的xml文件为：  183.xml
+[25.8209] 正在创建粒子特效ID =  365
+[25.8243] 当前的粒子特效的xml文件为：  365.xml
+[25.8417] 正在创建粒子特效ID =  10083
+[25.8422] 当前的粒子特效的xml文件为：  10083.xml
+[25.8752] 正在创建粒子特效ID =  295
+[25.8775] 当前的粒子特效的xml文件为：  295.xml
+[25.8993] 正在创建粒子特效ID =  40
+[25.9012] 当前的粒子特效的xml文件为：  40.xml
+[25.9186] 正在创建粒子特效ID =  361
+[25.9191] 当前的粒子特效的xml文件为：  361.xml
+[25.9591] 正在创建粒子特效ID =  10063
+[25.9598] 当前的粒子特效的xml文件为：  10063.xml
+[26.0012] 正在创建粒子特效ID =  363
+[26.0024] 当前的粒子特效的xml文件为：  363.xml
+[26.0694] 正在创建粒子特效ID =  10062
+[26.0709] 当前的粒子特效的xml文件为：  10062.xml
+[26.1140] 正在创建粒子特效ID =  373
+[26.1149] 当前的粒子特效的xml文件为：  373.xml
+----------   try to load res:eft/texture/tx_tiao_046.png  ---------
+
+[26.1413] 正在创建粒子特效ID =  10060
+[26.1424] 当前的粒子特效的xml文件为：  10060.xml
+[26.1882] 正在创建粒子特效ID =  375
+[26.1888] 当前的粒子特效的xml文件为：  375.xml
+[26.2113] 正在创建粒子特效ID =  10059
+[26.2124] 当前的粒子特效的xml文件为：  10059.xml
+[26.2319] 正在创建粒子特效ID =  10025
+[26.2333] 当前的粒子特效的xml文件为：  10025.xml
+----------   try to load res:eft/texture/Effects_Textures_Glow_x008.png  ---------
+
+[26.3362] 正在创建粒子特效ID =  190
+[26.3368] 当前的粒子特效的xml文件为：  190.xml
+[26.3718] 正在创建粒子特效ID =  371
+[26.3849] 当前的粒子特效的xml文件为：  371.xml
+[26.4019] 正在创建粒子特效ID =  191
+[26.4057] 当前的粒子特效的xml文件为：  191.xml
+[26.4609] 正在创建粒子特效ID =  381
+[26.4659] 当前的粒子特效的xml文件为：  381.xml
+[26.5117] 正在创建粒子特效ID =  10085
+[26.5131] 当前的粒子特效的xml文件为：  10085.xml
+[26.5577] 正在创建粒子特效ID =  383
+[26.5650] 当前的粒子特效的xml文件为：  383.xml
+[26.5990] 正在创建粒子特效ID =  10021
+[26.6005] 当前的粒子特效的xml文件为：  10021.xml
+Read Len Error:BufferSize=20027 ReadLen=4,pos=20027
+----------   try to load res:eft/texture/Effects_Textures_Ring_x007.png  ---------
+
+[26.6972] 正在创建粒子特效ID =  10054
+[26.6979] 当前的粒子特效的xml文件为：  10054.xml
+Read Len Error:BufferSize=26783 ReadLen=4,pos=26783
+----------   try to load res:eft/texture/tx_xuliezhen_139.png  ---------
+
+[26.7740] 正在创建粒子特效ID =  10052
+[26.7749] 当前的粒子特效的xml文件为：  10052.xml
+----------   try to load res:eft/texture/Effects_Textures_Flash_x004.png  ---------
+
+[26.8314] 正在创建粒子特效ID =  10182
+[26.8420] 当前的粒子特效的xml文件为：  10182.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z484.png  ---------
+
+[26.8987] 正在创建粒子特效ID =  10049
+[26.8994] 当前的粒子特效的xml文件为：  10049.xml
+----------   try to load res:eft/texture/flower_50.png  ---------
+
+----------   try to load res:eft/texture/flower_54.png  ---------
+
+[26.9462] 正在创建粒子特效ID =  10118
+[26.9467] 当前的粒子特效的xml文件为：  10118.xml
+[26.9735] 正在创建粒子特效ID =  184
+[26.9754] 当前的粒子特效的xml文件为：  184.xml
+[27.0624] 正在创建粒子特效ID =  265
+[27.0728] 当前的粒子特效的xml文件为：  265.xml
+Get data from file(eft/work_script/10.xml) failed!
+load error:15
+
+Create CCMyParticleSystem Error eft/work_script/10.xml
+[27.0783] 正在创建粒子特效ID =  10
+[27.0787] 当前的粒子特效的xml文件为：  cocos2dx_empty_ps.xml
+[27.1648] 正在创建粒子特效ID =  10042
+[27.1669] 当前的粒子特效的xml文件为：  10042.xml
+[27.1865] 正在创建粒子特效ID =  10215
+[27.1870] 当前的粒子特效的xml文件为：  10215.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z464.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z458.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z457.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z456.png  ---------
+
+[27.4166] 正在创建粒子特效ID =  10038
+[27.4234] 当前的粒子特效的xml文件为：  10038.xml
+[27.4597] 正在创建粒子特效ID =  10151
+[27.4614] 当前的粒子特效的xml文件为：  10151.xml
+[27.4861] 正在创建粒子特效ID =  271
+[27.4877] 当前的粒子特效的xml文件为：  271.xml
+[27.4914] 正在创建粒子特效ID =  10087
+[27.4919] 当前的粒子特效的xml文件为：  10087.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z442.png  ---------
+
+[27.5655] 正在创建粒子特效ID =  10035
+[27.5744] 当前的粒子特效的xml文件为：  10035.xml
+[27.6003] 正在创建粒子特效ID =  10023
+[27.6023] 当前的粒子特效的xml文件为：  10023.xml
+----------   try to load res:eft/texture/Effects_Textures_Fluxay_x009.png  ---------
+
+----------   try to load res:eft/texture/flower_9.png  ---------
+
+----------   try to load res:eft/texture/tx_dilie_010.png  ---------
+
+[27.6964] 正在创建粒子特效ID =  10034
+[27.6984] 当前的粒子特效的xml文件为：  10034.xml
+[27.7167] 正在创建粒子特效ID =  10012
+[27.7207] 当前的粒子特效的xml文件为：  10012.xml
+[27.7499] 正在创建粒子特效ID =  261
+[27.7504] 当前的粒子特效的xml文件为：  261.xml
+[27.8058] 正在创建粒子特效ID =  141
+[27.8063] 当前的粒子特效的xml文件为：  141.xml
+[27.8148] 正在创建粒子特效ID =  263
+[27.8183] 当前的粒子特效的xml文件为：  263.xml
+[27.8582] 正在创建粒子特效ID =  142
+[27.8612] 当前的粒子特效的xml文件为：  142.xml
+[27.8890] 正在创建粒子特效ID =  281
+[27.8898] 当前的粒子特效的xml文件为：  281.xml
+[27.9495] 正在创建粒子特效ID =  143
+[27.9503] 当前的粒子特效的xml文件为：  143.xml
+[27.9738] 正在创建粒子特效ID =  283
+[27.9770] 当前的粒子特效的xml文件为：  283.xml
+[28.0074] 正在创建粒子特效ID =  10217
+[28.0088] 当前的粒子特效的xml文件为：  10217.xml
+[28.0469] 正在创建粒子特效ID =  128
+[28.0482] 当前的粒子特效的xml文件为：  128.xml
+[28.0894] 正在创建粒子特效ID =  129
+[28.1018] 当前的粒子特效的xml文件为：  129.xml
+[28.1285] 正在创建粒子特效ID =  411
+[28.1293] 当前的粒子特效的xml文件为：  411.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_x004.png  ---------
+
+[28.1530] 正在创建粒子特效ID =  10089
+[28.1540] 当前的粒子特效的xml文件为：  10089.xml
+[28.1704] 正在创建粒子特效ID =  273
+[28.1715] 当前的粒子特效的xml文件为：  273.xml
+[28.2049] 正在创建粒子特效ID =  131
+[28.2055] 当前的粒子特效的xml文件为：  131.xml
+[28.2351] 正在创建粒子特效ID =  275
+[28.2469] 当前的粒子特效的xml文件为：  275.xml
+[28.2815] 正在创建粒子特效ID =  132
+[28.2849] 当前的粒子特效的xml文件为：  132.xml
+[28.3079] 正在创建粒子特效ID =  10186
+[28.3091] 当前的粒子特效的xml文件为：  10186.xml
+[28.3171] 正在创建粒子特效ID =  133
+[28.3176] 当前的粒子特效的xml文件为：  133.xml
+[28.3520] 正在创建粒子特效ID =  10122
+[28.3578] 当前的粒子特效的xml文件为：  10122.xml
+[28.3740] 正在创建粒子特效ID =  134
+[28.3768] 当前的粒子特效的xml文件为：  134.xml
+[28.4015] 正在创建粒子特效ID =  10058
+[28.4021] 当前的粒子特效的xml文件为：  10058.xml
+[28.4189] 正在创建粒子特效ID =  135
+[28.4195] 当前的粒子特效的xml文件为：  135.xml
+[28.4372] 正在创建粒子特效ID =  10024
+[28.4411] 当前的粒子特效的xml文件为：  10024.xml
+[28.4693] 正在创建粒子特效ID =  291
+[28.4721] 当前的粒子特效的xml文件为：  291.xml
+[28.5140] 正在创建粒子特效ID =  151
+[28.5276] 当前的粒子特效的xml文件为：  151.xml
+[28.5382] 正在创建粒子特效ID =  10155
+[28.5393] 当前的粒子特效的xml文件为：  10155.xml
+----------   try to load res:eft/texture/Effects_Textures_Quest_z436.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Quest_z435.png  ---------
+
+[28.6558] 正在创建粒子特效ID =  10019
+[28.6699] 当前的粒子特效的xml文件为：  10019.xml
+[28.6990] 正在创建粒子特效ID =  303
+[28.7066] 当前的粒子特效的xml文件为：  303.xml
+[28.7351] 正在创建粒子特效ID =  10015
+[28.7357] 当前的粒子特效的xml文件为：  10015.xml
+[28.7780] 正在创建粒子特效ID =  301
+[28.7882] 当前的粒子特效的xml文件为：  301.xml
+----------   try to load res:eft/texture/Effects_Textures_Smoke_l007.png  ---------
+
+[28.8327] 正在创建粒子特效ID =  10010
+[28.8333] 当前的粒子特效的xml文件为：  10010.xml
+----------   try to load res:eft/texture/flower_2.png  ---------
+
+[28.8751] 正在创建粒子特效ID =  10007
+[28.8762] 当前的粒子特效的xml文件为：  10007.xml
+[28.8978] 正在创建粒子特效ID =  10188
+[28.8992] 当前的粒子特效的xml文件为：  10188.xml
+[28.9357] 正在创建粒子特效ID =  10003
+[28.9367] 当前的粒子特效的xml文件为：  10003.xml
+[28.9630] 正在创建粒子特效ID =  10124
+[28.9661] 当前的粒子特效的xml文件为：  10124.xml
+[28.9978] 正在创建粒子特效ID =  311
+[28.9984] 当前的粒子特效的xml文件为：  311.xml
+[29.0264] 正在创建粒子特效ID =  145
+[29.0311] 当前的粒子特效的xml文件为：  145.xml
+[29.0464] 正在创建粒子特效ID =  10001
+[29.0470] 当前的粒子特效的xml文件为：  10001.xml
+[29.0760] 正在创建粒子特效ID =  144
+[29.0789] 当前的粒子特效的xml文件为：  144.xml
+[29.1073] 正在创建粒子特效ID =  10221
+[29.1078] 当前的粒子特效的xml文件为：  10221.xml
+[29.1237] 正在创建粒子特效ID =  483
+[29.1243] 当前的粒子特效的xml文件为：  483.xml
+[29.1545] 正在创建粒子特效ID =  305
+[29.1633] 当前的粒子特效的xml文件为：  305.xml
+[29.1934] 正在创建粒子特效ID =  481
+[29.2050] 当前的粒子特效的xml文件为：  481.xml
+[29.2646] 正在创建粒子特效ID =  10093
+[29.2655] 当前的粒子特效的xml文件为：  10093.xml
+[29.2943] 正在创建粒子特效ID =  260
+[29.3042] 当前的粒子特效的xml文件为：  260.xml
+Read Len Error:BufferSize=6875 ReadLen=4,pos=6875
+[29.3680] 正在创建粒子特效ID =  10029
+[29.3685] 当前的粒子特效的xml文件为：  10029.xml
+[29.4153] 正在创建粒子特效ID =  322
+[29.4185] 当前的粒子特效的xml文件为：  322.xml
+[29.4768] 正在创建粒子特效ID =  315
+[29.4788] 当前的粒子特效的xml文件为：  315.xml
+[29.5296] 正在创建粒子特效ID =  155
+[29.5307] 当前的粒子特效的xml文件为：  155.xml
+[29.5986] 正在创建粒子特效ID =  313
+[29.5998] 当前的粒子特效的xml文件为：  313.xml
+[29.6484] 正在创建粒子特效ID =  154
+[29.6489] 当前的粒子特效的xml文件为：  154.xml
+[29.6735] 正在创建粒子特效ID =  417
+[29.6741] 当前的粒子特效的xml文件为：  417.xml
+[29.6939] 正在创建粒子特效ID =  153
+[29.6955] 当前的粒子特效的xml文件为：  153.xml
+[29.7341] 正在创建粒子特效ID =  461
+[29.7465] 当前的粒子特效的xml文件为：  461.xml
+[29.7990] 正在创建粒子特效ID =  152
+[29.8016] 当前的粒子特效的xml文件为：  152.xml
+[29.8166] 正在创建粒子特效ID =  10223
+[29.8189] 当前的粒子特效的xml文件为：  10223.xml
+[29.8291] 正在创建粒子特效ID =  452
+[29.8297] 当前的粒子特效的xml文件为：  452.xml
+----------   try to load res:eft/texture/huoche_18.png  ---------
+
+----------   try to load res:eft/texture/tx_guang_030.png  ---------
+
+[29.9030] 正在创建粒子特效ID =  10159
+[29.9054] 当前的粒子特效的xml文件为：  10159.xml
+[29.9309] 正在创建粒子特效ID =  432
+[29.9439] 当前的粒子特效的xml文件为：  432.xml
+----------   try to load res:eft/texture/flower_33.png  ---------
+
+----------   try to load res:eft/texture/flower_34.png  ---------
+
+[29.9899] 正在创建粒子特效ID =  10095
+[29.9954] 当前的粒子特效的xml文件为：  10095.xml
+[30.0119] 正在创建粒子特效ID =  462
+[30.0205] 当前的粒子特效的xml文件为：  462.xml
+[30.0586] 正在创建粒子特效ID =  10031
+[30.0667] 当前的粒子特效的xml文件为：  10031.xml
+[30.0918] 正在创建粒子特效ID =  405
+[30.0935] 当前的粒子特效的xml文件为：  405.xml
+[30.1559] 正在创建粒子特效ID =  352
+[30.1582] 当前的粒子特效的xml文件为：  352.xml
+[30.1902] 正在创建粒子特效ID =  10192
+[30.1944] 当前的粒子特效的xml文件为：  10192.xml
+----------   try to load res:eft/texture/tx_dian_034.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Trail_x046.png  ---------
+
+----------   try to load res:eft/texture/tx_dian_026.png  ---------
+
+[30.2809] 正在创建粒子特效ID =  30
+[30.2816] 当前的粒子特效的xml文件为：  30.xml
+[30.2890] 正在创建粒子特效ID =  464
+[30.3006] 当前的粒子特效的xml文件为：  464.xml
+[30.3410] 正在创建粒子特效ID =  321
+[30.3426] 当前的粒子特效的xml文件为：  321.xml
+[30.3798] 正在创建粒子特效ID =  10064
+[30.3805] 当前的粒子特效的xml文件为：  10064.xml
+[30.4194] 正在创建粒子特效ID =  293
+[30.4201] 当前的粒子特效的xml文件为：  293.xml
+[30.4450] 正在创建粒子特效ID =  285
+[30.4455] 当前的粒子特效的xml文件为：  285.xml
+[30.4828] 正在创建粒子特效ID =  10225
+[30.4874] 当前的粒子特效的xml文件为：  10225.xml
+[30.5187] 正在创建粒子特效ID =  474
+[30.5207] 当前的粒子特效的xml文件为：  474.xml
+----------   try to load res:eft/texture/flower_64.png  ---------
+
+----------   try to load res:eft/texture/Effects_Textures_Pattern_x004.png  ---------
+
+----------   try to load res:eft/texture/flower_66.png  ---------
+
+[30.5990] 正在创建粒子特效ID =  10161
+[30.6024] 当前的粒子特效的xml文件为：  10161.xml
+[30.6197] 正在创建粒子特效ID =  472
+[30.6203] 当前的粒子特效的xml文件为：  472.xml
+[30.6493] 正在创建粒子特效ID =  112
+[30.6569] 当前的粒子特效的xml文件为：  112.xml
+[30.6864] 正在创建粒子特效ID =  181
+[30.6873] 当前的粒子特效的xml文件为：  181.xml
+[30.7729] 正在创建粒子特效ID =  10033
+[30.7734] 当前的粒子特效的xml文件为：  10033.xml
+[30.8216] 正在创建粒子特效ID =  113
+[30.8222] 当前的粒子特效的xml文件为：  113.xml
+[30.8225] kaishi......33333333333333333333

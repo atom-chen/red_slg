@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>TuLong: ChangeLineWait结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">TuLong
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>组</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="a00210.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">ChangeLineWait结构体 参考<div class="ingroups"><a class="el" href="a00150.html">结构定义</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>服务器内部切换线信息  
+ <a href="a00021.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="a00147_source.html">packet.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a40cda8c13320fd24fe4a32c4c6d8c1b9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40cda8c13320fd24fe4a32c4c6d8c1b9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> (uint32 <a class="el" href="a00021.html#a9abfdabfffc3ef16c1efce4f371003b2">openWaitTime</a>, uint32 <a class="el" href="a00021.html#ad5af1cf781bc3685c9c66405bb550bda">changeLineWaitTime</a>)</td></tr>
+<tr class="separator:a40cda8c13320fd24fe4a32c4c6d8c1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad235574e09eade8cd536f8c17cf224c3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad235574e09eade8cd536f8c17cf224c3"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>toChangeLineString</b> ()</td></tr>
+<tr class="separator:ad235574e09eade8cd536f8c17cf224c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa38fd796bf2766f6c492d49568c114a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa38fd796bf2766f6c492d49568c114a6"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>toOpenMapString</b> ()</td></tr>
+<tr class="separator:aa38fd796bf2766f6c492d49568c114a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a81f80340d6dc79bbc812791d9e6530"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a81f80340d6dc79bbc812791d9e6530"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> ()</td></tr>
+<tr class="separator:a6a81f80340d6dc79bbc812791d9e6530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6036412039013442beb70ec37c3c32b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae6036412039013442beb70ec37c3c32b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanUp</b> ()</td></tr>
+<tr class="separator:ae6036412039013442beb70ec37c3c32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5003c49e72758bb1cb1dfabfc392f911"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5003c49e72758bb1cb1dfabfc392f911"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanUpOpenMap</b> ()</td></tr>
+<tr class="separator:a5003c49e72758bb1cb1dfabfc392f911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3df47f32c6158676634e5a0a68a570c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab3df47f32c6158676634e5a0a68a570c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanUpChangeLine</b> ()</td></tr>
+<tr class="separator:ab3df47f32c6158676634e5a0a68a570c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf19c4728833f20ae9790dd81904135"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6bf19c4728833f20ae9790dd81904135"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>cleanUpBeforeChange</b> ()</td></tr>
+<tr class="separator:a6bf19c4728833f20ae9790dd81904135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea1ff47ce9c88abde4af68b0a5c5108d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea1ff47ce9c88abde4af68b0a5c5108d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>startOpenMap</b> (<a class="el" href="a00149.html#ga6809f2944040f1a75e60b4a3849cbfa7">TMapID_t</a> mapID)</td></tr>
+<tr class="separator:aea1ff47ce9c88abde4af68b0a5c5108d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef75ce103cb8273a30beb8330e26a3a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4ef75ce103cb8273a30beb8330e26a3a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>startChangeLine</b> (TServerID_t <a class="el" href="a00021.html#ab06ea2a03fe02de0ab10d42903091a35">srcMapServerID</a>, <a class="el" href="a00149.html#ga6809f2944040f1a75e60b4a3849cbfa7">TMapID_t</a> srcMapID, <a class="el" href="a00149.html#ga4ce41bb5d02857b586844952627b07b9">TSceneID_t</a> <a class="el" href="a00021.html#a399041a9460b237673e5c3a5daa55c50">srcSceneID</a>, const <a class="el" href="a00150.html#ga4b335b747549f55b31a39ed29380ee53">TAxisPos</a> &amp;<a class="el" href="a00021.html#a5ad8f6734974225bf183785fc39fc8a9">srcPos</a>, TServerID_t <a class="el" href="a00021.html#a0af65e35823dd5623e35d0f093295c33">destMapServerID</a>, <a class="el" href="a00149.html#ga4ce41bb5d02857b586844952627b07b9">TSceneID_t</a> <a class="el" href="a00021.html#a53d961a3b12e541589cdc0c8e60819e7">destSceneID</a>, const <a class="el" href="a00150.html#ga4b335b747549f55b31a39ed29380ee53">TAxisPos</a> &amp;<a class="el" href="a00021.html#ab2971520c6cad5ee56d55fa0d5e29392">destPos</a>)</td></tr>
+<tr class="separator:a4ef75ce103cb8273a30beb8330e26a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a6c136f3276d5699785db04824f555d1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c136f3276d5699785db04824f555d1d"></a>
+uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a6c136f3276d5699785db04824f555d1d">objUID</a></td></tr>
+<tr class="memdesc:a6c136f3276d5699785db04824f555d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">对象UID <br/></td></tr>
+<tr class="separator:a6c136f3276d5699785db04824f555d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f5a79a8c41503136b782cbef6f766e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f5a79a8c41503136b782cbef6f766e4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a9f5a79a8c41503136b782cbef6f766e4">openDynaMapFlag</a></td></tr>
+<tr class="memdesc:a9f5a79a8c41503136b782cbef6f766e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否正在开启场景 <br/></td></tr>
+<tr class="separator:a9f5a79a8c41503136b782cbef6f766e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af99203b471fbf74d36c76c2d98d7d79f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af99203b471fbf74d36c76c2d98d7d79f"></a>
+uint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#af99203b471fbf74d36c76c2d98d7d79f">openMapID</a></td></tr>
+<tr class="memdesc:af99203b471fbf74d36c76c2d98d7d79f"><td class="mdescLeft">&#160;</td><td class="mdescRight">开启的地图 <br/></td></tr>
+<tr class="separator:af99203b471fbf74d36c76c2d98d7d79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3082ec670270207381eeb64048e60ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3082ec670270207381eeb64048e60ea"></a>
+GXMISC::TGameTime_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#aa3082ec670270207381eeb64048e60ea">openMapStartTime</a></td></tr>
+<tr class="memdesc:aa3082ec670270207381eeb64048e60ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">开启地图的开始时间 <br/></td></tr>
+<tr class="separator:aa3082ec670270207381eeb64048e60ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9abfdabfffc3ef16c1efce4f371003b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9abfdabfffc3ef16c1efce4f371003b2"></a>
+uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a9abfdabfffc3ef16c1efce4f371003b2">openWaitTime</a></td></tr>
+<tr class="memdesc:a9abfdabfffc3ef16c1efce4f371003b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">开启地图的等待时间 <br/></td></tr>
+<tr class="separator:a9abfdabfffc3ef16c1efce4f371003b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a9aad7c16744014ba5e2ff6317ebe2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a9aad7c16744014ba5e2ff6317ebe2d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a6a9aad7c16744014ba5e2ff6317ebe2d">changeLineFlag</a></td></tr>
+<tr class="memdesc:a6a9aad7c16744014ba5e2ff6317ebe2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否正在切线 <br/></td></tr>
+<tr class="separator:a6a9aad7c16744014ba5e2ff6317ebe2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06ea2a03fe02de0ab10d42903091a35"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab06ea2a03fe02de0ab10d42903091a35"></a>
+uint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ab06ea2a03fe02de0ab10d42903091a35">srcMapServerID</a></td></tr>
+<tr class="memdesc:ab06ea2a03fe02de0ab10d42903091a35"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线的源服务器 <br/></td></tr>
+<tr class="separator:ab06ea2a03fe02de0ab10d42903091a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399041a9460b237673e5c3a5daa55c50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a399041a9460b237673e5c3a5daa55c50"></a>
+uint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a399041a9460b237673e5c3a5daa55c50">srcSceneID</a></td></tr>
+<tr class="memdesc:a399041a9460b237673e5c3a5daa55c50"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线的源场景 <br/></td></tr>
+<tr class="separator:a399041a9460b237673e5c3a5daa55c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad8f6734974225bf183785fc39fc8a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ad8f6734974225bf183785fc39fc8a9"></a>
+<a class="el" href="a00150.html#ga4b335b747549f55b31a39ed29380ee53">TAxisPos</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a5ad8f6734974225bf183785fc39fc8a9">srcPos</a></td></tr>
+<tr class="memdesc:a5ad8f6734974225bf183785fc39fc8a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线的源位置 <br/></td></tr>
+<tr class="separator:a5ad8f6734974225bf183785fc39fc8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af65e35823dd5623e35d0f093295c33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0af65e35823dd5623e35d0f093295c33"></a>
+uint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a0af65e35823dd5623e35d0f093295c33">destMapServerID</a></td></tr>
+<tr class="memdesc:a0af65e35823dd5623e35d0f093295c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线的目标服务器 <br/></td></tr>
+<tr class="separator:a0af65e35823dd5623e35d0f093295c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d961a3b12e541589cdc0c8e60819e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53d961a3b12e541589cdc0c8e60819e7"></a>
+uint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a53d961a3b12e541589cdc0c8e60819e7">destSceneID</a></td></tr>
+<tr class="memdesc:a53d961a3b12e541589cdc0c8e60819e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线的目标场景 <br/></td></tr>
+<tr class="separator:a53d961a3b12e541589cdc0c8e60819e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2971520c6cad5ee56d55fa0d5e29392"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2971520c6cad5ee56d55fa0d5e29392"></a>
+<a class="el" href="a00150.html#ga4b335b747549f55b31a39ed29380ee53">TAxisPos</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ab2971520c6cad5ee56d55fa0d5e29392">destPos</a></td></tr>
+<tr class="memdesc:ab2971520c6cad5ee56d55fa0d5e29392"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线的目标位置 <br/></td></tr>
+<tr class="separator:ab2971520c6cad5ee56d55fa0d5e29392"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fa741ffc8e1d2eb59ef101b0466ce2b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fa741ffc8e1d2eb59ef101b0466ce2b"></a>
+GXMISC::TGameTime_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a2fa741ffc8e1d2eb59ef101b0466ce2b">changeLineStartTime</a></td></tr>
+<tr class="memdesc:a2fa741ffc8e1d2eb59ef101b0466ce2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线的开始时间 <br/></td></tr>
+<tr class="separator:a2fa741ffc8e1d2eb59ef101b0466ce2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5af1cf781bc3685c9c66405bb550bda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5af1cf781bc3685c9c66405bb550bda"></a>
+uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ad5af1cf781bc3685c9c66405bb550bda">changeLineWaitTime</a></td></tr>
+<tr class="memdesc:ad5af1cf781bc3685c9c66405bb550bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线的等待时间 <br/></td></tr>
+<tr class="separator:ad5af1cf781bc3685c9c66405bb550bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c4ab094450a29238875690ec9d803a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90c4ab094450a29238875690ec9d803a"></a>
+<a class="el" href="a00150.html#ga4b335b747549f55b31a39ed29380ee53">TAxisPos</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a90c4ab094450a29238875690ec9d803a">beforeChangePos</a></td></tr>
+<tr class="memdesc:a90c4ab094450a29238875690ec9d803a"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线前的位置 <br/></td></tr>
+<tr class="separator:a90c4ab094450a29238875690ec9d803a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb7b903fa3c6e043b37598fc2013763"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2fb7b903fa3c6e043b37598fc2013763"></a>
+uint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a2fb7b903fa3c6e043b37598fc2013763">beforeChangeMapID</a></td></tr>
+<tr class="memdesc:a2fb7b903fa3c6e043b37598fc2013763"><td class="mdescLeft">&#160;</td><td class="mdescRight">切线前的地图ID <br/></td></tr>
+<tr class="separator:a2fb7b903fa3c6e043b37598fc2013763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>服务器内部切换线信息 </p>
+</div><hr/>该结构体的文档由以下文件生成:<ul>
+<li>E:/work/project/code/trunk/shenglqs/server/tools/docgen/cpptodoxy/doc/<a class="el" href="a00147_source.html">packet.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2014年 十二月 31日 星期三 18:29:06 , 为 TuLong使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

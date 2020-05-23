@@ -1,0 +1,1 @@
+return {{id=38001,exp=2,gold=20,shop_id=7,shop_pos=1}}

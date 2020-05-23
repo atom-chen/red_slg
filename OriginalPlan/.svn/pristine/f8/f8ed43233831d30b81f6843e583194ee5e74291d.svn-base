@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>TuLong: RoleDetail结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">TuLong
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>组</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="a00322.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">RoleDetail结构体 参考<div class="ingroups"><a class="el" href="a00150.html">结构定义</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>角色详细数据  
+ <a href="a00133.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="a00147_source.html">packet.h</a>&gt;</code></p>
+<div class="dynheader">
+类 RoleDetail 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="a00133.png" usemap="#RoleDetail_map" alt=""/>
+  <map id="RoleDetail_map" name="RoleDetail_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a85402c20a6058dcee54600c239fca09a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a85402c20a6058dcee54600c239fca09a"></a>
+uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a85402c20a6058dcee54600c239fca09a">objUID</a></td></tr>
+<tr class="memdesc:a85402c20a6058dcee54600c239fca09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">对象UID <br/></td></tr>
+<tr class="separator:a85402c20a6058dcee54600c239fca09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2d1dcca907b26d8555a4526116f0e55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae2d1dcca907b26d8555a4526116f0e55"></a>
+uint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#ae2d1dcca907b26d8555a4526116f0e55">roleUID</a></td></tr>
+<tr class="memdesc:ae2d1dcca907b26d8555a4526116f0e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">角色UID <br/></td></tr>
+<tr class="separator:ae2d1dcca907b26d8555a4526116f0e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac38871b308a112e0df430d0b65616d3c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac38871b308a112e0df430d0b65616d3c"></a>
+uint8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#ac38871b308a112e0df430d0b65616d3c">protypeID</a></td></tr>
+<tr class="memdesc:ac38871b308a112e0df430d0b65616d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">原型ID <br/></td></tr>
+<tr class="separator:ac38871b308a112e0df430d0b65616d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6938ff3f028138318513ecfc478fc53a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6938ff3f028138318513ecfc478fc53a"></a>
+TRoleName_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a6938ff3f028138318513ecfc478fc53a">name</a></td></tr>
+<tr class="memdesc:a6938ff3f028138318513ecfc478fc53a"><td class="mdescLeft">&#160;</td><td class="mdescRight">姓名 <br/></td></tr>
+<tr class="separator:a6938ff3f028138318513ecfc478fc53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa53cc2acd8470a733096e643d21ec0eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa53cc2acd8470a733096e643d21ec0eb"></a>
+uint8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#aa53cc2acd8470a733096e643d21ec0eb">level</a></td></tr>
+<tr class="memdesc:aa53cc2acd8470a733096e643d21ec0eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">等级 <br/></td></tr>
+<tr class="separator:aa53cc2acd8470a733096e643d21ec0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef18d69ab9b3afd04680fc8aea3b96d5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef18d69ab9b3afd04680fc8aea3b96d5"></a>
+uint8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#aef18d69ab9b3afd04680fc8aea3b96d5">sex</a></td></tr>
+<tr class="memdesc:aef18d69ab9b3afd04680fc8aea3b96d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">性别 <a class="el" href="a00152.html#ga66b1ed8fe5853a10acb77f6b80eb2df3">ESexType</a> <br/></td></tr>
+<tr class="separator:aef18d69ab9b3afd04680fc8aea3b96d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a478e4c1fc52eb566bcbf1e463e5c8b03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a478e4c1fc52eb566bcbf1e463e5c8b03"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a478e4c1fc52eb566bcbf1e463e5c8b03">maxExp</a></td></tr>
+<tr class="memdesc:a478e4c1fc52eb566bcbf1e463e5c8b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">经验最大值 <br/></td></tr>
+<tr class="separator:a478e4c1fc52eb566bcbf1e463e5c8b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa344d99820c8c85d1a19859fc91dfd5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa344d99820c8c85d1a19859fc91dfd5"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#aaa344d99820c8c85d1a19859fc91dfd5">exp</a></td></tr>
+<tr class="memdesc:aaa344d99820c8c85d1a19859fc91dfd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">经验 <br/></td></tr>
+<tr class="separator:aaa344d99820c8c85d1a19859fc91dfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaec3d144e08c7d59147a25d5418bf76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afaec3d144e08c7d59147a25d5418bf76"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#afaec3d144e08c7d59147a25d5418bf76">gold</a></td></tr>
+<tr class="memdesc:afaec3d144e08c7d59147a25d5418bf76"><td class="mdescLeft">&#160;</td><td class="mdescRight">金钱 <br/></td></tr>
+<tr class="separator:afaec3d144e08c7d59147a25d5418bf76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a632b091e9e05a037c51cd137e5249347"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a632b091e9e05a037c51cd137e5249347"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a632b091e9e05a037c51cd137e5249347">rmb</a></td></tr>
+<tr class="memdesc:a632b091e9e05a037c51cd137e5249347"><td class="mdescLeft">&#160;</td><td class="mdescRight">元宝 <br/></td></tr>
+<tr class="separator:a632b091e9e05a037c51cd137e5249347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29672cbf4137651e9644a177e7253ff1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a29672cbf4137651e9644a177e7253ff1"></a>
+uint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a29672cbf4137651e9644a177e7253ff1">mapID</a></td></tr>
+<tr class="memdesc:a29672cbf4137651e9644a177e7253ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">地图ID <br/></td></tr>
+<tr class="separator:a29672cbf4137651e9644a177e7253ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a688a2cb40aff20929f9b47d00ec4918d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a688a2cb40aff20929f9b47d00ec4918d"></a>
+sint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a688a2cb40aff20929f9b47d00ec4918d">xPos</a></td></tr>
+<tr class="memdesc:a688a2cb40aff20929f9b47d00ec4918d"><td class="mdescLeft">&#160;</td><td class="mdescRight">X位置 <br/></td></tr>
+<tr class="separator:a688a2cb40aff20929f9b47d00ec4918d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363d70dfaae4d7ecb71e7777ee003e39"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a363d70dfaae4d7ecb71e7777ee003e39"></a>
+sint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a363d70dfaae4d7ecb71e7777ee003e39">yPos</a></td></tr>
+<tr class="memdesc:a363d70dfaae4d7ecb71e7777ee003e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Y位置 <br/></td></tr>
+<tr class="separator:a363d70dfaae4d7ecb71e7777ee003e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2d89076e0ef42c8d7e08cbe8bac448"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a2d89076e0ef42c8d7e08cbe8bac448"></a>
+uint8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a7a2d89076e0ef42c8d7e08cbe8bac448">dir</a></td></tr>
+<tr class="memdesc:a7a2d89076e0ef42c8d7e08cbe8bac448"><td class="mdescLeft">&#160;</td><td class="mdescRight">方向 <a class="el" href="a00152.html#ga7ccb8338a76494c89c4a4569dfc98775">EDir2</a> <br/></td></tr>
+<tr class="separator:a7a2d89076e0ef42c8d7e08cbe8bac448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1461a53431223436d438a16321071624"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1461a53431223436d438a16321071624"></a>
+sint16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a1461a53431223436d438a16321071624">moveSpeed</a></td></tr>
+<tr class="memdesc:a1461a53431223436d438a16321071624"><td class="mdescLeft">&#160;</td><td class="mdescRight">移动速度 <br/></td></tr>
+<tr class="separator:a1461a53431223436d438a16321071624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58744fb1e98e1b897869ca0e39efe05d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58744fb1e98e1b897869ca0e39efe05d"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a58744fb1e98e1b897869ca0e39efe05d">maxHp</a></td></tr>
+<tr class="memdesc:a58744fb1e98e1b897869ca0e39efe05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">最大血量 <br/></td></tr>
+<tr class="separator:a58744fb1e98e1b897869ca0e39efe05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25e99d0e1929fbef6dfef9568a06aa50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25e99d0e1929fbef6dfef9568a06aa50"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a25e99d0e1929fbef6dfef9568a06aa50">curHp</a></td></tr>
+<tr class="memdesc:a25e99d0e1929fbef6dfef9568a06aa50"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前血量 <br/></td></tr>
+<tr class="separator:a25e99d0e1929fbef6dfef9568a06aa50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac24b4acc5aa12e1b899a06bbd6ea6fca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac24b4acc5aa12e1b899a06bbd6ea6fca"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#ac24b4acc5aa12e1b899a06bbd6ea6fca">maxEnergy</a></td></tr>
+<tr class="memdesc:ac24b4acc5aa12e1b899a06bbd6ea6fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">最大能量 <br/></td></tr>
+<tr class="separator:ac24b4acc5aa12e1b899a06bbd6ea6fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82cb51d869a959822d7a48e668efb8c8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82cb51d869a959822d7a48e668efb8c8"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a82cb51d869a959822d7a48e668efb8c8">curEnergy</a></td></tr>
+<tr class="memdesc:a82cb51d869a959822d7a48e668efb8c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前体力值 <br/></td></tr>
+<tr class="separator:a82cb51d869a959822d7a48e668efb8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde4516c4abd7e25159a69185bedb2bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afde4516c4abd7e25159a69185bedb2bb"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#afde4516c4abd7e25159a69185bedb2bb">power</a></td></tr>
+<tr class="memdesc:afde4516c4abd7e25159a69185bedb2bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">力量 <br/></td></tr>
+<tr class="separator:afde4516c4abd7e25159a69185bedb2bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeb288a14f5a7cdcf12719ecccb9265a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adeb288a14f5a7cdcf12719ecccb9265a"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#adeb288a14f5a7cdcf12719ecccb9265a">agility</a></td></tr>
+<tr class="memdesc:adeb288a14f5a7cdcf12719ecccb9265a"><td class="mdescLeft">&#160;</td><td class="mdescRight">敏捷 <br/></td></tr>
+<tr class="separator:adeb288a14f5a7cdcf12719ecccb9265a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3dadbec2df492f3c91a336c9e6832f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac3dadbec2df492f3c91a336c9e6832f2"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#ac3dadbec2df492f3c91a336c9e6832f2">wisdom</a></td></tr>
+<tr class="memdesc:ac3dadbec2df492f3c91a336c9e6832f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">智力 <br/></td></tr>
+<tr class="separator:ac3dadbec2df492f3c91a336c9e6832f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a532841f4a07812bc8e341486fe06f842"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a532841f4a07812bc8e341486fe06f842"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a532841f4a07812bc8e341486fe06f842">physical</a></td></tr>
+<tr class="memdesc:a532841f4a07812bc8e341486fe06f842"><td class="mdescLeft">&#160;</td><td class="mdescRight">体力 <br/></td></tr>
+<tr class="separator:a532841f4a07812bc8e341486fe06f842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174ecc351a57a9ffa1429380d0bd6801"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a174ecc351a57a9ffa1429380d0bd6801"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a174ecc351a57a9ffa1429380d0bd6801">attack</a></td></tr>
+<tr class="memdesc:a174ecc351a57a9ffa1429380d0bd6801"><td class="mdescLeft">&#160;</td><td class="mdescRight">普通攻击 <br/></td></tr>
+<tr class="separator:a174ecc351a57a9ffa1429380d0bd6801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51c9de5537ad3019855719c9762aa3d2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51c9de5537ad3019855719c9762aa3d2"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a51c9de5537ad3019855719c9762aa3d2">skillAttack</a></td></tr>
+<tr class="memdesc:a51c9de5537ad3019855719c9762aa3d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">技能攻击 <br/></td></tr>
+<tr class="separator:a51c9de5537ad3019855719c9762aa3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49cd8eb1fedd2e2930fbbaa72ceeb7f7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49cd8eb1fedd2e2930fbbaa72ceeb7f7"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a49cd8eb1fedd2e2930fbbaa72ceeb7f7">damage</a></td></tr>
+<tr class="memdesc:a49cd8eb1fedd2e2930fbbaa72ceeb7f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">额外伤害 <br/></td></tr>
+<tr class="separator:a49cd8eb1fedd2e2930fbbaa72ceeb7f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aed247f1f3dd127fa519269fcfccadb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7aed247f1f3dd127fa519269fcfccadb"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a7aed247f1f3dd127fa519269fcfccadb">crit</a></td></tr>
+<tr class="memdesc:a7aed247f1f3dd127fa519269fcfccadb"><td class="mdescLeft">&#160;</td><td class="mdescRight">暴击 <br/></td></tr>
+<tr class="separator:a7aed247f1f3dd127fa519269fcfccadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ee5721581c5ab53be35df33644fd663"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ee5721581c5ab53be35df33644fd663"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#a9ee5721581c5ab53be35df33644fd663">defense</a></td></tr>
+<tr class="memdesc:a9ee5721581c5ab53be35df33644fd663"><td class="mdescLeft">&#160;</td><td class="mdescRight">防御 <br/></td></tr>
+<tr class="separator:a9ee5721581c5ab53be35df33644fd663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2aaae0f7422f8ffef16694c4d71d400"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2aaae0f7422f8ffef16694c4d71d400"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#af2aaae0f7422f8ffef16694c4d71d400">damageReduce</a></td></tr>
+<tr class="memdesc:af2aaae0f7422f8ffef16694c4d71d400"><td class="mdescLeft">&#160;</td><td class="mdescRight">伤害减免 <br/></td></tr>
+<tr class="separator:af2aaae0f7422f8ffef16694c4d71d400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7902f29e10401fad0fc0475ea8e4148"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac7902f29e10401fad0fc0475ea8e4148"></a>
+sint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00133.html#ac7902f29e10401fad0fc0475ea8e4148">dodge</a></td></tr>
+<tr class="memdesc:ac7902f29e10401fad0fc0475ea8e4148"><td class="mdescLeft">&#160;</td><td class="mdescRight">闪避 <br/></td></tr>
+<tr class="separator:ac7902f29e10401fad0fc0475ea8e4148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>角色详细数据 </p>
+</div><hr/>该结构体的文档由以下文件生成:<ul>
+<li>E:/work/project/code/trunk/shenglqs/server/tools/docgen/cpptodoxy/doc/<a class="el" href="a00147_source.html">packet.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2014年 十二月 31日 星期三 18:29:08 , 为 TuLong使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

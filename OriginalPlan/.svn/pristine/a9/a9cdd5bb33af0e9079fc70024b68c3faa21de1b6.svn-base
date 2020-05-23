@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id ="1" type="1" location="1" key_1="1069"/>
+    <i id ="2" type="1" location="2" key_1="1055"/>
+    <i id ="3" type="1" location="3" key_1="1043"/>
+    <i id ="4" type="2" location="1" key_1="1017"/>
+    <i id ="5" type="2" location="2" key_1="1086"/>
+    <i id ="6" type="2" location="3" key_1="1083"/>
+    <i id ="7" type="3" location="1" key_1="1006"/>
+    <i id ="8" type="3" location="2" key_1="1007"/>
+    <i id ="9" type="3" location="3" key_1="1008"/>
+</root>

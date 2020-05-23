@@ -1,0 +1,77 @@
+﻿文档生成规则
+1. 工具
+	1.1 CppToDoxy 用于将cpp的无效字符串去除, 合并成六个大的文件，并最后生成一个大的文件packet.doxy供doxygen输入使用 
+		packet_class.doxy		包定义类
+		packet_types.doxy		包中的基础类型定义， 如TRoleUID_t
+		packet_const.doxy		包中使用的常量定久
+		packet_id.doxy			包中使用的id定义
+		packet_enum.doxy		包中使用的枚举定义
+		packet_change_log.doxy	包的修改日志
+		
+		配置文件: CppToDoxy.cfg
+		types:
+		external.tp
+		game_util.h
+
+		enum:
+		game_define.h
+
+		const:
+		external.ct
+		server_define.h
+
+		id:
+		packet_id_def.h
+
+		class:
+		c1.h
+		c2.h ...
+
+	1.2 doxygen 用于将生成的packet.doxy生成html文档供客户端浏览
+		1.2.1 采用javadoc规则定义注释, 当前只使用2-4项
+		1.2.2 模块定义: @defgroup 英文名 中文名
+			/** @defgroup Packet 协议包
+			* @{
+			*/
+			class CPacketReq{
+				PEnumDayOfWeek pWeek;		// 星期指针
+			}
+			/** @} */	// 协议包
+
+		1.2.3 分组定义(在一页内分组显示): @name 分组说明文字
+			/*
+			* @name 分组说明文字
+			* @{
+			*/
+			… 定义的内容 …
+			/** @} */
+
+		1.2.4 变量、宏定义、类型定义简要说明
+		/** 简要说明文字 */
+		#define FLOAT float
+
+		/** @brief 简要说明文字（在前面加 @brief 是标准格式） */
+		#define MIN_UINT 0
+
+		/*
+		* 分行的简要说明 \n
+		* 这是第二行的简要说明
+		*/
+		int b;
+
+		1.2.5 函数说明
+		/*
+		* 简要的函数说明文字 
+		* @param [in] param1 参数1说明
+		* @param [out] param2 参数2说明
+		* @return 返回值说明
+		*/
+		int func(int param1, int param2);
+
+	1.3 HtmlRebuilder 重组织html工具
+		用于将doxygen生成的html重新组织, 生成简单方便浏览的文档并压缩上传到svn
+		
+	1.4 AutoCreateDoc 自动生成文档工具
+		自动从svn检出对应的代码，执行1-3步, 并将生成的html文件压缩上传到svn, 且将生成的文档上传到apache服务器
+
+2. 

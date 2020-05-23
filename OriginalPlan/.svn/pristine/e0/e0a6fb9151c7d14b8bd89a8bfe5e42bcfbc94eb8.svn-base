@@ -1,0 +1,164 @@
+﻿import platform
+import shutil 
+
+if (platform.system() == "Windows") :
+        env = Environment();
+        CPPPATH = []
+        print CPPPATH
+        CPPPATH.append('src/.')
+        print CPPPATH
+
+        debug = ARGUMENTS.get('debug', 0)
+        if int(debug) :
+                print debug
+
+elif (platform.system() == "Linux") :
+        
+        #头文件包含目录
+        CPPPATH1=[
+                                'src/.',
+                                '../../lib/internal/include/',
+                                '../../lib/internal/include/core/',
+                                '../../../third/include/',
+                                '../../../third/include/zlib/',
+                                '../../../third/include/cryptocpp/',
+                                '../../../third/include/tinyxpath/',
+                                '../../../third/include/libevent/',
+                                '../../../third/include/libevent/event2',
+                                '../../../third/include/WIN32-Code/',
+                                '../../../third/include/coredumper/',
+                                '../../../third/include/mysql/linux/',
+                                '../../../third/include/mysqlpp/',
+                                '../../../third/include/fastformat/',
+                                '../../../third/include/stlsoft-1.10-alpha-15-delta/include/',
+                                '../../../third/include/lua/',
+				'../../../third/include/cjson/',
+				'../../../third/include/ghttp/',
+                                '../sharelib/src',
+                                'src/record'
+                ]
+        # CC标记
+        CCFLAGS1=[
+                                '-DNOMINMAX',
+                                '-DOS_BIT=64',
+                                '-DUSE_FAST_FORMAT',
+                                '-DUSE_RTTI',
+                                '-DCURL_STATICLIB',
+                                '-g3',
+                                '-Wall',
+                                '-fstack-protector-all',
+                                '-std=c++0x',
+                                '-Wno-invalid-offsetof',
+                                '-Wno-unused',
+				'-fpermissive',
+				#'-fsanitize=address',
+				#'-fsanitize=thread',
+				#'-fmudflap',
+                ]
+        #库目录
+        LIBPATH1=[
+                                '../../../third/lib/',
+                                '../../../third/lib/mysql/linux/lib64',
+                                '../../lib/internal/lib/',
+                ]
+        #库名
+        
+        #链接标记
+        LINKFLAGS1=[     
+                                '-Xlinker',
+				#'-lmudflapth',
+                ]
+        
+        #处理编译选项 release=1|0
+        env = Environment();
+        serverName = '';
+        release = ARGUMENTS.get('release', 0)
+        if int(release) == 1 :
+		CCFLAGS1.append('-O2')
+		CCFLAGS1.append('-DNDEBUG');
+		LIBS1=[  
+                                'sharelib_release_64',
+                                'core_release_64',
+                                'cryptopp_debug_64',
+                                'mysqlpp_debug_64',
+                                'mysqlclient',
+                                'lualib_debug_64',
+                                'cjson',
+                                'luabind_debug_64',
+                                'tinyxpath_lib_debug_64',
+                                'libcurl_debug_64',
+                                'zlibstatic_debug_64',
+                                'fastformat.0.core.gcc47.debug_64',
+                                'event_debug_64',
+                                'curl_debug_64',
+                                'rt.a',
+                                'ssl.a',
+                                'libcoredumper.a',
+				'profiler_debug_64',
+				'ghttp_debug_64',
+                ]
+
+                serverName = 'x64/worldserver_r'
+                print 'building '+serverName+' release project!'
+        else:
+		CCFLAGS1.append('-D_DEBUG')
+
+		LIBS1=[  
+                                'sharelib_debug_64',
+                                'core_debug_64',
+                                'cryptopp_debug_64',
+                                'mysqlpp_debug_64',
+                                'mysqlclient',
+                                'lualib_debug_64',
+                                'cjson',
+                                'luabind_debug_64',
+                                'tinyxpath_lib_debug_64',
+                                'libcurl_debug_64',
+                                'zlibstatic_debug_64',
+                                'fastformat.0.core.gcc47.debug_64',
+                                'event_debug_64',
+                                'curl_debug_64',
+                                'rt.a',
+                                'ssl.a',
+                                'coredumper',
+				'profiler_debug_64',
+				'ghttp_debug_64',
+                ]
+
+                serverName = 'x64/worldserver'
+                print 'building '+serverName+' debug project!'
+	
+	#print CCFLAGS1
+
+        #建立编译目标
+        worldserver = env.Program(serverName,
+                Glob('src/*.cpp')+Glob('src/record/*.cpp'),
+                CPPPATH=CPPPATH1
+                ,
+                CCFLAGS=CCFLAGS1
+                ,
+                LIBPATH=LIBPATH1
+                ,
+                LIBS=LIBS1
+                ,
+                LINKFLAGS=LINKFLAGS1
+        )
+        
+        #发布编译目标
+        srcMysqlSO = "../../../third/lib/mysql/linux/lib64/libmysqlclient.so";
+        srcMysqlSO1 = "../../../third/lib/mysql/linux/lib64/libmysqlclient.so.18";
+        srcMysqlppSO = "../../../third/lib/libmysqlpp_debug_64.so";
+        srcMysqlppSO1 = "../../../third/lib/libmysqlpp.so.3";
+        srcEventSO = "../../../third/lib/libevent-2.0.so.5";
+        
+        exeTarget = "../../exe/worldserver/";
+        env.Install(exeTarget, worldserver);
+        env.Install(exeTarget, srcMysqlSO);
+        env.Install(exeTarget, srcMysqlSO1);
+        env.Install(exeTarget, srcMysqlppSO);
+        env.Install(exeTarget, srcMysqlppSO1);
+        env.Install(exeTarget, srcEventSO);
+        env.Alias('install', exeTarget)
+
+else :
+        print "Can't get platform system!", platform.system()

@@ -1,0 +1,1 @@
+return {["main_ui"]={"战斗","主城"},["town_main_ui"]={}}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" type="1" quality="1" get_gold="300" get_exp="1" rank="40"/>
+    <i id="2" type="1" quality="2" get_gold="500" get_exp="2" rank="20"/>
+    <i id="3" type="1" quality="3" get_gold="800" get_exp="3" rank="10"/>
+    <i id="4" type="1" quality="4" get_gold="1200" get_exp="4" rank="5"/>
+    <i id="5" type="2" quality="1" get_gold="300" get_exp="1" rank="40"/>
+    <i id="6" type="2" quality="2" get_gold="500" get_exp="2" rank="20"/>
+    <i id="7" type="2" quality="3" get_gold="800" get_exp="3" rank="10"/>
+    <i id="8" type="2" quality="4" get_gold="1200" get_exp="4" rank="5"/>
+    <i id="9" type="2" quality="3" get_gold="0" get_exp="10" rank="10"/>
+    <i id="10" type="3" quality="3" get_gold="0" get_exp="1" rank="10"/>
+    <i id="11" type="4" quality="3" get_gold="0" get_exp="1" rank="10"/>
+    <i id="12" type="5" quality="2" get_gold="0" get_exp="1" rank="20"/>
+    <i id="13" type="5" quality="4" get_gold="0" get_exp="1" rank="5"/>
+</root>

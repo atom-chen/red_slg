@@ -1,0 +1,1 @@
+return {[1]={need_time=120,},[2]={need_time=280,},[3]={need_time=600,},[4]={need_time=2400,},[5]={need_time=4800,},[6]={need_time=9365,},[7]={need_time=22592,},[8]={need_time=35937,},[9]={need_time=49639,},[10]={need_time=61937,},}

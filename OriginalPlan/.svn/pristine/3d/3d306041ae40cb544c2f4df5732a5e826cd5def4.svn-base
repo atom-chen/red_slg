@@ -1,0 +1,1 @@
+return {{an=4,b={},c=0,e=1,n="qiang_zhailanyi",p="qiang_zhailan1.png",s=22,st=1,t=0,tp=2,tt=0,x=-53,y=-67},alignment=0,count=1}

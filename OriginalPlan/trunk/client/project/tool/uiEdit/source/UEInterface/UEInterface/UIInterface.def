@@ -1,0 +1,16 @@
+LIBRARY
+EXPORTS
+	UIDataSetLanguageDir
+	UIDataLanguageCreate
+	UIDataLanguageClose
+	UIDataCreate
+	UIDataClear
+	UIDataClose 
+	UIDataElementFree
+	UIDataAddElement
+	UIDataGetElement
+	UIDataGetElementCount
+	UIDataSetAlignment
+	UIDataGetAlignment
+	UIDataSaveToFile
+	UIDataGetFromFile

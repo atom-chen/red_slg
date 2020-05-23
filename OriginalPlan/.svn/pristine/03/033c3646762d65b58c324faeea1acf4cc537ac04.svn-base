@@ -1,0 +1,1 @@
+return {{an=4,b={},c=0,e=0,n="ta_gongjian",p="ta_gongjian.png",s=30,st=1,t=0,tp=2,tt=0,x=-62,y=-53},alignment=0,count=1}

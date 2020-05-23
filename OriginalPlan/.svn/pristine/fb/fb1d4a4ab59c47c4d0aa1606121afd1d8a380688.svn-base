@@ -1,0 +1,1136 @@
+<?xml version='1.0' encoding='utf-8'?> 
+<AnimationCfg>
+<playerCfg>
+<playerDef name='牛蛙战车_stand_3' filename='牛蛙战车序列图' offset='18' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_move_3' filename='牛蛙战车序列图' offset='38' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xstand_1' filename='牛蛙战车序列图' offset='60' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_stand_4' filename='牛蛙战车序列图' offset='22' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_move_2' filename='牛蛙战车序列图' offset='34' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xatk_3' filename='牛蛙战车序列图' offset='54' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='牛蛙战车_xmove_3' filename='牛蛙战车序列图' offset='88' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_stand_2' filename='牛蛙战车序列图' offset='14' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xmove_4' filename='牛蛙战车序列图' offset='92' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xmove_2' filename='牛蛙战车序列图' offset='84' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_atk_3' filename='牛蛙战车序列图' offset='4' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='牛蛙战车_move_5' filename='牛蛙战车序列图' offset='46' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xmove_1' filename='牛蛙战车序列图' offset='80' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_atk_5' filename='牛蛙战车序列图' offset='8' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='牛蛙战车_stand_5' filename='牛蛙战车序列图' offset='26' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_atk_2' filename='牛蛙战车序列图' offset='2' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='牛蛙战车_atk_1' filename='牛蛙战车序列图' offset='0' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='牛蛙战车_move_4' filename='牛蛙战车序列图' offset='42' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_move_1' filename='牛蛙战车序列图' offset='30' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xatk_4' filename='牛蛙战车序列图' offset='56' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='牛蛙战车_atk_4' filename='牛蛙战车序列图' offset='6' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='牛蛙战车_xstand_3' filename='牛蛙战车序列图' offset='68' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xatk_2' filename='牛蛙战车序列图' offset='52' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='牛蛙战车_xstand_2' filename='牛蛙战车序列图' offset='64' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_stand_1' filename='牛蛙战车序列图' offset='10' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xstand_5' filename='牛蛙战车序列图' offset='76' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xmove_5' filename='牛蛙战车序列图' offset='96' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xstand_4' filename='牛蛙战车序列图' offset='72' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='牛蛙战车_xatk_1' filename='牛蛙战车序列图' offset='50' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='牛蛙战车_xatk_5' filename='牛蛙战车序列图' offset='58' frameRate='12'>
+<rate value='1 0 1'/>
+</playerDef>
+<playerDef name='一群士兵_ydie_3' filename='一群士兵序列图' offset='102' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_stand_7' filename='一群士兵序列图' offset='61' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_hurt_2' filename='一群士兵序列图' offset='1' frameRate='12'>
+<rate value='6 0 6'/>
+</playerDef>
+<playerDef name='一群士兵_yatk_3' filename='一群士兵序列图' offset='102' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_yatk_1' filename='一群士兵序列图' offset='94' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_atk_3' filename='一群士兵序列图' offset='8' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_yhurt_3' filename='一群士兵序列图' offset='102' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_die_4' filename='一群士兵序列图' offset='12' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_ystand_7' filename='一群士兵序列图' offset='155' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_atk_5' filename='一群士兵序列图' offset='16' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_ymove_1' filename='一群士兵序列图' offset='158' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_hurt_1' filename='一群士兵序列图' offset='0' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_move_3' filename='一群士兵序列图' offset='76' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_yatk_4' filename='一群士兵序列图' offset='106' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_die_1' filename='一群士兵序列图' offset='0' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_die_3' filename='一群士兵序列图' offset='8' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_hurt_3' filename='一群士兵序列图' offset='8' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_yhurt_4' filename='一群士兵序列图' offset='106' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_ystand_2' filename='一群士兵序列图' offset='122' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_hurt_5' filename='一群士兵序列图' offset='16' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_yhurt_5' filename='一群士兵序列图' offset='110' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_ydie_4' filename='一群士兵序列图' offset='106' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_ystand_4' filename='一群士兵序列图' offset='138' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_yatk_5' filename='一群士兵序列图' offset='110' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_ystand_9' filename='一群士兵序列图' offset='157' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_ydie_2' filename='一群士兵序列图' offset='95' frameRate='12'>
+<rate value='6 0 6'/>
+</playerDef>
+<playerDef name='一群士兵_stand_3' filename='一群士兵序列图' offset='36' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_stand_4' filename='一群士兵序列图' offset='44' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_ystand_1' filename='一群士兵序列图' offset='114' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_hurt_4' filename='一群士兵序列图' offset='12' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_stand_9' filename='一群士兵序列图' offset='63' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_move_1' filename='一群士兵序列图' offset='64' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_ymove_2' filename='一群士兵序列图' offset='164' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_atk_1' filename='一群士兵序列图' offset='0' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_ymove_5' filename='一群士兵序列图' offset='182' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_stand_2' filename='一群士兵序列图' offset='28' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_yatk_2' filename='一群士兵序列图' offset='98' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_move_2' filename='一群士兵序列图' offset='70' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_ystand_8' filename='一群士兵序列图' offset='156' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_move_5' filename='一群士兵序列图' offset='88' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_atk_2' filename='一群士兵序列图' offset='4' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_stand_1' filename='一群士兵序列图' offset='20' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_ystand_6' filename='一群士兵序列图' offset='154' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_ymove_3' filename='一群士兵序列图' offset='170' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_stand_8' filename='一群士兵序列图' offset='62' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_move_4' filename='一群士兵序列图' offset='82' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_yhurt_1' filename='一群士兵序列图' offset='94' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_ydie_1' filename='一群士兵序列图' offset='94' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_ystand_3' filename='一群士兵序列图' offset='130' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_ymove_4' filename='一群士兵序列图' offset='176' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='一群士兵_stand_5' filename='一群士兵序列图' offset='52' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_die_2' filename='一群士兵序列图' offset='1' frameRate='12'>
+<rate value='6 0 6'/>
+</playerDef>
+<playerDef name='一群士兵_ystand_5' filename='一群士兵序列图' offset='146' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='一群士兵_yhurt_2' filename='一群士兵序列图' offset='95' frameRate='12'>
+<rate value='6 0 6'/>
+</playerDef>
+<playerDef name='一群士兵_stand_6' filename='一群士兵序列图' offset='60' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='一群士兵_ydie_5' filename='一群士兵序列图' offset='110' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_die_5' filename='一群士兵序列图' offset='16' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='一群士兵_atk_4' filename='一群士兵序列图' offset='12' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='基洛夫_atk_8' filename='基洛夫序列图' offset='52' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_move_3' filename='基洛夫序列图' offset='20' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_atk_7' filename='基洛夫序列图' offset='51' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_move_2' filename='基洛夫序列图' offset='10' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_hurt_9' filename='基洛夫序列图' offset='53' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yatk_3' filename='基洛夫序列图' offset='74' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_atk_9' filename='基洛夫序列图' offset='53' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_die_1' filename='基洛夫序列图' offset='0' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_stand_6' filename='基洛夫序列图' offset='50' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yatk_4' filename='基洛夫序列图' offset='84' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_yhurt_4' filename='基洛夫序列图' offset='84' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_atk_6' filename='基洛夫序列图' offset='50' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_move_8' filename='基洛夫序列图' offset='52' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yatk_5' filename='基洛夫序列图' offset='94' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ydie_8' filename='基洛夫序列图' offset='106' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_stand_9' filename='基洛夫序列图' offset='53' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_atk_4' filename='基洛夫序列图' offset='30' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_atk_1' filename='基洛夫序列图' offset='0' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_stand_2' filename='基洛夫序列图' offset='10' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_move_5' filename='基洛夫序列图' offset='40' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_yatk_2' filename='基洛夫序列图' offset='64' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_atk_2' filename='基洛夫序列图' offset='10' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_stand_8' filename='基洛夫序列图' offset='52' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_die_8' filename='基洛夫序列图' offset='52' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ystand_3' filename='基洛夫序列图' offset='74' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ymove_4' filename='基洛夫序列图' offset='84' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ymove_7' filename='基洛夫序列图' offset='105' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ymove_2' filename='基洛夫序列图' offset='64' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ydie_5' filename='基洛夫序列图' offset='94' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ymove_8' filename='基洛夫序列图' offset='106' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ymove_6' filename='基洛夫序列图' offset='104' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ydie_2' filename='基洛夫序列图' offset='55' frameRate='12'>
+<rate value='18 0 18'/>
+</playerDef>
+<playerDef name='基洛夫_yatk_9' filename='基洛夫序列图' offset='107' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_hurt_3' filename='基洛夫序列图' offset='20' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_hurt_6' filename='基洛夫序列图' offset='50' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yatk_1' filename='基洛夫序列图' offset='54' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ydie_7' filename='基洛夫序列图' offset='105' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_die_3' filename='基洛夫序列图' offset='20' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_hurt_8' filename='基洛夫序列图' offset='52' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yhurt_9' filename='基洛夫序列图' offset='107' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yhurt_7' filename='基洛夫序列图' offset='105' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ystand_7' filename='基洛夫序列图' offset='105' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_atk_5' filename='基洛夫序列图' offset='40' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_move_7' filename='基洛夫序列图' offset='51' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yhurt_5' filename='基洛夫序列图' offset='94' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_die_7' filename='基洛夫序列图' offset='51' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yhurt_6' filename='基洛夫序列图' offset='104' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ydie_9' filename='基洛夫序列图' offset='107' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_hurt_7' filename='基洛夫序列图' offset='51' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ydie_3' filename='基洛夫序列图' offset='74' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ydie_6' filename='基洛夫序列图' offset='104' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ystand_2' filename='基洛夫序列图' offset='64' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ystand_8' filename='基洛夫序列图' offset='106' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_move_1' filename='基洛夫序列图' offset='0' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ydie_4' filename='基洛夫序列图' offset='84' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ystand_4' filename='基洛夫序列图' offset='84' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_hurt_5' filename='基洛夫序列图' offset='40' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_stand_5' filename='基洛夫序列图' offset='40' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_die_9' filename='基洛夫序列图' offset='53' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_stand_3' filename='基洛夫序列图' offset='20' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_yatk_7' filename='基洛夫序列图' offset='105' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ystand_1' filename='基洛夫序列图' offset='54' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_hurt_4' filename='基洛夫序列图' offset='30' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_atk_3' filename='基洛夫序列图' offset='20' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ymove_1' filename='基洛夫序列图' offset='54' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_die_4' filename='基洛夫序列图' offset='30' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_yatk_6' filename='基洛夫序列图' offset='104' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yhurt_1' filename='基洛夫序列图' offset='54' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ystand_9' filename='基洛夫序列图' offset='107' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ymove_9' filename='基洛夫序列图' offset='107' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yatk_8' filename='基洛夫序列图' offset='106' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ydie_1' filename='基洛夫序列图' offset='54' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ymove_5' filename='基洛夫序列图' offset='94' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_stand_7' filename='基洛夫序列图' offset='51' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_ymove_3' filename='基洛夫序列图' offset='74' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_ystand_6' filename='基洛夫序列图' offset='104' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_move_6' filename='基洛夫序列图' offset='50' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_die_6' filename='基洛夫序列图' offset='50' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_move_4' filename='基洛夫序列图' offset='30' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_shadow_3' filename='基洛夫序列图' offset='108' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_yhurt_3' filename='基洛夫序列图' offset='74' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_stand_4' filename='基洛夫序列图' offset='30' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_die_5' filename='基洛夫序列图' offset='40' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_hurt_1' filename='基洛夫序列图' offset='0' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_die_2' filename='基洛夫序列图' offset='1' frameRate='12'>
+<rate value='18 0 18'/>
+</playerDef>
+<playerDef name='基洛夫_ystand_5' filename='基洛夫序列图' offset='94' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='基洛夫_yhurt_2' filename='基洛夫序列图' offset='55' frameRate='12'>
+<rate value='18 0 18'/>
+</playerDef>
+<playerDef name='基洛夫_move_9' filename='基洛夫序列图' offset='53' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_hurt_2' filename='基洛夫序列图' offset='1' frameRate='12'>
+<rate value='18 0 18'/>
+</playerDef>
+<playerDef name='基洛夫_yhurt_8' filename='基洛夫序列图' offset='106' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='基洛夫_stand_1' filename='基洛夫序列图' offset='0' frameRate='12'>
+<rate value='9 0 9'/>
+</playerDef>
+<playerDef name='狂风坦克_stand_3' filename='狂风坦克序列图' offset='48' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_move_3' filename='狂风坦克序列图' offset='72' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_xstand_1' filename='狂风坦克序列图' offset='130' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_stand_4' filename='狂风坦克序列图' offset='52' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_move_2' filename='狂风坦克序列图' offset='66' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_xatk_3' filename='狂风坦克序列图' offset='106' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='狂风坦克_xmove_3' filename='狂风坦克序列图' offset='162' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_stand_2' filename='狂风坦克序列图' offset='44' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_xmove_4' filename='狂风坦克序列图' offset='168' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_xmove_2' filename='狂风坦克序列图' offset='156' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_atk_3' filename='狂风坦克序列图' offset='16' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='狂风坦克_move_5' filename='狂风坦克序列图' offset='84' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_xmove_1' filename='狂风坦克序列图' offset='150' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_atk_5' filename='狂风坦克序列图' offset='32' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='狂风坦克_stand_5' filename='狂风坦克序列图' offset='56' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_atk_2' filename='狂风坦克序列图' offset='8' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='狂风坦克_atk_1' filename='狂风坦克序列图' offset='0' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='狂风坦克_move_4' filename='狂风坦克序列图' offset='78' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_move_1' filename='狂风坦克序列图' offset='60' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_xatk_4' filename='狂风坦克序列图' offset='114' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='狂风坦克_atk_4' filename='狂风坦克序列图' offset='24' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='狂风坦克_xstand_3' filename='狂风坦克序列图' offset='138' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_xatk_2' filename='狂风坦克序列图' offset='98' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='狂风坦克_xstand_2' filename='狂风坦克序列图' offset='134' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_stand_1' filename='狂风坦克序列图' offset='40' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_xstand_5' filename='狂风坦克序列图' offset='146' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_xmove_5' filename='狂风坦克序列图' offset='174' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='狂风坦克_xstand_4' filename='狂风坦克序列图' offset='142' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='狂风坦克_xatk_1' filename='狂风坦克序列图' offset='90' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='狂风坦克_xatk_5' filename='狂风坦克序列图' offset='122' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_shadow_5' filename='天启序列图' offset='380' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_shadow_8' filename='天启序列图' offset='383' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_move_2' filename='天启序列图' offset='70' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_yatk_3' filename='天启序列图' offset='204' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_xdie_3' filename='天启序列图' offset='110' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_ydie_2' filename='天启序列图' offset='189' frameRate='12'>
+<rate value='14 0 14'/>
+</playerDef>
+<playerDef name='天启_xatk_4' filename='天启序列图' offset='118' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_yxstand_1' filename='天启序列图' offset='322' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_yxstand_6' filename='天启序列图' offset='342' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_xstand_8' filename='天启序列图' offset='156' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxmove_3' filename='天启序列图' offset='358' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_stand_5' filename='天启序列图' offset='56' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_shadow_4' filename='天启序列图' offset='379' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_xatk_5' filename='天启序列图' offset='126' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_yatk_5' filename='天启序列图' offset='220' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_stand_9' filename='天启序列图' offset='63' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_stand_4' filename='天启序列图' offset='52' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_atk_1' filename='天启序列图' offset='0' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_stand_2' filename='天启序列图' offset='44' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_ystand_9' filename='天启序列图' offset='251' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxmove_4' filename='天启序列图' offset='364' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_yxmove_2' filename='天启序列图' offset='352' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_move_5' filename='天启序列图' offset='88' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_xstand_6' filename='天启序列图' offset='154' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_stand_1' filename='天启序列图' offset='40' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_yatk_4' filename='天启序列图' offset='212' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_yxatk_2' filename='天启序列图' offset='290' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_stand_8' filename='天启序列图' offset='62' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_xmove_3' filename='天启序列图' offset='170' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_yxdie_3' filename='天启序列图' offset='298' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_move_3' filename='天启序列图' offset='76' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_ystand_3' filename='天启序列图' offset='236' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_ymove_4' filename='天启序列图' offset='270' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_ymove_3' filename='天启序列图' offset='264' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_xmove_4' filename='天启序列图' offset='176' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_xstand_4' filename='天启序列图' offset='146' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_ymove_2' filename='天启序列图' offset='258' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_shadow_7' filename='天启序列图' offset='382' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_ydie_5' filename='天启序列图' offset='220' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_xstand_3' filename='天启序列图' offset='142' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_yxstand_4' filename='天启序列图' offset='334' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_yxdie_1' filename='天启序列图' offset='282' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxstand_3' filename='天启序列图' offset='330' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_yxdie_2' filename='天启序列图' offset='283' frameRate='12'>
+<rate value='14 0 14'/>
+</playerDef>
+<playerDef name='天启_stand_7' filename='天启序列图' offset='61' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_atk_2' filename='天启序列图' offset='8' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_xdie_4' filename='天启序列图' offset='118' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_xstand_9' filename='天启序列图' offset='157' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_xdie_5' filename='天启序列图' offset='126' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_yatk_2' filename='天启序列图' offset='196' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_yxmove_1' filename='天启序列图' offset='346' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_shadow_2' filename='天启序列图' offset='377' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_shadow_1' filename='天启序列图' offset='376' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_xatk_2' filename='天启序列图' offset='102' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_die_4' filename='天启序列图' offset='24' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_ystand_7' filename='天启序列图' offset='249' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_xstand_7' filename='天启序列图' offset='155' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxstand_9' filename='天启序列图' offset='345' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxstand_5' filename='天启序列图' offset='338' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_stand_6' filename='天启序列图' offset='60' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxatk_5' filename='天启序列图' offset='314' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_yxdie_4' filename='天启序列图' offset='306' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_atk_5' filename='天启序列图' offset='32' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_die_1' filename='天启序列图' offset='0' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxatk_3' filename='天启序列图' offset='298' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_ystand_2' filename='天启序列图' offset='232' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_xstand_2' filename='天启序列图' offset='138' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_atk_4' filename='天启序列图' offset='24' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_ydie_4' filename='天启序列图' offset='212' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_ystand_4' filename='天启序列图' offset='240' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_yxatk_4' filename='天启序列图' offset='306' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_move_1' filename='天启序列图' offset='64' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_atk_3' filename='天启序列图' offset='16' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_stand_3' filename='天启序列图' offset='48' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_die_5' filename='天启序列图' offset='32' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_ystand_1' filename='天启序列图' offset='228' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_xstand_1' filename='天启序列图' offset='134' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_xdie_1' filename='天启序列图' offset='94' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_ymove_1' filename='天启序列图' offset='252' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_shadow_6' filename='天启序列图' offset='381' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_xmove_1' filename='天启序列图' offset='158' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_xmove_2' filename='天启序列图' offset='164' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_die_2' filename='天启序列图' offset='1' frameRate='12'>
+<rate value='14 0 14'/>
+</playerDef>
+<playerDef name='天启_xstand_5' filename='天启序列图' offset='150' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_yxstand_2' filename='天启序列图' offset='326' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_xatk_1' filename='天启序列图' offset='94' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_ymove_5' filename='天启序列图' offset='276' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_ydie_3' filename='天启序列图' offset='204' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_xmove_5' filename='天启序列图' offset='182' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_ystand_6' filename='天启序列图' offset='248' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxmove_5' filename='天启序列图' offset='370' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_xatk_3' filename='天启序列图' offset='110' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_move_4' filename='天启序列图' offset='82' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='天启_shadow_3' filename='天启序列图' offset='378' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_ydie_1' filename='天启序列图' offset='188' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_shadow_9' filename='天启序列图' offset='384' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxdie_5' filename='天启序列图' offset='314' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_yatk_1' filename='天启序列图' offset='188' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_xdie_2' filename='天启序列图' offset='95' frameRate='12'>
+<rate value='14 0 14'/>
+</playerDef>
+<playerDef name='天启_ystand_5' filename='天启序列图' offset='244' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='天启_yxatk_1' filename='天启序列图' offset='282' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_die_3' filename='天启序列图' offset='16' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='天启_yxstand_7' filename='天启序列图' offset='343' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_ystand_8' filename='天启序列图' offset='250' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='天启_yxstand_8' filename='天启序列图' offset='344' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_ydie_3' filename='士兵序列图' offset='102' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_stand_7' filename='士兵序列图' offset='61' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_hurt_2' filename='士兵序列图' offset='1' frameRate='12'>
+<rate value='6 0 6'/>
+</playerDef>
+<playerDef name='士兵_yatk_3' filename='士兵序列图' offset='102' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_yatk_1' filename='士兵序列图' offset='94' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_atk_3' filename='士兵序列图' offset='8' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_yhurt_3' filename='士兵序列图' offset='102' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_die_4' filename='士兵序列图' offset='12' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_ystand_7' filename='士兵序列图' offset='155' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_atk_5' filename='士兵序列图' offset='16' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_ymove_1' filename='士兵序列图' offset='158' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_hurt_1' filename='士兵序列图' offset='0' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_move_3' filename='士兵序列图' offset='76' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_yatk_4' filename='士兵序列图' offset='106' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_die_1' filename='士兵序列图' offset='0' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_die_3' filename='士兵序列图' offset='8' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_hurt_3' filename='士兵序列图' offset='8' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_yhurt_4' filename='士兵序列图' offset='106' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_ystand_2' filename='士兵序列图' offset='122' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_hurt_5' filename='士兵序列图' offset='16' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_yhurt_5' filename='士兵序列图' offset='110' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_ydie_4' filename='士兵序列图' offset='106' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_ystand_4' filename='士兵序列图' offset='138' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_yatk_5' filename='士兵序列图' offset='110' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_ystand_9' filename='士兵序列图' offset='157' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_ydie_2' filename='士兵序列图' offset='95' frameRate='12'>
+<rate value='6 0 6'/>
+</playerDef>
+<playerDef name='士兵_stand_3' filename='士兵序列图' offset='36' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_stand_4' filename='士兵序列图' offset='44' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_ystand_1' filename='士兵序列图' offset='114' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_hurt_4' filename='士兵序列图' offset='12' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_stand_9' filename='士兵序列图' offset='63' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_move_1' filename='士兵序列图' offset='64' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_ymove_2' filename='士兵序列图' offset='164' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_atk_1' filename='士兵序列图' offset='0' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_ymove_5' filename='士兵序列图' offset='182' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_stand_2' filename='士兵序列图' offset='28' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_yatk_2' filename='士兵序列图' offset='98' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_move_2' filename='士兵序列图' offset='70' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_ystand_8' filename='士兵序列图' offset='156' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_move_5' filename='士兵序列图' offset='88' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_atk_2' filename='士兵序列图' offset='4' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_stand_1' filename='士兵序列图' offset='20' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_ystand_6' filename='士兵序列图' offset='154' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_ymove_3' filename='士兵序列图' offset='170' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_stand_8' filename='士兵序列图' offset='62' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_move_4' filename='士兵序列图' offset='82' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_yhurt_1' filename='士兵序列图' offset='94' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_ydie_1' filename='士兵序列图' offset='94' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_ystand_3' filename='士兵序列图' offset='130' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_ymove_4' filename='士兵序列图' offset='176' frameRate='12'>
+<rate value='5 0 5'/>
+</playerDef>
+<playerDef name='士兵_stand_5' filename='士兵序列图' offset='52' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_die_2' filename='士兵序列图' offset='1' frameRate='12'>
+<rate value='6 0 6'/>
+</playerDef>
+<playerDef name='士兵_ystand_5' filename='士兵序列图' offset='146' frameRate='12'>
+<rate value='7 0 7'/>
+</playerDef>
+<playerDef name='士兵_yhurt_2' filename='士兵序列图' offset='95' frameRate='12'>
+<rate value='6 0 6'/>
+</playerDef>
+<playerDef name='士兵_stand_6' filename='士兵序列图' offset='60' frameRate='12'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='士兵_ydie_5' filename='士兵序列图' offset='110' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_die_5' filename='士兵序列图' offset='16' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='士兵_atk_4' filename='士兵序列图' offset='12' frameRate='12'>
+<rate value='3 0 3'/>
+</playerDef>
+<playerDef name='总部_stand_3' filename='总部序列图' offset='1' frameRate='5'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='总部_move_3' filename='总部序列图' offset='0' frameRate='5'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='总部_atk_3' filename='总部序列图' offset='0' frameRate='5'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='总部_hurt_3' filename='总部序列图' offset='0' frameRate='5'>
+<rate value='0 0 0'/>
+</playerDef>
+<playerDef name='总部_die_3' filename='总部序列图' offset='0' frameRate='5'>
+<rate value='0 0 0'/>
+</playerDef>
+</playerCfg>
+</AnimationCfg>

@@ -1,0 +1,3 @@
+A->B建立证书信任
+
+ssh-keygen -t rsa

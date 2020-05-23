@@ -1,0 +1,1 @@
+return {["building_panel"]={"删除","升级","功能","详情"}}

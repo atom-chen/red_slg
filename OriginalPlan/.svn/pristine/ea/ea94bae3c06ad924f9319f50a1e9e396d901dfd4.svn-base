@@ -1,0 +1,2 @@
+doc_config=doc_config.ini
+sections=testFiles,changeLogFiles,typesFiles,structFiles,errnoFiles,definesFiles,constValueFiles,packetIDFiles,packetFiles

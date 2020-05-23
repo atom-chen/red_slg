@@ -1,0 +1,55 @@
+1. 将所有的enum改成符合规范
+2. 扩展Time部分, 添加CDateTime(只负责表示日期), 添加CTimeMgr(管理当前日期), CIntervalTimer(定时器), CIntervalTimerMgr(定时器管理器), CTimespan(一段时间类)
+3. 添加IServer(内部服务器, 画服务器内部模型图)
+4. 添加C++的反射库
+5. 添加FastFormat库
+6. 修改Log模式, 改成观察者模式
+7. 互斥锁只留进程锁和SM锁
+8. 读写xml的类(类似于xml path模型)
+9. Net库和Reactor模型
+10. 添加ArgParse类, 可以对命令行进行解析并对其进行参数合法性检测
+11. 将所有GXMISC_CATEGORISED_COMMAND添加进来
+12. 添加CPath功能到扩展库
+13. 裁减core库, 只保留服务器需要的功能
+14. 添加System类到扩展库, 用于系统性能监控
+15. 使用内存池
+16. 将asm的代码删除
+===========
+1.将库分成两部分, corelib, baselib. 其中corelib仅用于服务器, ExtensionLib可以用于其他扩展工具(此库可以包含众多第三方库)
+
+
+===========
+. Config(读取配置文件)
+. CharArray(定长字符数组,包括结束字符)
+. BipBuffer(双端缓冲区)
+. HashManager(多键哈希, 只允许索引管理)
+. IdManager(用于各种Id分配, 生成不同的ID, 生成条件相关: 时间, 选择列表, 随机生成, 顺序增长 ..., 可生成NpcID, MonsterID)
+. Entity(游戏对象), GameEntity ...
+. Parser(解析字符串)
+. WaitQueue(等待操作队列, 过时则回调处理函数, 属于框架级组件, 与Service同一级别)
+. Service(服务接口, 所有服务器从此接口继承实现)
+. ObjectPool(对象池, 需要重新构造对象, 但不重新分配)
+. ObjectList(对象链表, 不需要重新构造对象, 不需要重新分配)
+. ObjectManager(兼具对象池和哈希索引管理功能)
+. BitSet(位操作类)
+. SynDataWrap<T>(同步数据包装类, 携带数据和位集合. T::DataAttr[属性描述集合], T::DataType[数据描述集合], T::Register()[注册描述字集合])
+. Signal(处理信号和回调信号类)
+. BindFunc(绑定函数类, SetHookAllSignal[注册所有的信号回调函数])
+. DumpHandle(Dump处理类)
+. Libinit(初始化类库的全局参数)
+. BaseUtil(基本的工具函数, )
+. Singleton(单例类)
+. ShareMemory(共享内存操作)
+. StringUtil(ToString[将其他类型转换成字符串], FromString[将字符串转换成其他类型], string的哈希函数, string的比较函数)
+. TimeManager(用于时间管理, 整个服务器使用一个全局时间, 避免频繁调用系统时间API)
+. IntervalTimer(服务器内部定时器, 回调指定的函数, 集成到Service中)
+. ByteBuffer(字节缓冲区)
+. CodeConverson(编码转换, 使用linux下的iconv函数或使用其他开源库)
+. Crontab(定时表, 用于处理定时动作, 包含CronInfo)
+. MessageMonitor(消息监控器, 用于统计消息的使用次数及总计长度, 发送消息和接收消息分开统计)
+. Manager(管理器, 遍历的时候使用回调对象回调)
+. CallBack(回调类)
+. Format(格式化类, 使用第三方格式化库, 避免在字符串中使用'%d', '%lld'等等)
+. ProfileManager(统计类,用于统计各个对象的数目及性能数据等)
+. ServerEvent(服务器事件类, 处理角色登陆失败/成功这些服务器事件类)
+. Assert(断言, 必须将调用堆栈打印出来)

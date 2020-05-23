@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['sceneid',['sceneID',['../a00070.html#a0de40e0b3c53e86695f7eb83f309b385',1,'LoadRoleData']]],
+  ['scenes',['scenes',['../a00076.html#a71e3500731ee9b3bc2ace9ff872ad1a5',1,'MapServerUpdate']]],
+  ['serverid',['serverID',['../a00076.html#acd33ffeff2f29e07b92a62ea308afad6',1,'MapServerUpdate::serverID()'],['../a00146.html#af0a377c2c190ace51d73504cf9d2e494',1,'ZoneServer::serverID()'],['../a00024.html#afb9bd2bd19ff70e3a046520b96ea50d5',1,'CLVerifyAccount::serverID()'],['../a00117.html#a6f29678c272dbc6a2fd1a9b5713edc54',1,'PacketGameCollectInfo::serverid()']]],
+  ['serverip',['serverIP',['../a00062.html#ad8f8fa9190ceb796ff03c6f196f082ab',1,'LCVerifyAccountRet::serverIP()'],['../a00142.html#a22af2d95210295b10968070558101fe0',1,'WCLoginGameRet::serverIP()']]],
+  ['servername',['serverName',['../a00146.html#a443c2367029a3e83fe1ecc828adfc124',1,'ZoneServer']]],
+  ['serverport',['serverPort',['../a00142.html#a425d5f102ec1b597c14777c813470c6d',1,'WCLoginGameRet']]],
+  ['sex',['sex',['../a00133.html#aef18d69ab9b3afd04680fc8aea3b96d5',1,'RoleDetail::sex()'],['../a00048.html#a719a1d5b3a01fe29e473320774aef99f',1,'CWRandGenName::sex()']]],
+  ['size',['size',['../a00031.html#a03134ef3dcd07fb25816043d1b9bbf3d',1,'CMExtendPack::size()'],['../a00090.html#a96930fb8461aaae930ee4dd493f3a1d8',1,'MCExtendPack::size()']]],
+  ['skillattack',['skillAttack',['../a00133.html#a51c9de5537ad3019855719c9762aa3d2',1,'RoleDetail']]],
+  ['source_5fway',['source_way',['../a00121.html#a6a1178a61f7001ce8c1df723f6453857',1,'PacketSourceWay::source_way()'],['../a00117.html#a548017fa90b137c6940fe5d8bf85b7bd',1,'PacketGameCollectInfo::source_way()']]],
+  ['srcbagtype',['srcBagType',['../a00089.html#abb0c2d4da6942a14833852123d6caaa8',1,'MCExchangeItem']]],
+  ['srcitemuid',['srcItemUID',['../a00089.html#a7fba2895278bb76a56facc064198905d',1,'MCExchangeItem']]],
+  ['srcmapserverid',['srcMapServerID',['../a00021.html#ab06ea2a03fe02de0ab10d42903091a35',1,'ChangeLineWait']]],
+  ['srcobjuid',['srcObjUID',['../a00094.html#a603b2873c99e723e81dbf2301dc29290',1,'MCLandRet']]],
+  ['srcpos',['srcPos',['../a00021.html#a5ad8f6734974225bf183785fc39fc8a9',1,'ChangeLineWait']]],
+  ['srcsceneid',['srcSceneID',['../a00021.html#a399041a9460b237673e5c3a5daa55c50',1,'ChangeLineWait']]],
+  ['srctype',['srcType',['../a00113.html#a02ec813ea7ca48ab32fe26624ee09ae0',1,'MoveItem']]],
+  ['state',['state',['../a00146.html#ad2fc83981fa295335aa22b980fde9aac',1,'ZoneServer']]],
+  ['status',['status',['../a00111.html#a1bf259ce77a891db775a4ba97945df5f',1,'MissionBase']]],
+  ['stre',['stre',['../a00122.html#a40ac8f60ded9d638631c29582581d891',1,'PackItem']]],
+  ['strelevel',['streLevel',['../a00053.html#af5da62b504447836ec4b2c03c175ba29',1,'ExtItem']]],
+  ['subtype',['subType',['../a00001.html#ad752ee9bb42d468896b3812df7224f38',1,'_ItemType']]]
+];

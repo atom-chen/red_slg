@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['damage',['damage',['../a00133.html#a49cd8eb1fedd2e2930fbbaa72ceeb7f7',1,'RoleDetail']]],
+  ['damagereduce',['damageReduce',['../a00133.html#af2aaae0f7422f8ffef16694c4d71d400',1,'RoleDetail']]],
+  ['data',['data',['../a00087.html#ae80d5cc5d8f4a98661e6992a9593c8d6',1,'MCEnterView']]],
+  ['datas',['datas',['../a00106.html#a273d831e35b3edf7455154ab541c7030',1,'MCSyncRoleData']]],
+  ['datetime',['datetime',['../a00117.html#a23932b7d9c3358a8680d3a940237edac',1,'PacketGameCollectInfo::datetime()'],['../a00116.html#af1555a21797a1abe1ebe1f8ba8f4f40a',1,'PacketCreateBrforeInfo::datetime()']]],
+  ['daytime',['daytime',['../a00117.html#ad26b6629e523da11ae4cfdd3175844c0',1,'PacketGameCollectInfo']]],
+  ['defense',['defense',['../a00133.html#a9ee5721581c5ab53be35df33644fd663',1,'RoleDetail']]],
+  ['destbagtype',['destBagType',['../a00089.html#a627e99e0e6d25aadd981ca9fbdb88a89',1,'MCExchangeItem']]],
+  ['destindex',['destIndex',['../a00113.html#a302bf6b240e16408c424f48493dfa306',1,'MoveItem']]],
+  ['destitemuid',['destItemUID',['../a00089.html#a0f42bd23ab064a2379fcbeac07f6788c',1,'MCExchangeItem']]],
+  ['destmapserverid',['destMapServerID',['../a00021.html#a0af65e35823dd5623e35d0f093295c33',1,'ChangeLineWait']]],
+  ['destobjuid',['destObjUID',['../a00011.html#a5fe681c4809db9a805972988bf42611b',1,'BuffImpact']]],
+  ['destpos',['destPos',['../a00021.html#ab2971520c6cad5ee56d55fa0d5e29392',1,'ChangeLineWait']]],
+  ['destsceneid',['destSceneID',['../a00021.html#a53d961a3b12e541589cdc0c8e60819e7',1,'ChangeLineWait::destSceneID()'],['../a00071.html#af45af5e19603fe3e1a4fc97096812345',1,'LoadWaitEnter::destSceneID()']]],
+  ['desttype',['destType',['../a00113.html#ae64d8e79628de3d94caf61866474fcaa',1,'MoveItem']]],
+  ['detaildata',['detailData',['../a00085.html#a272ad32ea49ce6619cc0a1b0b8aa7a94',1,'MCEnterGameRet']]],
+  ['dir',['dir',['../a00127.html#ada4afb71cbf4a6de8b303319dc6fd286',1,'PackRoleShape::dir()'],['../a00133.html#a7a2d89076e0ef42c8d7e08cbe8bac448',1,'RoleDetail::dir()']]],
+  ['dodge',['dodge',['../a00133.html#ac7902f29e10401fad0fc0475ea8e4148',1,'RoleDetail']]],
+  ['dropcominfovec',['dropcominfovec',['../a00131.html#aa247d6d06c4d9390b1c82108ef38ed2b',1,'RandDropConfigInfoEx']]],
+  ['dropid',['dropid',['../a00130.html#a469718e40af02c9d93de361c0cd904c4',1,'RandDropConfigInfo::dropid()'],['../a00131.html#ae5a342031d5e84d78d6a7a7a52bf49ef',1,'RandDropConfigInfoEx::dropid()']]]
+];

@@ -1,0 +1,1 @@
+return {["building_title"]={"Lv.1","大使"}}

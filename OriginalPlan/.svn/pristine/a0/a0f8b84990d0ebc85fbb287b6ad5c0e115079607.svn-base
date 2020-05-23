@@ -1,0 +1,2 @@
+local data = { update_url = 'http://down.5colour.com.cn/vgame/100/packlist.txt'} 
+ return data

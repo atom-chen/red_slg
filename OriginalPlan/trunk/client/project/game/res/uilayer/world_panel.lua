@@ -1,0 +1,1 @@
+return {{align=4,cName="login_di11",fontColor=0,fontSize=30,isEnlarge=0,isSTensile=1,picName="login_di1.png",tag=0,textType=0,type=0,x=-313,y=-146},{align=4,cName="login_btn_jryx1",fontColor=0,fontSize=30,isEnlarge=0,isSTensile=1,picName="login_btn_jryx.png",tag=0,textType=0,type=0,x=-206,y=20},alignment=0,count=2}

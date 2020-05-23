@@ -1,0 +1,31 @@
+module("CppFileterFiles",package.seeall);
+
+-- 段结束符
+local sectionTStr = "/** @}*/\n";
+
+-- 测试
+local sectionTest="/** @defgroup TestDoc 测试文档定义\n* @{\n*/\n";
+
+-- 修改记录段
+local sectionHChangeLog = "/** @defgroup ChangeLog 修改记录\n* 协议文档的修改记录, 可以直接链接到指定的页面\n* @{\n*/\n";
+
+-- 类型定义段
+local sectionHTypes = "/** @defgroup TypesDefine 类型定义\n* 协议结构中用到的类型定义\n* @{\n*/\n";
+
+-- 结构定义段
+local sectionHStructs = "/** @defgroup StructDefine 结构定义\n* 协议结构中用到的结构定义\n* @{\n*/\n";
+
+-- 返回码段
+local sectionHReturnCode = "/** @defgroup ReturnCodeDefine 返回码定义\n* 协议中用到的返回码\n* @{\n*/\n";
+
+-- 枚举定义段
+local sectionDefines = "/** @defgroup EnumDefine 枚举定义\n* 游戏逻辑中用到的枚举值\n* @{\n*/\n";
+
+-- 常量定义
+local sectionConstValue = "/** @defgroup ConstValueDefine 常量定义\n* 游戏逻辑使用的常量\n* @{\n*/\n";
+
+-- 协议ID定义
+local sectionPacketID = "/** @defgroup PacketIDDefine 协议ID定义\n* 协议ID定义\n* @{\n*/\n";
+
+-- 协议结构
+local sectionHPacket="/** @defgroup PackBase 协议结构定义\n* @{\n*/\n";

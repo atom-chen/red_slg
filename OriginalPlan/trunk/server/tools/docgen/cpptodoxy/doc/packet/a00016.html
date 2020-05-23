@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>TuLong: CBasePacket结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">TuLong
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>组</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="a00207.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">CBasePacket结构体 参考<div class="ingroups"><a class="el" href="a00156.html">基本协议结构定义</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 CBasePacket 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="a00016.png" usemap="#CBasePacket_map" alt=""/>
+  <map id="CBasePacket_map" name="CBasePacket_map">
+<area href="a00041.html" alt="CRequestPacket" shape="rect" coords="0,56,161,80"/>
+<area href="a00042.html" alt="CResponsePacket" shape="rect" coords="342,56,503,80"/>
+<area href="a00022.html" title="请求有创建角色的区列表 - 1016 " alt="CLGetHasRoleZoneList" shape="rect" coords="171,112,332,136"/>
+<area href="a00023.html" title="请求区列表 - 1010 " alt="CLGetZoneList" shape="rect" coords="171,168,332,192"/>
+<area href="a00024.html" title="请求验证玩家账号 - 1001 " alt="CLVerifyAccount" shape="rect" coords="171,224,332,248"/>
+<area href="a00025.html" title="请求使用、删除、出售、整理 - 1409 " alt="CMBagOperate" shape="rect" coords="171,280,332,304"/>
+<area href="a00026.html" title="聊天请求 - 1207 " alt="CMChat" shape="rect" coords="171,336,332,360"/>
+<area href="a00027.html" title="降落 - 1222 " alt="CMDrop" shape="rect" coords="171,392,332,416"/>
+<area href="a00028.html" title="请求进入游戏 - 1103 " alt="CMEnterGame" shape="rect" coords="171,448,332,472"/>
+<area href="a00029.html" title="进入场景 - 1206 " alt="CMEnterScene" shape="rect" coords="171,504,332,528"/>
+<area href="a00030.html" title="输入兑换号 - 4600 " alt="CMExchangeGiftReq" shape="rect" coords="171,560,332,584"/>
+<area href="a00031.html" title="请求购买背包格子 - 1406 " alt="CMExtendPack" shape="rect" coords="171,616,332,640"/>
+<area href="a00032.html" title="跳跃 - 1220 " alt="CMJump" shape="rect" coords="171,672,332,696"/>
+<area href="a00033.html" title="着陆 - 1224 " alt="CMLand" shape="rect" coords="171,728,332,752"/>
+<area href="a00034.html" title="本地登陆 - 1101 " alt="CMLocalLoginGame" shape="rect" coords="171,784,332,808"/>
+<area href="a00035.html" title="任务操作 - 2903 " alt="CMMissionOperate" shape="rect" coords="171,840,332,864"/>
+<area href="a00036.html" title="请求移动 - 1203 " alt="CMMove" shape="rect" coords="171,896,332,920"/>
+<area href="a00037.html" title="角色心跳返回 - 1228 " alt="CMPlayerHeartRet" shape="rect" coords="171,952,332,976"/>
+<area href="a00038.html" title="角色随机名字 - 1215 " alt="CMRandRoleName" shape="rect" coords="171,1008,332,1032"/>
+<area href="a00039.html" title="角色修改名字 - 1213 " alt="CMRenameRoleName" shape="rect" coords="171,1064,332,1088"/>
+<area href="a00040.html" title="传送点传送 - 1209 " alt="CMTransmite" shape="rect" coords="171,1120,332,1144"/>
+<area href="a00045.html" title="创建角色 - 1008 " alt="CWCreateRole" shape="rect" coords="171,1176,332,1200"/>
+<area href="a00046.html" title="请求登陆游戏 - 1003 " alt="CWLoginGame" shape="rect" coords="171,1232,332,1256"/>
+<area href="a00047.html" title="请求退出登陆 - 1005 " alt="CWLoginQuit" shape="rect" coords="171,1288,332,1312"/>
+<area href="a00048.html" title="请求随机角色名字 - 1014 " alt="CWRandGenName" shape="rect" coords="171,1344,332,1368"/>
+<area href="a00049.html" title="请求验证客户端连接 - 1012 " alt="CWVerifyConnect" shape="rect" coords="171,1400,332,1424"/>
+<area href="a00079.html" title="返回背包操作结果使用、删除、出售 - 1410 " alt="MCBagOperateRet" shape="rect" coords="171,1456,332,1480"/>
+<area href="a00043.html" alt="CServerPacket" shape="rect" coords="513,112,674,136"/>
+<area href="a00060.html" title="有创建角色的区列表返回 - 1017 " alt="LCGetHasRoleZoneListRet" shape="rect" coords="513,168,674,192"/>
+<area href="a00061.html" title="区列表返回 - 1011 " alt="LCGetZoneListRet" shape="rect" coords="513,224,674,248"/>
+<area href="a00062.html" title="验证玩家账号返回 - 1002 " alt="LCVerifyAccountRet" shape="rect" coords="513,280,674,304"/>
+<area href="a00081.html" title="聊天广播 - 1208 " alt="MCChatBroad" shape="rect" coords="513,336,674,360"/>
+<area href="a00084.html" title="降落返回 - 1223 " alt="MCDropRet" shape="rect" coords="513,392,674,416"/>
+<area href="a00085.html" title="进入游戏返回 - 1104 " alt="MCEnterGameRet" shape="rect" coords="513,448,674,472"/>
+<area href="a00086.html" title="进入场景返回 - 1212 " alt="MCEnterSceneRet" shape="rect" coords="513,504,674,528"/>
+<area href="a00088.html" title="兑换礼包返回 - 4601 " alt="MCExchangeGiftRet" shape="rect" coords="513,560,674,584"/>
+<area href="a00091.html" title="返回购买背包格子结果 - 1407 " alt="MCExtendPackRet" shape="rect" coords="513,616,674,640"/>
+<area href="a00092.html" title="跳跃返回 - 1221 " alt="MCJumpRet" shape="rect" coords="513,672,674,696"/>
+<area href="a00094.html" title="着陆返回 - 1225 " alt="MCLandRet" shape="rect" coords="513,728,674,752"/>
+<area href="a00096.html" title="本地登陆返回 - 1102 " alt="MCLocalLoginGameRet" shape="rect" coords="513,784,674,808"/>
+<area href="a00097.html" title="任务操作返回 - 2904 " alt="MCMissionOperateRet" shape="rect" coords="513,840,674,864"/>
+<area href="a00100.html" title="移动返回 - 1204 " alt="MCMoveRet" shape="rect" coords="513,896,674,920"/>
+<area href="a00101.html" title="角色心跳 - 1227 " alt="MCPlayerHeart" shape="rect" coords="513,952,674,976"/>
+<area href="a00102.html" title="角色随机名字返回 - 1216 " alt="MCRandRoleNameRet" shape="rect" coords="513,1008,674,1032"/>
+<area href="a00103.html" title="角色修改名字返回 - 1214 " alt="MCRenameRoleNameRet" shape="rect" coords="513,1064,674,1088"/>
+<area href="a00107.html" title="传送返回 - 1210 " alt="MCTransmiteRet" shape="rect" coords="513,1120,674,1144"/>
+<area href="a00141.html" title="创建角色返回 - 1009 " alt="WCCreateRoleRet" shape="rect" coords="513,1176,674,1200"/>
+<area href="a00142.html" title="登陆游戏返回 - 1004 " alt="WCLoginGameRet" shape="rect" coords="513,1232,674,1256"/>
+<area href="a00143.html" title="退出登陆返回 - 1006 " alt="WCLoginQuitRet" shape="rect" coords="513,1288,674,1312"/>
+<area href="a00144.html" title="随机角色名字返回 - 1015 " alt="WCRandGenNameRet" shape="rect" coords="513,1344,674,1368"/>
+<area href="a00145.html" title="验证客户端连接返回 - 1013 " alt="WCVerifyConnectRet" shape="rect" coords="513,1400,674,1424"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ac2bc4f62e4d55e3f10ddfbdc0ad15ba1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2bc4f62e4d55e3f10ddfbdc0ad15ba1"></a>
+TPackLen_t&#160;</td><td class="memItemRight" valign="bottom"><b>getTotalLen</b> () const </td></tr>
+<tr class="separator:ac2bc4f62e4d55e3f10ddfbdc0ad15ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f1c6d3148d83370c82ac6a476d3c1e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56f1c6d3148d83370c82ac6a476d3c1e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setTotalLen</b> (TPackLen_t val)</td></tr>
+<tr class="separator:a56f1c6d3148d83370c82ac6a476d3c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66031b08512a05cc7eb21ac51c38187b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66031b08512a05cc7eb21ac51c38187b"></a>
+TPackFlag_t&#160;</td><td class="memItemRight" valign="bottom"><b>getFlag</b> () const </td></tr>
+<tr class="separator:a66031b08512a05cc7eb21ac51c38187b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56585c40d656bd3e1d967497330938e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56585c40d656bd3e1d967497330938e7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setFlag</b> (TPackFlag_t val)</td></tr>
+<tr class="separator:a56585c40d656bd3e1d967497330938e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9620b3f2bd5b6ef8b524b406aa02e85e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9620b3f2bd5b6ef8b524b406aa02e85e"></a>
+TPacketID_t&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketID</b> () const </td></tr>
+<tr class="separator:a9620b3f2bd5b6ef8b524b406aa02e85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5615e5cac5c85ddeba8646b2b225fc7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5615e5cac5c85ddeba8646b2b225fc7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setPacketID</b> (TPacketID_t val)</td></tr>
+<tr class="separator:ad5615e5cac5c85ddeba8646b2b225fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f9f9c5c6d46b69a1cce8746fb02f59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3f9f9c5c6d46b69a1cce8746fb02f59"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CBasePacket</b> (TPacketID_t id)</td></tr>
+<tr class="separator:ad3f9f9c5c6d46b69a1cce8746fb02f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad707f02d5bf695f1c5cd816b0338729e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad707f02d5bf695f1c5cd816b0338729e"></a>
+TPacketID_t&#160;</td><td class="memItemRight" valign="bottom"><b>getPacketID</b> ()</td></tr>
+<tr class="separator:ad707f02d5bf695f1c5cd816b0338729e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac76d1dff40a567bda9e3ce21e89bf2b3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac76d1dff40a567bda9e3ce21e89bf2b3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>check</b> ()</td></tr>
+<tr class="separator:ac76d1dff40a567bda9e3ce21e89bf2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9044ccc5ea352be3e7f8c1e2edafb434"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9044ccc5ea352be3e7f8c1e2edafb434"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isCrypt</b> ()</td></tr>
+<tr class="separator:a9044ccc5ea352be3e7f8c1e2edafb434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80ba5c66923bea581660fe229a43de86"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a80ba5c66923bea581660fe229a43de86"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isCompress</b> ()</td></tr>
+<tr class="separator:a80ba5c66923bea581660fe229a43de86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fcca182dabbaea76a6bfc50b723d6e7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fcca182dabbaea76a6bfc50b723d6e7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setUnCompressed</b> ()</td></tr>
+<tr class="separator:a0fcca182dabbaea76a6bfc50b723d6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa39d33cf927c1be9883ec4e7649e8022"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa39d33cf927c1be9883ec4e7649e8022"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCompressed</b> ()</td></tr>
+<tr class="separator:aa39d33cf927c1be9883ec4e7649e8022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4379b3209b95d1f6905fddd07303803a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4379b3209b95d1f6905fddd07303803a"></a>
+const char *&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> ()</td></tr>
+<tr class="separator:a4379b3209b95d1f6905fddd07303803a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a080eeca4e50d63ba2d7ad3f894c225fa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a080eeca4e50d63ba2d7ad3f894c225fa"></a>
+TPackLen_t&#160;</td><td class="memItemRight" valign="bottom"><b>totalLen</b></td></tr>
+<tr class="separator:a080eeca4e50d63ba2d7ad3f894c225fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d444d3bb905f647b3ff78dfcf42580"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03d444d3bb905f647b3ff78dfcf42580"></a>
+TPackFlag_t&#160;</td><td class="memItemRight" valign="bottom"><b>flag</b></td></tr>
+<tr class="separator:a03d444d3bb905f647b3ff78dfcf42580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ed1739ebb2500863bc644dcc178658"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0ed1739ebb2500863bc644dcc178658"></a>
+TPacketID_t&#160;</td><td class="memItemRight" valign="bottom"><b>packetID</b></td></tr>
+<tr class="separator:af0ed1739ebb2500863bc644dcc178658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/>该结构体的文档由以下文件生成:<ul>
+<li>E:/work/project/code/trunk/shenglqs/server/tools/docgen/cpptodoxy/doc/<a class="el" href="a00147_source.html">packet.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2014年 十二月 31日 星期三 18:29:06 , 为 TuLong使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

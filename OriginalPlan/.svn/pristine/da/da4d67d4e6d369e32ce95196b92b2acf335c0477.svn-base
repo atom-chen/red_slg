@@ -1,0 +1,46 @@
+=======编译宏定义=======
+1. HAVE_GXCONFIG_H 使用gxconfig.h来进行编译宏定义
+2. FINAL_VERSION   最终版本定义, 值只能为0/1
+
+==win
+3. _WIN32          当前编译平台和系统平台为windows 32
+4. _WIN32_WINNT	   当前操作系统为WINNT, 如果不定义则默认为window2000以上
+5. _MSC_VER		   当前编译的vs版本, 由vs内部定义
+6. _STLPORT_VERSION 表示使用是否使用STL版本
+7  _HAS_TR1			由VC9 TR1 补丁定义, 如果定义表示可以使用tr1中的代码
+8. _DEBUG			表示编译为debug版本
+9. NDEBUG			表示编译为非debug版本
+10. _WIN64			表示操作系统为windows 64
+11. NO_ASM			表示禁止ASM代码
+
+==unix/linux
+12. WORDS_BIGENDIAN	表示使用大端
+13. 
+
+======源码中定义宏========
+1. OS_WINDOWS 表示windows 32
+2. LITTLE_ENDIAN 表示定义为小端
+3. CPU_INTEL 表示CPU为Intel
+4. COMP_VC9/8/7/71/6 表示当前的编译环境
+5. ISO_STDTR1_AVAILABLE	表示tr1是否允许使用
+6. LIB_DEBUG 表示编译为debug版本
+7. LIB_RELEASE 表示编译为release版本
+8. OS_WIN64	表示windows 64
+9. NO_ASM 表示禁止ASM代码
+10. NOMINMAX 表示禁用c的max()和min()函数
+11. LITTLE_ENDIAN 表示使用小端
+12. BIG_ENDIAN 表示使用大端
+13. OS_UNIX 表示使用unix/linux
+14. COMP_GCC 表示使用gcc
+15. MAX_PATH 最大路径长度
+16. INT64_CONSTANT/SINT64_CONSTANT/UINT64_CONSTANT int64位的常量表示
+17. 
+
+
+
+================源码文件样式==========================
+1. 文件头, 只在头文件中有. 格式如下
+/**
+ * @File
+ */
+2. 

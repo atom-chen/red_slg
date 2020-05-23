@@ -1,0 +1,1 @@
+return {["world_base_select_menu"]={"侦查","宣战","信息","攻击"}}

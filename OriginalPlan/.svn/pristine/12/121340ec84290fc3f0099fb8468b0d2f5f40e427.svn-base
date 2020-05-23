@@ -1,0 +1,1 @@
+return {[1]={cn_name="1分钟\n加速",last=60,has_count=20,},[2]={cn_name="5分钟\n加速",last=300,has_count=15,},[3]={cn_name="1小时\n加速",last=3600,has_count=3,},[4]={cn_name="2小时\n加速",last=7200,has_count=2,},[5]={cn_name="8小时\n加速",last=28800,has_count=1,},}

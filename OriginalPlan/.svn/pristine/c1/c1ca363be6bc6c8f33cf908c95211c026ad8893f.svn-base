@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" iconid="2000" actionid="2000" bodyid="2000" sex="1" youxibi="50000" yuanbao="2000" level="1" exp="0" health="100" map="1001" x="300" y="500" task="101" item1="3023" num1="2" item2="" num2="" item3="" num3="" item4="" num4 ="" skill="2" wujiang="" item="8001|6001|8005|4166" num="3000|20|100|1"/>
+    <i id="2" iconid="2003" actionid="2003" bodyid="2003" sex="2" youxibi="50000" yuanbao="2000" level="1" exp="0" health="100" map="1001" x="38" y="5" task="101" item1="3023" num1="2" item2="" num2="" item3="" num3="" item4="" num4 ="" skill="2" wujiang="" item="8001|6001|8005|4166" num="3000|20|100|1"/>
+</root>

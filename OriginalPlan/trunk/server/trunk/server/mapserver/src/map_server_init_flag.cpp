@@ -1,0 +1,1 @@
+#include "map_server_init_flag.h"

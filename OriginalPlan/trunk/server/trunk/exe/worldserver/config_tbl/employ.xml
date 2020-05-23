@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id ="1" amount="1" type="20" cost="20" quality_1="1" probability_1="40" quality_2="2" probability_2="31" quality_3="3" probability_3="21" quality_4="4" probability_4="7" quality_5="5" probability_5="1"/>
+    <i id ="2" amount="2" type="20" cost="20" quality_1="1" probability_1="40" quality_2="2" probability_2="31" quality_3="3" probability_3="21" quality_4="4" probability_4="7" quality_5="5" probability_5="1"/>
+    <i id ="3" amount="3" type="20" cost="20" quality_1="1" probability_1="40" quality_2="2" probability_2="31" quality_3="3" probability_3="21" quality_4="4" probability_4="7" quality_5="5" probability_5="1"/>
+    <i id ="4" amount="4" type="20" cost="20" quality_1="0" probability_1="0" quality_2="2" probability_2="59" quality_3="3" probability_3="30" quality_4="4" probability_4="10" quality_5="5" probability_5="1"/>
+    <i id ="5" amount="5" type="20" cost="20" quality_1="0" probability_1="0" quality_2="2" probability_2="59" quality_3="3" probability_3="30" quality_4="4" probability_4="10" quality_5="5" probability_5="1"/>
+    <i id ="6" amount="6" type="20" cost="20" quality_1="0" probability_1="0" quality_2="2" probability_2="59" quality_3="3" probability_3="30" quality_4="4" probability_4="10" quality_5="5" probability_5="1"/>
+    <i id ="7" amount="7" type="20" cost="20" quality_1="0" probability_1="0" quality_2="2" probability_2="59" quality_3="3" probability_3="30" quality_4="4" probability_4="10" quality_5="5" probability_5="1"/>
+    <i id ="8" amount="8" type="20" cost="20" quality_1="0" probability_1="0" quality_2="2" probability_2="59" quality_3="3" probability_3="30" quality_4="4" probability_4="10" quality_5="5" probability_5="1"/>
+    <i id ="9" amount="9" type="20" cost="20" quality_1="0" probability_1="0" quality_2="2" probability_2="59" quality_3="3" probability_3="30" quality_4="4" probability_4="10" quality_5="5" probability_5="1"/>
+    <i id ="10" amount="10" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="3" probability_3="59" quality_4="4" probability_4="40" quality_5="5" probability_5="1"/>
+    <i id ="11" amount="11" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="3" probability_3="59" quality_4="4" probability_4="40" quality_5="5" probability_5="1"/>
+    <i id ="12" amount="12" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="3" probability_3="59" quality_4="4" probability_4="40" quality_5="5" probability_5="1"/>
+    <i id ="13" amount="13" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="3" probability_3="59" quality_4="4" probability_4="40" quality_5="5" probability_5="1"/>
+    <i id ="14" amount="14" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="3" probability_3="59" quality_4="4" probability_4="40" quality_5="5" probability_5="1"/>
+    <i id ="15" amount="15" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="0" probability_3="0" quality_4="4" probability_4="98" quality_5="5" probability_5="2"/>
+    <i id ="16" amount="16" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="0" probability_3="0" quality_4="4" probability_4="98" quality_5="5" probability_5="2"/>
+    <i id ="17" amount="17" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="0" probability_3="0" quality_4="4" probability_4="98" quality_5="5" probability_5="2"/>
+    <i id ="18" amount="18" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="0" probability_3="0" quality_4="4" probability_4="98" quality_5="5" probability_5="2"/>
+    <i id ="19" amount="19" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="0" probability_3="0" quality_4="4" probability_4="98" quality_5="5" probability_5="2"/>
+    <i id ="20" amount="20" type="20" cost="20" quality_1="0" probability_1="0" quality_2="0" probability_2="0" quality_3="3" probability_3="50" quality_4="4" probability_4="50" quality_5="5" probability_5="100"/>
+</root>

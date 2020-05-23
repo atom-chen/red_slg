@@ -1,0 +1,2629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>TuLong: 枚举定义</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">TuLong
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>组</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">宏定义</a> &#124;
+<a href="#enum-members">枚举</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">枚举定义</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>游戏逻辑中用到的枚举值  
+<a href="#details">更多...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:ga76a65e7d53e0dbd72d3189f74d9a21f4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga76a65e7d53e0dbd72d3189f74d9a21f4">EJobType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga76a65e7d53e0dbd72d3189f74d9a21f4ad2058bc4eea833bacb0d5ce546d8fba8">INVALID_JOB_TYPE</a> = -1, 
+<a class="el" href="a00152.html#gga76a65e7d53e0dbd72d3189f74d9a21f4a6262075948b303b6b27cd9e3c55082bf">JOB_TYPE_PHYSIC</a> = 0, 
+<a class="el" href="a00152.html#gga76a65e7d53e0dbd72d3189f74d9a21f4a815e0f0f9708520e1ee88bfc8e3e74be">JOB_TYPE_MAGIC</a> = 1, 
+<a class="el" href="a00152.html#gga76a65e7d53e0dbd72d3189f74d9a21f4a4d394e334bc860e979881eaad45a023d">JOB_TYPE_MONSTER</a> = 4, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga76a65e7d53e0dbd72d3189f74d9a21f4a112dc625fe1353e1af050ff95f0f3b3e">JOB_TYPE_PET</a> = 5, 
+<a class="el" href="a00152.html#gga76a65e7d53e0dbd72d3189f74d9a21f4a4ba6bd7c72aaa0dd9503c4e27212b088">JOB_TYPE_NPC</a> = 6
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga76a65e7d53e0dbd72d3189f74d9a21f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">职业  <a href="a00152.html#ga76a65e7d53e0dbd72d3189f74d9a21f4">更多...</a><br/></td></tr>
+<tr class="separator:ga76a65e7d53e0dbd72d3189f74d9a21f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66b1ed8fe5853a10acb77f6b80eb2df3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga66b1ed8fe5853a10acb77f6b80eb2df3">ESexType</a> { <a class="el" href="a00152.html#gga66b1ed8fe5853a10acb77f6b80eb2df3a7e43b821b39ed0287495e43f8c1935e5">INVALID_SEX_TYPE</a> = 0, 
+<a class="el" href="a00152.html#gga66b1ed8fe5853a10acb77f6b80eb2df3a157d2b7399628da3a2fb39cba7663ee4">SEX_TYPE_MALE</a> = 1, 
+<a class="el" href="a00152.html#gga66b1ed8fe5853a10acb77f6b80eb2df3a30f9ea30a6b557c2695e5ea237ed0951">SEX_TYPE_FEMALE</a> = 2
+ }</td></tr>
+<tr class="memdesc:ga66b1ed8fe5853a10acb77f6b80eb2df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">性别  <a href="a00152.html#ga66b1ed8fe5853a10acb77f6b80eb2df3">更多...</a><br/></td></tr>
+<tr class="separator:ga66b1ed8fe5853a10acb77f6b80eb2df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77b439a411f8403a29220235a51ecf98"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga77b439a411f8403a29220235a51ecf98">EKickType</a> { <a class="el" href="a00152.html#gga77b439a411f8403a29220235a51ecf98a2ec405c0112730f480395a709b95f404">KICK_TYPE_ERR</a> = 1, 
+<a class="el" href="a00152.html#gga77b439a411f8403a29220235a51ecf98a7a81266d19e7d139a3c5656a9a6931ed">KICK_TYPE_BY_OTHER</a> = 2, 
+<a class="el" href="a00152.html#gga77b439a411f8403a29220235a51ecf98ad10b0c1a0441e396a982bd853d87c7f1">KICK_TYPE_BY_GM</a> = 3, 
+<a class="el" href="a00152.html#gga77b439a411f8403a29220235a51ecf98af1f12e2a49b1f5945b7ac265b322bf45">KICK_TYPE_GAME_STOP</a> = 4
+ }</td></tr>
+<tr class="memdesc:ga77b439a411f8403a29220235a51ecf98"><td class="mdescLeft">&#160;</td><td class="mdescRight">踢掉玩家  <a href="a00152.html#ga77b439a411f8403a29220235a51ecf98">更多...</a><br/></td></tr>
+<tr class="separator:ga77b439a411f8403a29220235a51ecf98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafff81d42932d491ce38062ef6c5fe8d6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gafff81d42932d491ce38062ef6c5fe8d6">EChatChannel</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a54ded7472605db4a27002712a15bdb78">CHANNEL_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a1292807ef0ede00d26b24dca73e2afb4">CHAT_CHANNEL_WORLD</a> = 1, 
+<a class="el" href="a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6ab4646cf20d3744c7138cea0a3e312d15">CHAT_CHANNEL_FACTION</a> = 2, 
+<a class="el" href="a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a3c4ce21809c2c259d7ae9fa8075c343f">CHAT_CHANNEL_PRIVATE</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a39f91c3dd50b1f62adeb187472551107">CHAT_CHANNEL_SYSTEM</a> = 4, 
+<a class="el" href="a00152.html#ggafff81d42932d491ce38062ef6c5fe8d6a788b42f9cc7c38a16b7c670e78e2ed04">CHAT_CHANNEL_GM</a> = 5
+<br/>
+ }</td></tr>
+<tr class="memdesc:gafff81d42932d491ce38062ef6c5fe8d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">聊天频道  <a href="a00152.html#gafff81d42932d491ce38062ef6c5fe8d6">更多...</a><br/></td></tr>
+<tr class="separator:gafff81d42932d491ce38062ef6c5fe8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ed12e1cc5c61b7a4bdf6bb6b80eb79e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga3ed12e1cc5c61b7a4bdf6bb6b80eb79e">EDir</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3ed12e1cc5c61b7a4bdf6bb6b80eb79eaaeda81e488976126d8037cbd0050e3ac">DIR_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga3ed12e1cc5c61b7a4bdf6bb6b80eb79eafee0b215acdd8067ba596762e3f34df5">DIR_0</a> = 0, 
+<a class="el" href="a00152.html#gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea74008427b7b088e9516e32b67e46711d">DIR_1</a>, 
+<a class="el" href="a00152.html#gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea085722752bcd7b984078f425b01a1ca0">DIR_2</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3ed12e1cc5c61b7a4bdf6bb6b80eb79eaf97a78a5014b7c1945a752216a166ca9">DIR_3</a>, 
+<a class="el" href="a00152.html#gga3ed12e1cc5c61b7a4bdf6bb6b80eb79eac49f9ac9711fa1ee1d60dc505d8790b0">DIR_4</a>, 
+<a class="el" href="a00152.html#gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea2b1a84f8793dc9c48777e03d8457c60e">DIR_5</a>, 
+<a class="el" href="a00152.html#gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea93003e8cfbdc255f06c4576f97460c41">DIR_6</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea6ce2446c581ed83960a9204f3dfc4d26">DIR_7</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga3ed12e1cc5c61b7a4bdf6bb6b80eb79e"><td class="mdescLeft">&#160;</td><td class="mdescRight">方向  <a href="a00152.html#ga3ed12e1cc5c61b7a4bdf6bb6b80eb79e">更多...</a><br/></td></tr>
+<tr class="separator:ga3ed12e1cc5c61b7a4bdf6bb6b80eb79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7ccb8338a76494c89c4a4569dfc98775"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga7ccb8338a76494c89c4a4569dfc98775">EDir2</a> { <a class="el" href="a00152.html#gga7ccb8338a76494c89c4a4569dfc98775a97ad978494db965567634ca90eaad46f">DIR2_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga7ccb8338a76494c89c4a4569dfc98775aecc62d2dc89746376a0ef908e6d86cd3">DIR2_LEFT</a> = 1, 
+<a class="el" href="a00152.html#gga7ccb8338a76494c89c4a4569dfc98775a0c7b71e63ab34d64b4c6e68f58d268bc">DIR2_RIGHT</a> = 2
+ }</td></tr>
+<tr class="memdesc:ga7ccb8338a76494c89c4a4569dfc98775"><td class="mdescLeft">&#160;</td><td class="mdescRight">方向  <a href="a00152.html#ga7ccb8338a76494c89c4a4569dfc98775">更多...</a><br/></td></tr>
+<tr class="separator:ga7ccb8338a76494c89c4a4569dfc98775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb24f7134d3e9151ca59f7974fea9c0e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gafb24f7134d3e9151ca59f7974fea9c0e">EObjType</a> { <a class="el" href="a00152.html#ggafb24f7134d3e9151ca59f7974fea9c0ea747449aee7ce6604b3ba625088d852cc">INVALID_OBJ_TYPE</a> = 0, 
+<a class="el" href="a00152.html#ggafb24f7134d3e9151ca59f7974fea9c0ea939072792c2df3cfeff647168b897032">OBJ_TYPE_ROLE</a> = 1, 
+<a class="el" href="a00152.html#ggafb24f7134d3e9151ca59f7974fea9c0eaf22c670073481e72b5e399c140df5bd5">OBJ_TYPE_NPC</a> = 2, 
+<a class="el" href="a00152.html#ggafb24f7134d3e9151ca59f7974fea9c0ea74ff0ba823d1c1157d72e6edec020efe">OBJ_TYPE_MONSTER</a> = 3
+ }</td></tr>
+<tr class="memdesc:gafb24f7134d3e9151ca59f7974fea9c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">对象类型  <a href="a00152.html#gafb24f7134d3e9151ca59f7974fea9c0e">更多...</a><br/></td></tr>
+<tr class="separator:gafb24f7134d3e9151ca59f7974fea9c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a3a81ef201962f125207c093beb7ecd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga3a3a81ef201962f125207c093beb7ecd">EAttributes</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecdaef52eba848fadb8f0993a0c87f0f1309">ATTR_FIGHT_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecdae8abb8851fa804dc56edfe4d0a67fab3">ATTR_MAX_HP</a> = 1, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda0870f00babd4c8c533ac354ad5fe4aff">ATTR_CUR_HP</a> = 2, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda4fd3beadc626f382a4d5d0b722be83e2">ATTR_MAX_ENERGY</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda501b4286810253b4db286b1c70f2c2d6">ATTR_CUR_ENERGY</a> = 4, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda1e33905798a5db6a002624fa4201c6a6">ATTR_POWER</a> = 5, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda16275c46169be0108d8eefd32b85f393">ATTR_AGILITY</a> = 6, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda5228ab4acc12973dc14ce9454a77da5f">ATTR_WISDOM</a> = 7, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda7bb038cce08afa45a19c00997aa0fd92">ATTR_STRENGTH</a> = 9, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda19e02ea129e09f9f77b802d240622b94">ATTR_ATTACK</a> = 10, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda778960065e1a3309044df114a79a643d">ATTR_SKILL_ATTACK</a> = 11, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda128a8887a466910b4bd9bde05e359541">ATTR_DAMAGE</a> = 12, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda02d2232327834cdd212dca24d22a3fdd">ATTR_DEFENSE</a> = 13, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda71c265c1e0702c0eb97375c863bde925">ATTR_DAMAGE_REDUCE</a> = 14, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda40b85241dc82cd9c34bbfcbf4c294804">ATTR_MOVE_SPEED</a> = 15, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda715974a921c52260f7110fc0ace35d00">ATTR_CRIT</a> = 16, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecdaf4eda2ecc12cbcd83f79f989295cf58e">ATTR_DODGE</a> = 17, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda28f11393fcd3876b876e9d132aab7723">ATTR_ATTACK_RANGE</a> = 20, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda6a1d66647fbb9ea22098f5b5601f8718">ATTR_ATTACK_SPEED</a> = 21, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecdad87cf094024ae40653a3b8415a584737">ATTR_EXP</a> = 22, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda34aca141760c184f635dc6b40be432f3">ATTR_MONEY</a> = 23, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda95ba46981456123aaa4fe05aff2119a8">ATTR_RMB</a> = 24, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda71245d2b20e0c1a5031373aa8e34386d">ATTR_CHAR_CURR_MAX</a> = 49, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda6b905c0504de7a0c8175fed771d24a0f">ATTR_LEVEL</a> = 50, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda39f69596db1b26cbc64d01df3c8372ad">ATTR_VIP_LEVEL</a> = 56, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecda66f78e70c7ccd7521f423747738dcb98">ATTR_VIP_EXP</a> = 57, 
+<a class="el" href="a00152.html#gga3a3a81ef201962f125207c093beb7ecdaf5bf759241263e29837390066cce7573">ATTR_MAX_EXP</a> = 62
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga3a3a81ef201962f125207c093beb7ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">属性枚举值定义  <a href="a00152.html#ga3a3a81ef201962f125207c093beb7ecd">更多...</a><br/></td></tr>
+<tr class="separator:ga3a3a81ef201962f125207c093beb7ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3673934cc79251bb8d3b474a34c57312"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga3673934cc79251bb8d3b474a34c57312">EActionBan</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3673934cc79251bb8d3b474a34c57312a51ccf9fc8b0cc4903c86639230a143aa">ACTION_BAN_LIVE</a> = 0, 
+<a class="el" href="a00152.html#gga3673934cc79251bb8d3b474a34c57312a5b24befde23e5ffb34ebd540306cf157">ACTION_BAN_MOVE</a>, 
+<a class="el" href="a00152.html#gga3673934cc79251bb8d3b474a34c57312a0e475bb731347c992a962a4d6a4827dd">ACTION_BAN_UNBE_ATTACK</a>, 
+<a class="el" href="a00152.html#gga3673934cc79251bb8d3b474a34c57312ac5eff704696839eb53af3a584928ca2b">ACTION_BAN_ATTACK</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3673934cc79251bb8d3b474a34c57312a873629920ebe863a0450bb0e095824d3">ACTION_BAN_USE_ITEM</a>, 
+<a class="el" href="a00152.html#gga3673934cc79251bb8d3b474a34c57312a7333a8dfcff1e5b99434fae3ff70f668">ACTION_BAN_MAX</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga3673934cc79251bb8d3b474a34c57312"><td class="mdescLeft">&#160;</td><td class="mdescRight">行为禁止定义, 按位存储  <a href="a00152.html#ga3673934cc79251bb8d3b474a34c57312">更多...</a><br/></td></tr>
+<tr class="separator:ga3673934cc79251bb8d3b474a34c57312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e23613df331e8fa704c412e727424dd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga2e23613df331e8fa704c412e727424dd">ENumericalType</a> { <a class="el" href="a00152.html#gga2e23613df331e8fa704c412e727424dda4158c48c8f1b0801e3b749c99f5513b8">NUMERICAL_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga2e23613df331e8fa704c412e727424dda3d0ed31fb7b6924850563da33ff2c4e1">NUMERICAL_TYPE_VALUE</a> = 1, 
+<a class="el" href="a00152.html#gga2e23613df331e8fa704c412e727424dda1f7c523c8beabc30b47a35d6e3139227">NUMERICAL_TYPE_ODDS</a> = 2
+ }</td></tr>
+<tr class="memdesc:ga2e23613df331e8fa704c412e727424dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">数值类型(统一使用)  <a href="a00152.html#ga2e23613df331e8fa704c412e727424dd">更多...</a><br/></td></tr>
+<tr class="separator:ga2e23613df331e8fa704c412e727424dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab9c1239b5d3e6eaddd94f0fe37141f40"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gab9c1239b5d3e6eaddd94f0fe37141f40">ESkillType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggab9c1239b5d3e6eaddd94f0fe37141f40ae14d66edee09b2c2e2a34959a209b03d">SKILL_TYPE_INVALID</a>, 
+<a class="el" href="a00152.html#ggab9c1239b5d3e6eaddd94f0fe37141f40ad92e34c11447810bcdc8ea12255507d0">SKILL_TYPE_ACTIVE</a>, 
+<a class="el" href="a00152.html#ggab9c1239b5d3e6eaddd94f0fe37141f40ae0aacf026f2702c00131875de5102bd3">SKILL_TYPE_PASSIVE</a>, 
+<a class="el" href="a00152.html#ggab9c1239b5d3e6eaddd94f0fe37141f40a901fcd05db58ab77849ae9ecf49de324">SKILL_TYPE_ASSIST</a>, 
+<br/>
+&#160;&#160;<b>SKILL_TYPE_MAX</b>
+<br/>
+ }</td></tr>
+<tr class="memdesc:gab9c1239b5d3e6eaddd94f0fe37141f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">技能类型  <a href="a00152.html#gab9c1239b5d3e6eaddd94f0fe37141f40">更多...</a><br/></td></tr>
+<tr class="separator:gab9c1239b5d3e6eaddd94f0fe37141f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3713e9f94b8a068aa1840fb46a7fbfa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gaa3713e9f94b8a068aa1840fb46a7fbfa">ESkillAttackType</a> { <a class="el" href="a00152.html#ggaa3713e9f94b8a068aa1840fb46a7fbfaa96c5be34f75c5bf670ea66926180c72d">SKILL_ATTACK_TYPE_INVALID</a>, 
+<a class="el" href="a00152.html#ggaa3713e9f94b8a068aa1840fb46a7fbfaaf4f450877812cf97c2ecd2339674a871">SKILL_ATTACK_TYPE_SINGLE</a>, 
+<a class="el" href="a00152.html#ggaa3713e9f94b8a068aa1840fb46a7fbfaabe4e0bfe47dece161ae8b843fce39f9c">SKILL_ATTACK_TYPE_GROUP</a>, 
+<b>SKILL_ATTACK_TYPE_MAX</b>
+ }</td></tr>
+<tr class="memdesc:gaa3713e9f94b8a068aa1840fb46a7fbfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">技能攻击类型  <a href="a00152.html#gaa3713e9f94b8a068aa1840fb46a7fbfa">更多...</a><br/></td></tr>
+<tr class="separator:gaa3713e9f94b8a068aa1840fb46a7fbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3614f8498bc41c656288e511352de1dd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga3614f8498bc41c656288e511352de1dd">ESkillTargetType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3614f8498bc41c656288e511352de1dda28ef0b84ea63883fe75fe95930288487">SKILL_TARGET_TYPE_INVALID</a>, 
+<a class="el" href="a00152.html#gga3614f8498bc41c656288e511352de1dda6f2f25615a7762f3e88fd88ca131f4b4">SKILL_TARGET_TYPE_ENEMY</a>, 
+<a class="el" href="a00152.html#gga3614f8498bc41c656288e511352de1dda0a95df3bfade23650ccc8d2253f2786c">SKILL_TARGET_TYPE_OWN</a>, 
+<a class="el" href="a00152.html#gga3614f8498bc41c656288e511352de1ddaeec72111164ecab6c7b25cb248e03c8f">SKILL_TARGET_TYPE_TEAM</a>, 
+<br/>
+&#160;&#160;<b>SKILL_TARGET_TYPE_MAX</b>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga3614f8498bc41c656288e511352de1dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">目标类型  <a href="a00152.html#ga3614f8498bc41c656288e511352de1dd">更多...</a><br/></td></tr>
+<tr class="separator:ga3614f8498bc41c656288e511352de1dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafda2e63e3215d363a924058cfdcd5c76"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gafda2e63e3215d363a924058cfdcd5c76">EBuffEventFlag</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggafda2e63e3215d363a924058cfdcd5c76a738ae04f050897764deffef345128739">BUFF_EVENT_FLAG_DIE</a> = 1, 
+<a class="el" href="a00152.html#ggafda2e63e3215d363a924058cfdcd5c76a21761f8a0190ea159f2a1454e13fa2a6">BUFF_EVENT_FLAG_HURT</a>, 
+<a class="el" href="a00152.html#ggafda2e63e3215d363a924058cfdcd5c76aaf6fc70a701d4a088cd6861e1b4ec855">BUFF_EVENT_FLAG_MP_DES</a>, 
+<a class="el" href="a00152.html#ggafda2e63e3215d363a924058cfdcd5c76a6d839f6c2cffb4b3c9eca28ac62a6de8">BUFF_EVENT_FLAG_FORCE_HATE</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggafda2e63e3215d363a924058cfdcd5c76a4cde8df71c56299a7bdbd37ad64e613d">BUFF_EVENT_FLAG_REFLECT</a>, 
+<a class="el" href="a00152.html#ggafda2e63e3215d363a924058cfdcd5c76afed4bee7b55995aa3cde43ebcd85ae8f">BUFF_EVENT_FLAG_SLEEP</a>, 
+<a class="el" href="a00152.html#ggafda2e63e3215d363a924058cfdcd5c76a68c0619ee099ce9a384bf449b5b9c848">BUFF_EVENT_FLAG_STOP</a>, 
+<a class="el" href="a00152.html#ggafda2e63e3215d363a924058cfdcd5c76ac8ccf9ae38cc88e1e22723403655c1b9">BUFF_EVENT_FLAG_DIZZ</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggafda2e63e3215d363a924058cfdcd5c76a8d60304a069f464d2338e22ecc6e463a">BUFF_EVENT_FLAG_NUM</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:gafda2e63e3215d363a924058cfdcd5c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buff事件  <a href="a00152.html#gafda2e63e3215d363a924058cfdcd5c76">更多...</a><br/></td></tr>
+<tr class="separator:gafda2e63e3215d363a924058cfdcd5c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34e01f09e856f3b2842a258f2074b5fe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga34e01f09e856f3b2842a258f2074b5fe">EBuffEffectType</a> { <br/>
+&#160;&#160;<b>BUFF_EFFECT_TYPE_INVALID</b>, 
+<a class="el" href="a00152.html#gga34e01f09e856f3b2842a258f2074b5fea20c71404d5b211008447cbaac9663350">BUFF_EFFECT_TYPE_ADD_HPMP</a> = 1, 
+<a class="el" href="a00152.html#gga34e01f09e856f3b2842a258f2074b5fea839171c2fc7c63699756649b4f92c899">BUFF_EFFECT_TYPE_ADD_EXTRA_ATTR</a>, 
+<a class="el" href="a00152.html#gga34e01f09e856f3b2842a258f2074b5feada8ac29cbbefdb7f924742bab72f8846">BUFF_EFFECT_TYPE_ADD_EXP</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga34e01f09e856f3b2842a258f2074b5feaa90f4253bfc5b675f8c4b3ab4faf2d2f">MAX_BUFF_EFFECT_TYPE_NUM</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga34e01f09e856f3b2842a258f2074b5fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer效果类型  <a href="a00152.html#ga34e01f09e856f3b2842a258f2074b5fe">更多...</a><br/></td></tr>
+<tr class="separator:ga34e01f09e856f3b2842a258f2074b5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28a4b98d6db79ef8882cbb3743f069c9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga28a4b98d6db79ef8882cbb3743f069c9">EBuffType</a> { <a class="el" href="a00152.html#gga28a4b98d6db79ef8882cbb3743f069c9ae51ea6975679c91d5c540573594a554d">INVALID_BUFF_TYPE</a> = 0, 
+<a class="el" href="a00152.html#gga28a4b98d6db79ef8882cbb3743f069c9aaac96ff7b89adb989841c38db3c1d9d9">BUFF_TYPE_SKILL</a>, 
+<a class="el" href="a00152.html#gga28a4b98d6db79ef8882cbb3743f069c9ab9941414fe7062645bb2a1a6aab4a353">BUFF_TYPE_ITEM</a>, 
+<a class="el" href="a00152.html#gga28a4b98d6db79ef8882cbb3743f069c9a0babfefc6b974e4751f17532eafff364">BUFF_TYPE_PASSIVE_SKILL</a>
+ }</td></tr>
+<tr class="memdesc:ga28a4b98d6db79ef8882cbb3743f069c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer类型  <a href="a00152.html#ga28a4b98d6db79ef8882cbb3743f069c9">更多...</a><br/></td></tr>
+<tr class="separator:ga28a4b98d6db79ef8882cbb3743f069c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6db921321505a1a710ca8e276d542277"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga6db921321505a1a710ca8e276d542277">EBuffExistType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga6db921321505a1a710ca8e276d542277a5a71a84b2dc164a018e7a0685c096772">BUFF_EXIST_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga6db921321505a1a710ca8e276d542277aecc415fa96a9e63d7c29a013457d43fb">BUFF_EXIST_TYPE_EXIST</a> = 1, 
+<a class="el" href="a00152.html#gga6db921321505a1a710ca8e276d542277a6b18022df01f253587ede0c9e735a4c0">BUFF_EXIST_TYPE_REPLACE</a> = 2, 
+<a class="el" href="a00152.html#gga6db921321505a1a710ca8e276d542277a55b3dd6a8c54ae4fb6a7f420e39f37c8">BUFF_EXIST_TYPE_OVERLIING</a> = 1, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga6db921321505a1a710ca8e276d542277ab1b741fe45603e6475b280f6c8b3db5c">BUFF_EXIST_TYPE_IGNORE</a> = 3
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga6db921321505a1a710ca8e276d542277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer共存关系  <a href="a00152.html#ga6db921321505a1a710ca8e276d542277">更多...</a><br/></td></tr>
+<tr class="separator:ga6db921321505a1a710ca8e276d542277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga48de9d4ecaa56525e6ff47db5ec930e2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga48de9d4ecaa56525e6ff47db5ec930e2">EBuffLastType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga48de9d4ecaa56525e6ff47db5ec930e2a9944a0aa2369a1905caffcdde00177ea">BUFF_LAST_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga48de9d4ecaa56525e6ff47db5ec930e2aa2fa305b9fefee52344da10c571e8b9c">BUFF_LAST_TYPE_ABSOLUTE</a> = 1, 
+<a class="el" href="a00152.html#gga48de9d4ecaa56525e6ff47db5ec930e2a7468150111e85b42e9487ee2a22b2644">BUFF_LAST_TYPE_OPPOSITE</a> = 2, 
+<a class="el" href="a00152.html#gga48de9d4ecaa56525e6ff47db5ec930e2afe9a4a8bafb4cbfe2cb85ace5cdee8c8">BUFF_LAST_TYPE_PERMANENT</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga48de9d4ecaa56525e6ff47db5ec930e2a9d8426568abed9ff85452d9b6c4be299">BUFF_LAST_TYPE_COUNT</a> = 4
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga48de9d4ecaa56525e6ff47db5ec930e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer持续类型  <a href="a00152.html#ga48de9d4ecaa56525e6ff47db5ec930e2">更多...</a><br/></td></tr>
+<tr class="separator:ga48de9d4ecaa56525e6ff47db5ec930e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6326291a38cbace3573bcfcdc322456"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gac6326291a38cbace3573bcfcdc322456">EAttackImpactType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggac6326291a38cbace3573bcfcdc322456ae9f472ce0890c00b5d4f352b0472ca39">INVALID_ATTACK_IMPACT_TYPE</a> = 0, 
+<a class="el" href="a00152.html#ggac6326291a38cbace3573bcfcdc322456abe575cbc9d638587e346d35ac3849c3a">ATTACK_IMPACT_TYPE_NORMAL</a> = 1, 
+<a class="el" href="a00152.html#ggac6326291a38cbace3573bcfcdc322456a224dc1a23c638f1eba151edbf5243af7">ATTACK_IMPACT_TYPE_CRIT</a> = 2, 
+<a class="el" href="a00152.html#ggac6326291a38cbace3573bcfcdc322456a7e5fedb68aa0f4400b30ae3f1aeccf3b">ATTACK_IMPACT_TYPE_DODGE</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggac6326291a38cbace3573bcfcdc322456aea2c329e60e80dda752d2a90c477c7b7">ATTACK_IMPACT_TYPE_HIT_DOUBLE</a> = 4, 
+<a class="el" href="a00152.html#ggac6326291a38cbace3573bcfcdc322456a48f64f6f02fc297612e340ae6fe920e5">ATTACK_IMPACT_TYPE_CONFUSION</a> = 5, 
+<a class="el" href="a00152.html#ggac6326291a38cbace3573bcfcdc322456a79275351d275035c44949299468fc7df">ATTACK_IMPACT_TYPE_RAND_ATTACK_ROLE</a> = 6
+<br/>
+ }</td></tr>
+<tr class="memdesc:gac6326291a38cbace3573bcfcdc322456"><td class="mdescLeft">&#160;</td><td class="mdescRight">攻击效果类型(共16种类型)  <a href="a00152.html#gac6326291a38cbace3573bcfcdc322456">更多...</a><br/></td></tr>
+<tr class="separator:gac6326291a38cbace3573bcfcdc322456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacf2d1764270de0c87683c679e31c2379"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gacf2d1764270de0c87683c679e31c2379">EMissionEvent</a> { <a class="el" href="a00152.html#ggacf2d1764270de0c87683c679e31c2379a921da7f8c87d7ea6c80118ce6a9b67b4">MISSION_EVENT_INVALID</a> = 0
+ }</td></tr>
+<tr class="memdesc:gacf2d1764270de0c87683c679e31c2379"><td class="mdescLeft">&#160;</td><td class="mdescRight">任务事件类型  <a href="a00152.html#gacf2d1764270de0c87683c679e31c2379">更多...</a><br/></td></tr>
+<tr class="separator:gacf2d1764270de0c87683c679e31c2379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1e1b63985cd17b3e84157c52ba5956f5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga1e1b63985cd17b3e84157c52ba5956f5">EMissionStatus</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga1e1b63985cd17b3e84157c52ba5956f5ad58ca6c4871a8edcf369a58469924cc9">MISSION_STATUS_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga1e1b63985cd17b3e84157c52ba5956f5aa40a2d51511e6be856e0580e50c5955b">MISSION_STATUS_ACCEPTING</a> = 1, 
+<a class="el" href="a00152.html#gga1e1b63985cd17b3e84157c52ba5956f5a0ccea375f870e8380866039a6f77958b">MISSION_STATUS_ACCEPTED</a> = 2, 
+<a class="el" href="a00152.html#gga1e1b63985cd17b3e84157c52ba5956f5a0cead3e659bb3ec979f6f42acd9549d8">MISSION_STATUS_EXECUTED</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga1e1b63985cd17b3e84157c52ba5956f5a2b5d87f4900d09e4e47dfdfaf8a59538">MISSION_STATUS_FINISHED</a> = 4
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga1e1b63985cd17b3e84157c52ba5956f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">任务状态  <a href="a00152.html#ga1e1b63985cd17b3e84157c52ba5956f5">更多...</a><br/></td></tr>
+<tr class="separator:ga1e1b63985cd17b3e84157c52ba5956f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b5f3e5276639cfeb9d8805f616109f7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga4b5f3e5276639cfeb9d8805f616109f7">EMissionOperation</a> { <a class="el" href="a00152.html#gga4b5f3e5276639cfeb9d8805f616109f7a798b11bc7242f87b8525af768d64dc90">MISSION_OPERATION_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga4b5f3e5276639cfeb9d8805f616109f7ad7f202436e6ab89fd65f47e2872e1094">MISSION_OPERATION_ACCEPT</a> = 1, 
+<a class="el" href="a00152.html#gga4b5f3e5276639cfeb9d8805f616109f7a192623ac3901939429d6f8b428293241">MISSION_OPERATION_SUBMIT</a> = 2
+ }</td></tr>
+<tr class="memdesc:ga4b5f3e5276639cfeb9d8805f616109f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">任务操作  <a href="a00152.html#ga4b5f3e5276639cfeb9d8805f616109f7">更多...</a><br/></td></tr>
+<tr class="separator:ga4b5f3e5276639cfeb9d8805f616109f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88cc6d6bfe8353b07effe29274e0cd1f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga88cc6d6bfe8353b07effe29274e0cd1f">EMissionType</a> { <a class="el" href="a00152.html#gga88cc6d6bfe8353b07effe29274e0cd1fa1dd0a5d95c5358ec4aef3256bcb2c560">MISSION_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga88cc6d6bfe8353b07effe29274e0cd1fa314c15dc6f6b3e0a63aa665e753f4124">MISSION_TYPE_MAJOR</a> = 1, 
+<a class="el" href="a00152.html#gga88cc6d6bfe8353b07effe29274e0cd1fae1697db5df91ab0dda667c0715dbd58d">MISSION_TYPE_CURR_MAX</a> = 2
+ }</td></tr>
+<tr class="memdesc:ga88cc6d6bfe8353b07effe29274e0cd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">任务类型  <a href="a00152.html#ga88cc6d6bfe8353b07effe29274e0cd1f">更多...</a><br/></td></tr>
+<tr class="separator:ga88cc6d6bfe8353b07effe29274e0cd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadcf4b3fc74170a7e5148cef212f2bc0c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gadcf4b3fc74170a7e5148cef212f2bc0c">EFindEmptyPosType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggadcf4b3fc74170a7e5148cef212f2bc0ca510c401b972b96064982bb9b15769a83">FIND_EMPTY_POS_TYPE_LEFT</a>, 
+<a class="el" href="a00152.html#ggadcf4b3fc74170a7e5148cef212f2bc0cac652bd2fe82538018cf48ad7100cd081">FIND_EMPTY_POS_TYPE_MID</a>, 
+<a class="el" href="a00152.html#ggadcf4b3fc74170a7e5148cef212f2bc0ca0bdbfe77c9ea770a0dedc46fec6a2e51">FIND_EMPTY_POS_TYPE_MID_LEFT</a>, 
+<a class="el" href="a00152.html#ggadcf4b3fc74170a7e5148cef212f2bc0cad13accb7290a57dd8b887e90476aa0ff">FIND_EMPTY_POS_TYPE_MID_RIGHT</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggadcf4b3fc74170a7e5148cef212f2bc0cae2edcf80ef1f4a67225cfff25290cafd">FIND_EMPTY_POS_TYPE_RIGHT</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:gadcf4b3fc74170a7e5148cef212f2bc0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">查找空坐标类型  <a href="a00152.html#gadcf4b3fc74170a7e5148cef212f2bc0c">更多...</a><br/></td></tr>
+<tr class="separator:gadcf4b3fc74170a7e5148cef212f2bc0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7139c6ac83549b584178ae871b843171"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga7139c6ac83549b584178ae871b843171">ERoleLimitType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga7139c6ac83549b584178ae871b843171ad6e0cf654179ce63fed51ddf40d74f9a">ROLE_LIMIT_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga7139c6ac83549b584178ae871b843171a43a22c5fafac4fe6c662ecc90d3e213b">ROLE_LIMIT_LOGIN</a> = 1, 
+<a class="el" href="a00152.html#gga7139c6ac83549b584178ae871b843171ad99b75caa4945427ab149e6194b5b762">ROLE_LIMIT_CHAT</a> = 2, 
+<a class="el" href="a00152.html#gga7139c6ac83549b584178ae871b843171a82a9e8d6ddad1b77ac23d1dd7d646441">ROLE_LIMIT_DEL_LOGIN</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga7139c6ac83549b584178ae871b843171ab3d8b8b21fd1ddf2c4ec175bae2b811b">ROLE_LIMIT_DEL_CHAT</a> = 4
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga7139c6ac83549b584178ae871b843171"><td class="mdescLeft">&#160;</td><td class="mdescRight">角色限号类型  <a href="a00152.html#ga7139c6ac83549b584178ae871b843171">更多...</a><br/></td></tr>
+<tr class="separator:ga7139c6ac83549b584178ae871b843171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga84119aa22060c9e68c0aec3eecaad49e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga84119aa22060c9e68c0aec3eecaad49e">ERoleOptLimitType</a> { <a class="el" href="a00152.html#gga84119aa22060c9e68c0aec3eecaad49ea77cca8477aa9752a4ba5b926f6d7c694">ROLE_LIMIT_OPT_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga84119aa22060c9e68c0aec3eecaad49eacff29a959111cf044fcd722a4ed80cc7">ROLE_LIMIT_OPT_UPDATE_LOGIN</a> = 1, 
+<a class="el" href="a00152.html#gga84119aa22060c9e68c0aec3eecaad49eab1512b5e6db9f961e82ff1055e45a0da">ROLE_LIMIT_OPT_UPDATE_CHAT</a> = 2, 
+<a class="el" href="a00152.html#gga84119aa22060c9e68c0aec3eecaad49eab7b0216d09ffe188a3f17b5465ab482d">ROLE_LIMIT_OPT_DEL</a> = 3
+ }</td></tr>
+<tr class="memdesc:ga84119aa22060c9e68c0aec3eecaad49e"><td class="mdescLeft">&#160;</td><td class="mdescRight">禁言封号数据库表操作  <a href="a00152.html#ga84119aa22060c9e68c0aec3eecaad49e">更多...</a><br/></td></tr>
+<tr class="separator:ga84119aa22060c9e68c0aec3eecaad49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b06d620f7cabdbe7e3118c7389d3837"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga8b06d620f7cabdbe7e3118c7389d3837">ECombatStateType</a> { <a class="el" href="a00152.html#gga8b06d620f7cabdbe7e3118c7389d3837af684c73e852bfc01537cc2755efb8e39">COMBAT_STATE_TYPE_START</a> = 1, 
+<a class="el" href="a00152.html#gga8b06d620f7cabdbe7e3118c7389d3837ae4251c2b461fc10ad27042281e5c99f5">COMBAT_STATE_TYPE_END</a>
+ }</td></tr>
+<tr class="memdesc:ga8b06d620f7cabdbe7e3118c7389d3837"><td class="mdescLeft">&#160;</td><td class="mdescRight">战斗状态  <a href="a00152.html#ga8b06d620f7cabdbe7e3118c7389d3837">更多...</a><br/></td></tr>
+<tr class="separator:ga8b06d620f7cabdbe7e3118c7389d3837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacba2f4fcd5c81d79fd6189ed5ed56849"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gacba2f4fcd5c81d79fd6189ed5ed56849">EResetPosType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggacba2f4fcd5c81d79fd6189ed5ed56849a8327a3305c2a89d5d5b5e360b4475890">RESET_POS_TYPE_INVALID</a>, 
+<a class="el" href="a00152.html#ggacba2f4fcd5c81d79fd6189ed5ed56849a02738751cd8d367dc5b30a7755d9b4b5">RESET_POS_TYPE_WINK</a>, 
+<a class="el" href="a00152.html#ggacba2f4fcd5c81d79fd6189ed5ed56849a58bd219efd9b29c4b9af222a9a029ab7">RESET_POS_TYPE_PULL_BACK</a>, 
+<a class="el" href="a00152.html#ggacba2f4fcd5c81d79fd6189ed5ed56849af74e1b31118ccaeef156fa214a51e13b">RESET_POS_TYPE_HIT_BACK</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggacba2f4fcd5c81d79fd6189ed5ed56849a53a317510f83b3d3f0d5a1dbe336200a">RESET_POS_TYPE_SKILL_WINK</a>, 
+<a class="el" href="a00152.html#ggacba2f4fcd5c81d79fd6189ed5ed56849a0a5d5c2bc19e4eb887834ba3c52bdd9b">RESET_POS_TYPE_DIRECT</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:gacba2f4fcd5c81d79fd6189ed5ed56849"><td class="mdescLeft">&#160;</td><td class="mdescRight">瞬移类型  <a href="a00152.html#gacba2f4fcd5c81d79fd6189ed5ed56849">更多...</a><br/></td></tr>
+<tr class="separator:gacba2f4fcd5c81d79fd6189ed5ed56849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1670baf23f65e9ddd39b0102943f82d7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga1670baf23f65e9ddd39b0102943f82d7">EObjState</a> { <a class="el" href="a00152.html#gga1670baf23f65e9ddd39b0102943f82d7af63276c8801543c96c390048a67944e8">OBJ_STATE_TEAM</a> = 0, 
+<a class="el" href="a00152.html#gga1670baf23f65e9ddd39b0102943f82d7a9ca8aa8e927c34b76242b41f5685b645">OBJ_STATE_LEADER</a> = 1
+ }</td></tr>
+<tr class="memdesc:ga1670baf23f65e9ddd39b0102943f82d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">角色(Character)状态  <a href="a00152.html#ga1670baf23f65e9ddd39b0102943f82d7">更多...</a><br/></td></tr>
+<tr class="separator:ga1670baf23f65e9ddd39b0102943f82d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga09f89f6586283afd0562cc46303e391a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga09f89f6586283afd0562cc46303e391a">ECharacterLogic</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga09f89f6586283afd0562cc46303e391aa039eb584ed282930464bb41677da90c2">CHARACTER_LOGIC_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga09f89f6586283afd0562cc46303e391aa07902cddd3978dc0e19b7f5ce7965b8d">CHARACTER_LOGIC_IDLE</a>, 
+<a class="el" href="a00152.html#gga09f89f6586283afd0562cc46303e391aa1a4693fab56ad204fe6b8ecca47a1cc4">CHARACTER_LOGIC_MOVE</a>, 
+<a class="el" href="a00152.html#gga09f89f6586283afd0562cc46303e391aa58dc177a1e30beb9a4d7f731e5a40677">CHARACTER_LOGIC_DEAD</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga09f89f6586283afd0562cc46303e391aa6079f8dbc95bc0b7b9539f7e943069e3">CHARACTER_LOGIC_NUMBERS</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga09f89f6586283afd0562cc46303e391a"><td class="mdescLeft">&#160;</td><td class="mdescRight">对象逻辑  <a href="a00152.html#ga09f89f6586283afd0562cc46303e391a">更多...</a><br/></td></tr>
+<tr class="separator:ga09f89f6586283afd0562cc46303e391a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae0b922bb79e91a564c5dc664ce2dbbb3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gae0b922bb79e91a564c5dc664ce2dbbb3">EMoveMode</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggae0b922bb79e91a564c5dc664ce2dbbb3a10b0a1a5096832064b78ecf893563a8d">MOVE_MODE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggae0b922bb79e91a564c5dc664ce2dbbb3a767f9814b28ffda2d6c45cce8c172e32">MOVE_MODE_HOBBLE</a>, 
+<a class="el" href="a00152.html#ggae0b922bb79e91a564c5dc664ce2dbbb3a15f5983bb4f0dba65e5035e19aeb1a31">MOVE_MODE_WALK</a>, 
+<a class="el" href="a00152.html#ggae0b922bb79e91a564c5dc664ce2dbbb3a0238d2ff7deee94daad5fc660d5deeab">MOVE_MODE_RUN</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggae0b922bb79e91a564c5dc664ce2dbbb3ab67846832120068f878d4af777ce635f">MOVE_MODE_SPRINT</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:gae0b922bb79e91a564c5dc664ce2dbbb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">移动模式  <a href="a00152.html#gae0b922bb79e91a564c5dc664ce2dbbb3">更多...</a><br/></td></tr>
+<tr class="separator:gae0b922bb79e91a564c5dc664ce2dbbb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7e87c6ef4320bda73a8fbb31de3fe026"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga7e87c6ef4320bda73a8fbb31de3fe026">EMoveType</a> { <a class="el" href="a00152.html#gga7e87c6ef4320bda73a8fbb31de3fe026a7baad8866dd55a68b398031ee6ee14f0">MOVE_TYPE_CHECK</a>, 
+<a class="el" href="a00152.html#gga7e87c6ef4320bda73a8fbb31de3fe026af10554b8aa8956e501b572bcf4fae472">MOVE_TYPE_NOCHECK</a>
+ }</td></tr>
+<tr class="memdesc:ga7e87c6ef4320bda73a8fbb31de3fe026"><td class="mdescLeft">&#160;</td><td class="mdescRight">移动类型  <a href="a00152.html#ga7e87c6ef4320bda73a8fbb31de3fe026">更多...</a><br/></td></tr>
+<tr class="separator:ga7e87c6ef4320bda73a8fbb31de3fe026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab9ba85af255b2a56911427c0dcf7b33d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gab9ba85af255b2a56911427c0dcf7b33d">EAddApproachObjectType</a> { <a class="el" href="a00152.html#ggab9ba85af255b2a56911427c0dcf7b33da7ec5119518a9687cd5dcd105b76804ad">ADD_APPROACH_MON_TYPE_DAMAGE</a>, 
+<a class="el" href="a00152.html#ggab9ba85af255b2a56911427c0dcf7b33da2055919219095f326b1906aa7a8eb118">ADD_APPROACH_MON_TYPE_SCAN</a>
+ }</td></tr>
+<tr class="memdesc:gab9ba85af255b2a56911427c0dcf7b33d"><td class="mdescLeft">&#160;</td><td class="mdescRight">添加追击怪物的类型  <a href="a00152.html#gab9ba85af255b2a56911427c0dcf7b33d">更多...</a><br/></td></tr>
+<tr class="separator:gab9ba85af255b2a56911427c0dcf7b33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf60af7e4d0a9359b23b100f5fa7f4364"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gaf60af7e4d0a9359b23b100f5fa7f4364">EDelApproachObjectType</a> { <a class="el" href="a00152.html#ggaf60af7e4d0a9359b23b100f5fa7f4364a0a03609fbcce872122ffaf539477be93">DEL_APPROACH_MON_TYPE_DIE</a>, 
+<a class="el" href="a00152.html#ggaf60af7e4d0a9359b23b100f5fa7f4364a68fce143cd42bc975518f7f2301026a7">DEL_APPROACH_MON_TYPE_MY_DIE</a>, 
+<a class="el" href="a00152.html#ggaf60af7e4d0a9359b23b100f5fa7f4364a2c80b948fd7a7c460d9ae9faf2adae00">DEL_APPROACH_MON_TYPE_DROP</a>
+ }</td></tr>
+<tr class="memdesc:gaf60af7e4d0a9359b23b100f5fa7f4364"><td class="mdescLeft">&#160;</td><td class="mdescRight">删除追击怪物的类型  <a href="a00152.html#gaf60af7e4d0a9359b23b100f5fa7f4364">更多...</a><br/></td></tr>
+<tr class="separator:gaf60af7e4d0a9359b23b100f5fa7f4364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7a5973bdd8521b280c563d43a1e0e883"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga7a5973bdd8521b280c563d43a1e0e883">EReliveType</a> { <a class="el" href="a00152.html#gga7a5973bdd8521b280c563d43a1e0e883a3713f35ea0273bfc0ba317dc1fd8c9ab">RELIVE_TYPE_LOCAL</a> = 1, 
+<a class="el" href="a00152.html#gga7a5973bdd8521b280c563d43a1e0e883aaa8178e3edaf3cb94002345a4b3885cd">RELIVE_TYPE_BACKTURN</a>
+ }</td></tr>
+<tr class="memdesc:ga7a5973bdd8521b280c563d43a1e0e883"><td class="mdescLeft">&#160;</td><td class="mdescRight">复活类型  <a href="a00152.html#ga7a5973bdd8521b280c563d43a1e0e883">更多...</a><br/></td></tr>
+<tr class="separator:ga7a5973bdd8521b280c563d43a1e0e883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad26e145c610beb4c1a958386a956efb0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gad26e145c610beb4c1a958386a956efb0">EZoneServerState</a> { <a class="el" href="a00152.html#ggad26e145c610beb4c1a958386a956efb0ac6cad8be8956e04ab4946981449ac51d">ZONE_SERVER_STATE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggad26e145c610beb4c1a958386a956efb0a67ef0c846cf30999b8db8fc160f2c950">ZONE_SERVER_STATE_NORMAL</a> = 1, 
+<a class="el" href="a00152.html#ggad26e145c610beb4c1a958386a956efb0a99b053236a8227e6349eda847cc6d88f">ZONE_SERVER_STATE_BUSY</a> = 2, 
+<a class="el" href="a00152.html#ggad26e145c610beb4c1a958386a956efb0a42b8c343f3087e1261f8e323c662752f">ZONE_SERVER_STATE_CLOSE</a> = 3
+ }</td></tr>
+<tr class="memdesc:gad26e145c610beb4c1a958386a956efb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">区服务状态  <a href="a00152.html#gad26e145c610beb4c1a958386a956efb0">更多...</a><br/></td></tr>
+<tr class="separator:gad26e145c610beb4c1a958386a956efb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3da77abffef8440cc766d5d4edb4c13"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gad3da77abffef8440cc766d5d4edb4c13">EZoneServerFlag</a> { <a class="el" href="a00152.html#ggad3da77abffef8440cc766d5d4edb4c13acf1265f54f0ed28cf788bcd1ac30f0dd">ZONE_SERVER_FLAG_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggad3da77abffef8440cc766d5d4edb4c13a9d2c50c5cb1c1631bcbeba3ffc2179ed">ZONE_SERVER_FLAG_RECOMMEND</a> = 1, 
+<a class="el" href="a00152.html#ggad3da77abffef8440cc766d5d4edb4c13a49ad5cbad1386e582bed638d58582663">ZONE_SERVER_FLAG_NEW</a> = 2
+ }</td></tr>
+<tr class="memdesc:gad3da77abffef8440cc766d5d4edb4c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">区服务标记  <a href="a00152.html#gad3da77abffef8440cc766d5d4edb4c13">更多...</a><br/></td></tr>
+<tr class="separator:gad3da77abffef8440cc766d5d4edb4c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaddf7ec855727e124cd35574c4c9c2ae"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gaaddf7ec855727e124cd35574c4c9c2ae">EAnnouncement</a> { <a class="el" href="a00152.html#ggaaddf7ec855727e124cd35574c4c9c2aea5006f5ef2c8637946a85fe9817b8b991">ANNOUNCEMENT_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggaaddf7ec855727e124cd35574c4c9c2aea857de62bb120265061d87d0218a56b82">ANNOUNCEMENT_ROLE</a> = 1, 
+<a class="el" href="a00152.html#ggaaddf7ec855727e124cd35574c4c9c2aea5c0e3d768bfc6506a5907a40f7ee67d3">ANNOUNCEMENT_ITEM</a> = 2, 
+<a class="el" href="a00152.html#ggaaddf7ec855727e124cd35574c4c9c2aea746ffbebb6b9ae740a901c8a4d36aecb">ANNOUNCEMENT_NUMBER</a> = 3
+ }</td></tr>
+<tr class="memdesc:gaaddf7ec855727e124cd35574c4c9c2ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">公告参数类型  <a href="a00152.html#gaaddf7ec855727e124cd35574c4c9c2ae">更多...</a><br/></td></tr>
+<tr class="separator:gaaddf7ec855727e124cd35574c4c9c2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2ac470d083320b1c96e034ae1edf150"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gaa2ac470d083320b1c96e034ae1edf150">EAnnouncementSystem</a> { <a class="el" href="a00152.html#ggaa2ac470d083320b1c96e034ae1edf150a71bd1a25e9158abc105ccaa6ced7cbc4">ANNOUNCEMENT_SYS_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggaa2ac470d083320b1c96e034ae1edf150a3f570b9b1ab0305d34ae480a7cd7612a">ANNOUNCEMENT_SYS_MALL</a> = 1
+ }</td></tr>
+<tr class="memdesc:gaa2ac470d083320b1c96e034ae1edf150"><td class="mdescLeft">&#160;</td><td class="mdescRight">公告系统类型  <a href="a00152.html#gaa2ac470d083320b1c96e034ae1edf150">更多...</a><br/></td></tr>
+<tr class="separator:gaa2ac470d083320b1c96e034ae1edf150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafaa773d9789f46ad5edd1c1b26073eff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gafaa773d9789f46ad5edd1c1b26073eff">EAnnouncementEvent</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggafaa773d9789f46ad5edd1c1b26073effa1310b733812764a8948a833ef854fa72">AET_SYS_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggafaa773d9789f46ad5edd1c1b26073effa36802cdb7aec9fe0c6437bd1c9e7a55b">AET_SYS_STOP</a> = 1, 
+<a class="el" href="a00152.html#ggafaa773d9789f46ad5edd1c1b26073effa8b54c743474861f98f1ed2d077a0afb4">AET_GAME_NOTIY</a> = 2, 
+<a class="el" href="a00152.html#ggafaa773d9789f46ad5edd1c1b26073effa49d8272f34105ffc5b1bd37dc808fe8f">AET_ROLE_LEVEL_UP</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggafaa773d9789f46ad5edd1c1b26073effa79fc491c4ce7399c9228378b2b7af7cf">AET_ROLE_VIP_UP</a> = 4, 
+<a class="el" href="a00152.html#ggafaa773d9789f46ad5edd1c1b26073effa736a10de36000e377e8c2aa2786474dd">AET_ROLE_GET_ITEM</a> = 5
+<br/>
+ }</td></tr>
+<tr class="memdesc:gafaa773d9789f46ad5edd1c1b26073eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">公告触发类型  <a href="a00152.html#gafaa773d9789f46ad5edd1c1b26073eff">更多...</a><br/></td></tr>
+<tr class="separator:gafaa773d9789f46ad5edd1c1b26073eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4eb2d9dec1b448627314584ba3d5c66"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gab4eb2d9dec1b448627314584ba3d5c66">EOddAndWeightType</a> { <a class="el" href="a00152.html#ggab4eb2d9dec1b448627314584ba3d5c66ab857668e64c5297c64ec643e9250d4ad">ODDANDWEIGHTTYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggab4eb2d9dec1b448627314584ba3d5c66a977fc67506d9f2bccbdc8e0e369742f8">DROPODD_TYPE</a> = 1, 
+<a class="el" href="a00152.html#ggab4eb2d9dec1b448627314584ba3d5c66ac7374cde3480be9707d50e455fea04e0">DROPWEIGHT_TYPE</a> = 2
+ }</td></tr>
+<tr class="memdesc:gab4eb2d9dec1b448627314584ba3d5c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">掉落（概率权重类型）  <a href="a00152.html#gab4eb2d9dec1b448627314584ba3d5c66">更多...</a><br/></td></tr>
+<tr class="separator:gab4eb2d9dec1b448627314584ba3d5c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6f03a55b55fff20a26d19583eed08ddc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga6f03a55b55fff20a26d19583eed08ddc">EFightType</a> { <a class="el" href="a00152.html#gga6f03a55b55fff20a26d19583eed08ddcaa7aa625d9113fd2a558243c0b7aef355">FIGHT_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga6f03a55b55fff20a26d19583eed08ddcaa8dfcb615cfd7aa391dca15a9d2ab77c">FIGHT_TYPE_CHAPTER</a> = 1, 
+<a class="el" href="a00152.html#gga6f03a55b55fff20a26d19583eed08ddca404f850e2721cf414009f35c014be2f1">FIGHT_TYPE_CHALLENGE_OTHER</a> = 2
+ }</td></tr>
+<tr class="memdesc:ga6f03a55b55fff20a26d19583eed08ddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">战斗类型  <a href="a00152.html#ga6f03a55b55fff20a26d19583eed08ddc">更多...</a><br/></td></tr>
+<tr class="separator:ga6f03a55b55fff20a26d19583eed08ddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7640312e600b14e894717782266ddb70"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga7640312e600b14e894717782266ddb70">EPackType</a> { <a class="el" href="a00152.html#gga7640312e600b14e894717782266ddb70a22a9788eaca9031e7aa82be8e423a1ac">PACK_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga7640312e600b14e894717782266ddb70ad2bc35ad5cbde72558427103ab9cdc33">PACK_TYPE_BAG</a> = 1, 
+<a class="el" href="a00152.html#gga7640312e600b14e894717782266ddb70afa8fe05ab928c06d8966e23660bb3536">PACK_TYPE_EQUIP</a> = 2, 
+<a class="el" href="a00152.html#gga7640312e600b14e894717782266ddb70a3edb95c5abfcd390e515fe8405df17aa">PACKET_TABLE_TYPE_NUMBER</a>
+ }</td></tr>
+<tr class="separator:ga7640312e600b14e894717782266ddb70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8e767a593b51b2324703625995d9e762"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga8e767a593b51b2324703625995d9e762">EItemType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga8e767a593b51b2324703625995d9e762a89df944c47c6c89602ea44d7d17b09d8">ITEM_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga8e767a593b51b2324703625995d9e762a04a7f3ec8172c9489aa00c5b6d096e47">ITEM_TYPE_EQUIP</a> = 1, 
+<a class="el" href="a00152.html#gga8e767a593b51b2324703625995d9e762a0d0ace6140a5e6d43a80a92bf4f56951">ITEM_TYPE_DRUG</a> = 2, 
+<a class="el" href="a00152.html#gga8e767a593b51b2324703625995d9e762abc7fb9bc8527364e91c981dadf809c99">ITEM_TYPE_CONSUME</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga8e767a593b51b2324703625995d9e762a72ea6fc05487680cf0bc74487956da77">ITEM_TYPE_SCROLL</a> = 4, 
+<a class="el" href="a00152.html#gga8e767a593b51b2324703625995d9e762aa926f69316aec10d535ed7ffaf0a86d6">ITEM_TYPE_SKILL_BOOK</a> = 5, 
+<a class="el" href="a00152.html#gga8e767a593b51b2324703625995d9e762ace50d4f88649ed9d6877a1db37f001b1">ITEM_TYPE_GEM</a> = 6, 
+<a class="el" href="a00152.html#gga8e767a593b51b2324703625995d9e762ae4aedea0e5485b7e0280e66c749c5bec">ITEM_TYPE_BUFFER</a> = 7, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga8e767a593b51b2324703625995d9e762a23f2f05113391d31641717e79be4dcf4">ITEM_TYPE_NUMBER</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga8e767a593b51b2324703625995d9e762"><td class="mdescLeft">&#160;</td><td class="mdescRight">大类  <a href="a00152.html#ga8e767a593b51b2324703625995d9e762">更多...</a><br/></td></tr>
+<tr class="separator:ga8e767a593b51b2324703625995d9e762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga15566866ffa72b02c31c2efaa7beee04"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga15566866ffa72b02c31c2efaa7beee04">EOptEquipType</a> { <b>OPT_EQUIP_INVALID</b> = 0, 
+<b>OPT_EQUIP_CAN</b>, 
+<b>OPT_EQUIP_CAN_NOT</b>
+ }</td></tr>
+<tr class="memdesc:ga15566866ffa72b02c31c2efaa7beee04"><td class="mdescLeft">&#160;</td><td class="mdescRight">道具数据类型  <a href="a00152.html#ga15566866ffa72b02c31c2efaa7beee04">更多...</a><br/></td></tr>
+<tr class="separator:ga15566866ffa72b02c31c2efaa7beee04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae147343babb4b4a37a197651f1a7f07f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gae147343babb4b4a37a197651f1a7f07f">EDestroyType</a> { <b>DESTROY_TYPE_CAN</b> = 1, 
+<b>DESTROY_TYPE_CANT</b> = 2
+ }</td></tr>
+<tr class="memdesc:gae147343babb4b4a37a197651f1a7f07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">道具摧毁限制 <br/></td></tr>
+<tr class="separator:gae147343babb4b4a37a197651f1a7f07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab71e13d982b7e4d8c2564c904437ff2d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gab71e13d982b7e4d8c2564c904437ff2d">ESellLimit</a> { <b>SELL_LIMIT_CAN</b> = 1, 
+<b>SELL_LIMIT_CANT</b> = 2
+ }</td></tr>
+<tr class="memdesc:gab71e13d982b7e4d8c2564c904437ff2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">道具出售限制 <br/></td></tr>
+<tr class="separator:gab71e13d982b7e4d8c2564c904437ff2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41d314252e265f4a28a315bb6e380e85"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga41d314252e265f4a28a315bb6e380e85">EJobLimit</a> { <b>JOB_LIMIT_NORMAL</b> = 4
+ }</td></tr>
+<tr class="memdesc:ga41d314252e265f4a28a315bb6e380e85"><td class="mdescLeft">&#160;</td><td class="mdescRight">职业限制 <br/></td></tr>
+<tr class="separator:ga41d314252e265f4a28a315bb6e380e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b555d7a7ebc52560010b22e0a418156"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga4b555d7a7ebc52560010b22e0a418156">ESexLimit</a> { <b>SEX_LIMIT_MALE</b> = 1, 
+<b>SEX_LIMIT_FEMALE</b> = 2, 
+<b>SEX_LIMIT_NORMAL</b> = 3
+ }</td></tr>
+<tr class="memdesc:ga4b555d7a7ebc52560010b22e0a418156"><td class="mdescLeft">&#160;</td><td class="mdescRight">性别限制 <br/></td></tr>
+<tr class="separator:ga4b555d7a7ebc52560010b22e0a418156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf505f8437cad6872af879a896026f048"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gaf505f8437cad6872af879a896026f048">EEquipType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048aea21d39a0dce42f6d44c07061917c392">EQUIP_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048ab8c90cf5ab5aaa47d93db53e4e4ec674">EQUIP_TYPE_START</a> = 1, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048aecc6dd91436e897cefeb86e626b5e80a">EQUIP_TYPE_ARM</a> = 1, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048ad63c8089146a7107074a6dbc7425b040">EQUIP_TYPE_ARMET</a> = 2, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048a4c00c29dd56ba3212f179fea12a5af01">EQUIP_TYPE_SHOULDER</a>, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048aaa1167f70aa93554b5760e47c3908e51">EQUIP_TYPE_ARMOR</a>, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048aabef0ee0c61dac7d4161903e2ed5adbb">EQUIP_TYPE_BELT</a>, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048aea06e199e058b55d8a6cfc55f8467d0d">EQUIP_TYPE_LEG</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048a897ee8985018afcfdf348cc5deb819d2">EQUIP_TYPE_BOOTS</a>, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048a1ab361150faee5df21ffbf18954fd147">EQUIP_TYPE_NECKLACE</a>, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048a547cb24b76a7834c0ed1054db985cf00">EQUIP_TYPE_GALLUS</a>, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048a62a21651d24200f51e3cbd7e4dc336bb">EQUIP_TYPE_RING</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048a4c58ba6822ade7efe13d5a9d9b1b1bfd">EQUIP_TYPE_WRIST</a>, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048a7356df88bde0d6b7dfeb53531ebea39e">EQUIP_TYPE_GLOVE</a>, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048a95d51aa6d77a16efdac83bdfbd3d899d">EQUIP_TYPE_FASHION</a>, 
+<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048a66112200c65f8e0807fa27f564c03952">EQUIP_TYPE_NUMBER</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggaf505f8437cad6872af879a896026f048afe19fb5e06121fc566735cdfbb887b37">EQUIP_TYPE_POS_NUM</a> = EQUIP_TYPE_NUMBER + 1
+<br/>
+ }</td></tr>
+<tr class="memdesc:gaf505f8437cad6872af879a896026f048"><td class="mdescLeft">&#160;</td><td class="mdescRight">装备子类型  <a href="a00152.html#gaf505f8437cad6872af879a896026f048">更多...</a><br/></td></tr>
+<tr class="separator:gaf505f8437cad6872af879a896026f048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga00849f948d9825fe6aa8b087816797a1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga00849f948d9825fe6aa8b087816797a1">EDrugSubClass</a> { <a class="el" href="a00152.html#gga00849f948d9825fe6aa8b087816797a1a321d48c32e1aafe53a4496527023b59e">DRUG_SUB_CLASS_HP</a> = 1, 
+<a class="el" href="a00152.html#gga00849f948d9825fe6aa8b087816797a1a98f871ec7323c2b65081b02832d2b84c">DRUG_SUB_CLASS_MP</a>, 
+<a class="el" href="a00152.html#gga00849f948d9825fe6aa8b087816797a1a6397d2c2b042492eee845d797a1ec59e">DRUG_SUB_CLASS_PET_HP</a>
+ }</td></tr>
+<tr class="memdesc:ga00849f948d9825fe6aa8b087816797a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">药品子类  <a href="a00152.html#ga00849f948d9825fe6aa8b087816797a1">更多...</a><br/></td></tr>
+<tr class="separator:ga00849f948d9825fe6aa8b087816797a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8df9db346457ea1cd4450a1bc8890afd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga8df9db346457ea1cd4450a1bc8890afd">EConsumeSubClass</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga8df9db346457ea1cd4450a1bc8890afda92fa1f6adc9bf516ffd0cd5d3e02940d">CONSUME_SUB_CLASS_TASK</a> = 1, 
+<a class="el" href="a00152.html#gga8df9db346457ea1cd4450a1bc8890afdafb4d80b636d5f3ff0e49743fa3f16833">CONSUME_SUB_CLASS_RELIVE</a>, 
+<a class="el" href="a00152.html#gga8df9db346457ea1cd4450a1bc8890afdad174b271deeb90e6318856f038550be4">CONSUME_SUB_CLASS_HORN</a>, 
+<a class="el" href="a00152.html#gga8df9db346457ea1cd4450a1bc8890afdae7039240114ad8caaeed4c468212e4f7">CONSUME_SUB_CLASS_FLY_SHOES</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga8df9db346457ea1cd4450a1bc8890afdac984f0fa5c99e2633b26bdcb31fd528c">CONSUME_SUB_CLASS_TAN_HE_LING</a>, 
+<a class="el" href="a00152.html#gga8df9db346457ea1cd4450a1bc8890afda3602bbe87d65f04a72bf0a5a7241b80b">CONSUME_SUB_CLASS_TONG_YA_LING</a>, 
+<a class="el" href="a00152.html#gga8df9db346457ea1cd4450a1bc8890afdab2815973166ad71477494185bf71906e">CONSUME_SUB_CLASS_TRAVEL_CARD</a>, 
+<a class="el" href="a00152.html#gga8df9db346457ea1cd4450a1bc8890afdaf2923db75657a13373a12f41f7669963">CONSUME_SUB_CLASS_CROP</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga8df9db346457ea1cd4450a1bc8890afda5b5cbb45826382c2f81711d3dc0eb086">CONSUME_SUB_CLASS_SHOVEL</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga8df9db346457ea1cd4450a1bc8890afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">消耗  <a href="a00152.html#ga8df9db346457ea1cd4450a1bc8890afd">更多...</a><br/></td></tr>
+<tr class="separator:ga8df9db346457ea1cd4450a1bc8890afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94152e1619438b26c12237e32b9e3506"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga94152e1619438b26c12237e32b9e3506">ESkillBookSubClass</a> { <a class="el" href="a00152.html#gga94152e1619438b26c12237e32b9e3506a6b47bc235cb642055bb11087056d557d">SKILL_BOOK_SUB_CLASS_ROLE</a>, 
+<a class="el" href="a00152.html#gga94152e1619438b26c12237e32b9e3506a8852a180d6c107aac703284e349e2084">SKILL_BOOK_SUB_CLASS_PET</a>
+ }</td></tr>
+<tr class="memdesc:ga94152e1619438b26c12237e32b9e3506"><td class="mdescLeft">&#160;</td><td class="mdescRight">技能书  <a href="a00152.html#ga94152e1619438b26c12237e32b9e3506">更多...</a><br/></td></tr>
+<tr class="separator:ga94152e1619438b26c12237e32b9e3506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2f0bc84dc179a6fbb294912f011e0fff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga2f0bc84dc179a6fbb294912f011e0fff">EGemSubClass</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga2f0bc84dc179a6fbb294912f011e0fffaca7b0e1e12862b0cd8ef7147c6c442f4">GEM_SUB_CLASS_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga2f0bc84dc179a6fbb294912f011e0fffa2384c99dce9935bbca9e68ef25970aaa">GEM_SUB_CLASS_INLAY</a>, 
+<a class="el" href="a00152.html#gga2f0bc84dc179a6fbb294912f011e0fffa989a95a856e951da76e0b9ce6ff1156f">GEM_SUB_CLASS_WASH</a>, 
+<a class="el" href="a00152.html#gga2f0bc84dc179a6fbb294912f011e0fffa8f1aee30299a62f8b2ad9312f8a52a91">GEM_SUB_CLASS_RISE_STAR</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga2f0bc84dc179a6fbb294912f011e0fffae84a73f6d57fccae2b67415c18f822cb">GEM_SUB_CLASS_ATTR</a>, 
+<a class="el" href="a00152.html#gga2f0bc84dc179a6fbb294912f011e0fffa9ed6b6469e316aa6e219eb4ea6c02684">GEM_SUB_CLASS_GROW_UP</a>, 
+<a class="el" href="a00152.html#gga2f0bc84dc179a6fbb294912f011e0fffafa283af9f25f98369cfc39cf75186917">GEM_SUB_CLASS_LOCK_ATTR</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga2f0bc84dc179a6fbb294912f011e0fff"><td class="mdescLeft">&#160;</td><td class="mdescRight">宝石  <a href="a00152.html#ga2f0bc84dc179a6fbb294912f011e0fff">更多...</a><br/></td></tr>
+<tr class="separator:ga2f0bc84dc179a6fbb294912f011e0fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeba5e23a011a42e0fdd2827ccd8e88e1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gaeba5e23a011a42e0fdd2827ccd8e88e1">EBufferSubClass</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#ggaeba5e23a011a42e0fdd2827ccd8e88e1a6aafd0e1e74fc80ae980d29047281c7b">BUFF_SUB_INVALID</a> = 0, 
+<a class="el" href="a00152.html#ggaeba5e23a011a42e0fdd2827ccd8e88e1a8afb6c79952d4111f51aacfe6300bb18">BUFF_SUB_ITEM</a>, 
+<a class="el" href="a00152.html#ggaeba5e23a011a42e0fdd2827ccd8e88e1a80ff9d2b0875f3c252070657ec2c8118">BUFF_SUB_ROLE_HP</a>, 
+<a class="el" href="a00152.html#ggaeba5e23a011a42e0fdd2827ccd8e88e1a97f324800ee9ec3500ad2d0a983d31ab">BUFF_SUB_ROLE_MP</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#ggaeba5e23a011a42e0fdd2827ccd8e88e1a434356dbb964729711620a38cfc5a9fc">BUFF_SUB_PET_HP</a>, 
+<a class="el" href="a00152.html#ggaeba5e23a011a42e0fdd2827ccd8e88e1a7fb3f76245e191b376904da2713e8f3f">BUFF_SUB_ROLE_EXP</a>, 
+<a class="el" href="a00152.html#ggaeba5e23a011a42e0fdd2827ccd8e88e1a4795753757849f00e55a009d7aecd24c">BUFF_SUB_ROLE_GOLD</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:gaeba5e23a011a42e0fdd2827ccd8e88e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer.  <a href="a00152.html#gaeba5e23a011a42e0fdd2827ccd8e88e1">更多...</a><br/></td></tr>
+<tr class="separator:gaeba5e23a011a42e0fdd2827ccd8e88e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad499d913ef3b82d72db03ae9766604db"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gad499d913ef3b82d72db03ae9766604db">EScrollSubClass</a> { <a class="el" href="a00152.html#ggad499d913ef3b82d72db03ae9766604dba41dd3f2a01b68b5d7213f605c6682da7">SCROLL_SUB_INVALID</a> = 0
+ }</td></tr>
+<tr class="memdesc:gad499d913ef3b82d72db03ae9766604db"><td class="mdescLeft">&#160;</td><td class="mdescRight">卷轴  <a href="a00152.html#gad499d913ef3b82d72db03ae9766604db">更多...</a><br/></td></tr>
+<tr class="separator:gad499d913ef3b82d72db03ae9766604db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3354db37dce6ea14fc42a4af218a53ca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga3354db37dce6ea14fc42a4af218a53ca">EEquipQuality</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3354db37dce6ea14fc42a4af218a53caa404dc0b056209db963b5de40fd4bfcb0">EQUIP_QUALITY_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga3354db37dce6ea14fc42a4af218a53caa62a68ac63e51ea6f45e5bac3dc8bae57">EQUIP_QUALITY_WRITE</a> = 1, 
+<a class="el" href="a00152.html#gga3354db37dce6ea14fc42a4af218a53caae445b3b07db3faf73e97a7d2c6959991">EQUIP_QUALITY_GREEN</a> = 2, 
+<a class="el" href="a00152.html#gga3354db37dce6ea14fc42a4af218a53caa1e440b6e2e8ea0a8ee6a9c569964773e">EQUIP_QUALITY_BLUE</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga3354db37dce6ea14fc42a4af218a53caa18c28bdaa8dab9bd2cdc547eed8f0d5f">EQUIP_QUALITY_PURPLE</a> = 4, 
+<b>EQUIP_QUALITY_NUMBER</b>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga3354db37dce6ea14fc42a4af218a53ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">装备品质  <a href="a00152.html#ga3354db37dce6ea14fc42a4af218a53ca">更多...</a><br/></td></tr>
+<tr class="separator:ga3354db37dce6ea14fc42a4af218a53ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga698a5c295756de1d4b88c379e97b76bd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga698a5c295756de1d4b88c379e97b76bd">EGemQuality</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga698a5c295756de1d4b88c379e97b76bda0ada484e0850f1a16ad06dc2a72a0ac6">GEM_QUALITY_ONE</a> = 1, 
+<a class="el" href="a00152.html#gga698a5c295756de1d4b88c379e97b76bda9fa012d756f355ec25dfd78744928d18">GEM_QUALITY_TWO</a> = 2, 
+<a class="el" href="a00152.html#gga698a5c295756de1d4b88c379e97b76bda466ba40663339762d0698d7397a424f2">GEM_QUALITY_THR</a> = 3, 
+<a class="el" href="a00152.html#gga698a5c295756de1d4b88c379e97b76bda85916dce5c89c2b4afba231a8618a7c4">GEM_QUALITY_FOUR</a> = 4, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga698a5c295756de1d4b88c379e97b76bda1240f3dda80afa4f61d867ac986f9d55">GEM_QUALITY_FIVE</a> = 5, 
+<a class="el" href="a00152.html#gga698a5c295756de1d4b88c379e97b76bda2ec81badda6036895d37b0a70435414b">GEM_QUALITY_SIX</a> = 6, 
+<a class="el" href="a00152.html#gga698a5c295756de1d4b88c379e97b76bda132cf58c709dc62877575ce862d87d26">GEM_QUALITY_NUMBER</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga698a5c295756de1d4b88c379e97b76bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">宝石品质  <a href="a00152.html#ga698a5c295756de1d4b88c379e97b76bd">更多...</a><br/></td></tr>
+<tr class="separator:ga698a5c295756de1d4b88c379e97b76bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac100d069a79ac59e61c15c3a6236be94"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gac100d069a79ac59e61c15c3a6236be94">EItemExtremum</a> { <b>ITEM_EXTREMUM_MAX_STRE_LEVEL</b> = 12, 
+<b>ITEM_EXTREMUM_MAX_APPEND_NUM</b> = 9
+ }</td></tr>
+<tr class="memdesc:gac100d069a79ac59e61c15c3a6236be94"><td class="mdescLeft">&#160;</td><td class="mdescRight">物品扩展最大数 <br/></td></tr>
+<tr class="separator:gac100d069a79ac59e61c15c3a6236be94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4c43f91a773bc7266d1a3ffa96962cdb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga4c43f91a773bc7266d1a3ffa96962cdb">EBindType</a> { <a class="el" href="a00152.html#gga4c43f91a773bc7266d1a3ffa96962cdba76e7ac9f548ea8c8c9d9f9558dc3eee9">BIND_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga4c43f91a773bc7266d1a3ffa96962cdba4c13beca0abd7b489fdcf78e86539869">BIND_TYPE_UNBIND</a> = 1, 
+<a class="el" href="a00152.html#gga4c43f91a773bc7266d1a3ffa96962cdbaea45bd3b3d6f9e56370f041134895bf2">BIND_TYPE_BIND</a>, 
+<a class="el" href="a00152.html#gga4c43f91a773bc7266d1a3ffa96962cdbab79fe69253957bf57f710fe67e6bbbbf">BIND_TYPE_EQUIP</a>
+ }</td></tr>
+<tr class="memdesc:ga4c43f91a773bc7266d1a3ffa96962cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">绑定类型  <a href="a00152.html#ga4c43f91a773bc7266d1a3ffa96962cdb">更多...</a><br/></td></tr>
+<tr class="separator:ga4c43f91a773bc7266d1a3ffa96962cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5545a54a6edd94b3e6e68d544d75e4cb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga5545a54a6edd94b3e6e68d544d75e4cb">EItemAttrBindType</a> { <a class="el" href="a00152.html#gga5545a54a6edd94b3e6e68d544d75e4cbad05e48d0c2dfb8f31e7bc3f156cdd366">ITEM_ATTR_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga5545a54a6edd94b3e6e68d544d75e4cbaa8d4d0b5749fe7f0635a1ce164e62dda">ITEM_ATTR_TYPE_UNBIND</a> = BIND_TYPE_UNBIND, 
+<a class="el" href="a00152.html#gga5545a54a6edd94b3e6e68d544d75e4cbae6f4789d43b872246c9c686b6dfa445e">ITEM_ATTR_TYPE_BIND</a> = BIND_TYPE_BIND, 
+<a class="el" href="a00152.html#gga5545a54a6edd94b3e6e68d544d75e4cba782a26769e4ff3ea0f3b78dc00b489de">ITEM_ATTR_TYPE_BIND_ALL</a>
+ }</td></tr>
+<tr class="memdesc:ga5545a54a6edd94b3e6e68d544d75e4cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">物品绑定类型, 不允许修改 ！！！  <a href="a00152.html#ga5545a54a6edd94b3e6e68d544d75e4cb">更多...</a><br/></td></tr>
+<tr class="separator:ga5545a54a6edd94b3e6e68d544d75e4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf24e97f2f758b1f63b1313411cf34fc4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#gaf24e97f2f758b1f63b1313411cf34fc4">EItemExtAttrType</a> { <a class="el" href="a00152.html#ggaf24e97f2f758b1f63b1313411cf34fc4ac59725062bf7e28d35bb9f8930832d0d">ITEM_ATTR_EXT_TYPE_BIND</a> = 1, 
+<a class="el" href="a00152.html#ggaf24e97f2f758b1f63b1313411cf34fc4a148a0d7c167a9e441090548bd8703119">ITEM_ATTR_EXT_TYPE_STRE</a> = 2
+ }</td></tr>
+<tr class="memdesc:gaf24e97f2f758b1f63b1313411cf34fc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">物品扩展属性  <a href="a00152.html#gaf24e97f2f758b1f63b1313411cf34fc4">更多...</a><br/></td></tr>
+<tr class="separator:gaf24e97f2f758b1f63b1313411cf34fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9bdc569d8d1828a7b27cd3553731f995"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga9bdc569d8d1828a7b27cd3553731f995">EAwardType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga9bdc569d8d1828a7b27cd3553731f995a381413c9959e704e4da2b00374a188ee">AWARD_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga9bdc569d8d1828a7b27cd3553731f995ad4ada070225954744135679514562d94">AWARD_EXP</a>, 
+<a class="el" href="a00152.html#gga9bdc569d8d1828a7b27cd3553731f995a423caaa9dab48d58973ae92bcb85d5c4">AWARD_MONEY</a>, 
+<a class="el" href="a00152.html#gga9bdc569d8d1828a7b27cd3553731f995ac5f123adfdf9b48d31e3b8c4ed5b4c9f">AWARD_RMB</a>, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga9bdc569d8d1828a7b27cd3553731f995a7feffa852525982a896a359e3daa7cea">AWARD_BIND_RMB</a>, 
+<a class="el" href="a00152.html#gga9bdc569d8d1828a7b27cd3553731f995a914ce561b3b224c83eb80491c2fb305d">AWARD_ITEM</a>
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga9bdc569d8d1828a7b27cd3553731f995"><td class="mdescLeft">&#160;</td><td class="mdescRight">奖励类型  <a href="a00152.html#ga9bdc569d8d1828a7b27cd3553731f995">更多...</a><br/></td></tr>
+<tr class="separator:ga9bdc569d8d1828a7b27cd3553731f995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga876145fd8d8b2e27420cebeb6b06e75c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00152.html#ga876145fd8d8b2e27420cebeb6b06e75c">EBagOperateType</a> { <br/>
+&#160;&#160;<a class="el" href="a00152.html#gga876145fd8d8b2e27420cebeb6b06e75cab01d69dd9664b7b6826e43001b23294d">BAG_OPERATE_TYPE_INVALID</a> = 0, 
+<a class="el" href="a00152.html#gga876145fd8d8b2e27420cebeb6b06e75ca0149d216cc1bb278e83b94a56c290e43">BAG_OPERATE_TYPE_DROP</a> = 1, 
+<a class="el" href="a00152.html#gga876145fd8d8b2e27420cebeb6b06e75ca316e0e6d4995f8ad8f953975fd5a1476">BAG_OPERATE_TYPE_USE</a> = 2, 
+<a class="el" href="a00152.html#gga876145fd8d8b2e27420cebeb6b06e75cacab229a140d67ea4aa8c2cd837a11f28">BAG_OPERATE_TYPE_SELL</a> = 3, 
+<br/>
+&#160;&#160;<a class="el" href="a00152.html#gga876145fd8d8b2e27420cebeb6b06e75ca695f46537470e13ac226a349383eda1a">BAG_OPERATE_TYPE_PACK_UP</a> = 4, 
+<a class="el" href="a00152.html#gga876145fd8d8b2e27420cebeb6b06e75ca6820c11341ffdbf64027b5c7c79aca10">BAG_OPERATE_TYPE_REQ_ALL</a> = 5
+<br/>
+ }</td></tr>
+<tr class="memdesc:ga876145fd8d8b2e27420cebeb6b06e75c"><td class="mdescLeft">&#160;</td><td class="mdescRight">背包操作类型  <a href="a00152.html#ga876145fd8d8b2e27420cebeb6b06e75c">更多...</a><br/></td></tr>
+<tr class="separator:ga876145fd8d8b2e27420cebeb6b06e75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga79db5f136d88765f49362c7158cedbbf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga79db5f136d88765f49362c7158cedbbf"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga77b439a411f8403a29220235a51ecf98">EKickType</a>)</td></tr>
+<tr class="separator:ga79db5f136d88765f49362c7158cedbbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba4c0b5fd4f271d5582edc53fe5fdb4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaba4c0b5fd4f271d5582edc53fe5fdb4d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gafda2e63e3215d363a924058cfdcd5c76">EBuffEventFlag</a>)</td></tr>
+<tr class="separator:gaba4c0b5fd4f271d5582edc53fe5fdb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga176c3e7bfded04af7c5b265869205158"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga176c3e7bfded04af7c5b265869205158"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga28a4b98d6db79ef8882cbb3743f069c9">EBuffType</a>)</td></tr>
+<tr class="separator:ga176c3e7bfded04af7c5b265869205158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabefe61bd603767de7f3299f7e512e2f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabefe61bd603767de7f3299f7e512e2f8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga6db921321505a1a710ca8e276d542277">EBuffExistType</a>)</td></tr>
+<tr class="separator:gabefe61bd603767de7f3299f7e512e2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06163e0c331bd63545aef5bbd961e163"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga06163e0c331bd63545aef5bbd961e163"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga48de9d4ecaa56525e6ff47db5ec930e2">EBuffLastType</a>)</td></tr>
+<tr class="separator:ga06163e0c331bd63545aef5bbd961e163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae51ce266fa6500d5bbef2900389c586c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae51ce266fa6500d5bbef2900389c586c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gac6326291a38cbace3573bcfcdc322456">EAttackImpactType</a>)</td></tr>
+<tr class="separator:gae51ce266fa6500d5bbef2900389c586c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a703b799db1e848863ab9b0fe9ef640"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0a703b799db1e848863ab9b0fe9ef640"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gacf2d1764270de0c87683c679e31c2379">EMissionEvent</a>)</td></tr>
+<tr class="separator:ga0a703b799db1e848863ab9b0fe9ef640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga556730a1efb79b8ff2c5cb985460a549"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga556730a1efb79b8ff2c5cb985460a549"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga1e1b63985cd17b3e84157c52ba5956f5">EMissionStatus</a>)</td></tr>
+<tr class="separator:ga556730a1efb79b8ff2c5cb985460a549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe425152baf89656bbeab408771f6dc5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gafe425152baf89656bbeab408771f6dc5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gadcf4b3fc74170a7e5148cef212f2bc0c">EFindEmptyPosType</a>)</td></tr>
+<tr class="separator:gafe425152baf89656bbeab408771f6dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4d3c3b139fa4d7ef0601b1d0d64ac0a4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga4d3c3b139fa4d7ef0601b1d0d64ac0a4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga8b06d620f7cabdbe7e3118c7389d3837">ECombatStateType</a>)</td></tr>
+<tr class="separator:ga4d3c3b139fa4d7ef0601b1d0d64ac0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga950ec89c856942808a34e4d674f7fa9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga950ec89c856942808a34e4d674f7fa9b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gacba2f4fcd5c81d79fd6189ed5ed56849">EResetPosType</a>)</td></tr>
+<tr class="separator:ga950ec89c856942808a34e4d674f7fa9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga488a12b82a7b75234ef5daafb8bda897"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga488a12b82a7b75234ef5daafb8bda897"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga1670baf23f65e9ddd39b0102943f82d7">EObjState</a>)</td></tr>
+<tr class="separator:ga488a12b82a7b75234ef5daafb8bda897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaff78aef19b99164a22117de5f66756b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaff78aef19b99164a22117de5f66756b2"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga09f89f6586283afd0562cc46303e391a">ECharacterLogic</a>)</td></tr>
+<tr class="separator:gaff78aef19b99164a22117de5f66756b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1abda381903dec54464315c4c8e6ec8f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1abda381903dec54464315c4c8e6ec8f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gae0b922bb79e91a564c5dc664ce2dbbb3">EMoveMode</a>)</td></tr>
+<tr class="separator:ga1abda381903dec54464315c4c8e6ec8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaeb30e2f02bd7db60fc4d43ea301c9ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaaeb30e2f02bd7db60fc4d43ea301c9ce"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga7e87c6ef4320bda73a8fbb31de3fe026">EMoveType</a>)</td></tr>
+<tr class="separator:gaaeb30e2f02bd7db60fc4d43ea301c9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf97ddfead8d20ddf64031bd99a56e18b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf97ddfead8d20ddf64031bd99a56e18b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gab9ba85af255b2a56911427c0dcf7b33d">EAddApproachObjectType</a>)</td></tr>
+<tr class="separator:gaf97ddfead8d20ddf64031bd99a56e18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3fa3b788bc90f373cf59ff00cd038d9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga3fa3b788bc90f373cf59ff00cd038d9b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gaf60af7e4d0a9359b23b100f5fa7f4364">EDelApproachObjectType</a>)</td></tr>
+<tr class="separator:ga3fa3b788bc90f373cf59ff00cd038d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42c7c65ee5ce917011ae66c52a692da6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga42c7c65ee5ce917011ae66c52a692da6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga7a5973bdd8521b280c563d43a1e0e883">EReliveType</a>)</td></tr>
+<tr class="separator:ga42c7c65ee5ce917011ae66c52a692da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf5547f9c05a8db63bbbaec1f1971487f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf5547f9c05a8db63bbbaec1f1971487f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gaaddf7ec855727e124cd35574c4c9c2ae">EAnnouncement</a>)</td></tr>
+<tr class="separator:gaf5547f9c05a8db63bbbaec1f1971487f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf861bd38e9a81975ddda31602c618a9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf861bd38e9a81975ddda31602c618a9e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga7640312e600b14e894717782266ddb70">EPackType</a>)</td></tr>
+<tr class="separator:gaf861bd38e9a81975ddda31602c618a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga856d29f4ad551ada13aade799b9368ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga856d29f4ad551ada13aade799b9368ce"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga8e767a593b51b2324703625995d9e762">EItemType</a>)</td></tr>
+<tr class="separator:ga856d29f4ad551ada13aade799b9368ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaca099b88d1ac05f7bba1ebff0423acd7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaca099b88d1ac05f7bba1ebff0423acd7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga15566866ffa72b02c31c2efaa7beee04">EOptEquipType</a>)</td></tr>
+<tr class="separator:gaca099b88d1ac05f7bba1ebff0423acd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga047ab46c1f971ee81c41388c5265ac9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga047ab46c1f971ee81c41388c5265ac9b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gae147343babb4b4a37a197651f1a7f07f">EDestroyType</a>)</td></tr>
+<tr class="separator:ga047ab46c1f971ee81c41388c5265ac9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2eb1bbec9dbbb2e1c77a4b42742dfafc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2eb1bbec9dbbb2e1c77a4b42742dfafc"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gab71e13d982b7e4d8c2564c904437ff2d">ESellLimit</a>)</td></tr>
+<tr class="separator:ga2eb1bbec9dbbb2e1c77a4b42742dfafc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga306a8277722c5720009010020a319ad8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga306a8277722c5720009010020a319ad8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga41d314252e265f4a28a315bb6e380e85">EJobLimit</a>)</td></tr>
+<tr class="separator:ga306a8277722c5720009010020a319ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae92bae0279ff63c153d4fb171692f833"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae92bae0279ff63c153d4fb171692f833"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga4b555d7a7ebc52560010b22e0a418156">ESexLimit</a>)</td></tr>
+<tr class="separator:gae92bae0279ff63c153d4fb171692f833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91414d481d609267118107ed1b3c2c11"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga91414d481d609267118107ed1b3c2c11"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gaf505f8437cad6872af879a896026f048">EEquipType</a>)</td></tr>
+<tr class="separator:ga91414d481d609267118107ed1b3c2c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd2834a8e8f17d604e4205656211c666"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabd2834a8e8f17d604e4205656211c666"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga00849f948d9825fe6aa8b087816797a1">EDrugSubClass</a>)</td></tr>
+<tr class="separator:gabd2834a8e8f17d604e4205656211c666"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95b1a8fa55d17959881688400f0cba13"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga95b1a8fa55d17959881688400f0cba13"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga8df9db346457ea1cd4450a1bc8890afd">EConsumeSubClass</a>)</td></tr>
+<tr class="separator:ga95b1a8fa55d17959881688400f0cba13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga62a872531689854c64e93171b8a841b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga62a872531689854c64e93171b8a841b1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga94152e1619438b26c12237e32b9e3506">ESkillBookSubClass</a>)</td></tr>
+<tr class="separator:ga62a872531689854c64e93171b8a841b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f7d018dac7b354e6cd649ab0fa9cf3b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1f7d018dac7b354e6cd649ab0fa9cf3b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga2f0bc84dc179a6fbb294912f011e0fff">EGemSubClass</a>)</td></tr>
+<tr class="separator:ga1f7d018dac7b354e6cd649ab0fa9cf3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a4b803bbde4eb443bbca8779bebef30"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6a4b803bbde4eb443bbca8779bebef30"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gaeba5e23a011a42e0fdd2827ccd8e88e1">EBufferSubClass</a>)</td></tr>
+<tr class="separator:ga6a4b803bbde4eb443bbca8779bebef30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga85aeea05be4d91a37d498170551de7b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga85aeea05be4d91a37d498170551de7b5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gad499d913ef3b82d72db03ae9766604db">EScrollSubClass</a>)</td></tr>
+<tr class="separator:ga85aeea05be4d91a37d498170551de7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga13230779d386b2d124709cce1e093dd1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga13230779d386b2d124709cce1e093dd1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga3354db37dce6ea14fc42a4af218a53ca">EEquipQuality</a>)</td></tr>
+<tr class="separator:ga13230779d386b2d124709cce1e093dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab1ed1e33900d381b39d96f1d8aae8b5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab1ed1e33900d381b39d96f1d8aae8b5a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga698a5c295756de1d4b88c379e97b76bd">EGemQuality</a>)</td></tr>
+<tr class="separator:gab1ed1e33900d381b39d96f1d8aae8b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb7e83b600847fb7bc6e74e79628b391"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadb7e83b600847fb7bc6e74e79628b391"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gac100d069a79ac59e61c15c3a6236be94">EItemExtremum</a>)</td></tr>
+<tr class="separator:gadb7e83b600847fb7bc6e74e79628b391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4d1176dc9f7184bd1fddf5def2e15c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae4d1176dc9f7184bd1fddf5def2e15c1"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga4c43f91a773bc7266d1a3ffa96962cdb">EBindType</a>)</td></tr>
+<tr class="separator:gae4d1176dc9f7184bd1fddf5def2e15c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadb9295686f50d600f75d9ca45ad5766d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadb9295686f50d600f75d9ca45ad5766d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga5545a54a6edd94b3e6e68d544d75e4cb">EItemAttrBindType</a>)</td></tr>
+<tr class="separator:gadb9295686f50d600f75d9ca45ad5766d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6fc344b8646ca8c5de1f69958d6b1e47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6fc344b8646ca8c5de1f69958d6b1e47"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#gaf24e97f2f758b1f63b1313411cf34fc4">EItemExtAttrType</a>)</td></tr>
+<tr class="separator:ga6fc344b8646ca8c5de1f69958d6b1e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga53e8cc00120bbf158cdda48854a27902"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga53e8cc00120bbf158cdda48854a27902"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DToStringDef</b> (<a class="el" href="a00152.html#ga9bdc569d8d1828a7b27cd3553731f995">EAwardType</a>)</td></tr>
+<tr class="separator:ga53e8cc00120bbf158cdda48854a27902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p>游戏逻辑中用到的枚举值 </p>
+<h2 class="groupheader">枚举类型说明</h2>
+<a class="anchor" id="ga3673934cc79251bb8d3b474a34c57312"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga3673934cc79251bb8d3b474a34c57312">EActionBan</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>行为禁止定义, 按位存储 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga3673934cc79251bb8d3b474a34c57312a51ccf9fc8b0cc4903c86639230a143aa"></a>ACTION_BAN_LIVE</em>&nbsp;</td><td class="fielddoc">
+<p>是否还活着 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3673934cc79251bb8d3b474a34c57312a5b24befde23e5ffb34ebd540306cf157"></a>ACTION_BAN_MOVE</em>&nbsp;</td><td class="fielddoc">
+<p>禁止移动 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3673934cc79251bb8d3b474a34c57312a0e475bb731347c992a962a4d6a4827dd"></a>ACTION_BAN_UNBE_ATTACK</em>&nbsp;</td><td class="fielddoc">
+<p>禁止被攻击 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3673934cc79251bb8d3b474a34c57312ac5eff704696839eb53af3a584928ca2b"></a>ACTION_BAN_ATTACK</em>&nbsp;</td><td class="fielddoc">
+<p>禁止攻击 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3673934cc79251bb8d3b474a34c57312a873629920ebe863a0450bb0e095824d3"></a>ACTION_BAN_USE_ITEM</em>&nbsp;</td><td class="fielddoc">
+<p>禁止使用物品 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3673934cc79251bb8d3b474a34c57312a7333a8dfcff1e5b99434fae3ff70f668"></a>ACTION_BAN_MAX</em>&nbsp;</td><td class="fielddoc">
+<p>最大数目 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gab9ba85af255b2a56911427c0dcf7b33d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gab9ba85af255b2a56911427c0dcf7b33d">EAddApproachObjectType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>添加追击怪物的类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggab9ba85af255b2a56911427c0dcf7b33da7ec5119518a9687cd5dcd105b76804ad"></a>ADD_APPROACH_MON_TYPE_DAMAGE</em>&nbsp;</td><td class="fielddoc">
+<p>受到伤害 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggab9ba85af255b2a56911427c0dcf7b33da2055919219095f326b1906aa7a8eb118"></a>ADD_APPROACH_MON_TYPE_SCAN</em>&nbsp;</td><td class="fielddoc">
+<p>扫描 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaaddf7ec855727e124cd35574c4c9c2ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gaaddf7ec855727e124cd35574c4c9c2ae">EAnnouncement</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>公告参数类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggaaddf7ec855727e124cd35574c4c9c2aea5006f5ef2c8637946a85fe9817b8b991"></a>ANNOUNCEMENT_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaaddf7ec855727e124cd35574c4c9c2aea857de62bb120265061d87d0218a56b82"></a>ANNOUNCEMENT_ROLE</em>&nbsp;</td><td class="fielddoc">
+<p>角色 名字 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaaddf7ec855727e124cd35574c4c9c2aea5c0e3d768bfc6506a5907a40f7ee67d3"></a>ANNOUNCEMENT_ITEM</em>&nbsp;</td><td class="fielddoc">
+<p>物品 ID|名字Key - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaaddf7ec855727e124cd35574c4c9c2aea746ffbebb6b9ae740a901c8a4d36aecb"></a>ANNOUNCEMENT_NUMBER</em>&nbsp;</td><td class="fielddoc">
+<p>数值 值 - 3 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gafaa773d9789f46ad5edd1c1b26073eff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gafaa773d9789f46ad5edd1c1b26073eff">EAnnouncementEvent</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>公告触发类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggafaa773d9789f46ad5edd1c1b26073effa1310b733812764a8948a833ef854fa72"></a>AET_SYS_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafaa773d9789f46ad5edd1c1b26073effa36802cdb7aec9fe0c6437bd1c9e7a55b"></a>AET_SYS_STOP</em>&nbsp;</td><td class="fielddoc">
+<p>系统维护 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafaa773d9789f46ad5edd1c1b26073effa8b54c743474861f98f1ed2d077a0afb4"></a>AET_GAME_NOTIY</em>&nbsp;</td><td class="fielddoc">
+<p>游戏提醒 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafaa773d9789f46ad5edd1c1b26073effa49d8272f34105ffc5b1bd37dc808fe8f"></a>AET_ROLE_LEVEL_UP</em>&nbsp;</td><td class="fielddoc">
+<p>达到等级 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafaa773d9789f46ad5edd1c1b26073effa79fc491c4ce7399c9228378b2b7af7cf"></a>AET_ROLE_VIP_UP</em>&nbsp;</td><td class="fielddoc">
+<p>达到VIP等级 - 4 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafaa773d9789f46ad5edd1c1b26073effa736a10de36000e377e8c2aa2786474dd"></a>AET_ROLE_GET_ITEM</em>&nbsp;</td><td class="fielddoc">
+<p>获得道具 - 5 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaa2ac470d083320b1c96e034ae1edf150"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gaa2ac470d083320b1c96e034ae1edf150">EAnnouncementSystem</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>公告系统类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggaa2ac470d083320b1c96e034ae1edf150a71bd1a25e9158abc105ccaa6ced7cbc4"></a>ANNOUNCEMENT_SYS_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaa2ac470d083320b1c96e034ae1edf150a3f570b9b1ab0305d34ae480a7cd7612a"></a>ANNOUNCEMENT_SYS_MALL</em>&nbsp;</td><td class="fielddoc">
+<p>商城购买 - 1 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gac6326291a38cbace3573bcfcdc322456"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gac6326291a38cbace3573bcfcdc322456">EAttackImpactType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>攻击效果类型(共16种类型) </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggac6326291a38cbace3573bcfcdc322456ae9f472ce0890c00b5d4f352b0472ca39"></a>INVALID_ATTACK_IMPACT_TYPE</em>&nbsp;</td><td class="fielddoc">
+<p>无效类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggac6326291a38cbace3573bcfcdc322456abe575cbc9d638587e346d35ac3849c3a"></a>ATTACK_IMPACT_TYPE_NORMAL</em>&nbsp;</td><td class="fielddoc">
+<p>正常攻击 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggac6326291a38cbace3573bcfcdc322456a224dc1a23c638f1eba151edbf5243af7"></a>ATTACK_IMPACT_TYPE_CRIT</em>&nbsp;</td><td class="fielddoc">
+<p>暴击 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggac6326291a38cbace3573bcfcdc322456a7e5fedb68aa0f4400b30ae3f1aeccf3b"></a>ATTACK_IMPACT_TYPE_DODGE</em>&nbsp;</td><td class="fielddoc">
+<p>闪避 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggac6326291a38cbace3573bcfcdc322456aea2c329e60e80dda752d2a90c477c7b7"></a>ATTACK_IMPACT_TYPE_HIT_DOUBLE</em>&nbsp;</td><td class="fielddoc">
+<p>连击 - 4 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggac6326291a38cbace3573bcfcdc322456a48f64f6f02fc297612e340ae6fe920e5"></a>ATTACK_IMPACT_TYPE_CONFUSION</em>&nbsp;</td><td class="fielddoc">
+<p>混乱 - 5 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggac6326291a38cbace3573bcfcdc322456a79275351d275035c44949299468fc7df"></a>ATTACK_IMPACT_TYPE_RAND_ATTACK_ROLE</em>&nbsp;</td><td class="fielddoc">
+<p>乱杀 - 6 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga3a3a81ef201962f125207c093beb7ecd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga3a3a81ef201962f125207c093beb7ecd">EAttributes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>属性枚举值定义 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecdaef52eba848fadb8f0993a0c87f0f1309"></a>ATTR_FIGHT_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecdae8abb8851fa804dc56edfe4d0a67fab3"></a>ATTR_MAX_HP</em>&nbsp;</td><td class="fielddoc">
+<p>最大生命 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda0870f00babd4c8c533ac354ad5fe4aff"></a>ATTR_CUR_HP</em>&nbsp;</td><td class="fielddoc">
+<p>当前生命 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda4fd3beadc626f382a4d5d0b722be83e2"></a>ATTR_MAX_ENERGY</em>&nbsp;</td><td class="fielddoc">
+<p>最大能量 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda501b4286810253b4db286b1c70f2c2d6"></a>ATTR_CUR_ENERGY</em>&nbsp;</td><td class="fielddoc">
+<p>当前能量 - 4 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda1e33905798a5db6a002624fa4201c6a6"></a>ATTR_POWER</em>&nbsp;</td><td class="fielddoc">
+<p>力量 - 5 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda16275c46169be0108d8eefd32b85f393"></a>ATTR_AGILITY</em>&nbsp;</td><td class="fielddoc">
+<p>敏捷 - 6 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda5228ab4acc12973dc14ce9454a77da5f"></a>ATTR_WISDOM</em>&nbsp;</td><td class="fielddoc">
+<p>智力 - 7 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda7bb038cce08afa45a19c00997aa0fd92"></a>ATTR_STRENGTH</em>&nbsp;</td><td class="fielddoc">
+<p>体力 - 9 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda19e02ea129e09f9f77b802d240622b94"></a>ATTR_ATTACK</em>&nbsp;</td><td class="fielddoc">
+<p>攻击力 - 10 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda778960065e1a3309044df114a79a643d"></a>ATTR_SKILL_ATTACK</em>&nbsp;</td><td class="fielddoc">
+<p>技能攻击力 - 11 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda128a8887a466910b4bd9bde05e359541"></a>ATTR_DAMAGE</em>&nbsp;</td><td class="fielddoc">
+<p>额外伤害 - 12 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda02d2232327834cdd212dca24d22a3fdd"></a>ATTR_DEFENSE</em>&nbsp;</td><td class="fielddoc">
+<p>防御力 - 13 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda71c265c1e0702c0eb97375c863bde925"></a>ATTR_DAMAGE_REDUCE</em>&nbsp;</td><td class="fielddoc">
+<p>伤害减免 - 14 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda40b85241dc82cd9c34bbfcbf4c294804"></a>ATTR_MOVE_SPEED</em>&nbsp;</td><td class="fielddoc">
+<p>移动速度 - 15 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda715974a921c52260f7110fc0ace35d00"></a>ATTR_CRIT</em>&nbsp;</td><td class="fielddoc">
+<p>暴击值 - 16 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecdaf4eda2ecc12cbcd83f79f989295cf58e"></a>ATTR_DODGE</em>&nbsp;</td><td class="fielddoc">
+<p>闪避 - 17 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda28f11393fcd3876b876e9d132aab7723"></a>ATTR_ATTACK_RANGE</em>&nbsp;</td><td class="fielddoc">
+<p>攻击距离 - 20 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda6a1d66647fbb9ea22098f5b5601f8718"></a>ATTR_ATTACK_SPEED</em>&nbsp;</td><td class="fielddoc">
+<p>攻击速度 - 21 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecdad87cf094024ae40653a3b8415a584737"></a>ATTR_EXP</em>&nbsp;</td><td class="fielddoc">
+<p>经验 - 22 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda34aca141760c184f635dc6b40be432f3"></a>ATTR_MONEY</em>&nbsp;</td><td class="fielddoc">
+<p>金钱 - 23 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda95ba46981456123aaa4fe05aff2119a8"></a>ATTR_RMB</em>&nbsp;</td><td class="fielddoc">
+<p>元宝 - 24 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda71245d2b20e0c1a5031373aa8e34386d"></a>ATTR_CHAR_CURR_MAX</em>&nbsp;</td><td class="fielddoc">
+<p>策划可配置的最大属性 - 49 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda6b905c0504de7a0c8175fed771d24a0f"></a>ATTR_LEVEL</em>&nbsp;</td><td class="fielddoc">
+<p>等级 - 50 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda39f69596db1b26cbc64d01df3c8372ad"></a>ATTR_VIP_LEVEL</em>&nbsp;</td><td class="fielddoc">
+<p>vip等级 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecda66f78e70c7ccd7521f423747738dcb98"></a>ATTR_VIP_EXP</em>&nbsp;</td><td class="fielddoc">
+<p>vip经验 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3a3a81ef201962f125207c093beb7ecdaf5bf759241263e29837390066cce7573"></a>ATTR_MAX_EXP</em>&nbsp;</td><td class="fielddoc">
+<p>经验最大值 - 62 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga9bdc569d8d1828a7b27cd3553731f995"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga9bdc569d8d1828a7b27cd3553731f995">EAwardType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>奖励类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga9bdc569d8d1828a7b27cd3553731f995a381413c9959e704e4da2b00374a188ee"></a>AWARD_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效奖励类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga9bdc569d8d1828a7b27cd3553731f995ad4ada070225954744135679514562d94"></a>AWARD_EXP</em>&nbsp;</td><td class="fielddoc">
+<p>经验 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga9bdc569d8d1828a7b27cd3553731f995a423caaa9dab48d58973ae92bcb85d5c4"></a>AWARD_MONEY</em>&nbsp;</td><td class="fielddoc">
+<p>游戏币 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga9bdc569d8d1828a7b27cd3553731f995ac5f123adfdf9b48d31e3b8c4ed5b4c9f"></a>AWARD_RMB</em>&nbsp;</td><td class="fielddoc">
+<p>元宝 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga9bdc569d8d1828a7b27cd3553731f995a7feffa852525982a896a359e3daa7cea"></a>AWARD_BIND_RMB</em>&nbsp;</td><td class="fielddoc">
+<p>绑定元宝 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga9bdc569d8d1828a7b27cd3553731f995a914ce561b3b224c83eb80491c2fb305d"></a>AWARD_ITEM</em>&nbsp;</td><td class="fielddoc">
+<p>物品 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga876145fd8d8b2e27420cebeb6b06e75c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga876145fd8d8b2e27420cebeb6b06e75c">EBagOperateType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>背包操作类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga876145fd8d8b2e27420cebeb6b06e75cab01d69dd9664b7b6826e43001b23294d"></a>BAG_OPERATE_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效操作类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga876145fd8d8b2e27420cebeb6b06e75ca0149d216cc1bb278e83b94a56c290e43"></a>BAG_OPERATE_TYPE_DROP</em>&nbsp;</td><td class="fielddoc">
+<p>丢弃 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga876145fd8d8b2e27420cebeb6b06e75ca316e0e6d4995f8ad8f953975fd5a1476"></a>BAG_OPERATE_TYPE_USE</em>&nbsp;</td><td class="fielddoc">
+<p>使用 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga876145fd8d8b2e27420cebeb6b06e75cacab229a140d67ea4aa8c2cd837a11f28"></a>BAG_OPERATE_TYPE_SELL</em>&nbsp;</td><td class="fielddoc">
+<p>出售 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga876145fd8d8b2e27420cebeb6b06e75ca695f46537470e13ac226a349383eda1a"></a>BAG_OPERATE_TYPE_PACK_UP</em>&nbsp;</td><td class="fielddoc">
+<p>整理 - 4 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga876145fd8d8b2e27420cebeb6b06e75ca6820c11341ffdbf64027b5c7c79aca10"></a>BAG_OPERATE_TYPE_REQ_ALL</em>&nbsp;</td><td class="fielddoc">
+<p>请求背包所有道具 - 5 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga4c43f91a773bc7266d1a3ffa96962cdb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga4c43f91a773bc7266d1a3ffa96962cdb">EBindType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>绑定类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga4c43f91a773bc7266d1a3ffa96962cdba76e7ac9f548ea8c8c9d9f9558dc3eee9"></a>BIND_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效的绑定 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga4c43f91a773bc7266d1a3ffa96962cdba4c13beca0abd7b489fdcf78e86539869"></a>BIND_TYPE_UNBIND</em>&nbsp;</td><td class="fielddoc">
+<p>非绑定 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga4c43f91a773bc7266d1a3ffa96962cdbaea45bd3b3d6f9e56370f041134895bf2"></a>BIND_TYPE_BIND</em>&nbsp;</td><td class="fielddoc">
+<p>绑定 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga4c43f91a773bc7266d1a3ffa96962cdbab79fe69253957bf57f710fe67e6bbbbf"></a>BIND_TYPE_EQUIP</em>&nbsp;</td><td class="fielddoc">
+<p>装备绑定 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga34e01f09e856f3b2842a258f2074b5fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga34e01f09e856f3b2842a258f2074b5fe">EBuffEffectType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Buffer效果类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga34e01f09e856f3b2842a258f2074b5fea20c71404d5b211008447cbaac9663350"></a>BUFF_EFFECT_TYPE_ADD_HPMP</em>&nbsp;</td><td class="fielddoc">
+<p>添加HP和MP的 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga34e01f09e856f3b2842a258f2074b5fea839171c2fc7c63699756649b4f92c899"></a>BUFF_EFFECT_TYPE_ADD_EXTRA_ATTR</em>&nbsp;</td><td class="fielddoc">
+<p>添加其他属性 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga34e01f09e856f3b2842a258f2074b5feada8ac29cbbefdb7f924742bab72f8846"></a>BUFF_EFFECT_TYPE_ADD_EXP</em>&nbsp;</td><td class="fielddoc">
+<p>经验卡 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga34e01f09e856f3b2842a258f2074b5feaa90f4253bfc5b675f8c4b3ab4faf2d2f"></a>MAX_BUFF_EFFECT_TYPE_NUM</em>&nbsp;</td><td class="fielddoc">
+<p>最大数目 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaeba5e23a011a42e0fdd2827ccd8e88e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gaeba5e23a011a42e0fdd2827ccd8e88e1">EBufferSubClass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Buffer. </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggaeba5e23a011a42e0fdd2827ccd8e88e1a6aafd0e1e74fc80ae980d29047281c7b"></a>BUFF_SUB_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaeba5e23a011a42e0fdd2827ccd8e88e1a8afb6c79952d4111f51aacfe6300bb18"></a>BUFF_SUB_ITEM</em>&nbsp;</td><td class="fielddoc">
+<p>buff丹 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaeba5e23a011a42e0fdd2827ccd8e88e1a80ff9d2b0875f3c252070657ec2c8118"></a>BUFF_SUB_ROLE_HP</em>&nbsp;</td><td class="fielddoc">
+<p>人物红球 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaeba5e23a011a42e0fdd2827ccd8e88e1a97f324800ee9ec3500ad2d0a983d31ab"></a>BUFF_SUB_ROLE_MP</em>&nbsp;</td><td class="fielddoc">
+<p>人物蓝球 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaeba5e23a011a42e0fdd2827ccd8e88e1a434356dbb964729711620a38cfc5a9fc"></a>BUFF_SUB_PET_HP</em>&nbsp;</td><td class="fielddoc">
+<p>宠物红球 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaeba5e23a011a42e0fdd2827ccd8e88e1a7fb3f76245e191b376904da2713e8f3f"></a>BUFF_SUB_ROLE_EXP</em>&nbsp;</td><td class="fielddoc">
+<p>人物加倍经验卡 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaeba5e23a011a42e0fdd2827ccd8e88e1a4795753757849f00e55a009d7aecd24c"></a>BUFF_SUB_ROLE_GOLD</em>&nbsp;</td><td class="fielddoc">
+<p>人物加倍银子卡 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gafda2e63e3215d363a924058cfdcd5c76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gafda2e63e3215d363a924058cfdcd5c76">EBuffEventFlag</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Buff事件 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggafda2e63e3215d363a924058cfdcd5c76a738ae04f050897764deffef345128739"></a>BUFF_EVENT_FLAG_DIE</em>&nbsp;</td><td class="fielddoc">
+<p>死亡 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafda2e63e3215d363a924058cfdcd5c76a21761f8a0190ea159f2a1454e13fa2a6"></a>BUFF_EVENT_FLAG_HURT</em>&nbsp;</td><td class="fielddoc">
+<p>受伤 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafda2e63e3215d363a924058cfdcd5c76aaf6fc70a701d4a088cd6861e1b4ec855"></a>BUFF_EVENT_FLAG_MP_DES</em>&nbsp;</td><td class="fielddoc">
+<p>MP减少 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafda2e63e3215d363a924058cfdcd5c76a6d839f6c2cffb4b3c9eca28ac62a6de8"></a>BUFF_EVENT_FLAG_FORCE_HATE</em>&nbsp;</td><td class="fielddoc">
+<p>吸收仇恨 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafda2e63e3215d363a924058cfdcd5c76a4cde8df71c56299a7bdbd37ad64e613d"></a>BUFF_EVENT_FLAG_REFLECT</em>&nbsp;</td><td class="fielddoc">
+<p>反弹 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafda2e63e3215d363a924058cfdcd5c76afed4bee7b55995aa3cde43ebcd85ae8f"></a>BUFF_EVENT_FLAG_SLEEP</em>&nbsp;</td><td class="fielddoc">
+<p>睡眠 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafda2e63e3215d363a924058cfdcd5c76a68c0619ee099ce9a384bf449b5b9c848"></a>BUFF_EVENT_FLAG_STOP</em>&nbsp;</td><td class="fielddoc">
+<p>定身 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafda2e63e3215d363a924058cfdcd5c76ac8ccf9ae38cc88e1e22723403655c1b9"></a>BUFF_EVENT_FLAG_DIZZ</em>&nbsp;</td><td class="fielddoc">
+<p>眩晕 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafda2e63e3215d363a924058cfdcd5c76a8d60304a069f464d2338e22ecc6e463a"></a>BUFF_EVENT_FLAG_NUM</em>&nbsp;</td><td class="fielddoc">
+<p>最大数目 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga6db921321505a1a710ca8e276d542277"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga6db921321505a1a710ca8e276d542277">EBuffExistType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Buffer共存关系 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga6db921321505a1a710ca8e276d542277a5a71a84b2dc164a018e7a0685c096772"></a>BUFF_EXIST_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga6db921321505a1a710ca8e276d542277aecc415fa96a9e63d7c29a013457d43fb"></a>BUFF_EXIST_TYPE_EXIST</em>&nbsp;</td><td class="fielddoc">
+<p>共存 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga6db921321505a1a710ca8e276d542277a6b18022df01f253587ede0c9e735a4c0"></a>BUFF_EXIST_TYPE_REPLACE</em>&nbsp;</td><td class="fielddoc">
+<p>覆盖 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga6db921321505a1a710ca8e276d542277a55b3dd6a8c54ae4fb6a7f420e39f37c8"></a>BUFF_EXIST_TYPE_OVERLIING</em>&nbsp;</td><td class="fielddoc">
+<p>叠加 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga6db921321505a1a710ca8e276d542277ab1b741fe45603e6475b280f6c8b3db5c"></a>BUFF_EXIST_TYPE_IGNORE</em>&nbsp;</td><td class="fielddoc">
+<p>不生效 - 3 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga48de9d4ecaa56525e6ff47db5ec930e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga48de9d4ecaa56525e6ff47db5ec930e2">EBuffLastType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Buffer持续类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga48de9d4ecaa56525e6ff47db5ec930e2a9944a0aa2369a1905caffcdde00177ea"></a>BUFF_LAST_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga48de9d4ecaa56525e6ff47db5ec930e2aa2fa305b9fefee52344da10c571e8b9c"></a>BUFF_LAST_TYPE_ABSOLUTE</em>&nbsp;</td><td class="fielddoc">
+<p>绝对 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga48de9d4ecaa56525e6ff47db5ec930e2a7468150111e85b42e9487ee2a22b2644"></a>BUFF_LAST_TYPE_OPPOSITE</em>&nbsp;</td><td class="fielddoc">
+<p>相对 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga48de9d4ecaa56525e6ff47db5ec930e2afe9a4a8bafb4cbfe2cb85ace5cdee8c8"></a>BUFF_LAST_TYPE_PERMANENT</em>&nbsp;</td><td class="fielddoc">
+<p>永久 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga48de9d4ecaa56525e6ff47db5ec930e2a9d8426568abed9ff85452d9b6c4be299"></a>BUFF_LAST_TYPE_COUNT</em>&nbsp;</td><td class="fielddoc">
+<p>计数 - 4 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga28a4b98d6db79ef8882cbb3743f069c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga28a4b98d6db79ef8882cbb3743f069c9">EBuffType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Buffer类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga28a4b98d6db79ef8882cbb3743f069c9ae51ea6975679c91d5c540573594a554d"></a>INVALID_BUFF_TYPE</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga28a4b98d6db79ef8882cbb3743f069c9aaac96ff7b89adb989841c38db3c1d9d9"></a>BUFF_TYPE_SKILL</em>&nbsp;</td><td class="fielddoc">
+<p>技能 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga28a4b98d6db79ef8882cbb3743f069c9ab9941414fe7062645bb2a1a6aab4a353"></a>BUFF_TYPE_ITEM</em>&nbsp;</td><td class="fielddoc">
+<p>物品 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga28a4b98d6db79ef8882cbb3743f069c9a0babfefc6b974e4751f17532eafff364"></a>BUFF_TYPE_PASSIVE_SKILL</em>&nbsp;</td><td class="fielddoc">
+<p>被动技能 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga09f89f6586283afd0562cc46303e391a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga09f89f6586283afd0562cc46303e391a">ECharacterLogic</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>对象逻辑 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga09f89f6586283afd0562cc46303e391aa039eb584ed282930464bb41677da90c2"></a>CHARACTER_LOGIC_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效的 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga09f89f6586283afd0562cc46303e391aa07902cddd3978dc0e19b7f5ce7965b8d"></a>CHARACTER_LOGIC_IDLE</em>&nbsp;</td><td class="fielddoc">
+<p>空闲 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga09f89f6586283afd0562cc46303e391aa1a4693fab56ad204fe6b8ecca47a1cc4"></a>CHARACTER_LOGIC_MOVE</em>&nbsp;</td><td class="fielddoc">
+<p>移动 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga09f89f6586283afd0562cc46303e391aa58dc177a1e30beb9a4d7f731e5a40677"></a>CHARACTER_LOGIC_DEAD</em>&nbsp;</td><td class="fielddoc">
+<p>死亡 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga09f89f6586283afd0562cc46303e391aa6079f8dbc95bc0b7b9539f7e943069e3"></a>CHARACTER_LOGIC_NUMBERS</em>&nbsp;</td><td class="fielddoc">
+<p>最大数目 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gafff81d42932d491ce38062ef6c5fe8d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gafff81d42932d491ce38062ef6c5fe8d6">EChatChannel</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>聊天频道 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggafff81d42932d491ce38062ef6c5fe8d6a54ded7472605db4a27002712a15bdb78"></a>CHANNEL_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>非法频道 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafff81d42932d491ce38062ef6c5fe8d6a1292807ef0ede00d26b24dca73e2afb4"></a>CHAT_CHANNEL_WORLD</em>&nbsp;</td><td class="fielddoc">
+<p>世界频道 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafff81d42932d491ce38062ef6c5fe8d6ab4646cf20d3744c7138cea0a3e312d15"></a>CHAT_CHANNEL_FACTION</em>&nbsp;</td><td class="fielddoc">
+<p>帮派频道 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafff81d42932d491ce38062ef6c5fe8d6a3c4ce21809c2c259d7ae9fa8075c343f"></a>CHAT_CHANNEL_PRIVATE</em>&nbsp;</td><td class="fielddoc">
+<p>私聊频道 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafff81d42932d491ce38062ef6c5fe8d6a39f91c3dd50b1f62adeb187472551107"></a>CHAT_CHANNEL_SYSTEM</em>&nbsp;</td><td class="fielddoc">
+<p>系统频道 - 4 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafff81d42932d491ce38062ef6c5fe8d6a788b42f9cc7c38a16b7c670e78e2ed04"></a>CHAT_CHANNEL_GM</em>&nbsp;</td><td class="fielddoc">
+<p>GM频道 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga8b06d620f7cabdbe7e3118c7389d3837"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga8b06d620f7cabdbe7e3118c7389d3837">ECombatStateType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>战斗状态 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga8b06d620f7cabdbe7e3118c7389d3837af684c73e852bfc01537cc2755efb8e39"></a>COMBAT_STATE_TYPE_START</em>&nbsp;</td><td class="fielddoc">
+<p>战斗开始 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8b06d620f7cabdbe7e3118c7389d3837ae4251c2b461fc10ad27042281e5c99f5"></a>COMBAT_STATE_TYPE_END</em>&nbsp;</td><td class="fielddoc">
+<p>战斗结束 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga8df9db346457ea1cd4450a1bc8890afd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga8df9db346457ea1cd4450a1bc8890afd">EConsumeSubClass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>消耗 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga8df9db346457ea1cd4450a1bc8890afda92fa1f6adc9bf516ffd0cd5d3e02940d"></a>CONSUME_SUB_CLASS_TASK</em>&nbsp;</td><td class="fielddoc">
+<p>任务道具 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8df9db346457ea1cd4450a1bc8890afdafb4d80b636d5f3ff0e49743fa3f16833"></a>CONSUME_SUB_CLASS_RELIVE</em>&nbsp;</td><td class="fielddoc">
+<p>复活令 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8df9db346457ea1cd4450a1bc8890afdad174b271deeb90e6318856f038550be4"></a>CONSUME_SUB_CLASS_HORN</em>&nbsp;</td><td class="fielddoc">
+<p>小喇叭 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8df9db346457ea1cd4450a1bc8890afdae7039240114ad8caaeed4c468212e4f7"></a>CONSUME_SUB_CLASS_FLY_SHOES</em>&nbsp;</td><td class="fielddoc">
+<p>小飞鞋 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8df9db346457ea1cd4450a1bc8890afdac984f0fa5c99e2633b26bdcb31fd528c"></a>CONSUME_SUB_CLASS_TAN_HE_LING</em>&nbsp;</td><td class="fielddoc">
+<p>弹劾令 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8df9db346457ea1cd4450a1bc8890afda3602bbe87d65f04a72bf0a5a7241b80b"></a>CONSUME_SUB_CLASS_TONG_YA_LING</em>&nbsp;</td><td class="fielddoc">
+<p>通涯令 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8df9db346457ea1cd4450a1bc8890afdab2815973166ad71477494185bf71906e"></a>CONSUME_SUB_CLASS_TRAVEL_CARD</em>&nbsp;</td><td class="fielddoc">
+<p>环游卡 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8df9db346457ea1cd4450a1bc8890afdaf2923db75657a13373a12f41f7669963"></a>CONSUME_SUB_CLASS_CROP</em>&nbsp;</td><td class="fielddoc">
+<p>种子 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8df9db346457ea1cd4450a1bc8890afda5b5cbb45826382c2f81711d3dc0eb086"></a>CONSUME_SUB_CLASS_SHOVEL</em>&nbsp;</td><td class="fielddoc">
+<p>铲子 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaf60af7e4d0a9359b23b100f5fa7f4364"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gaf60af7e4d0a9359b23b100f5fa7f4364">EDelApproachObjectType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>删除追击怪物的类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggaf60af7e4d0a9359b23b100f5fa7f4364a0a03609fbcce872122ffaf539477be93"></a>DEL_APPROACH_MON_TYPE_DIE</em>&nbsp;</td><td class="fielddoc">
+<p>追击者死亡 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf60af7e4d0a9359b23b100f5fa7f4364a68fce143cd42bc975518f7f2301026a7"></a>DEL_APPROACH_MON_TYPE_MY_DIE</em>&nbsp;</td><td class="fielddoc">
+<p>被追击者死亡 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf60af7e4d0a9359b23b100f5fa7f4364a2c80b948fd7a7c460d9ae9faf2adae00"></a>DEL_APPROACH_MON_TYPE_DROP</em>&nbsp;</td><td class="fielddoc">
+<p>放弃 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga3ed12e1cc5c61b7a4bdf6bb6b80eb79e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga3ed12e1cc5c61b7a4bdf6bb6b80eb79e">EDir</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>方向 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga3ed12e1cc5c61b7a4bdf6bb6b80eb79eaaeda81e488976126d8037cbd0050e3ac"></a>DIR_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效的 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3ed12e1cc5c61b7a4bdf6bb6b80eb79eafee0b215acdd8067ba596762e3f34df5"></a>DIR_0</em>&nbsp;</td><td class="fielddoc">
+<p>北, 其余按顺时针递增 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea74008427b7b088e9516e32b67e46711d"></a>DIR_1</em>&nbsp;</td><td class="fielddoc">
+<p>东北 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea085722752bcd7b984078f425b01a1ca0"></a>DIR_2</em>&nbsp;</td><td class="fielddoc">
+<p>东 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3ed12e1cc5c61b7a4bdf6bb6b80eb79eaf97a78a5014b7c1945a752216a166ca9"></a>DIR_3</em>&nbsp;</td><td class="fielddoc">
+<p>东南 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3ed12e1cc5c61b7a4bdf6bb6b80eb79eac49f9ac9711fa1ee1d60dc505d8790b0"></a>DIR_4</em>&nbsp;</td><td class="fielddoc">
+<p>南 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea2b1a84f8793dc9c48777e03d8457c60e"></a>DIR_5</em>&nbsp;</td><td class="fielddoc">
+<p>西南 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea93003e8cfbdc255f06c4576f97460c41"></a>DIR_6</em>&nbsp;</td><td class="fielddoc">
+<p>西 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3ed12e1cc5c61b7a4bdf6bb6b80eb79ea6ce2446c581ed83960a9204f3dfc4d26"></a>DIR_7</em>&nbsp;</td><td class="fielddoc">
+<p>西北 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga7ccb8338a76494c89c4a4569dfc98775"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga7ccb8338a76494c89c4a4569dfc98775">EDir2</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>方向 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga7ccb8338a76494c89c4a4569dfc98775a97ad978494db965567634ca90eaad46f"></a>DIR2_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效值 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7ccb8338a76494c89c4a4569dfc98775aecc62d2dc89746376a0ef908e6d86cd3"></a>DIR2_LEFT</em>&nbsp;</td><td class="fielddoc">
+<p>左 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7ccb8338a76494c89c4a4569dfc98775a0c7b71e63ab34d64b4c6e68f58d268bc"></a>DIR2_RIGHT</em>&nbsp;</td><td class="fielddoc">
+<p>右 - 2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga00849f948d9825fe6aa8b087816797a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga00849f948d9825fe6aa8b087816797a1">EDrugSubClass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>药品子类 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga00849f948d9825fe6aa8b087816797a1a321d48c32e1aafe53a4496527023b59e"></a>DRUG_SUB_CLASS_HP</em>&nbsp;</td><td class="fielddoc">
+<p>人物红 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga00849f948d9825fe6aa8b087816797a1a98f871ec7323c2b65081b02832d2b84c"></a>DRUG_SUB_CLASS_MP</em>&nbsp;</td><td class="fielddoc">
+<p>人物蓝 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga00849f948d9825fe6aa8b087816797a1a6397d2c2b042492eee845d797a1ec59e"></a>DRUG_SUB_CLASS_PET_HP</em>&nbsp;</td><td class="fielddoc">
+<p>宠物红 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga3354db37dce6ea14fc42a4af218a53ca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga3354db37dce6ea14fc42a4af218a53ca">EEquipQuality</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>装备品质 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga3354db37dce6ea14fc42a4af218a53caa404dc0b056209db963b5de40fd4bfcb0"></a>EQUIP_QUALITY_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3354db37dce6ea14fc42a4af218a53caa62a68ac63e51ea6f45e5bac3dc8bae57"></a>EQUIP_QUALITY_WRITE</em>&nbsp;</td><td class="fielddoc">
+<p>白色装备 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3354db37dce6ea14fc42a4af218a53caae445b3b07db3faf73e97a7d2c6959991"></a>EQUIP_QUALITY_GREEN</em>&nbsp;</td><td class="fielddoc">
+<p>绿色装备 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3354db37dce6ea14fc42a4af218a53caa1e440b6e2e8ea0a8ee6a9c569964773e"></a>EQUIP_QUALITY_BLUE</em>&nbsp;</td><td class="fielddoc">
+<p>蓝色装备 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3354db37dce6ea14fc42a4af218a53caa18c28bdaa8dab9bd2cdc547eed8f0d5f"></a>EQUIP_QUALITY_PURPLE</em>&nbsp;</td><td class="fielddoc">
+<p>紫色装备 - 4 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaf505f8437cad6872af879a896026f048"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gaf505f8437cad6872af879a896026f048">EEquipType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>装备子类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048aea21d39a0dce42f6d44c07061917c392"></a>EQUIP_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效位置 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048ab8c90cf5ab5aaa47d93db53e4e4ec674"></a>EQUIP_TYPE_START</em>&nbsp;</td><td class="fielddoc">
+<p>开始装备 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048aecc6dd91436e897cefeb86e626b5e80a"></a>EQUIP_TYPE_ARM</em>&nbsp;</td><td class="fielddoc">
+<p>武器 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048ad63c8089146a7107074a6dbc7425b040"></a>EQUIP_TYPE_ARMET</em>&nbsp;</td><td class="fielddoc">
+<p>头盔 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048a4c00c29dd56ba3212f179fea12a5af01"></a>EQUIP_TYPE_SHOULDER</em>&nbsp;</td><td class="fielddoc">
+<p>护肩 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048aaa1167f70aa93554b5760e47c3908e51"></a>EQUIP_TYPE_ARMOR</em>&nbsp;</td><td class="fielddoc">
+<p>护甲 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048aabef0ee0c61dac7d4161903e2ed5adbb"></a>EQUIP_TYPE_BELT</em>&nbsp;</td><td class="fielddoc">
+<p>腰带 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048aea06e199e058b55d8a6cfc55f8467d0d"></a>EQUIP_TYPE_LEG</em>&nbsp;</td><td class="fielddoc">
+<p>护腿 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048a897ee8985018afcfdf348cc5deb819d2"></a>EQUIP_TYPE_BOOTS</em>&nbsp;</td><td class="fielddoc">
+<p>靴子 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048a1ab361150faee5df21ffbf18954fd147"></a>EQUIP_TYPE_NECKLACE</em>&nbsp;</td><td class="fielddoc">
+<p>项链 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048a547cb24b76a7834c0ed1054db985cf00"></a>EQUIP_TYPE_GALLUS</em>&nbsp;</td><td class="fielddoc">
+<p>吊坠 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048a62a21651d24200f51e3cbd7e4dc336bb"></a>EQUIP_TYPE_RING</em>&nbsp;</td><td class="fielddoc">
+<p>戒指 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048a4c58ba6822ade7efe13d5a9d9b1b1bfd"></a>EQUIP_TYPE_WRIST</em>&nbsp;</td><td class="fielddoc">
+<p>护腕 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048a7356df88bde0d6b7dfeb53531ebea39e"></a>EQUIP_TYPE_GLOVE</em>&nbsp;</td><td class="fielddoc">
+<p>手套 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048a95d51aa6d77a16efdac83bdfbd3d899d"></a>EQUIP_TYPE_FASHION</em>&nbsp;</td><td class="fielddoc">
+<p>时装 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048a66112200c65f8e0807fa27f564c03952"></a>EQUIP_TYPE_NUMBER</em>&nbsp;</td><td class="fielddoc">
+<p>装备类型数目 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf505f8437cad6872af879a896026f048afe19fb5e06121fc566735cdfbb887b37"></a>EQUIP_TYPE_POS_NUM</em>&nbsp;</td><td class="fielddoc">
+<p>装备位置总数 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga6f03a55b55fff20a26d19583eed08ddc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga6f03a55b55fff20a26d19583eed08ddc">EFightType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>战斗类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga6f03a55b55fff20a26d19583eed08ddcaa7aa625d9113fd2a558243c0b7aef355"></a>FIGHT_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效值 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga6f03a55b55fff20a26d19583eed08ddcaa8dfcb615cfd7aa391dca15a9d2ab77c"></a>FIGHT_TYPE_CHAPTER</em>&nbsp;</td><td class="fielddoc">
+<p>关卡 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga6f03a55b55fff20a26d19583eed08ddca404f850e2721cf414009f35c014be2f1"></a>FIGHT_TYPE_CHALLENGE_OTHER</em>&nbsp;</td><td class="fielddoc">
+<p>挑战其他玩家 - 2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gadcf4b3fc74170a7e5148cef212f2bc0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gadcf4b3fc74170a7e5148cef212f2bc0c">EFindEmptyPosType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>查找空坐标类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggadcf4b3fc74170a7e5148cef212f2bc0ca510c401b972b96064982bb9b15769a83"></a>FIND_EMPTY_POS_TYPE_LEFT</em>&nbsp;</td><td class="fielddoc">
+<p>左 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggadcf4b3fc74170a7e5148cef212f2bc0cac652bd2fe82538018cf48ad7100cd081"></a>FIND_EMPTY_POS_TYPE_MID</em>&nbsp;</td><td class="fielddoc">
+<p>中(先搜中间再搜两边) </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggadcf4b3fc74170a7e5148cef212f2bc0ca0bdbfe77c9ea770a0dedc46fec6a2e51"></a>FIND_EMPTY_POS_TYPE_MID_LEFT</em>&nbsp;</td><td class="fielddoc">
+<p>中左 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggadcf4b3fc74170a7e5148cef212f2bc0cad13accb7290a57dd8b887e90476aa0ff"></a>FIND_EMPTY_POS_TYPE_MID_RIGHT</em>&nbsp;</td><td class="fielddoc">
+<p>中右 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggadcf4b3fc74170a7e5148cef212f2bc0cae2edcf80ef1f4a67225cfff25290cafd"></a>FIND_EMPTY_POS_TYPE_RIGHT</em>&nbsp;</td><td class="fielddoc">
+<p>右 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga698a5c295756de1d4b88c379e97b76bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga698a5c295756de1d4b88c379e97b76bd">EGemQuality</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>宝石品质 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga698a5c295756de1d4b88c379e97b76bda0ada484e0850f1a16ad06dc2a72a0ac6"></a>GEM_QUALITY_ONE</em>&nbsp;</td><td class="fielddoc">
+<p>一级宝石 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga698a5c295756de1d4b88c379e97b76bda9fa012d756f355ec25dfd78744928d18"></a>GEM_QUALITY_TWO</em>&nbsp;</td><td class="fielddoc">
+<p>二级宝石 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga698a5c295756de1d4b88c379e97b76bda466ba40663339762d0698d7397a424f2"></a>GEM_QUALITY_THR</em>&nbsp;</td><td class="fielddoc">
+<p>三级宝石 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga698a5c295756de1d4b88c379e97b76bda85916dce5c89c2b4afba231a8618a7c4"></a>GEM_QUALITY_FOUR</em>&nbsp;</td><td class="fielddoc">
+<p>四级宝石 - 4 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga698a5c295756de1d4b88c379e97b76bda1240f3dda80afa4f61d867ac986f9d55"></a>GEM_QUALITY_FIVE</em>&nbsp;</td><td class="fielddoc">
+<p>五级宝石 - 5 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga698a5c295756de1d4b88c379e97b76bda2ec81badda6036895d37b0a70435414b"></a>GEM_QUALITY_SIX</em>&nbsp;</td><td class="fielddoc">
+<p>六级宝石 - 6 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga698a5c295756de1d4b88c379e97b76bda132cf58c709dc62877575ce862d87d26"></a>GEM_QUALITY_NUMBER</em>&nbsp;</td><td class="fielddoc">
+<p>品质总数 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga2f0bc84dc179a6fbb294912f011e0fff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga2f0bc84dc179a6fbb294912f011e0fff">EGemSubClass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>宝石 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga2f0bc84dc179a6fbb294912f011e0fffaca7b0e1e12862b0cd8ef7147c6c442f4"></a>GEM_SUB_CLASS_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga2f0bc84dc179a6fbb294912f011e0fffa2384c99dce9935bbca9e68ef25970aaa"></a>GEM_SUB_CLASS_INLAY</em>&nbsp;</td><td class="fielddoc">
+<p>镶嵌 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga2f0bc84dc179a6fbb294912f011e0fffa989a95a856e951da76e0b9ce6ff1156f"></a>GEM_SUB_CLASS_WASH</em>&nbsp;</td><td class="fielddoc">
+<p>洗练 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga2f0bc84dc179a6fbb294912f011e0fffa8f1aee30299a62f8b2ad9312f8a52a91"></a>GEM_SUB_CLASS_RISE_STAR</em>&nbsp;</td><td class="fielddoc">
+<p>升星石 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga2f0bc84dc179a6fbb294912f011e0fffae84a73f6d57fccae2b67415c18f822cb"></a>GEM_SUB_CLASS_ATTR</em>&nbsp;</td><td class="fielddoc">
+<p>属性石 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga2f0bc84dc179a6fbb294912f011e0fffa9ed6b6469e316aa6e219eb4ea6c02684"></a>GEM_SUB_CLASS_GROW_UP</em>&nbsp;</td><td class="fielddoc">
+<p>成长石 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga2f0bc84dc179a6fbb294912f011e0fffafa283af9f25f98369cfc39cf75186917"></a>GEM_SUB_CLASS_LOCK_ATTR</em>&nbsp;</td><td class="fielddoc">
+<p>属性锁 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga5545a54a6edd94b3e6e68d544d75e4cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga5545a54a6edd94b3e6e68d544d75e4cb">EItemAttrBindType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>物品绑定类型, 不允许修改 ！！！ </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga5545a54a6edd94b3e6e68d544d75e4cbad05e48d0c2dfb8f31e7bc3f156cdd366"></a>ITEM_ATTR_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效绑定类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga5545a54a6edd94b3e6e68d544d75e4cbaa8d4d0b5749fe7f0635a1ce164e62dda"></a>ITEM_ATTR_TYPE_UNBIND</em>&nbsp;</td><td class="fielddoc">
+<p>非绑定 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga5545a54a6edd94b3e6e68d544d75e4cbae6f4789d43b872246c9c686b6dfa445e"></a>ITEM_ATTR_TYPE_BIND</em>&nbsp;</td><td class="fielddoc">
+<p>绑定 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga5545a54a6edd94b3e6e68d544d75e4cba782a26769e4ff3ea0f3b78dc00b489de"></a>ITEM_ATTR_TYPE_BIND_ALL</em>&nbsp;</td><td class="fielddoc">
+<p>所有 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaf24e97f2f758b1f63b1313411cf34fc4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gaf24e97f2f758b1f63b1313411cf34fc4">EItemExtAttrType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>物品扩展属性 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggaf24e97f2f758b1f63b1313411cf34fc4ac59725062bf7e28d35bb9f8930832d0d"></a>ITEM_ATTR_EXT_TYPE_BIND</em>&nbsp;</td><td class="fielddoc">
+<p>绑定规则 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaf24e97f2f758b1f63b1313411cf34fc4a148a0d7c167a9e441090548bd8703119"></a>ITEM_ATTR_EXT_TYPE_STRE</em>&nbsp;</td><td class="fielddoc">
+<p>强化规则 - 2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga8e767a593b51b2324703625995d9e762"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga8e767a593b51b2324703625995d9e762">EItemType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>大类 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga8e767a593b51b2324703625995d9e762a89df944c47c6c89602ea44d7d17b09d8"></a>ITEM_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8e767a593b51b2324703625995d9e762a04a7f3ec8172c9489aa00c5b6d096e47"></a>ITEM_TYPE_EQUIP</em>&nbsp;</td><td class="fielddoc">
+<p>装备, 双击使用后会装备到角色身上 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8e767a593b51b2324703625995d9e762a0d0ace6140a5e6d43a80a92bf4f56951"></a>ITEM_TYPE_DRUG</em>&nbsp;</td><td class="fielddoc">
+<p>药品, 双击后物品消失并增加药效 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8e767a593b51b2324703625995d9e762abc7fb9bc8527364e91c981dadf809c99"></a>ITEM_TYPE_CONSUME</em>&nbsp;</td><td class="fielddoc">
+<p>消耗, 不可双击使用 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8e767a593b51b2324703625995d9e762a72ea6fc05487680cf0bc74487956da77"></a>ITEM_TYPE_SCROLL</em>&nbsp;</td><td class="fielddoc">
+<p>卷轴, 可双击使用, 并触发脚本 - 4 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8e767a593b51b2324703625995d9e762aa926f69316aec10d535ed7ffaf0a86d6"></a>ITEM_TYPE_SKILL_BOOK</em>&nbsp;</td><td class="fielddoc">
+<p>技能书, 可双击使用 - 5 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8e767a593b51b2324703625995d9e762ace50d4f88649ed9d6877a1db37f001b1"></a>ITEM_TYPE_GEM</em>&nbsp;</td><td class="fielddoc">
+<p>宝石, 可双击使用 - 6 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8e767a593b51b2324703625995d9e762ae4aedea0e5485b7e0280e66c749c5bec"></a>ITEM_TYPE_BUFFER</em>&nbsp;</td><td class="fielddoc">
+<p>Buffer, 可双击使用 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga8e767a593b51b2324703625995d9e762a23f2f05113391d31641717e79be4dcf4"></a>ITEM_TYPE_NUMBER</em>&nbsp;</td><td class="fielddoc">
+<p>物品的类别数量 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga76a65e7d53e0dbd72d3189f74d9a21f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga76a65e7d53e0dbd72d3189f74d9a21f4">EJobType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>职业 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga76a65e7d53e0dbd72d3189f74d9a21f4ad2058bc4eea833bacb0d5ce546d8fba8"></a>INVALID_JOB_TYPE</em>&nbsp;</td><td class="fielddoc">
+<p>无效职业 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga76a65e7d53e0dbd72d3189f74d9a21f4a6262075948b303b6b27cd9e3c55082bf"></a>JOB_TYPE_PHYSIC</em>&nbsp;</td><td class="fielddoc">
+<p>物理 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga76a65e7d53e0dbd72d3189f74d9a21f4a815e0f0f9708520e1ee88bfc8e3e74be"></a>JOB_TYPE_MAGIC</em>&nbsp;</td><td class="fielddoc">
+<p>魔法 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga76a65e7d53e0dbd72d3189f74d9a21f4a4d394e334bc860e979881eaad45a023d"></a>JOB_TYPE_MONSTER</em>&nbsp;</td><td class="fielddoc">
+<p>怪物 - 4 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga76a65e7d53e0dbd72d3189f74d9a21f4a112dc625fe1353e1af050ff95f0f3b3e"></a>JOB_TYPE_PET</em>&nbsp;</td><td class="fielddoc">
+<p>宠物 - 5 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga76a65e7d53e0dbd72d3189f74d9a21f4a4ba6bd7c72aaa0dd9503c4e27212b088"></a>JOB_TYPE_NPC</em>&nbsp;</td><td class="fielddoc">
+<p>NPC. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga77b439a411f8403a29220235a51ecf98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga77b439a411f8403a29220235a51ecf98">EKickType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>踢掉玩家 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga77b439a411f8403a29220235a51ecf98a2ec405c0112730f480395a709b95f404"></a>KICK_TYPE_ERR</em>&nbsp;</td><td class="fielddoc">
+<p>您的网络不佳，请重新登陆 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga77b439a411f8403a29220235a51ecf98a7a81266d19e7d139a3c5656a9a6931ed"></a>KICK_TYPE_BY_OTHER</em>&nbsp;</td><td class="fielddoc">
+<p>您的账号已经在其他地方登陆 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga77b439a411f8403a29220235a51ecf98ad10b0c1a0441e396a982bd853d87c7f1"></a>KICK_TYPE_BY_GM</em>&nbsp;</td><td class="fielddoc">
+<p>您已被系统禁止登陆，请联系客服 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga77b439a411f8403a29220235a51ecf98af1f12e2a49b1f5945b7ac265b322bf45"></a>KICK_TYPE_GAME_STOP</em>&nbsp;</td><td class="fielddoc">
+<p>服务器停机维护，请稍后重新登陆 - 4 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gacf2d1764270de0c87683c679e31c2379"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gacf2d1764270de0c87683c679e31c2379">EMissionEvent</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>任务事件类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggacf2d1764270de0c87683c679e31c2379a921da7f8c87d7ea6c80118ce6a9b67b4"></a>MISSION_EVENT_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga4b5f3e5276639cfeb9d8805f616109f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga4b5f3e5276639cfeb9d8805f616109f7">EMissionOperation</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>任务操作 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga4b5f3e5276639cfeb9d8805f616109f7a798b11bc7242f87b8525af768d64dc90"></a>MISSION_OPERATION_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga4b5f3e5276639cfeb9d8805f616109f7ad7f202436e6ab89fd65f47e2872e1094"></a>MISSION_OPERATION_ACCEPT</em>&nbsp;</td><td class="fielddoc">
+<p>接受任务 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga4b5f3e5276639cfeb9d8805f616109f7a192623ac3901939429d6f8b428293241"></a>MISSION_OPERATION_SUBMIT</em>&nbsp;</td><td class="fielddoc">
+<p>提交任务 - 2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga1e1b63985cd17b3e84157c52ba5956f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga1e1b63985cd17b3e84157c52ba5956f5">EMissionStatus</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>任务状态 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga1e1b63985cd17b3e84157c52ba5956f5ad58ca6c4871a8edcf369a58469924cc9"></a>MISSION_STATUS_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga1e1b63985cd17b3e84157c52ba5956f5aa40a2d51511e6be856e0580e50c5955b"></a>MISSION_STATUS_ACCEPTING</em>&nbsp;</td><td class="fielddoc">
+<p>待接取 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga1e1b63985cd17b3e84157c52ba5956f5a0ccea375f870e8380866039a6f77958b"></a>MISSION_STATUS_ACCEPTED</em>&nbsp;</td><td class="fielddoc">
+<p>可接取 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga1e1b63985cd17b3e84157c52ba5956f5a0cead3e659bb3ec979f6f42acd9549d8"></a>MISSION_STATUS_EXECUTED</em>&nbsp;</td><td class="fielddoc">
+<p>已接取 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga1e1b63985cd17b3e84157c52ba5956f5a2b5d87f4900d09e4e47dfdfaf8a59538"></a>MISSION_STATUS_FINISHED</em>&nbsp;</td><td class="fielddoc">
+<p>已完成 - 4 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga88cc6d6bfe8353b07effe29274e0cd1f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga88cc6d6bfe8353b07effe29274e0cd1f">EMissionType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>任务类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga88cc6d6bfe8353b07effe29274e0cd1fa1dd0a5d95c5358ec4aef3256bcb2c560"></a>MISSION_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga88cc6d6bfe8353b07effe29274e0cd1fa314c15dc6f6b3e0a63aa665e753f4124"></a>MISSION_TYPE_MAJOR</em>&nbsp;</td><td class="fielddoc">
+<p>主线 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga88cc6d6bfe8353b07effe29274e0cd1fae1697db5df91ab0dda667c0715dbd58d"></a>MISSION_TYPE_CURR_MAX</em>&nbsp;</td><td class="fielddoc">
+<p>最大数目 - 2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gae0b922bb79e91a564c5dc664ce2dbbb3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gae0b922bb79e91a564c5dc664ce2dbbb3">EMoveMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>移动模式 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggae0b922bb79e91a564c5dc664ce2dbbb3a10b0a1a5096832064b78ecf893563a8d"></a>MOVE_MODE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggae0b922bb79e91a564c5dc664ce2dbbb3a767f9814b28ffda2d6c45cce8c172e32"></a>MOVE_MODE_HOBBLE</em>&nbsp;</td><td class="fielddoc">
+<p>跟随 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggae0b922bb79e91a564c5dc664ce2dbbb3a15f5983bb4f0dba65e5035e19aeb1a31"></a>MOVE_MODE_WALK</em>&nbsp;</td><td class="fielddoc">
+<p>走 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggae0b922bb79e91a564c5dc664ce2dbbb3a0238d2ff7deee94daad5fc660d5deeab"></a>MOVE_MODE_RUN</em>&nbsp;</td><td class="fielddoc">
+<p>跑 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggae0b922bb79e91a564c5dc664ce2dbbb3ab67846832120068f878d4af777ce635f"></a>MOVE_MODE_SPRINT</em>&nbsp;</td><td class="fielddoc">
+<p>疾跑 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga7e87c6ef4320bda73a8fbb31de3fe026"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga7e87c6ef4320bda73a8fbb31de3fe026">EMoveType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>移动类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga7e87c6ef4320bda73a8fbb31de3fe026a7baad8866dd55a68b398031ee6ee14f0"></a>MOVE_TYPE_CHECK</em>&nbsp;</td><td class="fielddoc">
+<p>检测 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7e87c6ef4320bda73a8fbb31de3fe026af10554b8aa8956e501b572bcf4fae472"></a>MOVE_TYPE_NOCHECK</em>&nbsp;</td><td class="fielddoc">
+<p>不检测 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga2e23613df331e8fa704c412e727424dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga2e23613df331e8fa704c412e727424dd">ENumericalType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>数值类型(统一使用) </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga2e23613df331e8fa704c412e727424dda4158c48c8f1b0801e3b749c99f5513b8"></a>NUMERICAL_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效值 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga2e23613df331e8fa704c412e727424dda3d0ed31fb7b6924850563da33ff2c4e1"></a>NUMERICAL_TYPE_VALUE</em>&nbsp;</td><td class="fielddoc">
+<p>数值 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga2e23613df331e8fa704c412e727424dda1f7c523c8beabc30b47a35d6e3139227"></a>NUMERICAL_TYPE_ODDS</em>&nbsp;</td><td class="fielddoc">
+<p>机率(百分比) - 2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga1670baf23f65e9ddd39b0102943f82d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga1670baf23f65e9ddd39b0102943f82d7">EObjState</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>角色(Character)状态 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga1670baf23f65e9ddd39b0102943f82d7af63276c8801543c96c390048a67944e8"></a>OBJ_STATE_TEAM</em>&nbsp;</td><td class="fielddoc">
+<p>是否为组队状态 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga1670baf23f65e9ddd39b0102943f82d7a9ca8aa8e927c34b76242b41f5685b645"></a>OBJ_STATE_LEADER</em>&nbsp;</td><td class="fielddoc">
+<p>是否为队长 - 1 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gafb24f7134d3e9151ca59f7974fea9c0e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gafb24f7134d3e9151ca59f7974fea9c0e">EObjType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>对象类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggafb24f7134d3e9151ca59f7974fea9c0ea747449aee7ce6604b3ba625088d852cc"></a>INVALID_OBJ_TYPE</em>&nbsp;</td><td class="fielddoc">
+<p>无效类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafb24f7134d3e9151ca59f7974fea9c0ea939072792c2df3cfeff647168b897032"></a>OBJ_TYPE_ROLE</em>&nbsp;</td><td class="fielddoc">
+<p>角色 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafb24f7134d3e9151ca59f7974fea9c0eaf22c670073481e72b5e399c140df5bd5"></a>OBJ_TYPE_NPC</em>&nbsp;</td><td class="fielddoc">
+<p>NPC. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggafb24f7134d3e9151ca59f7974fea9c0ea74ff0ba823d1c1157d72e6edec020efe"></a>OBJ_TYPE_MONSTER</em>&nbsp;</td><td class="fielddoc">
+<p>怪物 - 3 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gab4eb2d9dec1b448627314584ba3d5c66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gab4eb2d9dec1b448627314584ba3d5c66">EOddAndWeightType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>掉落（概率权重类型） </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggab4eb2d9dec1b448627314584ba3d5c66ab857668e64c5297c64ec643e9250d4ad"></a>ODDANDWEIGHTTYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效类型 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggab4eb2d9dec1b448627314584ba3d5c66a977fc67506d9f2bccbdc8e0e369742f8"></a>DROPODD_TYPE</em>&nbsp;</td><td class="fielddoc">
+<p>概率 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggab4eb2d9dec1b448627314584ba3d5c66ac7374cde3480be9707d50e455fea04e0"></a>DROPWEIGHT_TYPE</em>&nbsp;</td><td class="fielddoc">
+<p>权重 - 2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga15566866ffa72b02c31c2efaa7beee04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga15566866ffa72b02c31c2efaa7beee04">EOptEquipType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>道具数据类型 </p>
+<p>装备操作类型 </p>
+
+</div>
+</div>
+<a class="anchor" id="ga7640312e600b14e894717782266ddb70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga7640312e600b14e894717782266ddb70">EPackType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga7640312e600b14e894717782266ddb70a22a9788eaca9031e7aa82be8e423a1ac"></a>PACK_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7640312e600b14e894717782266ddb70ad2bc35ad5cbde72558427103ab9cdc33"></a>PACK_TYPE_BAG</em>&nbsp;</td><td class="fielddoc">
+<p>背包 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7640312e600b14e894717782266ddb70afa8fe05ab928c06d8966e23660bb3536"></a>PACK_TYPE_EQUIP</em>&nbsp;</td><td class="fielddoc">
+<p>装备 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7640312e600b14e894717782266ddb70a3edb95c5abfcd390e515fe8405df17aa"></a>PACKET_TABLE_TYPE_NUMBER</em>&nbsp;</td><td class="fielddoc">
+<p>背包类型数目 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga7a5973bdd8521b280c563d43a1e0e883"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga7a5973bdd8521b280c563d43a1e0e883">EReliveType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>复活类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga7a5973bdd8521b280c563d43a1e0e883a3713f35ea0273bfc0ba317dc1fd8c9ab"></a>RELIVE_TYPE_LOCAL</em>&nbsp;</td><td class="fielddoc">
+<p>原地 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7a5973bdd8521b280c563d43a1e0e883aaa8178e3edaf3cb94002345a4b3885cd"></a>RELIVE_TYPE_BACKTURN</em>&nbsp;</td><td class="fielddoc">
+<p>回城 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gacba2f4fcd5c81d79fd6189ed5ed56849"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gacba2f4fcd5c81d79fd6189ed5ed56849">EResetPosType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>瞬移类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggacba2f4fcd5c81d79fd6189ed5ed56849a8327a3305c2a89d5d5b5e360b4475890"></a>RESET_POS_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效值 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggacba2f4fcd5c81d79fd6189ed5ed56849a02738751cd8d367dc5b30a7755d9b4b5"></a>RESET_POS_TYPE_WINK</em>&nbsp;</td><td class="fielddoc">
+<p>瞬移 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggacba2f4fcd5c81d79fd6189ed5ed56849a58bd219efd9b29c4b9af222a9a029ab7"></a>RESET_POS_TYPE_PULL_BACK</em>&nbsp;</td><td class="fielddoc">
+<p>拉人 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggacba2f4fcd5c81d79fd6189ed5ed56849af74e1b31118ccaeef156fa214a51e13b"></a>RESET_POS_TYPE_HIT_BACK</em>&nbsp;</td><td class="fielddoc">
+<p>击退 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggacba2f4fcd5c81d79fd6189ed5ed56849a53a317510f83b3d3f0d5a1dbe336200a"></a>RESET_POS_TYPE_SKILL_WINK</em>&nbsp;</td><td class="fielddoc">
+<p>技能瞬移 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggacba2f4fcd5c81d79fd6189ed5ed56849a0a5d5c2bc19e4eb887834ba3c52bdd9b"></a>RESET_POS_TYPE_DIRECT</em>&nbsp;</td><td class="fielddoc">
+<p>直接移动至坐标 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga7139c6ac83549b584178ae871b843171"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga7139c6ac83549b584178ae871b843171">ERoleLimitType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>角色限号类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga7139c6ac83549b584178ae871b843171ad6e0cf654179ce63fed51ddf40d74f9a"></a>ROLE_LIMIT_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效的封号操作 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7139c6ac83549b584178ae871b843171a43a22c5fafac4fe6c662ecc90d3e213b"></a>ROLE_LIMIT_LOGIN</em>&nbsp;</td><td class="fielddoc">
+<p>禁止登陆 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7139c6ac83549b584178ae871b843171ad99b75caa4945427ab149e6194b5b762"></a>ROLE_LIMIT_CHAT</em>&nbsp;</td><td class="fielddoc">
+<p>禁止聊天 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7139c6ac83549b584178ae871b843171a82a9e8d6ddad1b77ac23d1dd7d646441"></a>ROLE_LIMIT_DEL_LOGIN</em>&nbsp;</td><td class="fielddoc">
+<p>解除封号 - 3 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga7139c6ac83549b584178ae871b843171ab3d8b8b21fd1ddf2c4ec175bae2b811b"></a>ROLE_LIMIT_DEL_CHAT</em>&nbsp;</td><td class="fielddoc">
+<p>解除禁言 - 4 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga84119aa22060c9e68c0aec3eecaad49e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga84119aa22060c9e68c0aec3eecaad49e">ERoleOptLimitType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>禁言封号数据库表操作 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga84119aa22060c9e68c0aec3eecaad49ea77cca8477aa9752a4ba5b926f6d7c694"></a>ROLE_LIMIT_OPT_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效的封号操作 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga84119aa22060c9e68c0aec3eecaad49eacff29a959111cf044fcd722a4ed80cc7"></a>ROLE_LIMIT_OPT_UPDATE_LOGIN</em>&nbsp;</td><td class="fielddoc">
+<p>更新登陆 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga84119aa22060c9e68c0aec3eecaad49eab1512b5e6db9f961e82ff1055e45a0da"></a>ROLE_LIMIT_OPT_UPDATE_CHAT</em>&nbsp;</td><td class="fielddoc">
+<p>更新聊天 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga84119aa22060c9e68c0aec3eecaad49eab7b0216d09ffe188a3f17b5465ab482d"></a>ROLE_LIMIT_OPT_DEL</em>&nbsp;</td><td class="fielddoc">
+<p>删除 - 3 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gad499d913ef3b82d72db03ae9766604db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gad499d913ef3b82d72db03ae9766604db">EScrollSubClass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>卷轴 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggad499d913ef3b82d72db03ae9766604dba41dd3f2a01b68b5d7213f605c6682da7"></a>SCROLL_SUB_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效类型 - 0 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga66b1ed8fe5853a10acb77f6b80eb2df3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga66b1ed8fe5853a10acb77f6b80eb2df3">ESexType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>性别 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga66b1ed8fe5853a10acb77f6b80eb2df3a7e43b821b39ed0287495e43f8c1935e5"></a>INVALID_SEX_TYPE</em>&nbsp;</td><td class="fielddoc">
+<p>无效性别 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga66b1ed8fe5853a10acb77f6b80eb2df3a157d2b7399628da3a2fb39cba7663ee4"></a>SEX_TYPE_MALE</em>&nbsp;</td><td class="fielddoc">
+<p>男 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga66b1ed8fe5853a10acb77f6b80eb2df3a30f9ea30a6b557c2695e5ea237ed0951"></a>SEX_TYPE_FEMALE</em>&nbsp;</td><td class="fielddoc">
+<p>女 - 2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gaa3713e9f94b8a068aa1840fb46a7fbfa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gaa3713e9f94b8a068aa1840fb46a7fbfa">ESkillAttackType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>技能攻击类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggaa3713e9f94b8a068aa1840fb46a7fbfaa96c5be34f75c5bf670ea66926180c72d"></a>SKILL_ATTACK_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaa3713e9f94b8a068aa1840fb46a7fbfaaf4f450877812cf97c2ecd2339674a871"></a>SKILL_ATTACK_TYPE_SINGLE</em>&nbsp;</td><td class="fielddoc">
+<p>单体 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggaa3713e9f94b8a068aa1840fb46a7fbfaabe4e0bfe47dece161ae8b843fce39f9c"></a>SKILL_ATTACK_TYPE_GROUP</em>&nbsp;</td><td class="fielddoc">
+<p>群体 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga94152e1619438b26c12237e32b9e3506"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga94152e1619438b26c12237e32b9e3506">ESkillBookSubClass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>技能书 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga94152e1619438b26c12237e32b9e3506a6b47bc235cb642055bb11087056d557d"></a>SKILL_BOOK_SUB_CLASS_ROLE</em>&nbsp;</td><td class="fielddoc">
+<p>人物技能书 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga94152e1619438b26c12237e32b9e3506a8852a180d6c107aac703284e349e2084"></a>SKILL_BOOK_SUB_CLASS_PET</em>&nbsp;</td><td class="fielddoc">
+<p>宠物技能书 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="ga3614f8498bc41c656288e511352de1dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#ga3614f8498bc41c656288e511352de1dd">ESkillTargetType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>目标类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="gga3614f8498bc41c656288e511352de1dda28ef0b84ea63883fe75fe95930288487"></a>SKILL_TARGET_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3614f8498bc41c656288e511352de1dda6f2f25615a7762f3e88fd88ca131f4b4"></a>SKILL_TARGET_TYPE_ENEMY</em>&nbsp;</td><td class="fielddoc">
+<p>敌人 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3614f8498bc41c656288e511352de1dda0a95df3bfade23650ccc8d2253f2786c"></a>SKILL_TARGET_TYPE_OWN</em>&nbsp;</td><td class="fielddoc">
+<p>自身 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="gga3614f8498bc41c656288e511352de1ddaeec72111164ecab6c7b25cb248e03c8f"></a>SKILL_TARGET_TYPE_TEAM</em>&nbsp;</td><td class="fielddoc">
+<p>队伍 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gab9c1239b5d3e6eaddd94f0fe37141f40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gab9c1239b5d3e6eaddd94f0fe37141f40">ESkillType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>技能类型 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggab9c1239b5d3e6eaddd94f0fe37141f40ae14d66edee09b2c2e2a34959a209b03d"></a>SKILL_TYPE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggab9c1239b5d3e6eaddd94f0fe37141f40ad92e34c11447810bcdc8ea12255507d0"></a>SKILL_TYPE_ACTIVE</em>&nbsp;</td><td class="fielddoc">
+<p>主动 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggab9c1239b5d3e6eaddd94f0fe37141f40ae0aacf026f2702c00131875de5102bd3"></a>SKILL_TYPE_PASSIVE</em>&nbsp;</td><td class="fielddoc">
+<p>被动 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggab9c1239b5d3e6eaddd94f0fe37141f40a901fcd05db58ab77849ae9ecf49de324"></a>SKILL_TYPE_ASSIST</em>&nbsp;</td><td class="fielddoc">
+<p>辅助 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gad3da77abffef8440cc766d5d4edb4c13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gad3da77abffef8440cc766d5d4edb4c13">EZoneServerFlag</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>区服务标记 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggad3da77abffef8440cc766d5d4edb4c13acf1265f54f0ed28cf788bcd1ac30f0dd"></a>ZONE_SERVER_FLAG_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效的状态 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggad3da77abffef8440cc766d5d4edb4c13a9d2c50c5cb1c1631bcbeba3ffc2179ed"></a>ZONE_SERVER_FLAG_RECOMMEND</em>&nbsp;</td><td class="fielddoc">
+<p>推荐 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggad3da77abffef8440cc766d5d4edb4c13a49ad5cbad1386e582bed638d58582663"></a>ZONE_SERVER_FLAG_NEW</em>&nbsp;</td><td class="fielddoc">
+<p>新区 - 2 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="gad26e145c610beb4c1a958386a956efb0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="a00152.html#gad26e145c610beb4c1a958386a956efb0">EZoneServerState</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>区服务状态 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ggad26e145c610beb4c1a958386a956efb0ac6cad8be8956e04ab4946981449ac51d"></a>ZONE_SERVER_STATE_INVALID</em>&nbsp;</td><td class="fielddoc">
+<p>无效的状态 - 0 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggad26e145c610beb4c1a958386a956efb0a67ef0c846cf30999b8db8fc160f2c950"></a>ZONE_SERVER_STATE_NORMAL</em>&nbsp;</td><td class="fielddoc">
+<p>正常 - 1 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggad26e145c610beb4c1a958386a956efb0a99b053236a8227e6349eda847cc6d88f"></a>ZONE_SERVER_STATE_BUSY</em>&nbsp;</td><td class="fielddoc">
+<p>繁忙 - 2 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggad26e145c610beb4c1a958386a956efb0a42b8c343f3087e1261f8e323c662752f"></a>ZONE_SERVER_STATE_CLOSE</em>&nbsp;</td><td class="fielddoc">
+<p>维护 - 3 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2014年 十二月 31日 星期三 18:29:06 , 为 TuLong使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

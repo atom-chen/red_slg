@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\world_player_handler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_server_config.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_server.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_map_player.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_map_player_mgr.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_map_server_handler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_map_server_handler_base.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server_instance.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_login_role_list.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_db_task.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_login_player_mgr.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_player.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_user.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_user_mgr.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_sql_manager.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_db_server_handler.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_db_handler.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_player_mgr.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_all_user.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_manager.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene_manager.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_login_server_handler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_script_bind_func.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_script_bind_class.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_login_server_mgr.cpp">
+      <Filter>player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_script_engine.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_server_data.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_manager_server_handler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\worldserver_script_auto_gen_class.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_charging_server_handler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\charging_rmb.cpp">
+      <Filter>charging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world_sql_manager_base.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\worldserver.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\world_player_handler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_server_util.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_server_config.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_server.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_map_player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_map_player_mgr.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_map_server_handler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_map_server_handler_base.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_db_handler.h">
+      <Filter>db_process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_db_task.h">
+      <Filter>db_process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_login_role_list.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_login_player_mgr.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_player.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_user.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_user_mgr.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_all_user.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_sql_manager.h">
+      <Filter>db_process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_db_server_handler.h">
+      <Filter>db_process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_player_mgr.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_manager.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene_manager.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rand_name.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rand_name_tbl.h">
+      <Filter>config_tbl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_login_server_handler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_script_engine.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_login_server_mgr.h">
+      <Filter>player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_server_data.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_manager_server_handler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\worldserver_script_auto_gen_class_header.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\world_charging_server_handler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\charging_rmb.h">
+      <Filter>charging</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="player">
+      <UniqueIdentifier>{875f43b0-ad0a-4fd8-a44c-3f2405cac175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{97968f94-6487-4002-9b13-751a6b4e934d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{0f4a017a-d3e3-432c-b6ca-e6b49c99eeb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_process">
+      <UniqueIdentifier>{4d093643-ade8-49a1-83d0-e366fbd5ff26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user">
+      <UniqueIdentifier>{71655e2c-2721-40c1-8b7c-0f9d82f849c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{0de46cb2-0346-49d6-b6d7-98ba1de5d443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config_tbl">
+      <UniqueIdentifier>{247f5f53-ca3b-4877-a577-985a97a42d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="record">
+      <UniqueIdentifier>{cec1e5fa-8f01-4c6a-9a1c-61cdec8f4c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{b125f563-f633-4e5e-841f-00d269bce759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="charging">
+      <UniqueIdentifier>{505fa5b0-8d1f-4a17-95c5-b1712237cfd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{9e2033f6-7202-4cdb-ab2d-de099211e082}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

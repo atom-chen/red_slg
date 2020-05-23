@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\char_script_core.cpp">
+      <Filter>logic\char_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\char_attribute_core.cpp">
+      <Filter>logic\char_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\char_ai_core.cpp">
+      <Filter>logic\char_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\char_fight_core.cpp">
+      <Filter>logic\char_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\char_move_core.cpp">
+      <Filter>logic\char_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\char_relation_core.cpp">
+      <Filter>logic\char_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai_avoid_overlap.cpp">
+      <Filter>logic\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\char_msg_handle.cpp">
+      <Filter>logic\char_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_player_handler_base.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_world_handler_base.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\area.cpp">
+      <Filter>logic\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\block.cpp">
+      <Filter>logic\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\obj_character.cpp">
+      <Filter>logic\object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object.cpp">
+      <Filter>logic\object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\role_base.cpp">
+      <Filter>logic\object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scan.cpp">
+      <Filter>logic\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skill_util.cpp">
+      <Filter>logic\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="src\char_skill_core.cpp">
+      <Filter>logic\char_core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_server_base.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object_manager.cpp">
+      <Filter>logic\object\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene_object_manager.cpp">
+      <Filter>logic\object\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_scene_base.cpp">
+      <Filter>logic\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_db_player_handler_base.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_db_task_base.cpp">
+      <Filter>db_process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\role_manager_base.cpp">
+      <Filter>logic\object\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_server_instance_base.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene_role_manager.cpp">
+      <Filter>logic\object\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene_manager_base.cpp">
+      <Filter>logic\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_data_base.cpp">
+      <Filter>logic\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_data_manager_base.cpp">
+      <Filter>logic\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_server_data_base.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_server_event_base.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai_character.cpp">
+      <Filter>logic\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skill_core.cpp">
+      <Filter>logic\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skill_impact_manager.cpp">
+      <Filter>logic\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buff.cpp">
+      <Filter>logic\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buffer_manager.cpp">
+      <Filter>logic\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buffer_manager_base.cpp">
+      <Filter>logic\buffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\char_script_core.h">
+      <Filter>logic\char_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\char_attribute_core.h">
+      <Filter>logic\char_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\char_ai_core.h">
+      <Filter>logic\char_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\char_fight_core.h">
+      <Filter>logic\char_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\char_move_core.h">
+      <Filter>logic\char_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\char_relation_core.h">
+      <Filter>logic\char_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai_avoid_overlap.h">
+      <Filter>logic\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\char_msg_handle.h">
+      <Filter>logic\char_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_player_handler_base.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_world_handler_base.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\area.h">
+      <Filter>logic\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\block.h">
+      <Filter>logic\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_path_finder.h">
+      <Filter>logic\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\obj_attr_func.h">
+      <Filter>logic\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\obj_character.h">
+      <Filter>logic\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\obj_dynamic.h">
+      <Filter>logic\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object.h">
+      <Filter>logic\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object_util.h">
+      <Filter>logic\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\role_base.h">
+      <Filter>logic\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scan.h">
+      <Filter>logic\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene_util.h">
+      <Filter>logic\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skill_util.h">
+      <Filter>logic\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="src\char_skill_core.h">
+      <Filter>logic\char_core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_base.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_util.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object_manager.h">
+      <Filter>logic\object\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene_object_manager.h">
+      <Filter>logic\object\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_scene_base.h">
+      <Filter>logic\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_player_handler_base.h">
+      <Filter>db_process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\role_manager_base.h">
+      <Filter>logic\object\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_db_task_base.h">
+      <Filter>db_process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_instance_base.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene_role_manager.h">
+      <Filter>logic\object\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene_manager_base.h">
+      <Filter>logic\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_data_base.h">
+      <Filter>logic\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_data_manager_base.h">
+      <Filter>logic\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_data_base.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_server_event_base.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai_character.h">
+      <Filter>logic\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skill_core.h">
+      <Filter>logic\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skill_impact_manager.h">
+      <Filter>logic\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="src\buff.h">
+      <Filter>logic\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\buff_tbl.h">
+      <Filter>logic\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\buffer_manager.h">
+      <Filter>logic\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\buffer_manager_base.h">
+      <Filter>logic\buffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="logic">
+      <UniqueIdentifier>{85236b0a-90f1-4226-811d-7a5c65b277d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\ai">
+      <UniqueIdentifier>{b5adc7aa-40ca-42e6-b586-c86a6931b325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\char_core">
+      <UniqueIdentifier>{4adf33fb-dfdd-423f-82ec-e62a8a3bc20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{af21d9a0-db1f-40d3-a9d4-8a3286ede093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{c99513d8-33b3-4228-ab4a-97d552e19587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{ebfe80bf-d877-43c8-926d-63c10f7c1cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\scene">
+      <UniqueIdentifier>{64c0255b-72ce-4888-a829-8e8c6e44915b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\skill">
+      <UniqueIdentifier>{fee79257-f8c8-4bd7-9621-926192cef97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_process">
+      <UniqueIdentifier>{42cb67d1-f201-4c4c-84f1-496fd3ec1977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\scritp">
+      <UniqueIdentifier>{a7ef2bad-804f-4936-b5d3-af3e9f56b7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\object">
+      <UniqueIdentifier>{e504037f-8539-452b-8c1d-ed833a9f3237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\object\manager">
+      <UniqueIdentifier>{eeba3f8d-0e54-47be-b2da-01ff3de9d168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\ai\bt">
+      <UniqueIdentifier>{21767845-b366-4aff-a38b-7691c74d68c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\buffer">
+      <UniqueIdentifier>{b27e29e2-629c-4ce0-ab9a-44fe03b11908}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\map_scene_base.inl">
+      <Filter>logic\scene</Filter>
+    </None>
+    <None Include="src\scene_manager_base.inl">
+      <Filter>logic\scene</Filter>
+    </None>
+  </ItemGroup>
+</Project>

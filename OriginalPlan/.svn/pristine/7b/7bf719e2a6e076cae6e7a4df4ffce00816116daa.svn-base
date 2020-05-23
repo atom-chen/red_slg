@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i lv="1" exp="100" limit="10" castle_num="5" castle_quality1="1" castle_quality2="2" rank_sum="165"/>
+    <i lv="2" exp="500" limit="20" castle_num="6" castle_quality1="1" castle_quality2="3" rank_sum="185"/>
+    <i lv="3" exp="2000" limit="30" castle_num="7" castle_quality1="1" castle_quality2="4" rank_sum="195"/>
+    <i lv="4" exp="5000" limit="40" castle_num="8" castle_quality1="2" castle_quality2="4" rank_sum="70"/>
+    <i lv="5" exp="10000" limit="50" castle_num="9" castle_quality1="3" castle_quality2="4" rank_sum="30"/>
+</root>

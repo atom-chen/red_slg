@@ -1,0 +1,2 @@
+require("ScriptGlobalData");
+require("RoleManagerData");

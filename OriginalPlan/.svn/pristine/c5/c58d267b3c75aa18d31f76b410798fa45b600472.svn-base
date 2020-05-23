@@ -1,0 +1,6 @@
+[DEFAULT] 
+servercodedir=E:\work\OriginalPlan\trunk\server
+androidndkdir=E:\work\OriginalPlan\trunk\server/third/include/android/ 
+clangllvmdir=E:\work\OriginalPlan\trunk\server/third/include/android//toolchains/llvm-3.3/prebuilt/windows-x86_64 
+cxxgeneratordir=E:/work/OriginalPlan/trunk/server/tools/protocols-generator/build/.. 
+extra_flags=-D__WCHAR_MAX__=0x7fffffff 

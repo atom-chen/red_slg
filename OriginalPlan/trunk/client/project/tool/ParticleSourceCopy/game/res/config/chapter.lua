@@ -1,0 +1,1 @@
+return {[1]={name="章节1",res="asfd1",min=1,max=10,level=1,},[2]={name="章节2",res="asdf1",min=11,max=20,level=2,},[3]={name="章节3",res="asfdg1",min=21,max=30,level=3,},}

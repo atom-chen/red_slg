@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1001" map="1000" x="54" y="5" connect="1002" type="1" show="1"/>
+    <i id="1002" map="1001" x="6" y="5" connect="1001" type="1" show="1"/>
+    <i id="1003" map="1001" x="54" y="5" connect="" type="2" show="1"/>
+    <i id="1004" map="1000" x="6" y="5" connect="" type="2" show="1"/>
+</root>

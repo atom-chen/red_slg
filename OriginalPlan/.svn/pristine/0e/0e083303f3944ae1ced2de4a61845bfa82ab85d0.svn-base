@@ -1,0 +1,12 @@
+-- 过滤文件列表
+FileterFiles = {
+--	{sectionTest, testFiles, sectionTStr},
+	{sectionHChangeLog, changeLogFiles, sectionTStr},
+	{sectionHTypes, typesFiles, sectionTStr},
+	{sectionHStructs, structFiles, sectionTStr},
+	{sectionHReturnCode, errnoFiles, sectionTStr},
+	{sectionDefines, definesFiles, sectionTStr},
+	{sectionConstValue, constValueFiles, sectionTStr},
+	{sectionPacketID, packetIDFiles, sectionTStr},
+	{sectionHPacket, packetFiles, sectionTStr}
+};

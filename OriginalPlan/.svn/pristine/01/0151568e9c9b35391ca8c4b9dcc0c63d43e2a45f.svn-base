@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" effect="1" property="0" number="1" numtybe="1" cost="5" cost_diamond="5"/>
+    <i id="2" effect="1" property="0" number="2" numtybe="1" cost="10" cost_diamond="10"/>
+    <i id="3" effect="2" property="2" number="200" numtybe="2" cost="5" cost_diamond="15"/>
+    <i id="4" effect="2" property="2" number="500" numtybe="2" cost="10" cost_diamond="30"/>
+    <i id="5" effect="2" property="2" number="1000" numtybe="2" cost="15" cost_diamond="45"/>
+    <i id="6" effect="2" property="3" number="200" numtybe="2" cost="5" cost_diamond="15"/>
+    <i id="7" effect="2" property="3" number="500" numtybe="2" cost="10" cost_diamond="30"/>
+    <i id="8" effect="2" property="3" number="1000" numtybe="2" cost="15" cost_diamond="45"/>
+    <i id="9" effect="2" property="1" number="200" numtybe="2" cost="5" cost_diamond="15"/>
+    <i id="10" effect="2" property="1" number="500" numtybe="2" cost="10" cost_diamond="30"/>
+    <i id="11" effect="2" property="1" number="1000" numtybe="2" cost="15" cost_diamond="45"/>
+    <i id="12" effect="3" property="0" number="200" numtybe="2" cost="5" cost_diamond="5"/>
+    <i id="13" effect="3" property="0" number="500" numtybe="2" cost="10" cost_diamond="10"/>
+</root>

@@ -1,0 +1,533 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: Intel
+	gl.renderer: Intel(R) HD Graphics 4600
+	gl.version: 4.2.0 - Build 10.18.10.3958
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 192
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+------------------------------------------------
+------------------------------------------------
+[0.0637] [INFO] 
+[0.0640] [INFO] # DEBUG                        = 1
+[0.0642] [INFO] #
+[0.0648] [INFO] # device.platform              = windows
+[0.0650] [INFO] # device.model                 = unknown
+[0.0652] [INFO] # device.language              = cn
+[0.0655] [INFO] # device.writablePath          = F:\slg\OriginalPlan\trunk\client\project\game\
+[0.0666] [INFO] # device.cachePath             = F:\slg\OriginalPlan\trunk\client\project\game\
+[0.0671] [INFO] # device.directorySeparator    = \
+[0.0688] [INFO] # device.pathSeparator         = ;
+[0.0691] [INFO] #
+[0.0744] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[0.0750] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+[0.0756] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[0.0765] [INFO] # display.widthInPixels        = 960.00
+[0.0772] [INFO] # display.heightInPixels       = 640.00
+[0.0778] [INFO] # display.contentScaleFactor   = 1.00
+[0.0784] [INFO] # display.width                = 960.00
+[0.0791] [INFO] # display.height               = 640.00
+[0.0797] [INFO] # display.cx                   = 480.00
+[0.0803] [INFO] # display.cy                   = 320.00
+[0.0809] [INFO] # display.left                 = 0.00
+[0.0815] [INFO] # display.right                = 960.00
+[0.0820] [INFO] # display.top                  = 640.00
+[0.0825] [INFO] # display.bottom               = 0.00
+[0.0832] [INFO] # display.c_left               = -480.00
+[0.0842] [INFO] # display.c_right              = 480.00
+[0.0848] [INFO] # display.c_top                = 320.00
+[0.0854] [INFO] # display.c_bottom             = -320.00
+[0.0860] [INFO] #
+server ip ....192.168.1.245  100 29999
+----------   try to load res:ui/common.pvr.ccz  ---------
+
+--发送。。。opcode:  3005(NET_TIME_REQ)
+[0.5467] dump from: [string "F:/slg/OriginalPlan/trunk/client/project/game/scripts/launch/net/NetCenter.lua"]:432: in function 'send'
+[0.5476] - "<var>" = {
+[0.5480] - }
+[0.5565] --关闭面板  loading
+[0.5580] GameApp:startup(stage)
+----------   try to load res:ui/login/login.pvr.ccz  ---------
+
+----------   try to load res:pic/init_bg.w  ---------
+
+[0.6066] no platform sdk
+[0.6144] PPPPPPPPPPP
+[0.6148] dump from: [string "F:/slg/OriginalPlan/trunk/client/project/game/scripts/uiLib/exui/SimpleMagic.lua"]:65: in function '_init'
+[0.6168] - "<var>" = {
+[0.6174] -     "pId" = 10119
+[0.6179] - }
+[0.6186] 粒子ID   10119
+retainRes  : eft/texture/Effects_Textures_Star_xr002.png
+
+retainRes  : eft/texture/Effects_Textures_Star_xr005.png
+
+retainRes  : eft/texture/tx_dian_017.png
+
+[0.6348] [INFO] Scene "MainScene:onEnter()"
+[0.7979] GameApp:_onConfigLoaded(e)
+--发送。。。opcode:  3004(ENTER_GAME)
+[0.8028] dump from: [string "F:/slg/OriginalPlan/trunk/client/project/game/scripts/launch/net/NetCenter.lua"]:432: in function 'send'
+[0.8031] - "<var>" = {
+[0.8043] - }
+----------   try to load res:ui/biaoqing.pvr.ccz  ---------
+
+----------   unload res:pic/init_bg.w  ---------
+
+----------   unload res:ui/login/login.pvr.ccz  ---------
+
+[0.8848] 打开面板：  fight
+[1.0184] PanelNodeProtocol:ctor  fight
+----------   try to load res:ui/fight/fight.pvr.ccz  ---------
+
+[1.1049] 位置。。。222222    。  0  214
+----------   try to load res:fightMap/fightMap14.w  ---------
+
+[4.7044] res.res..suffix:  101011  table
+----------   try to load res:hero/h1011.pvr.ccz  ---------
+
+----------   try to reload res:hero/h1011.pvr.ccz[]#fight_bzk003.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/h1011.pvr.ccz  ---------
+
+[4.7118] res.res..suffix:  103007  table
+----------   try to load res:hero/h3007.pvr.ccz  ---------
+
+----------   try to reload res:hero/h3007.pvr.ccz[]#fight_bzk003.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/h3007.pvr.ccz  ---------
+
+[4.7172] res.res..suffix:  101010  table
+----------   try to load res:hero/h1010.pvr.ccz  ---------
+
+----------   try to reload res:hero/h1010.pvr.ccz[]#fight_bzk003.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/h1010.pvr.ccz  ---------
+
+[4.7238] res.res..suffix:  101002  table
+----------   try to load res:hero/h1002.pvr.ccz  ---------
+
+----------   try to reload res:hero/h1002.pvr.ccz[]#fight_bzk003.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/h1002.pvr.ccz  ---------
+
+[4.7304] res.res..suffix:  102008  table
+----------   try to load res:hero/h2008.pvr.ccz  ---------
+
+----------   try to reload res:hero/h2008.pvr.ccz[]#fight_bzk003.png  ---------
+
+ImageResource::UnLoad fuck:3
+
+----------   unload res:hero/h2008.pvr.ccz  ---------
+
+[4.7365] res.res..suffix:  101002  table
+----------   try to reload res:hero/h1002.pvr.ccz[]#fight_bzk003.png  ---------
+
+audio.playMusic( self.isLoop)music/ground/battle.mp3
+[4.7671] 粒子ID   10051
+retainRes  : eft/texture/flower_251.png
+
+retainRes  : eft/texture/Effects_TX_Sequence_007.png
+
+retainRes  : eft/texture/tx_dian_013.png
+
+retainRes  : eft/texture/Effects_Textures_Quest_z427.png
+
+retainRes  : eft/texture/Effects_Textures_Fire_004.png
+
+retainRes  : eft/texture/Effects_Textures_Fire_x007.png
+
+retainRes  : eft/texture/Effects_Textures_Smoke_l005.png
+
+[4.8245]   dirAddIndex   2156  1936  1000  2156  1936
+[4.8283] MonsterCfg:getMonster( id )  7010111
+load Anim:hero/buildingBase01 begin
+
+----------   try to load res:anim/hero/buildingBase01.pvr.ccz  ---------
+
+load Anim:hero/buildingBase01  end
+
+[4.8479] MonsterCfg:getMonster( id )  7010101
+[4.8483] 怪物 :  美国大兵  1  7010101
+load Anim:hero/solider begin
+
+----------   try to load res:anim/hero/solider.pvr.ccz  ---------
+
+load Anim:hero/solider  end
+
+[5.0837] MonsterCfg:getMonster( id )  7010114
+[5.0841] 怪物 :  沙包竖  2  7010114
+load Anim:hero/obstacleSandbagbunkers01 begin
+
+----------   try to load res:anim/hero/obstacleSandbagbunkers01.pvr.ccz  ---------
+
+load Anim:hero/obstacleSandbagbunkers01  end
+
+[5.0929] MonsterCfg:getMonster( id )  7010102
+[5.0934] 怪物 :  灰熊坦克  2  7010102
+load Anim:hero/GrizzlyTank begin
+
+----------   try to load res:anim/hero/GrizzlyTank.pvr.ccz  ---------
+
+load Anim:hero/GrizzlyTank  end
+
+[5.4269] MonsterCfg:getMonster( id )  7010102
+[5.4280] 怪物 :  灰熊坦克  2  7010102
+[5.4315] MonsterCfg:getMonster( id )  7010115
+[5.4320] 怪物 :  沙包横  2  7010115
+load Anim:hero/obstacleSandbagbunkers02 begin
+
+----------   try to load res:anim/hero/obstacleSandbagbunkers02.pvr.ccz  ---------
+
+load Anim:hero/obstacleSandbagbunkers02  end
+
+[5.4407] MonsterCfg:getMonster( id )  7010102
+[5.4411] 怪物 :  灰熊坦克  2  7010102
+[5.4445] MonsterCfg:getMonster( id )  7010113
+[5.4449] 怪物 :  地堡  2  7010113
+load Anim:hero/bunker begin
+
+----------   try to load res:anim/hero/bunker.pvr.ccz  ---------
+
+load Anim:hero/bunker  end
+
+[5.4530] MonsterCfg:getMonster( id )  7010114
+[5.4534] 怪物 :  沙包竖  2  7010114
+[5.4545] MonsterCfg:getMonster( id )  7010102
+[5.4547] 怪物 :  灰熊坦克  2  7010102
+[5.4579] MonsterCfg:getMonster( id )  7010112
+[5.4583] 怪物 :  铁丝网  2  7010112
+load Anim:hero/obstacleAbatis begin
+
+----------   try to load res:anim/hero/obstacleAbatis.pvr.ccz  ---------
+
+load Anim:hero/obstacleAbatis  end
+
+[5.4658] MonsterCfg:getMonster( id )  7010109
+[5.4661] 怪物 :  尤里X  2  7010109
+load Anim:hero/yuri begin
+
+----------   try to load res:anim/hero/yuri.pvr.ccz  ---------
+
+load Anim:hero/yuri  end
+
+[5.5362] MonsterCfg:getMonster( id )  7010115
+[5.5366] 怪物 :  沙包横  2  7010115
+[5.5379] MonsterCfg:getMonster( id )  7010106
+[5.5383] 怪物 :  天启坦克  2  7010106
+load Anim:hero/ApocalypseTank begin
+
+----------   try to load res:anim/hero/ApocalypseTank.pvr.ccz  ---------
+
+load Anim:hero/ApocalypseTank  end
+
+[5.9003] 粒子ID   133
+retainRes  : eft/texture/tx_dian_006.png
+
+[5.9047] MonsterCfg:getMonster( id )  7010114
+[5.9052] 怪物 :  沙包竖  2  7010114
+[5.9066] MonsterCfg:getMonster( id )  7010106
+[5.9070] 怪物 :  天启坦克  2  7010106
+[5.9105] 粒子ID   133
+[5.9116] MonsterCfg:getMonster( id )  7010102
+[5.9120] 怪物 :  灰熊坦克  2  7010102
+[5.9355] MonsterCfg:getMonster( id )  7010103
+[5.9361] 怪物 :  犀牛坦克  2  7010103
+load Anim:hero/Rhino begin
+
+----------   try to load res:anim/hero/Rhino.pvr.ccz  ---------
+
+load Anim:hero/Rhino  end
+
+[6.2268] MonsterCfg:getMonster( id )  7010103
+[6.2272] 怪物 :  犀牛坦克  2  7010103
+[6.2307] MonsterCfg:getMonster( id )  7010102
+[6.2311] 怪物 :  灰熊坦克  2  7010102
+[6.2345] MonsterCfg:getMonster( id )  7010103
+[6.2349] 怪物 :  犀牛坦克  2  7010103
+[6.2381] MonsterCfg:getMonster( id )  7010102
+[6.2385] 怪物 :  灰熊坦克  2  7010102
+[6.2429] MonsterCfg:getMonster( id )  7010106
+[6.2435] 怪物 :  天启坦克  2  7010106
+[6.2471] 粒子ID   133
+[6.2481] MonsterCfg:getMonster( id )  7010106
+[6.2486] 怪物 :  天启坦克  2  7010106
+[6.2520] 粒子ID   133
+[6.2531] MonsterCfg:getMonster( id )  7010101
+[6.2535] 怪物 :  美国大兵  2  7010101
+[6.2570] MonsterCfg:getMonster( id )  7010102
+[6.2575] 怪物 :  灰熊坦克  2  7010102
+[6.2723] MonsterCfg:getMonster( id )  7010103
+[6.2730] 怪物 :  犀牛坦克  2  7010103
+[6.2767] MonsterCfg:getMonster( id )  7010101
+[6.2770] 怪物 :  美国大兵  2  7010101
+[6.2800] MonsterCfg:getMonster( id )  7010101
+[6.2803] 怪物 :  美国大兵  2  7010101
+[6.2839] MonsterCfg:getMonster( id )  7010101
+[6.2846] 怪物 :  美国大兵  2  7010101
+[6.2878] MonsterCfg:getMonster( id )  7010103
+[6.2881] 怪物 :  犀牛坦克  2  7010103
+[6.2918] MonsterCfg:getMonster( id )  7010101
+[6.2922] 怪物 :  美国大兵  2  7010101
+[6.2989] 粒子ID   132
+[6.3010] 粒子ID   134
+[6.3031] 粒子ID   132
+[6.3042] 粒子ID   132
+load Anim:effect/spyPlane begin
+
+----------   try to load res:anim/effect/spyPlane.pvr.ccz  ---------
+
+load Anim:effect/spyPlane  end
+
+[6.3106]   dirAddIndex   -150  1936  30  -150  1936
+releaseRes  : eft/texture/Effects_Textures_Star_xr002.png
+
+releaseRes  : eft/texture/Effects_Textures_Star_xr005.png
+
+releaseRes  : eft/texture/tx_dian_017.png
+
+[6.3869] 添加 buff 。  2
+[6.3878] 添加 buff 。  2
+[6.3881] 添加 buff 。  2
+[6.3889] 添加 buff 。  2
+[6.3894] 添加 buff 。  2
+[6.3905] 添加 buff 。  2
+[6.6106] 粒子ID   10065
+retainRes  : eft/texture/tx_dian_020.png
+
+retainRes  : eft/texture/tx_dian_016.png
+
+[6.6656] 粒子ID   10072
+retainRes  : eft/texture/Effects_Textures_Quest_z496.png
+
+[6.6699] 粒子ID   10072
+[6.6708] 粒子ID   10072
+[6.6715] 粒子ID   10072
+[7.9669] 添加 buff 。  1015
+[7.9687] 粒子ID   10228
+retainRes  : eft/texture/tx_dilie_502.png
+
+[7.9794] 添加 buff 。  1015
+[7.9812] 粒子ID   10228
+[7.9862] 添加 buff 。  1015
+[7.9879] 粒子ID   10228
+[7.9921] 添加 buff 。  1015
+[7.9949] 粒子ID   10228
+[8.0009] 添加 buff 。  1015
+[8.0026] 粒子ID   10228
+[8.0053] 添加 buff 。  1015
+[8.0064] 粒子ID   10228
+[8.0088] 添加 buff 。  1015
+[8.0098] 粒子ID   10228
+[8.0125] 添加 buff 。  1015
+[8.0135] 粒子ID   10228
+LUA VM MEMORY USED: 15324.19 KB
+[15.7536] 找不到路：  14  5  3  37
+[15.7542] --移除buff  2
+[15.9153] 粒子ID   10072
+[16.2488] 粒子ID   10072
+[16.5272] 粒子ID   10072
+[16.8045] 粒子ID   10072
+[16.9211] 找不到路：  13  6  3  37
+[17.1379] 粒子ID   10072
+[17.1921] MonsterCfg:getMonster( id )  7010101
+[17.1925] MonsterCfg:getMonster( id )  7010101
+[17.1928] MonsterCfg:getMonster( id )  7010101
+[17.1931] MonsterCfg:getMonster( id )  7010101
+[17.1972] MonsterCfg:getMonster( id )  7010101
+[17.2006] MonsterCfg:getMonster( id )  7010101
+[17.2122] 找不到路：  0  70  16  10
+[17.2201] 找不到路：  0  71  16  10
+[17.2272] 找不到路：  1  70  16  10
+[17.2325] MonsterCfg:getMonster( id )  7010101
+[17.2330] MonsterCfg:getMonster( id )  7010103
+[17.2336] MonsterCfg:getMonster( id )  7010103
+[17.2339] MonsterCfg:getMonster( id )  7010103
+[17.2405] 粒子ID   101
+retainRes  : eft/texture/Effects_Textures_Smoke_x032.png
+
+[17.2681] MonsterCfg:getMonster( id )  7010101
+[17.2684] MonsterCfg:getMonster( id )  7010104
+[17.2687] MonsterCfg:getMonster( id )  7010104
+[17.2690] MonsterCfg:getMonster( id )  7010104
+load Anim:hero/teslaTank begin
+
+----------   try to load res:anim/hero/teslaTank.pvr.ccz  ---------
+
+load Anim:hero/teslaTank  end
+
+[17.5208] 粒子ID   83
+retainRes  : eft/texture/Effects_Textures_Lightning_xr004.png
+
+retainRes  : eft/texture/Effects_Textures_Sequence_x016.png
+
+[17.5376] MonsterCfg:getMonster( id )  7010104
+[17.5420] 粒子ID   83
+[17.5460] MonsterCfg:getMonster( id )  7010104
+[17.5498] 粒子ID   83
+[17.5536] MonsterCfg:getMonster( id )  7010104
+[17.5579] 粒子ID   83
+[17.5619] MonsterCfg:getMonster( id )  7010104
+[17.5659] 粒子ID   83
+LUA VM MEMORY USED: 15696.53 KB
+[26.3558] 游戏层吞事件，  scene  -256  scene
+[28.1700] 游戏层吞事件，  scene  -256  scene
+LUA VM MEMORY USED: 15700.61 KB
+[30.9006] 游戏层吞事件，  scene  -256  scene
+[33.1804] 游戏层吞事件，  scene  -256  scene
+[35.0502] 游戏层吞事件，  scene  -256  scene
+[36.9864] 游戏层吞事件，  scene  -256  scene
+LUA VM MEMORY USED: 15711.10 KB
+[42.7424] 游戏层吞事件，  scene  -256  scene
+[44.5835] 游戏层吞事件，  scene  -256  scene
+LUA VM MEMORY USED: 15715.26 KB
+LUA VM MEMORY USED: 15716.62 KB
+[76.4033] EditMap:onAddMonster,00000
+[76.4045] EditMap:onAddMonster,11111  2
+[76.4049] EditMap:onAddMonster,22222  10111  10120
+LUA VM MEMORY USED: 15721.27 KB
+LUA VM MEMORY USED: 15722.10 KB
+LUA VM MEMORY USED: 15722.93 KB
+LUA VM MEMORY USED: 15723.68 KB
+LUA VM MEMORY USED: 15724.51 KB
+LUA VM MEMORY USED: 15725.33 KB
+LUA VM MEMORY USED: 15726.16 KB
+LUA VM MEMORY USED: 15726.99 KB
+LUA VM MEMORY USED: 15727.82 KB
+LUA VM MEMORY USED: 15728.57 KB
+LUA VM MEMORY USED: 15729.40 KB
+LUA VM MEMORY USED: 15730.23 KB
+LUA VM MEMORY USED: 15731.66 KB
+[227.1276] EditMap:onAddMonster,00000
+[227.1288] EditMap:onAddMonster,11111  2
+[227.1292] EditMap:onAddMonster,22222  7705001  7705003
+[227.1296] MonsterCfg:getMonster( id )  7705001
+[227.1302] res.res..suffix:  102008  table
+[227.1304] EditMap:onAddMonster,3333  102008  hero/h2008.pvr.ccz
+----------   try to reload res:hero/h2008.pvr.ccz  ---------
+
+[227.1334] MonsterCfg:getMonster( id )  7705002
+[227.1339] res.res..suffix:  101003  table
+[227.1341] EditMap:onAddMonster,3333  101003  hero/h1003.pvr.ccz
+----------   try to load res:hero/h1003.pvr.ccz  ---------
+
+[227.1571] MonsterCfg:getMonster( id )  7705003
+[227.1584] res.res..suffix:  104001  table
+[227.1588] EditMap:onAddMonster,3333  104001  hero/h4001.pvr.ccz
+----------   try to load res:hero/h4001.pvr.ccz  ---------
+
+[229.1974] 游戏层吞事件，  scene  -256  scene
+LUA VM MEMORY USED: 15764.06 KB
+[235.6691] 游戏层吞事件，  scene  -256  scene
+[242.0279] 游戏层吞事件，  scene  -256  scene
+LUA VM MEMORY USED: 15798.60 KB
+[243.2832] 游戏层吞事件，  scene  -256  scene
+[243.4045] MonsterCfg:getMonster( id )  7705002
+[243.4058] MonsterCfg:getMonster( id )  7705002
+[244.9994] 游戏层吞事件，  scene  -256  scene
+[246.3130] 游戏层吞事件，  scene  -256  scene
+[247.9850] 游戏层吞事件，  scene  -256  scene
+[248.5105] 游戏层吞事件，  scene  -256  scene
+[249.3278] 游戏层吞事件，  scene  -256  scene
+[252.2496] 游戏层吞事件，  scene  -256  scene
+LUA VM MEMORY USED: 15839.09 KB
+[256.4503] 游戏层吞事件，  scene  -256  scene
+[256.5760] MonsterCfg:getMonster( id )  7705001
+[256.5771] MonsterCfg:getMonster( id )  7705001
+load Anim:hero/BattleFortress begin
+
+----------   try to load res:anim/hero/BattleFortress.pvr.ccz  ---------
+
+load Anim:hero/BattleFortress  end
+
+[258.1400] 游戏层吞事件，  scene  -256  scene
+[259.1530] 游戏层吞事件，  scene  -256  scene
+[259.6488] 游戏层吞事件，  scene  -256  scene
+[261.5088] 游戏层吞事件，  scene  -256  scene
+[261.5917] MonsterCfg:getMonster( id )  7705002
+[261.5932] MonsterCfg:getMonster( id )  7705002
+LUA VM MEMORY USED: 15897.81 KB
+[263.3211] 游戏层吞事件，  scene  -256  scene
+[263.4029] MonsterCfg:getMonster( id )  7705003
+[263.4042] MonsterCfg:getMonster( id )  7705003
+[265.7523] 游戏层吞事件，  scene  -256  scene
+[265.8780] MonsterCfg:getMonster( id )  7705002
+[265.8792] MonsterCfg:getMonster( id )  7705002
+[267.8500] 游戏层吞事件，  scene  -256  scene
+[269.9164] 游戏层吞事件，  scene  -256  scene
+[270.0399] MonsterCfg:getMonster( id )  7705003
+[270.0412] MonsterCfg:getMonster( id )  7705003
+LUA VM MEMORY USED: 15966.69 KB
+[275.0731] 游戏层吞事件，  scene  -256  scene
+[276.3096] 游戏层吞事件，  scene  -256  scene
+[279.5940] --销毁creature  1
+[283.1041] 游戏层吞事件，  scene  -256  scene
+LUA VM MEMORY USED: 15986.29 KB
+[283.7232] 游戏层吞事件，  scene  -256  scene
+[285.0780] 游戏层吞事件，  scene  -256  scene
+[286.3575] --销毁creature  1
+[287.0538] 游戏层吞事件，  scene  -256  scene
+[288.1680] --销毁creature  1
+[288.7785] 游戏层吞事件，  scene  -256  scene
+[290.1639] 游戏层吞事件，  scene  -256  scene
+[290.7012] 游戏层吞事件，  scene  -256  scene
+[291.4034] 游戏层吞事件，  scene  -256  scene
+[292.9780] --销毁creature  1
+LUA VM MEMORY USED: 16005.54 KB
+[293.8355] 游戏层吞事件，  scene  -256  scene
+[295.2670] 游戏层吞事件，  scene  -256  scene
+[296.6655] --销毁creature  1
+[297.5624] 游戏层吞事件，  scene  -256  scene
+[299.8675] --销毁creature  1
+[301.1715] 游戏层吞事件，  scene  -256  scene
+[302.9797] 游戏层吞事件，  scene  -256  scene
+LUA VM MEMORY USED: 16019.18 KB
+[304.1707] 游戏层吞事件，  scene  -256  scene
+[304.6643] 游戏层吞事件，  scene  -256  scene
+[305.1584] 游戏层吞事件，  scene  -256  scene
+[305.6490] 游戏层吞事件，  scene  -256  scene
+LUA VM MEMORY USED: 16073.61 KB
+LUA VM MEMORY USED: 16074.44 KB
+LUA VM MEMORY USED: 16075.27 KB
+LUA VM MEMORY USED: 16076.10 KB
+LUA VM MEMORY USED: 16076.92 KB
+LUA VM MEMORY USED: 16077.75 KB
+LUA VM MEMORY USED: 16078.58 KB
+LUA VM MEMORY USED: 16079.41 KB
+LUA VM MEMORY USED: 16080.24 KB
+LUA VM MEMORY USED: 16081.07 KB
+LUA VM MEMORY USED: 16081.89 KB
+LUA VM MEMORY USED: 16082.64 KB
+LUA VM MEMORY USED: 16083.47 KB
+LUA VM MEMORY USED: 16084.30 KB
+LUA VM MEMORY USED: 16085.13 KB
+LUA VM MEMORY USED: 16085.96 KB
+LUA VM MEMORY USED: 16086.78 KB
+LUA VM MEMORY USED: 16087.57 KB
+LUA VM MEMORY USED: 16087.62 KB
+LUA VM MEMORY USED: 16087.67 KB
+LUA VM MEMORY USED: 16087.71 KB
+LUA VM MEMORY USED: 16087.76 KB
+LUA VM MEMORY USED: 16087.81 KB
+LUA VM MEMORY USED: 16087.85 KB
+LUA VM MEMORY USED: 16087.90 KB
+LUA VM MEMORY USED: 16087.95 KB
+LUA VM MEMORY USED: 16088.00 KB
+LUA VM MEMORY USED: 16088.04 KB
+LUA VM MEMORY USED: 16088.09 KB

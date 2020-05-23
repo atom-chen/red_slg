@@ -1,0 +1,1 @@
+return {["building_create_item"]={"建筑"}}

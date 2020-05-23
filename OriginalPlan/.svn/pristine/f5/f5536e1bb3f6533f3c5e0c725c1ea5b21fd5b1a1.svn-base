@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" money_number="6" jewel="60" recharge_type="1" sc_zs_zs="60" fsc_zs_zs="0"/>
+    <i id="2" money_number="30" jewel="300" recharge_type="1" sc_zs_zs="330" fsc_zs_zs="30"/>
+    <i id="3" money_number="98" jewel="980" recharge_type="1" sc_zs_zs="1080" fsc_zs_zs="100"/>
+    <i id="4" money_number="198" jewel="1980" recharge_type="1" sc_zs_zs="2217" fsc_zs_zs="237"/>
+    <i id="5" money_number="328" jewel="3280" recharge_type="1" sc_zs_zs="3870" fsc_zs_zs="590"/>
+    <i id="6" money_number="648" jewel="6480" recharge_type="1" sc_zs_zs="8100" fsc_zs_zs="1620"/>
+</root>

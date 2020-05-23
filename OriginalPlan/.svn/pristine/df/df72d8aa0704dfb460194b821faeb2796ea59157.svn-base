@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i lv="0" xp="100" gift="4120|4120" giftcost="10" giftprice="10" power_buy="3" reward="3" power_limit="0" intensify="2" points="2" buymoney="6" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="1"/>
+    <i lv="1" xp="300" gift="4120|4121" giftcost="20" giftprice="40" power_buy="3" reward="3" power_limit="10" intensify="2" points="2" buymoney="8" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="1"/>
+    <i lv="2" xp="500" gift="4120|4122" giftcost="40" giftprice="80" power_buy="3" reward="3" power_limit="15" intensify="3" points="3" buymoney="10" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="1"/>
+    <i lv="3" xp="1000" gift="4120|4123" giftcost="80" giftprice="160" power_buy="4" reward="4" power_limit="20" intensify="3" points="4" buymoney="12" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="2"/>
+    <i lv="4" xp="2000" gift="4120|4124" giftcost="160" giftprice="320" power_buy="6" reward="4" power_limit="25" intensify="4" points="5" buymoney="14" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="2"/>
+    <i lv="5" xp="5000" gift="4120|4125" giftcost="320" giftprice="640" power_buy="8" reward="4" power_limit="30" intensify="4" points="6" buymoney="16" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="2"/>
+    <i lv="6" xp="11000" gift="4120|4126" giftcost="640" giftprice="1280" power_buy="10" reward="5" power_limit="30" intensify="5" points="7" buymoney="18" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="3"/>
+    <i lv="7" xp="16000" gift="4120|4127" giftcost="1280" giftprice="2560" power_buy="12" reward="5" power_limit="30" intensify="5" points="8" buymoney="20" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="3"/>
+    <i lv="8" xp="35000" gift="4120|4128" giftcost="2560" giftprice="5120" power_buy="14" reward="5" power_limit="30" intensify="5" points="9" buymoney="22" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="3"/>
+    <i lv="9" xp="40000" gift="4120|4129" giftcost="5120" giftprice="10240" power_buy="16" reward="6" power_limit="30" intensify="5" points="10" buymoney="24" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="4"/>
+    <i lv="10" xp="80000" gift="4120|4130" giftcost="10240" giftprice="20480" power_buy="18" reward="6" power_limit="30" intensify="5" points="11" buymoney="26" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="4"/>
+    <i lv="11" xp="100000" gift="4120|4131" giftcost="20480" giftprice="40000" power_buy="20" reward="6" power_limit="30" intensify="5" points="12" buymoney="28" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="4"/>
+    <i lv="12" xp="0" gift="4120|4132" giftcost="40000" giftprice="60000" power_buy="22" reward="6" power_limit="30" intensify="5" points="13" buymoney="30" hd_tl_times="1" dungeon_freetime="1" dungeon_paytime="5"/>
+</root>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-32 -32 32 32</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>1</particle_quota>
+        <diff_group_id>-1</diff_group_id>
+        <render type="Billboard">
+            <texture_name>Effects_TX_Ring_519.png</texture_name>
+            <billboard_type>oriented_self</billboard_type>
+            <billboard_common_up_dir>0 -1 0</billboard_common_up_dir>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <direction>0 -0.500011 0.866019</direction>
+            <force_emit>true</force_emit>
+            <live_forever>true</live_forever>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="fixed">
+                <value>100</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0.001</value>
+            </dyn>
+        </Emitter>
+    </Technique>
+    <Technique>
+        <name>Technique_2</name>
+        <particle_quota>1</particle_quota>
+        <diff_group_id>-1</diff_group_id>
+        <render type="Billboard">
+            <texture_name>Effects_TX_Ring_520.png</texture_name>
+            <billboard_type>oriented_self</billboard_type>
+            <billboard_common_up_dir>0 -1 0</billboard_common_up_dir>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_1</name>
+            <direction>0 -0.500011 0.866019</direction>
+            <force_emit>true</force_emit>
+            <live_forever>true</live_forever>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="fixed">
+                <value>90</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0.001</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_0</name>
+            <dyn type="rot_speed" dyn_type="fixed">
+                <value>360</value>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>

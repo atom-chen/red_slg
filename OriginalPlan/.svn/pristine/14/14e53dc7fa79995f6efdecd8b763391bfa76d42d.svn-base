@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A9DCE316-14A5-471D-BFE5-D877323A1D3D}</ProjectGuid>
+    <RootNamespace>gamebaselib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\..\lib\internal\lib\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)_$(PlatformArchitecture)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)\..\lib\internal\lib\</OutDir>
+    <IntDir>$(ProjectDir)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_$(Configuration)_$(PlatformArchitecture)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../lib/internal/include/;../../lib/internal/include/core/;../sharelib/src/;../../../third/include/;../../../third/include/cryptocpp/;../../../third/include/tinyxpath/;../../../third/include/libevent/;../../../third/include/coredumper/;../../../third/include/mysql/win/;../../../third/include/mysqlpp/;../../../third/include/libevent/WIN32-Code;../../../third/include/fastformat/;../../../third/include/stlsoft-1.10-alpha-15-delta/include;../../../third/include/lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;OS_WIN;NOMINMAX;OS_BIT=32;USE_FAST_FORMAT;USE_RTTI;_SCL_SECURE_NO_WARNINGS;CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../lib/internal/include/;../../lib/internal/include/core/;../sharelib/src/;../../../third/include/;../../../third/include/cryptocpp/;../../../third/include/tinyxpath/;../../../third/include/libevent/;../../../third/include/coredumper/;../../../third/include/mysql/win/;../../../third/include/mysqlpp/;../../../third/include/libevent/WIN32-Code;../../../third/include/fastformat/;../../../third/include/stlsoft-1.10-alpha-15-delta/include;../../../third/include/lua;../../../third/include/ghttp/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;OS_WIN;NOMINMAX;OS_BIT=64;USE_FAST_FORMAT;USE_RTTI;LUA_BUILD_AS_DLL;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <StringPooling>true</StringPooling>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>../../lib/internal/include/;../../lib/internal/include/core/;../sharelib/src/;../../../third/include/;../../../third/include/cryptocpp/;../../../third/include/tinyxpath/;../../../third/include/libevent/;../../../third/include/coredumper/;../../../third/include/mysql/;../../../third/include/mysqlpp/;../../../third/include/libevent/WIN32-Code;../../../third/include/fastformat/;../../../third/include/stlsoft-1.10-alpha-15-delta/include;../../../third/include/lua;%(AdditionalIncludeDirectories)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+    </Lib>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ai_avoid_overlap.h" />
+    <ClInclude Include="src\ai_character.h" />
+    <ClInclude Include="src\buff.h" />
+    <ClInclude Include="src\buffer_manager.h" />
+    <ClInclude Include="src\buffer_manager_base.h" />
+    <ClInclude Include="src\buff_tbl.h" />
+    <ClInclude Include="src\char_ai_core.h" />
+    <ClInclude Include="src\area.h" />
+    <ClInclude Include="src\char_attribute_core.h" />
+    <ClInclude Include="src\block.h" />
+    <ClInclude Include="src\char_msg_handle.h" />
+    <ClInclude Include="src\char_script_core.h" />
+    <ClInclude Include="src\char_fight_core.h" />
+    <ClInclude Include="src\char_skill_core.h" />
+    <ClInclude Include="src\map_data_base.h" />
+    <ClInclude Include="src\map_data_manager_base.h" />
+    <ClInclude Include="src\map_db_player_handler_base.h" />
+    <ClInclude Include="src\map_db_task_base.h" />
+    <ClInclude Include="src\map_path_finder.h" />
+    <ClInclude Include="src\map_player_handler_base.h" />
+    <ClInclude Include="src\map_scene_base.h" />
+    <ClInclude Include="src\char_move_core.h" />
+    <ClInclude Include="src\map_server_base.h" />
+    <ClInclude Include="src\map_server_instance_base.h" />
+    <ClInclude Include="src\map_server_util.h" />
+    <ClInclude Include="src\map_server_data_base.h" />
+    <ClInclude Include="src\map_server_event_base.h" />
+    <ClInclude Include="src\map_world_handler_base.h" />
+    <ClInclude Include="src\object.h" />
+    <ClInclude Include="src\object_manager.h" />
+    <ClInclude Include="src\obj_attr_func.h" />
+    <ClInclude Include="src\obj_character.h" />
+    <ClInclude Include="src\obj_dynamic.h" />
+    <ClInclude Include="src\object_util.h" />
+    <ClInclude Include="src\char_relation_core.h" />
+    <ClInclude Include="src\role_base.h" />
+    <ClInclude Include="src\role_manager_base.h" />
+    <ClInclude Include="src\scan.h" />
+    <ClInclude Include="src\scene_manager_base.h" />
+    <ClInclude Include="src\scene_object_manager.h" />
+    <ClInclude Include="src\scene_role_manager.h" />
+    <ClInclude Include="src\scene_util.h" />
+    <ClInclude Include="src\skill_core.h" />
+    <ClInclude Include="src\skill_impact_manager.h" />
+    <ClInclude Include="src\skill_util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ai_avoid_overlap.cpp" />
+    <ClCompile Include="src\ai_character.cpp" />
+    <ClCompile Include="src\buff.cpp" />
+    <ClCompile Include="src\buffer_manager.cpp" />
+    <ClCompile Include="src\buffer_manager_base.cpp" />
+    <ClCompile Include="src\char_ai_core.cpp" />
+    <ClCompile Include="src\area.cpp" />
+    <ClCompile Include="src\char_attribute_core.cpp" />
+    <ClCompile Include="src\block.cpp" />
+    <ClCompile Include="src\char_msg_handle.cpp" />
+    <ClCompile Include="src\char_script_core.cpp" />
+    <ClCompile Include="src\char_fight_core.cpp" />
+    <ClCompile Include="src\char_skill_core.cpp" />
+    <ClCompile Include="src\map_data_base.cpp" />
+    <ClCompile Include="src\map_data_manager_base.cpp" />
+    <ClCompile Include="src\map_db_player_handler_base.cpp" />
+    <ClCompile Include="src\map_db_task_base.cpp" />
+    <ClCompile Include="src\map_player_handler_base.cpp" />
+    <ClCompile Include="src\map_scene_base.cpp" />
+    <ClCompile Include="src\char_move_core.cpp" />
+    <ClCompile Include="src\map_server_base.cpp" />
+    <ClCompile Include="src\map_server_data_base.cpp" />
+    <ClCompile Include="src\map_server_event_base.cpp" />
+    <ClCompile Include="src\map_server_instance_base.cpp" />
+    <ClCompile Include="src\map_world_handler_base.cpp" />
+    <ClCompile Include="src\object.cpp" />
+    <ClCompile Include="src\object_manager.cpp" />
+    <ClCompile Include="src\obj_character.cpp" />
+    <ClCompile Include="src\char_relation_core.cpp" />
+    <ClCompile Include="src\role_base.cpp" />
+    <ClCompile Include="src\role_manager_base.cpp" />
+    <ClCompile Include="src\scan.cpp" />
+    <ClCompile Include="src\scene_manager_base.cpp" />
+    <ClCompile Include="src\scene_object_manager.cpp" />
+    <ClCompile Include="src\scene_role_manager.cpp" />
+    <ClCompile Include="src\skill_core.cpp" />
+    <ClCompile Include="src\skill_impact_manager.cpp" />
+    <ClCompile Include="src\skill_util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\map_scene_base.inl" />
+    <None Include="src\scene_manager_base.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

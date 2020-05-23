@@ -1,0 +1,113 @@
+﻿import platform
+import shutil 
+
+if (platform.system() == "Windows") :
+
+	Library('x64/sharelib',
+		Glob('src/*.cpp'),
+		CPPPATH=[
+				'src/.',
+				'../../lib/internal/include/',
+				'../../lib/internal/include/core/',
+				'../../../third/include/',
+				'../../../third/include/zlib/',
+				'../../../third/include/cryptocpp/',
+				'../../../third/include/tinyxpath/',
+				'../../../third/include/libevent/',
+				'../../../third/include/libevent/event2',
+				'../../../third/include/WIN32-Code/',
+				'../../../third/include/coredumper/',
+				'../../../third/include/mysql/win/',
+				'../../../third/include/mysqlpp/',
+				'../../../third/include/fastformat/',
+				'../../../third/include/stlsoft-1.10-alpha-15-delta/include/',
+				'../../../third/include/lua/'
+			],
+		CCFLAGS=[
+			'-D_DEBUG',
+			'-D_WIN64',
+			'-DOS_WIN',
+			'-DNOMINMAX',
+			'-DOS_BIT=64',
+			'-DUSE_FAST_FORMAT',
+			# '-DWIN32',
+			'-DOS_WIN',
+			'-DUSE_RTTI',
+			'-DCURL_STATICLIB',
+			'-D_SCL_SECURE_NO_WARNINGS',
+			'/wd"4819"',
+			'/EHsc',
+			'/Fa"x64\Debug\"',
+			'/MDd'
+		],
+	)
+
+	shutil.copy("x64/sharelib.lib",  "../../lib/internal/lib/sharelib_debug_64.lib")
+
+elif (platform.system() == "Linux") :
+	#头文件目录
+	CPPPATH1=[
+				'src/.',
+				'../../lib/internal/include/',
+				'../../lib/internal/include/core/',
+				'../../../third/include/',
+				'../../../third/include/zlib/',
+				'../../../third/include/cryptocpp/',
+				'../../../third/include/tinyxpath/',
+				'../../../third/include/libevent/',
+				'../../../third/include/libevent/event2',
+				'../../../third/include/WIN32-Code/',
+				'../../../third/include/coredumper/',
+				'../../../third/include/mysql/linux/',
+				'../../../third/include/mysqlpp/',
+				'../../../third/include/fastformat/',
+				'../../../third/include/stlsoft-1.10-alpha-15-delta/include/',
+				'../../../third/include/lua/',
+				'../../../third/include/cjson/',
+				'../../../third/include/ghttp/',
+		]
+	#CC标记
+	CCFLAGS1=[
+				#'-D_DEBUG',
+				'-DNOMINMAX',
+				'-DOS_BIT=64',
+				'-DUSE_FAST_FORMAT',
+				'-DUSE_RTTI',
+				'-DCURL_STATICLIB',
+				'-g3',
+				'-Wall',
+				'-fstack-protector-all',
+				'-std=c++0x',
+				'-Wno-invalid-offsetof',
+				'-Wno-unused',
+				'-fpermissive',
+		]
+
+	env=Environment()
+	serverName = ''
+        release = ARGUMENTS.get('release', 0)
+        if int(release) == 1 :
+		CCFLAGS1.append('-O2')
+		CCFLAGS1.append('-DNDEBUG');
+                serverName = 'x64/sharelib_release_64'
+                print 'building '+serverName+' release project!'
+        else:
+		CCFLAGS1.append('-D_DEBUG')
+                serverName = 'x64/sharelib_debug_64'
+                print 'building '+serverName+' debug project!'
+	
+	#print CCFLAGS1
+
+        #建立编译目标
+        sharelib = env.Library(serverName,
+                Glob('src/*.cpp')+Glob('src/record/*.cpp'),
+                CPPPATH=CPPPATH1,
+                CCFLAGS=CCFLAGS1
+        )
+	
+	libTarget="../../lib/internal/lib/"
+	env.Install(libTarget,sharelib)
+	env.Alias("install", libTarget)
+
+else :
+	print "Can't get platform system!", platform.system()

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <i id="1" type="1" class="1" call="100" adv_item="3011" item_num="50" adv_lv="30"/>
+    <i id="2" type="1" class="2" call="101" adv_item="3012" item_num="100" adv_lv="50"/>
+    <i id="3" type="1" class="3" call="102" adv_item="3024" item_num="150" adv_lv="70"/>
+    <i id="4" type="1" class="4" call="109" adv_item="0" item_num="0" adv_lv="0"/>
+    <i id="5" type="2" class="1" call="103" adv_item="3011" item_num="50" adv_lv="30"/>
+    <i id="6" type="2" class="2" call="104" adv_item="3012" item_num="100" adv_lv="50"/>
+    <i id="7" type="2" class="3" call="105" adv_item="3024" item_num="150" adv_lv="70"/>
+    <i id="8" type="2" class="4" call="110" adv_item="0" item_num="0" adv_lv="0"/>
+    <i id="9" type="3" class="1" call="106" adv_item="3011" item_num="50" adv_lv="30"/>
+    <i id="10" type="3" class="2" call="107" adv_item="3012" item_num="100" adv_lv="50"/>
+    <i id="11" type="3" class="3" call="108" adv_item="3024" item_num="150" adv_lv="70"/>
+    <i id="12" type="3" class="4" call="111" adv_item="0" item_num="0" adv_lv="0"/>
+</root>

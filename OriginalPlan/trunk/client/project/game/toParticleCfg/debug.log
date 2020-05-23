@@ -1,0 +1,30 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: NVIDIA Corporation
+	gl.renderer: GeForce GT 630/PCIe/SSE2
+	gl.version: 4.3.0
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 192
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+------------------------------------------------
+LOAD LUA FILE: F:/client/project/tool/toParticleCfg/./toParticleCfg.lua
+------------------------------------------------
+[LUA ERROR] [string "F:/client/project/tool/toParticleCfg/./toParticleCfg.lua"]:8: module 'config/hero' not found:
+	no field package.preload['config/hero']
+	no file '.\config/hero.lua'
+	no file 'F:\client\libsrc\proj.win32\Debug\lua\config/hero.lua'
+	no file 'F:\client\libsrc\proj.win32\Debug\lua\config/hero\init.lua'
+	no file 'D:\Program Files (x86)\Lua\5.1\lua\config/hero.luac'
+	no file 'F:/client/project/tool/toParticleCfg/./config/hero.lua'
+	no file 'F:/client/project/tool/toParticleCfg/config/hero.lua'
+	no file '.\config/hero.dll'
+	no file 'F:\client\libsrc\proj.win32\Debug\config/hero.dll'
+	no file 'F:\client\libsrc\proj.win32\Debug\loadall.dll'

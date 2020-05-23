@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlistChange", "PlistChange\PlistChange.vcxproj", "{C6834D68-8050-4BA0-BA6D-95DB99C71BD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlistChangeCmd", "PlistChangeCmd\PlistChangeCmd.vcxproj", "{BC117FDE-83BF-487B-B5DF-4F55AAB9CFCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6834D68-8050-4BA0-BA6D-95DB99C71BD7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6834D68-8050-4BA0-BA6D-95DB99C71BD7}.Debug|Win32.Build.0 = Debug|Win32
+		{C6834D68-8050-4BA0-BA6D-95DB99C71BD7}.Release|Win32.ActiveCfg = Release|Win32
+		{C6834D68-8050-4BA0-BA6D-95DB99C71BD7}.Release|Win32.Build.0 = Release|Win32
+		{BC117FDE-83BF-487B-B5DF-4F55AAB9CFCA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC117FDE-83BF-487B-B5DF-4F55AAB9CFCA}.Debug|Win32.Build.0 = Debug|Win32
+		{BC117FDE-83BF-487B-B5DF-4F55AAB9CFCA}.Release|Win32.ActiveCfg = Release|Win32
+		{BC117FDE-83BF-487B-B5DF-4F55AAB9CFCA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

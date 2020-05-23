@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>TuLong: 模块</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">TuLong
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="modules.html"><span>模块</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>组</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">模块</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock">这里列出了所有模块:</div><div class="directory">
+<div class="levels">[详情级别 <span onclick="javascript:toggleLevel(1);">1</span><span onclick="javascript:toggleLevel(2);">2</span><span onclick="javascript:toggleLevel(3);">3</span>]</div><table class="directory">
+<tr id="row_0_" class="even"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00148.html" target="_self">修改记录</a></td><td class="desc">协议文档的修改记�? 可以直接链接到指定的页面 </td></tr>
+<tr id="row_1_"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00149.html" target="_self">类型定义</a></td><td class="desc">协议结构中用到的类型定义 </td></tr>
+<tr id="row_2_" class="even"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00150.html" target="_self">结构定义</a></td><td class="desc">协议结构中用到的结构定义 </td></tr>
+<tr id="row_3_"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00151.html" target="_self">返回码定义</a></td><td class="desc">协议中用到的返回码 </td></tr>
+<tr id="row_4_" class="even"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00152.html" target="_self">枚举定义</a></td><td class="desc">游戏逻辑中用到的枚举值 </td></tr>
+<tr id="row_5_"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00153.html" target="_self">常量定义</a></td><td class="desc">游戏逻辑使用的常量 </td></tr>
+<tr id="row_6_" class="even"><td class="entry"><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00154.html" target="_self">协议ID定义</a></td><td class="desc">协议ID定义 </td></tr>
+<tr id="row_7_"><td class="entry"><img id="arr_7_" src="ftv2mlastnode.png" alt="\" width="16" height="22" onclick="toggleFolder('7_')"/><a class="el" href="a00155.html" target="_self">协议结构定义</a></td><td class="desc"></td></tr>
+<tr id="row_7_0_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00156.html" target="_self">基本协议结构定义</a></td><td class="desc"></td></tr>
+<tr id="row_7_1_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_7_1_" src="ftv2mnode.png" alt="o" width="16" height="22" onclick="toggleFolder('7_1_')"/><a class="el" href="a00157.html" target="_self">账号验证模块</a></td><td class="desc"></td></tr>
+<tr id="row_7_1_0_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00158.html" target="_self">区服列表</a></td><td class="desc"></td></tr>
+<tr id="row_7_1_1_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00159.html" target="_self">已有角色区服列表</a></td><td class="desc"></td></tr>
+<tr id="row_7_1_2_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="a00160.html" target="_self">账号验证</a></td><td class="desc"></td></tr>
+<tr id="row_7_2_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_7_2_" src="ftv2mnode.png" alt="o" width="16" height="22" onclick="toggleFolder('7_2_')"/><a class="el" href="a00161.html" target="_self">登陆模块</a></td><td class="desc"></td></tr>
+<tr id="row_7_2_0_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00162.html" target="_self">角色服务器验证</a></td><td class="desc"></td></tr>
+<tr id="row_7_2_1_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00163.html" target="_self">随机生成角色名字</a></td><td class="desc"></td></tr>
+<tr id="row_7_2_2_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00164.html" target="_self">创建角色</a></td><td class="desc"></td></tr>
+<tr id="row_7_2_3_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00165.html" target="_self">请求登陆游戏</a></td><td class="desc"></td></tr>
+<tr id="row_7_2_4_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00166.html" target="_self">请求退出登陆</a></td><td class="desc"></td></tr>
+<tr id="row_7_2_5_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00182.html" target="_self">请求本地登陆游戏</a></td><td class="desc"></td></tr>
+<tr id="row_7_2_6_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00183.html" target="_self">请求进入游戏</a></td><td class="desc"></td></tr>
+<tr id="row_7_2_7_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="a00184.html" target="_self">玩家心跳</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_7_3_" src="ftv2mnode.png" alt="o" width="16" height="22" onclick="toggleFolder('7_3_')"/><a class="el" href="a00167.html" target="_self">基础模块</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_0_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00168.html" target="_self">玩家详细数据</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_1_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00169.html" target="_self">视野进入离开</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_2_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00170.html" target="_self">场景数据</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_3_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00171.html" target="_self">移动坐标</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_4_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00172.html" target="_self">跳跃</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_5_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00173.html" target="_self">瞬移</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_6_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00174.html" target="_self">进入场景</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_7_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00175.html" target="_self">聊天</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_8_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00176.html" target="_self">传送点传送</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_9_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00177.html" target="_self">同步角色数据</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_10_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00178.html" target="_self">返回错误码</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_11_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00179.html" target="_self">修改角色名字</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_12_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00180.html" target="_self">随机角色名字</a></td><td class="desc"></td></tr>
+<tr id="row_7_3_13_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="a00181.html" target="_self">踢掉玩家</a></td><td class="desc"></td></tr>
+<tr id="row_7_4_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_7_4_" src="ftv2mnode.png" alt="o" width="16" height="22" onclick="toggleFolder('7_4_')"/><a class="el" href="a00185.html" target="_self">任务模块</a></td><td class="desc"></td></tr>
+<tr id="row_7_4_0_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00186.html" target="_self">更新任务列表</a></td><td class="desc"></td></tr>
+<tr id="row_7_4_1_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00187.html" target="_self">更新条件参数(当前杀怪数,当前物品数)</a></td><td class="desc"></td></tr>
+<tr id="row_7_4_2_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00188.html" target="_self">删除一个任务</a></td><td class="desc"></td></tr>
+<tr id="row_7_4_3_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2vertline.png" alt="|" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="a00189.html" target="_self">(领取/提交)任务操作</a></td><td class="desc"></td></tr>
+<tr id="row_7_5_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img id="arr_7_5_" src="ftv2mlastnode.png" alt="\" width="16" height="22" onclick="toggleFolder('7_5_')"/><a class="el" href="a00190.html" target="_self">背包模块</a></td><td class="desc"></td></tr>
+<tr id="row_7_5_0_"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2node.png" alt="o" width="16" height="22" /><a class="el" href="a00191.html" target="_self">背包操作</a></td><td class="desc"></td></tr>
+<tr id="row_7_5_1_" class="even"><td class="entry"><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2blank.png" alt="&#160;" width="16" height="22" /><img src="ftv2lastnode.png" alt="\" width="16" height="22" /><a class="el" href="a00192.html" target="_self">兑换奖励</a></td><td class="desc"></td></tr>
+</table>
+</div><!-- directory -->
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2014年 十二月 31日 星期三 18:29:08 , 为 TuLong使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

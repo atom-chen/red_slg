@@ -1,0 +1,1 @@
+return {{an=4,b={},c=0,e=1,n="btn",p="kdxs_xsk_b_02.png",s=22,st=1,t=0,tp=2,tt=0,x=0,y=0},{an=4,c=0,e=1,n="bg",p="kdxs_xsk_b_02.png",s=22,st=1,t=0,tp=0,tt=0,x=0,y=0},{an=4,c=0,e=1,n="bg_select",p="kdxs_xsk_b_03.png",s=22,st=1,t=0,tp=0,tt=0,x=-2,y=-4},{an=4,c=0,e=1,h=36,n="name",p="tt_5.png",s=22,st=1,t=0,tp=1,tt=0,tx=1,w=38,x=32,y=116},alignment=0,count=4}

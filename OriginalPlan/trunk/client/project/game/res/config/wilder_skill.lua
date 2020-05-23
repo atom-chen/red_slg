@@ -1,0 +1,1 @@
+return {[1]={nuclear_lev=1,nuclear_hit=3,nuclear_cd=900,nuclearcost=1000},[2]={nuclear_lev=2,nuclear_hit=5,nuclear_cd=900,nuclearcost=2000},[3]={nuclear_lev=3,nuclear_hit=7,nuclear_cd=900,nuclearcost=3000}}

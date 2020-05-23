@@ -1,0 +1,1 @@
+return {["building_create_select"]={"详情","升级","功能","拆除"}}

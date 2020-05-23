@@ -1,0 +1,1 @@
+return {["building_status"]={"治疗","剩余:","10h 23m 59s"}}
